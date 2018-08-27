@@ -1,0 +1,38 @@
+11:49:49 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/install/index.php [info] $tmp_str:app_id=103&ctl=Api&is_install=1&met=addUserAndBindAppServer&password=111111&rtime=1495856989&server_id=421aa90e079fa326b6494f812ad13e79&typ=json&user_name=admin&key=aaaaaabbb
+11:49:49 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/install/index.php [info] $url:http://localhost/svn/ucenter/index.php
+11:49:49 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/install/index.php [info] array (
+  'app_id' => '103',
+  'ctl' => 'Api',
+  'is_install' => 1,
+  'met' => 'addUserAndBindAppServer',
+  'password' => '111111',
+  'rtime' => 1495856989,
+  'server_id' => '421aa90e079fa326b6494f812ad13e79',
+  'typ' => 'json',
+  'user_name' => 'admin',
+  'key' => 'aaaaaabbb',
+)
+11:49:49 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/install/index.php [info] array (
+  'user_name' => 'admin',
+  'password' => '111111',
+  'app_id' => '103',
+  'server_id' => '421aa90e079fa326b6494f812ad13e79',
+  'is_install' => 1,
+  'ctl' => 'Api',
+  'met' => 'addUserAndBindAppServer',
+  'typ' => 'json',
+  'rtime' => 1495856989,
+  'token' => '112739a424e0018f70819c22c4cb55aa',
+)
+11:49:49 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/install/index.php [info] $res : {"cmd_id":100,"status":200,"msg":"success","data":{"user_name":"admin","server_id":"421aa90e079fa326b6494f812ad13e79","user_id":10001}}
+11:49:49 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/install/index.php [info] array (
+  'cmd_id' => 100,
+  'status' => 200,
+  'msg' => 'success',
+  'data' => 
+  array (
+    'user_name' => 'admin',
+    'server_id' => '421aa90e079fa326b6494f812ad13e79',
+    'user_id' => 10001,
+  ),
+)

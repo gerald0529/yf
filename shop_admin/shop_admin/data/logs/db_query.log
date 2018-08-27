@@ -1,0 +1,547 @@
+11:51:20 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Login" AND menu_url_met="index" AND menu_url_parem="" LIMIT 0, 1
+11:51:23 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Login" AND menu_url_met="login" AND menu_url_parem="typ=json&user_account=admin&user_password=111111&yzm=pcie" LIMIT 0, 1
+11:51:23 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS user_id FROM yf_admin_user_base WHERE 1   AND user_account="admin" LIMIT 500 
+11:51:23 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id IN (10001) LIMIT 500 
+11:51:23 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+11:51:23 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+11:51:23 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+11:51:23 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Index" AND menu_url_met="index" AND menu_url_parem="" LIMIT 0, 1
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=0 LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (10000,11000,11022,12000,13000,14000,15000,16000,17000,18000,19000,20002) LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=10000 LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11000 LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11001,11002,11003,11004,11005,11006,11007,11008,11009,11010,11011,11012,11013,11014,11015,11016,11017) LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11001 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11019,11020,11021,11023,11025,11026) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11002 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11027,11028,11029,11030,19009) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11003 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11031,11032,11033,11034,11035) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11004 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11036,11038) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11005 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11039,11040,11041) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11006 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11042,11043) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11007 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11044,11045,11046,11047,11048,11049,11050,11051) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11008 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11053,11054,11055) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11009 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11056) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11010 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11057) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11011 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11058) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11012 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11059) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11013 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11060,11061) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11014 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11062) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11015 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11063,11065) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11016 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11066,11067,11068) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11017 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11069,11070) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11022 LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=12000 LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (12001,12002,12003,12004,12005,12006,12007) LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=12001 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (12008,12009,12010,12011) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=12002 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (12012) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=12003 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (12013,12014) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=12004 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (12015) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=12005 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (12016) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=12006 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (12017) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=12007 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (12018) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=13000 LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (13001,13002,13003,13004,13007,13008) LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=13001 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (13009,13010,13011,13012,13013,13014) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=13002 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (13015) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=13003 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (13016) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=13004 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (13017,13018) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=13007 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (13019,13020,13026) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=13008 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (13021) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=14000 LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (14001,14002,14003,14005,14006) LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=14001 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (14010) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=14002 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (14007,14008,14009) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=14003 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (14011,14012,14013) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=14005 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (14015) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=14006 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (14016) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=15000 LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (15001,15002,15003,15004,15005,15006,15007,15008,15009) LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=15001 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (15010) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=15002 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (15011) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=15003 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (15012,15013,15014) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=15004 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (15015,15016) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=15005 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (15017,15018) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=15006 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (15019,15020,15021) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=15007 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (15022,15023,15024,15025) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=15008 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (15026,15027) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=15009 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (15028,15029,15030,15031,15032,15033,15034) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=16000 LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16001,16002,16003,16004,16005,16007,16020) LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=16001 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16008) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=16002 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16009) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=16003 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16010) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=16004 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16011,16012) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=16005 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16013) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=16007 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16016,16017,16018,16019) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=16020 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16021) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=17000 LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (17001,17002,17003,17004,17005,17006,17007,17008) LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=17001 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (17009) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=17002 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (17010,17011,17012,17013,17014,17015,17016) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=17003 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (17017,17018,17019) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=17004 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (17020,17021,17022) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=17005 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (17023,17024,17025) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=17006 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (17026,17027,17033) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=17007 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (17028,17029,17030,17031) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=17008 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (17032) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=18000 LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=19000 LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (19001,19002,19003,19004) LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=19001 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (19005) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=19002 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (19006) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=19003 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (19007) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=19004 ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (19008) ORDER BY menu_order ASC LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=20002 LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Category" AND menu_url_met="listUser" AND menu_url_parem="typ=json&type_number=user" LIMIT 0, 1
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS user_id FROM yf_admin_user_base WHERE 1   LIMIT 0, 100
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] 
+                SELECT
+                    FOUND_ROWS() total
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id IN (10001) LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Index" AND menu_url_met="mainIndex" AND menu_url_parem="" LIMIT 0, 1
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS protocol_id FROM yf_admin_base_protocol WHERE 1   AND ctl="Index" AND met="index" LIMIT 0, 1
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_base_protocol WHERE 1   AND protocol_id IN (1) LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+11:51:24 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Main" AND menu_url_met="getMainInfo" AND menu_url_parem="typ=json" LIMIT 0, 1
+11:51:25 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+11:51:25 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+11:51:25 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+11:51:25 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+11:51:25 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+11:51:25 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Category" AND menu_url_met="lists" AND menu_url_parem="typ=json&type_number=goods_state" LIMIT 0, 1
+11:51:25 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+11:51:25 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_base WHERE 1   AND rights_id=3320 LIMIT 500 
+11:51:25 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+11:51:25 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+11:51:25 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+11:51:25 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+11:51:25 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Category" AND menu_url_met="lists" AND menu_url_parem="typ=json&type_number=goods_cat&is_delete=2" LIMIT 0, 1
+11:51:25 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_base WHERE 1   AND rights_id=3320 LIMIT 500 
+15:28:40 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Login" AND menu_url_met="index" AND menu_url_parem="" LIMIT 0, 1
+15:32:10 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Login" AND menu_url_met="index" AND menu_url_parem="" LIMIT 0, 1
+15:33:02 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Login" AND menu_url_met="login" AND menu_url_parem="typ=json&user_account=admin&user_password=111111&yzm=juw5" LIMIT 0, 1
+15:33:14 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Login" AND menu_url_met="login" AND menu_url_parem="typ=json&user_account=admin&user_password=111111&yzm=k8yq" LIMIT 0, 1
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS user_id FROM yf_admin_user_base WHERE 1   AND user_account="admin" LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id IN (10001) LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Index" AND menu_url_met="index" AND menu_url_parem="" LIMIT 0, 1
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=0 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (10000,11000,11022,12000,13000,14000,15000,16000,17000,18000,19000,19012,19013,20002) LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=10000 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11000 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11001,11002,11003,11004,11005,11006,11007,11008,11009,11011,11012,11013,11014,11015,11016,11017) LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11001 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11019,11020,11021,11023,11025,11026) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11002 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11027,11028,11029,11030,19009) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11003 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11031,11032,11033,11034,11035) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11004 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11036,11038) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11005 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11039,11040,11041) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11006 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11042) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11007 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11044,11045,11046,11047,11048,11049,11050,11051) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11008 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11053,11054,11055) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11009 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11010,11056) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11011 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11058) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11012 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11059) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11013 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11060,11061) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11014 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11062) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11015 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11063,11064,11065) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11016 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11066,11067,11068) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11017 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11069,11070) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11022 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=12000 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (12001,12002,12003,12004,12005,12006,12007) LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=12001 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (12008,12009,12010,12011) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=12002 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (12012) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=12003 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (12013,12014) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=12004 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (12015) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=12005 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (12016) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=12006 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (12017) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=12007 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (12018) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=13000 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (13001,13002,13003,13004,13007,13008) LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=13001 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (13009,13010,13011,13012,13013,13014) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=13002 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (13015) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=13003 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (13016) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=13004 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (13017,13018) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=13007 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (13019,13020,13026) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=13008 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (13021,13027) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=14000 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (14001,14002,14003,14005,14006) LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=14001 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (14010) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=14002 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (14007,14008,14009) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=14003 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (14011,14012,14013) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=14005 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (14015) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=14006 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (14016) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=15000 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (15001,15002,15003,15004,15005,15006,15007,15008,15009) LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=15001 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (15010) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=15002 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (15011) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=15003 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (15012,15013,15014) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=15004 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (15015,15016) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=15005 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (15017,15018) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=15006 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (15019,15020,15021) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=15007 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (15022,15023,15024,15025) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=15008 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (15026,15027) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=15009 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (15028,15029,15030,15031,15032,15033,15034) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=16000 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16001,16002,16003,16004,16007,16020) LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=16001 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16008) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=16002 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16009) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=16003 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16010) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=16004 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16011,16012) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=16007 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16016,16017,16018,16019) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=16020 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16021) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=17000 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (17001,17002,17003,17004,17005,17006,17007,17008,19010) LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=17001 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (17009) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=17002 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (17010,17011,17012,17013,17014,17015,17016) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=17003 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (17017,17018,17019) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=17004 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (17020,17021,17022) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=17005 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (17023,17024,17025) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=17006 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (17026,17027,17033) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=17007 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (17028,17029,17030,17031) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=17008 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (17032) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=19010 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (19011,19014,19015) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=18000 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=19000 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (19001,19002,19003,19004) LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=19001 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (19005) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=19002 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (19006) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=19003 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (19007) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=19004 ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (19008) ORDER BY menu_order ASC LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=19012 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=19013 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=20002 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Category" AND menu_url_met="listUser" AND menu_url_parem="typ=json&type_number=user" LIMIT 0, 1
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS user_id FROM yf_admin_user_base WHERE 1   LIMIT 0, 100
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Category" AND menu_url_met="lists" AND menu_url_parem="typ=json&type_number=goods_state" LIMIT 0, 1
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] 
+                SELECT
+                    FOUND_ROWS() total
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id IN (10001) LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Category" AND menu_url_met="lists" AND menu_url_parem="typ=json&type_number=goods_cat&is_delete=2" LIMIT 0, 1
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Index" AND menu_url_met="mainIndex" AND menu_url_parem="" LIMIT 0, 1
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS protocol_id FROM yf_admin_base_protocol WHERE 1   AND ctl="Index" AND met="index" LIMIT 0, 1
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_base_protocol WHERE 1   AND protocol_id IN (1) LIMIT 500 
+15:33:16 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_base WHERE 1   AND rights_id=3320 LIMIT 500 
+15:33:17 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:17 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:17 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:17 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+15:33:17 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Main" AND menu_url_met="getMainInfo" AND menu_url_parem="typ=json" LIMIT 0, 1
+15:33:17 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_base WHERE 1   AND rights_id=3320 LIMIT 500 
+15:33:24 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:24 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:24 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:24 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+15:33:24 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Config" AND menu_url_met="api" AND menu_url_parem="config_type%5B%5D=api" LIMIT 0, 1
+15:33:24 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11027) LIMIT 500 
+15:33:24 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_id=11002 LIMIT 0, 1
+15:33:24 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11002) LIMIT 500 
+15:33:24 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11002 LIMIT 500 
+15:33:24 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11027,11028,11029,11030,19009) LIMIT 500 
+15:33:25 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:25 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:25 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:25 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+15:33:25 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Config" AND menu_url_met="plugin" AND menu_url_parem="config_type%5B%5D=plugin" LIMIT 0, 1
+15:33:25 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11031) LIMIT 500 
+15:33:25 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_id=11003 LIMIT 0, 1
+15:33:25 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11003) LIMIT 500 
+15:33:25 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11003 LIMIT 500 
+15:33:25 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11031,11032,11033,11034,11035) LIMIT 500 
+15:33:30 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:30 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:30 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:30 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+15:33:30 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Database_Maintain" AND menu_url_met="index" AND menu_url_parem="" LIMIT 0, 1
+15:33:30 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11036) LIMIT 500 
+15:33:30 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_id=11004 LIMIT 0, 1
+15:33:30 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11004) LIMIT 500 
+15:33:30 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=11004 LIMIT 500 
+15:33:30 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (11036,11038) LIMIT 500 
+15:33:30 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:30 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:31 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:31 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+15:33:31 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Database_Maintain" AND menu_url_met="TableList" AND menu_url_parem="typ=json&_search=false&nd=1535355210885&rows=200&page=1&sidx=&sord=asc" LIMIT 0, 1
+15:38:44 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:38:44 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:38:44 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:38:44 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+15:38:44 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Database_Maintain" AND menu_url_met="manage" AND menu_url_parem="t=manage" LIMIT 0, 1
+15:38:46 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:38:46 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:38:46 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:38:46 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+15:38:46 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Database_Maintain" AND menu_url_met="manage" AND menu_url_parem="t=manage" LIMIT 0, 1
+15:38:49 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:38:49 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:38:49 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:38:49 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+15:38:49 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Database_Maintain" AND menu_url_met="manage" AND menu_url_parem="t=manage" LIMIT 0, 1
+15:50:45 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Login" AND menu_url_met="index" AND menu_url_parem="" LIMIT 0, 1
+16:03:10 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:10 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:10 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:10 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+16:03:10 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Feed" AND menu_url_met="index" AND menu_url_parem="" LIMIT 0, 1
+16:03:10 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16021) LIMIT 500 
+16:03:10 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_id=16020 LIMIT 0, 1
+16:03:10 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16020) LIMIT 500 
+16:03:10 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=16020 LIMIT 500 
+16:03:10 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16021) LIMIT 500 
+16:03:11 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:11 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:11 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:11 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+16:03:11 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Feed" AND menu_url_met="lists" AND menu_url_parem="typ=json&_search=false&nd=1535356990739&rows=100&page=1&sidx=feed_id&sord=asc" LIMIT 0, 1
+16:03:12 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:12 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+16:03:12 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:12 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:12 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+16:03:12 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Operation_Contract" AND menu_url_met="log" AND menu_url_parem="log=join" LIMIT 0, 1
+16:03:12 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16016) LIMIT 500 
+16:03:12 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_id=16007 LIMIT 0, 1
+16:03:12 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16007) LIMIT 500 
+16:03:12 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=16007 LIMIT 500 
+16:03:12 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16016,16017,16018,16019) LIMIT 500 
+16:03:13 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_base WHERE 1   AND rights_id=8720 LIMIT 500 
+16:03:13 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:13 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+16:03:13 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:13 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:13 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+16:03:13 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Operation_Contract" AND menu_url_met="getContractStateList" AND menu_url_parem="typ=json&type=join&_search=false&nd=1535356993544&rows=10&page=1&sidx=number&sord=desc" LIMIT 0, 1
+16:03:13 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_base WHERE 1   AND rights_id=8760 LIMIT 500 
+16:03:14 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:14 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+16:03:14 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:14 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:14 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+16:03:14 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Operation_Custom" AND menu_url_met="custom" AND menu_url_parem="" LIMIT 0, 1
+16:03:14 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16011) LIMIT 500 
+16:03:14 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_id=16004 LIMIT 0, 1
+16:03:14 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16004) LIMIT 500 
+16:03:14 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=16004 LIMIT 500 
+16:03:14 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16011,16012) LIMIT 500 
+16:03:14 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_base WHERE 1   AND rights_id=8560 LIMIT 500 
+16:03:14 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:14 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+16:03:14 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:14 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:14 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+16:03:14 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Operation_Custom" AND menu_url_met="getCustomList" AND menu_url_parem="typ=json&_search=false&nd=1535356994858&rows=10&page=1&sidx=number&sord=desc" LIMIT 0, 1
+16:03:15 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_base WHERE 1   AND rights_id=8560 LIMIT 500 
+16:03:16 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:16 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+16:03:16 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:16 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:16 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+16:03:16 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Operation_Settlement" AND menu_url_met="settlement" AND menu_url_parem="otyp=1" LIMIT 0, 1
+16:03:16 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16010) LIMIT 500 
+16:03:16 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_id=16003 LIMIT 0, 1
+16:03:16 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16003) LIMIT 500 
+16:03:16 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=16003 LIMIT 500 
+16:03:16 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16010) LIMIT 500 
+16:03:17 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_base WHERE 1   AND rights_id=8540 LIMIT 500 
+16:03:18 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:18 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+16:03:18 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:18 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:18 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+16:03:18 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Operation_Settlement" AND menu_url_met="settlement" AND menu_url_parem="" LIMIT 0, 1
+16:03:18 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16009) LIMIT 500 
+16:03:18 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_id=16002 LIMIT 0, 1
+16:03:18 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16002) LIMIT 500 
+16:03:18 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=16002 LIMIT 500 
+16:03:18 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16009) LIMIT 500 
+16:03:18 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_base WHERE 1   AND rights_id=8540 LIMIT 500 
+16:03:19 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:19 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+16:03:19 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:19 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:19 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+16:03:19 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Operation_Settlement" AND menu_url_met="getSettleList" AND menu_url_parem="typ=json&otyp=1&_search=false&nd=1535356997900&rows=10&page=1&sidx=number&sord=desc" LIMIT 0, 1
+16:03:19 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_base WHERE 1   AND rights_id=8540 LIMIT 500 
+16:03:19 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:19 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+16:03:19 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:19 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:19 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+16:03:19 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Config" AND menu_url_met="operation" AND menu_url_parem="config_type%5B%5D=operation" LIMIT 0, 1
+16:03:19 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16008) LIMIT 500 
+16:03:19 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_id=16001 LIMIT 0, 1
+16:03:19 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16001) LIMIT 500 
+16:03:19 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_parent_id=16001 LIMIT 500 
+16:03:19 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_menu WHERE 1   AND menu_id IN (16008) LIMIT 500 
+16:03:19 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:19 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+16:03:19 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:19 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:19 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+16:03:19 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Operation_Settlement" AND menu_url_met="getSettleList" AND menu_url_parem="typ=json&_search=false&nd=1535356998611&rows=10&page=1&sidx=number&sord=desc" LIMIT 0, 1
+16:03:19 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_base WHERE 1   AND rights_id=8500 LIMIT 500 
+16:03:19 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_base WHERE 1   AND rights_id=8540 LIMIT 500 
+16:03:20 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:20 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:20 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+16:03:20 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+16:03:20 08/27/18 FILE=E:/www/yf/3.2.0/shop_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS menu_id FROM yf_admin_menu WHERE 1   AND menu_url_ctl="Fenxiao" AND menu_url_met="getStatus" AND menu_url_parem="typ=json" LIMIT 0, 1

@@ -1,0 +1,86 @@
+15:33:16 08/27/18 FILE=E:/www/yf/3.2.0/shop/index.php [info] array (
+  'typ' => 'json',
+  'app_id' => '102',
+  'type_number' => 'goods_state',
+  'rtime' => '1535355195',
+  'token' => 'ce111fc7674506cab1ba4768767acce1',
+)
+15:33:16 08/27/18 FILE=E:/www/yf/3.2.0/shop/index.php [info] $tmp_str:app_id=102&rtime=1535355195&typ=json&type_number=goods_state&key=nj6ij0Kg
+15:33:16 08/27/18 FILE=E:/www/yf/3.2.0/shop/index.php [info] md5-key:ce111fc7674506cab1ba4768767acce1
+15:33:17 08/27/18 FILE=E:/www/yf/3.2.0/shop/index.php [info] array (
+  'typ' => 'json',
+  'app_id' => '102',
+  'type_number' => 'goods_cat',
+  'is_delete' => '2',
+  'rtime' => '1535355195',
+  'token' => 'cd0c3c2486d076ba98fc1550aa145be1',
+)
+15:33:17 08/27/18 FILE=E:/www/yf/3.2.0/shop/index.php [info] $tmp_str:app_id=102&is_delete=2&rtime=1535355195&typ=json&type_number=goods_cat&key=nj6ij0Kg
+15:33:17 08/27/18 FILE=E:/www/yf/3.2.0/shop/index.php [info] md5-key:cd0c3c2486d076ba98fc1550aa145be1
+15:33:17 08/27/18 FILE=E:/www/yf/3.2.0/shop/index.php [info] array (
+  'app_id' => '102',
+  'admin_account' => 'admin',
+  'sub_site_id' => '0',
+  'rtime' => '1535355196',
+  'token' => '0df6f6640b30c08a1abf992f2c49f203',
+)
+15:33:17 08/27/18 FILE=E:/www/yf/3.2.0/shop/index.php [info] $tmp_str:admin_account=admin&app_id=102&rtime=1535355196&sub_site_id=0&key=nj6ij0Kg
+15:33:17 08/27/18 FILE=E:/www/yf/3.2.0/shop/index.php [info] md5-key:0df6f6640b30c08a1abf992f2c49f203
+15:33:25 08/27/18 FILE=E:/www/yf/3.2.0/shop/index.php [info] array (
+  'config_type' => 
+  array (
+    0 => 'plugin',
+  ),
+  'app_id' => '102',
+  'admin_account' => 'admin',
+  'sub_site_id' => '0',
+  'rtime' => '1535355205',
+  'token' => '6700b322fd81caa8642b8de412041849',
+)
+15:33:25 08/27/18 FILE=E:/www/yf/3.2.0/shop/index.php [info] $tmp_str:admin_account=admin&app_id=102&config_type%5B0%5D=plugin&rtime=1535355205&sub_site_id=0&key=nj6ij0Kg
+15:33:25 08/27/18 FILE=E:/www/yf/3.2.0/shop/index.php [info] md5-key:6700b322fd81caa8642b8de412041849
+15:33:31 08/27/18 FILE=E:/www/yf/3.2.0/shop/index.php [info] array (
+  '_search' => 'false',
+  'nd' => '1535355210885',
+  'rows' => '200',
+  'page' => '1',
+  'sidx' => '',
+  'sord' => 'asc',
+  'app_id' => '102',
+  'admin_account' => 'admin',
+  'sub_site_id' => '0',
+  'rtime' => '1535355210',
+  'token' => 'e5db72f79be44755c31b26953f609588',
+)
+15:33:31 08/27/18 FILE=E:/www/yf/3.2.0/shop/index.php [info] $tmp_str:_search=false&admin_account=admin&app_id=102&nd=1535355210885&page=1&rows=200&rtime=1535355210&sidx=&sord=asc&sub_site_id=0&key=nj6ij0Kg
+15:33:31 08/27/18 FILE=E:/www/yf/3.2.0/shop/index.php [info] md5-key:e5db72f79be44755c31b26953f609588
+15:38:44 08/27/18 FILE=E:/www/yf/3.2.0/shop/index.php [info] array (
+  'data' => '{"action":"optimize","tables":[{"name":"pay_admin_base_protocol","engine":"InnoDB"}]}',
+  'app_id' => '102',
+  'admin_account' => 'admin',
+  'sub_site_id' => '0',
+  'rtime' => '1535355524',
+  'token' => '8f74c197c085fa7c730928782aa4766e',
+)
+15:38:44 08/27/18 FILE=E:/www/yf/3.2.0/shop/index.php [info] $tmp_str:admin_account=admin&app_id=102&data=%7B%22action%22%3A%22optimize%22%2C%22tables%22%3A%5B%7B%22name%22%3A%22pay_admin_base_protocol%22%2C%22engine%22%3A%22InnoDB%22%7D%5D%7D&rtime=1535355524&sub_site_id=0&key=nj6ij0Kg
+15:38:44 08/27/18 FILE=E:/www/yf/3.2.0/shop/index.php [info] md5-key:8f74c197c085fa7c730928782aa4766e
+15:38:46 08/27/18 FILE=E:/www/yf/3.2.0/shop/index.php [info] array (
+  'data' => '{"action":"optimize","tables":[{"name":"pay_admin_base_protocol","engine":"InnoDB"}]}',
+  'app_id' => '102',
+  'admin_account' => 'admin',
+  'sub_site_id' => '0',
+  'rtime' => '1535355526',
+  'token' => 'c61a44fe025bfe3eaed3b38929ad302a',
+)
+15:38:46 08/27/18 FILE=E:/www/yf/3.2.0/shop/index.php [info] $tmp_str:admin_account=admin&app_id=102&data=%7B%22action%22%3A%22optimize%22%2C%22tables%22%3A%5B%7B%22name%22%3A%22pay_admin_base_protocol%22%2C%22engine%22%3A%22InnoDB%22%7D%5D%7D&rtime=1535355526&sub_site_id=0&key=nj6ij0Kg
+15:38:46 08/27/18 FILE=E:/www/yf/3.2.0/shop/index.php [info] md5-key:c61a44fe025bfe3eaed3b38929ad302a
+15:38:49 08/27/18 FILE=E:/www/yf/3.2.0/shop/index.php [info] array (
+  'data' => '{"action":"optimize","tables":[{"name":"pay_admin_log_action","engine":"InnoDB"}]}',
+  'app_id' => '102',
+  'admin_account' => 'admin',
+  'sub_site_id' => '0',
+  'rtime' => '1535355529',
+  'token' => '1a320ea3c948b9777661a5d91d97de89',
+)
+15:38:49 08/27/18 FILE=E:/www/yf/3.2.0/shop/index.php [info] $tmp_str:admin_account=admin&app_id=102&data=%7B%22action%22%3A%22optimize%22%2C%22tables%22%3A%5B%7B%22name%22%3A%22pay_admin_log_action%22%2C%22engine%22%3A%22InnoDB%22%7D%5D%7D&rtime=1535355529&sub_site_id=0&key=nj6ij0Kg
+15:38:49 08/27/18 FILE=E:/www/yf/3.2.0/shop/index.php [info] md5-key:1a320ea3c948b9777661a5d91d97de89

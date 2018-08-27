@@ -1,0 +1,230 @@
+11:49:58 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/index.php [info] $tmp_str:app_id=103&ctl=Api&met=login&rtime=1495856998&typ=json&user_account=admin&user_password=111111&key=aaaaaabbb
+11:49:58 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/index.php [info] $url:http://localhost/svn/ucenter/index.php
+11:49:58 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/index.php [info] array (
+  'app_id' => 103,
+  'ctl' => 'Api',
+  'met' => 'login',
+  'rtime' => 1495856998,
+  'typ' => 'json',
+  'user_account' => 'admin',
+  'user_password' => '111111',
+  'key' => 'aaaaaabbb',
+)
+11:49:58 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/index.php [info] array (
+  'user_account' => 'admin',
+  'user_password' => '111111',
+  'app_id' => 103,
+  'ctl' => 'Api',
+  'met' => 'login',
+  'typ' => 'json',
+  'rtime' => 1495856998,
+  'token' => 'bf26b2a69f8907798e0941c7847ba352',
+)
+11:49:58 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/index.php [info] $res : {"cmd_id":100,"status":200,"msg":"success","data":{"user_id":10001,"user_name":"admin","password":"96e79218965eb72c92a549dd5a330112","user_state":1,"action_time":0,"action_ip":null,"session_id":null,"id":10001,"nickname":"admin","user_group":0,"user_site_id":0,"user_site_domain":null,"user_question":null,"user_answer":null,"user_avatar":null,"user_avatar_thumb":null,"user_gender":0,"user_truename":null,"user_tel":null,"user_birth":null,"user_qq":null,"user_msn":null,"user_province":null,"user_city":null,"user_intro":null,"user_sign":null,"user_reg_time":0,"user_count_login":0,"user_lastlogin_time":0,"user_lastlogin_ip":null,"user_like_games":null,"user_reg_ip":null,"user_money":0,"user_credit":0,"user_getpsw_code":null,"user_verify_code":null,"user_phone_code":null,"user_phone_code_stats":null,"user_idcard":null,"user_mobile":null,"user_email":"","user_binded":null,"user_history_password":null,"user_history_ip":null,"user_grade":0,"user_mobile_verify":0,"user_email_verify":0,"user_provinceid":0,"user_cityid":0,"user_areaid":0,"user_area":"","result":1,"k":"AXYGcFFrV3UEDVJsAjpVPlo8AGAAbgYyADE="}}
+11:49:58 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/index.php [info] array (
+  'cmd_id' => 100,
+  'status' => 200,
+  'msg' => 'success',
+  'data' => 
+  array (
+    'user_id' => 10001,
+    'user_name' => 'admin',
+    'password' => '96e79218965eb72c92a549dd5a330112',
+    'user_state' => 1,
+    'action_time' => 0,
+    'action_ip' => NULL,
+    'session_id' => NULL,
+    'id' => 10001,
+    'nickname' => 'admin',
+    'user_group' => 0,
+    'user_site_id' => 0,
+    'user_site_domain' => NULL,
+    'user_question' => NULL,
+    'user_answer' => NULL,
+    'user_avatar' => NULL,
+    'user_avatar_thumb' => NULL,
+    'user_gender' => 0,
+    'user_truename' => NULL,
+    'user_tel' => NULL,
+    'user_birth' => NULL,
+    'user_qq' => NULL,
+    'user_msn' => NULL,
+    'user_province' => NULL,
+    'user_city' => NULL,
+    'user_intro' => NULL,
+    'user_sign' => NULL,
+    'user_reg_time' => 0,
+    'user_count_login' => 0,
+    'user_lastlogin_time' => 0,
+    'user_lastlogin_ip' => NULL,
+    'user_like_games' => NULL,
+    'user_reg_ip' => NULL,
+    'user_money' => 0,
+    'user_credit' => 0,
+    'user_getpsw_code' => NULL,
+    'user_verify_code' => NULL,
+    'user_phone_code' => NULL,
+    'user_phone_code_stats' => NULL,
+    'user_idcard' => NULL,
+    'user_mobile' => NULL,
+    'user_email' => '',
+    'user_binded' => NULL,
+    'user_history_password' => NULL,
+    'user_history_ip' => NULL,
+    'user_grade' => 0,
+    'user_mobile_verify' => 0,
+    'user_email_verify' => 0,
+    'user_provinceid' => 0,
+    'user_cityid' => 0,
+    'user_areaid' => 0,
+    'user_area' => '',
+    'result' => 1,
+    'k' => 'AXYGcFFrV3UEDVJsAjpVPlo8AGAAbgYyADE=',
+  ),
+)
+11:49:58 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/index.php [info] $tmp_str:app_id=103&ctl=Api&met=getBaseApp&rtime=1495856998&typ=json&key=aaaaaabbb
+11:49:58 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/index.php [info] $url:http://localhost/svn/ucenter/index.php
+11:49:58 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/index.php [info] array (
+  'app_id' => 103,
+  'ctl' => 'Api',
+  'met' => 'getBaseApp',
+  'rtime' => 1495856998,
+  'typ' => 'json',
+  'key' => 'aaaaaabbb',
+)
+11:49:58 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/index.php [info] array (
+  'app_id' => 103,
+  'ctl' => 'Api',
+  'met' => 'getBaseApp',
+  'typ' => 'json',
+  'rtime' => 1495856998,
+  'token' => '6857ad1afcaeb4dc6facdb95f75d9dfb',
+)
+11:49:58 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/index.php [info] $res : {"cmd_id":-140,"status":200,"msg":"success","data":{"101":{"app_id":101,"app_name":"ERP\u7cfb\u7edf","app_type":2,"app_seq":0,"app_key":"aaaaaabbb","app_ip_list":"","app_url":"http:\/\/***\/index.php","app_admin_url":"","app_url_recharge":"","app_url_order":"","app_logo":"","app_hosts":"","return_fields":"","app_status":0,"id":101},"102":{"app_id":102,"app_name":"\u5546\u57ce\u7cfb\u7edf","app_type":2,"app_seq":0,"app_key":"aaaaaabbb","app_ip_list":"","app_url":"http:\/\/shop.local.yuanfeng021.com\/\/index.php","app_admin_url":"http:\/\/shop_admin.local.yuanfeng021.com\/\/index.php","app_url_recharge":"","app_url_order":"","app_logo":"","app_hosts":"","return_fields":"","app_status":1,"id":102},"103":{"app_id":103,"app_name":"ImBuilder","app_type":2,"app_seq":0,"app_key":"aaaaaabbb","app_ip_list":"","app_url":"http:\/\/sns.local.yuanfeng021.com","app_admin_url":"","app_url_recharge":"","app_url_order":"","app_logo":"","app_hosts":"","return_fields":"","app_status":1,"id":103},"104":{"app_id":104,"app_name":"\u7528\u6237\u4e2d\u5fc3","app_type":0,"app_seq":0,"app_key":"aaaaaabbb","app_ip_list":"wwqe","app_url":"http:\/\/ucenter.local.yuanfeng021.com\/index.php","app_admin_url":"http:\/\/ucenter_admin.local.yuanfeng021.com\/index.php","app_url_recharge":"","app_url_order":"","app_logo":"","app_hosts":"","return_fields":"","app_status":1,"id":104},"105":{"app_id":105,"app_name":"\u7f51\u4ed8\u5b9d","app_type":0,"app_seq":0,"app_key":"aaaaaabbb","app_ip_list":"","app_url":"http:\/\/paycenter.local.yuanfeng021.com\/index.php","app_admin_url":"http:\/\/paycenter_admin.local.yuanfeng021.com\/index.php","app_url_recharge":"","app_url_order":"","app_logo":"","app_hosts":"","return_fields":"","app_status":1,"id":105}}}
+11:49:58 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/index.php [info] array (
+  'cmd_id' => -140,
+  'status' => 200,
+  'msg' => 'success',
+  'data' => 
+  array (
+    101 => 
+    array (
+      'app_id' => 101,
+      'app_name' => 'ERP系统',
+      'app_type' => 2,
+      'app_seq' => 0,
+      'app_key' => 'aaaaaabbb',
+      'app_ip_list' => '',
+      'app_url' => 'http://***/index.php',
+      'app_admin_url' => '',
+      'app_url_recharge' => '',
+      'app_url_order' => '',
+      'app_logo' => '',
+      'app_hosts' => '',
+      'return_fields' => '',
+      'app_status' => 0,
+      'id' => 101,
+    ),
+    102 => 
+    array (
+      'app_id' => 102,
+      'app_name' => '商城系统',
+      'app_type' => 2,
+      'app_seq' => 0,
+      'app_key' => 'aaaaaabbb',
+      'app_ip_list' => '',
+      'app_url' => 'http://shop.local.yuanfeng021.com//index.php',
+      'app_admin_url' => 'http://shop_admin.local.yuanfeng021.com//index.php',
+      'app_url_recharge' => '',
+      'app_url_order' => '',
+      'app_logo' => '',
+      'app_hosts' => '',
+      'return_fields' => '',
+      'app_status' => 1,
+      'id' => 102,
+    ),
+    103 => 
+    array (
+      'app_id' => 103,
+      'app_name' => 'ImBuilder',
+      'app_type' => 2,
+      'app_seq' => 0,
+      'app_key' => 'aaaaaabbb',
+      'app_ip_list' => '',
+      'app_url' => 'http://sns.local.yuanfeng021.com',
+      'app_admin_url' => '',
+      'app_url_recharge' => '',
+      'app_url_order' => '',
+      'app_logo' => '',
+      'app_hosts' => '',
+      'return_fields' => '',
+      'app_status' => 1,
+      'id' => 103,
+    ),
+    104 => 
+    array (
+      'app_id' => 104,
+      'app_name' => '用户中心',
+      'app_type' => 0,
+      'app_seq' => 0,
+      'app_key' => 'aaaaaabbb',
+      'app_ip_list' => 'wwqe',
+      'app_url' => 'http://ucenter.local.yuanfeng021.com/index.php',
+      'app_admin_url' => 'http://ucenter_admin.local.yuanfeng021.com/index.php',
+      'app_url_recharge' => '',
+      'app_url_order' => '',
+      'app_logo' => '',
+      'app_hosts' => '',
+      'return_fields' => '',
+      'app_status' => 1,
+      'id' => 104,
+    ),
+    105 => 
+    array (
+      'app_id' => 105,
+      'app_name' => '网付宝',
+      'app_type' => 0,
+      'app_seq' => 0,
+      'app_key' => 'aaaaaabbb',
+      'app_ip_list' => '',
+      'app_url' => 'http://paycenter.local.yuanfeng021.com/index.php',
+      'app_admin_url' => 'http://paycenter_admin.local.yuanfeng021.com/index.php',
+      'app_url_recharge' => '',
+      'app_url_order' => '',
+      'app_logo' => '',
+      'app_hosts' => '',
+      'return_fields' => '',
+      'app_status' => 1,
+      'id' => 105,
+    ),
+  ),
+)
+11:49:58 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/index.php [info] $tmp_str:admin_account=admin&app_id=103&config_type%5B0%5D=site&rtime=1495856998&key=aaaaaabbb
+11:49:58 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/index.php [info] $url:http://localhost/svn/ucenter/index.php?ctl=Api_Config&met=site&typ=json
+11:49:58 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/index.php [info] array (
+  'admin_account' => 'admin',
+  'app_id' => 103,
+  'config_type' => 
+  array (
+    0 => 'site',
+  ),
+  'rtime' => 1495856998,
+  'key' => 'aaaaaabbb',
+)
+11:49:58 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/index.php [info] array (
+  'app_id' => 103,
+  'admin_account' => 'admin',
+  'config_type' => 
+  array (
+    0 => 'site',
+  ),
+  'rtime' => 1495856998,
+  'token' => '108c932e7781bd2931e7754c5c48eccf',
+)
+11:49:58 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/index.php [info] $res : {"cmd_id":-1,"status":250,"msg":"API\u63a5\u53e3\u6709\u8bef,\u8bf7\u786e\u4fddAPP KEY\u53caAPP ID\u6b63\u786e","data":30}
+11:49:58 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/index.php [info] array (
+  'cmd_id' => -1,
+  'status' => 250,
+  'msg' => 'API接口有误,请确保APP KEY及APP ID正确',
+  'data' => 30,
+)

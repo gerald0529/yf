@@ -1,0 +1,139 @@
+/**space_product_detail**/
+body{font-family: 'microsoft yahei' !important;color: #525252;font-size: 16px;}
+.up .uh, .up .uf, .pos_re {position: relative;}
+div {outline: 0 !important;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+    position: relative;}
+.bc-text-head {color: white;}
+.bc-head {background-color: #dd3030;}
+.uh, .uf {width: 100%;font-size: 1.2em;}
+.ub-ver {-webkit-box-orient: vertical;box-orient: vertical;}
+.ub{display: -webkit-box !important;display: box !important;position: relative;}
+.bc-bg{background-color:#daddda}
+.ub-ac { -webkit-box-align: center;box-align: center;}
+.ub-f1 {position: relative; -webkit-box-flex: 1; box-flex: 1;}
+.uinn-pFS1{padding:0.72em 0.59em 0.72em 0.6875em;}
+.t-gra-pFS1{color:#c0c0c0;}
+.uinn-a1{padding:0.625em;}
+.umar-at1{margin-top:0.625em;}
+.bgw{background-color: #fff}
+#pro_detail img{width:100%}
+#pro_detail #pname{padding: 0 .8em;line-height: 1.5em;font-weight: 800;}
+#pro_detail #price{margin:.5em 0;padding: 0 .8em;font-family: 'microsoft yahei';font-size:1.2em;color:#dd3030}
+#pro_detail .fas{font-size: 1.5em;color:#000}
+#pro_detail .slogo{width:4em;height:4em;border-radius:2em}
+#pro_detail .sinfo{padding-left:.5em;color:#000}
+#pro_detail .goshop{padding: .3em .8em .3em 1.2em;width:2em;border-left:1px #525252 solid}
+#pro_detail #proinfo p{padding:.5em}
+.choose_btn{color:#8b8b8b;background-color:#fff;position:fixed;bottom: 0px;width:100%;padding:.5em 1em .5em 0}
+.choose_btn a{color:#525252;}
+.choose_btn .btn{padding: .5em;}
+.choose_btn .incar{color:#dd3030;background-color:#bbbbbb;height:100%;padding: .5em;border-radius: .2em;min-width:85px}
+.choose_btn .buy{background-color:#dd3030;color:#fff;height:100%;padding: .5em;border-radius: .2em;min-width:85px}
+
+/***space_index***/
+.hidden{display:none !important}
+.t-gra-50{color:#505050;}
+.t-gar-a0{color:#a0a0a0;}
+.uinn-esh{padding:0.3125em 0 0.9375em 0.5125em}
+.uinn-esh2{padding:0.5em 0 0.3125em 0;}
+.uinn-esh3{padding:0.625em 0.77em 0.46875em 0.77em;}
+.uinn-esh4{padding:0.5em 0.1875em 1.25em 0.3125em;width:67%}
+.uh-per1{height:9.375em;}
+.uwh-per2{height:3em;width:3em;}
+.uwh-per3{height:2.25em;width:2.25em;}
+.umar-per1{margin:0.125em;}
+.umar-per2{margin-top:0.8625em;}
+.t-gra-per{color:#8b8b8b;}
+.b-gra-per1{border-color:#d1d1d1;}
+.uinn-per1{padding:0.40625em 0 0.5em 0;}
+.c-gra-per1{background-color:#a0a0a0;}
+.b-gra-cf{border-color:#cfcfcf}
+.uwh-esh{width:33%;height:6.25em;}
+.umw-eleL{width:6.5625em;}
+.uwh-esh2{width:3em;height:3em;}
+.c-wh{background-color: white;}
+.uinn-a7{padding:0 0.625em;}
+.mar-aL1{margin-left:0.625em;}
+.umar-at2{margin-top:1em;}
+.shoplogo{border-radius: 2.8125em;}
+.pname{overflow: hidden;width: 95%;height: 3em;line-height: 1.5em}
+.price{margin-top:1em;color:#dd3030}
+.sinfo{padding-left:1em}
+.sinfo .inf{padding-left:0.5125em;}
+.sinfo .inf #company{font-weight:bold;padding-bottom: .625em;padding-top:.325em}
+.sinfo .inf .typ{font-size:.8em;padding-bottom:.25em}
+.sinfo .inf .typ span{color:#fc7800}
+#clogo{width:6em;height:6em}
+.col{background-color:#fff;color:#8B8B8B;top:-3em;right:1em;border-radius:.5em;padding:.4em .7em}
+.lic{width:.3em;background-color: #dd3030;margin-right:.3em}
+.mar-sh{margin:0 3%}
+.shop_pro{width:43%;float: left;background-color:#fff;padding:3%;margin-bottom:2%;}
+.prol{margin-right:2%;}
+.shop_pro img{text-align: center;height:6.25em;width:100%}
+#shop_logo{max-height: 15em;width:100%}
+.logo{font-size: 1.5em;font-weight: bold;text-align: center;}
+
+/*register findpwd*/
+#register .b-d8{border-color:#d8d8d8;}
+#register .t-21{color:#218dd5;}
+#register .uinnh5{padding:0.8em 0.5em;margin:0;}
+#register .uw-reg{min-width:5em;}
+#register .uinn-at1{padding-top:1em;}
+#register .c-wh{background-color:#FFF;}
+#register .ver{font-size:.8em;padding:.2em .6em;border-radius: .2em;border:none;min-width: 3.5em;}
+#register .umar-a {margin: 0.4em;}
+#register .uinn {padding: 0.5em;margin: 0;}
+#register .ulev-1 {font-size: 0.8125em !important;}
+#register .ub-pe {-webkit-box-pack: end;box-pack: end;}
+#register .btn {padding: .2em 0.9em;min-height: 2.2em;font-size: 1em;text-align: center;}
+#register .bc-btn {background-color: #DD3030;}
+#register .bc-text-head {color: white;}
+.ub-pc {-webkit-box-pack: center;box-pack: center;}
+.ub-ac {-webkit-box-align: center;    box-align: center;}
+.uinput input, .uinput textarea {margin: 0px;border: 0px;width: 100%;height:44px;-webkit-appearance: none;padding: .4em 0;line-height: 1.2em;background: none;text-decoration: none;font-size: 1em;}
+.select{width: 100%;height:44px;border:none}
+
+.select_style{position:relative;background:#FFFFFF;padding: 5px;}
+.select_style dl{padding-bottom:6px;float:left;height: auto;overflow: visible;}
+.select_style dt{color:#6D6D6D;font-family:simsun;float:left;width:auto;margin-right:4px;line-height:24px;display: inline-block;}
+.select_style dd{color:#404040;float:left;width:100%;}
+.select_style ul{clear:both;display:block;overflow: hidden;}
+.select_style li{background-color:#FFFFFF;float:left;line-height:20px;margin:0 4px 6px 0;padding:1px;position:relative;vertical-align:middle;display: inline-block;}
+.select_style li a{background-color:#FFFFFF;border:1px solid #E2E1E3;color:#000000;display:block;min-width:10px;padding:5px 10px;text-align:center;text-decoration:none;white-space:nowrap;width:auto!important;cursor:pointer;color:#404040;}
+.select_style li i{display:none}
+.select_style li .checked{border:2px solid #DF0001;margin:-1px;}
+.select_style li .checked i{background:url(../images/checked.gif);bottom:0;display:block;height:12px;overflow:hidden;position:absolute;right:0;margin:0px;width:12px;}
+.select_style .stock a{color:#000;display:block;_display:inline;*zoom:1;float:left;width:26px;height:26px;border:1px solid #ccc;line-height:26px;padding:0;vertical-align:top;overflow:hidden;text-align:center;background-color:#ededed;overflow:hidden;}
+.select_style #nums{width:48px;float:left;height:28px;line-height:28px;margin:0;padding:0;font-size:16px;text-align:center;color:#666;background-color:#fff;border:1px solid #ccc;outline:0;ime-mode:disabled;}
+.select_style #low_num{border-right:0;font-size:14px;}
+.select_style #add_num{border-left:0;font-size:16px;}
+.select_style .stock em{float:left;line-height:28px;margin-left:8px;}
+
+
+/*********Lemons 20141226 字体*******/
+@font-face {
+    font-family: 'iconfont';
+    src: url('http://at.alicdn.com/t/font_1420706314_198928.eot'); /* IE9*/
+    src: url('http://at.alicdn.com/t/font_1420706314_198928.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('http://at.alicdn.com/t/font_1420706314_198928.woff') format('woff'), /* chrome、firefox */
+    url('http://at.alicdn.com/t/font_1420706314_198928.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('http://at.alicdn.com/t/font_1420706314_198928.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{font-family:"iconfont";font-size:1.8em;font-style:normal;color:#fff}
+.iconfont_min{font-family:"iconfont";font-size:1.4em;font-style:normal}
+
+
+.shoplist{width:100%}
+.shopli{float:left;width:49%!important;text-align:center;height: auto;overflow: hidden;background: #fff;margin-bottom: 8px;padding-top: 6px;margin-right: 0!important;margin-top: 0!important}
+.shopli a {width: 85%;height: auto;outline: 0; font-size: 12px;overflow: hidden;text-decoration: none;margin: 0 auto;display: block;}
+.money{color: #bc0000;text-align: left;}
+.shopli p{text-align: left;}
+.shopli.even{float: right;}
+
+.font12{font-size: 12px;}
+.main{overflow: hidden;width: 100%;}
+.itips{font-size: 10px;padding-left: 10px;font-family: "宋体"}

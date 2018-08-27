@@ -1,0 +1,33 @@
+10:52:12 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder/install/index.php [debug] SELECT 1;
+10:52:12 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder/install/index.php [debug] SELECT table_name FROM information_schema.tables WHERE table_schema="dev_imbuilder" AND table_type="BASE TABLE"
+11:10:11 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder/install/index.php [debug] SELECT 1;
+11:10:11 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder/install/index.php [debug] SELECT table_name FROM information_schema.tables WHERE table_schema="test_imbuiler" AND table_type="BASE TABLE"
+11:12:16 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder/install/index.php [debug] SELECT 1;
+11:12:16 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder/install/index.php [debug] SELECT table_name FROM information_schema.tables WHERE table_schema="test_imbuiler" AND table_type="BASE TABLE"
+11:12:17 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder/install/index.php [debug] SELECT 1;
+11:12:17 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder/install/index.php [debug] SELECT table_name FROM information_schema.tables WHERE table_schema="test_imbuiler" AND table_type="BASE TABLE"
+11:12:18 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder/install/index.php [debug] SELECT 1;
+11:12:18 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder/install/index.php [debug] SELECT table_name FROM information_schema.tables WHERE table_schema="test_imbuiler" AND table_type="BASE TABLE"
+11:12:18 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder/install/index.php [debug] SELECT 1;
+11:12:18 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder/install/index.php [debug] SELECT table_name FROM information_schema.tables WHERE table_schema="test_imbuiler" AND table_type="BASE TABLE"
+11:12:31 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder/install/index.php [debug] SELECT 1;
+11:12:36 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder/install/index.php [debug] SELECT 1;
+11:12:36 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder/install/index.php [debug] SELECT table_name FROM information_schema.tables WHERE table_schema="test_imbuiler" AND table_type="BASE TABLE"
+11:12:49 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder/install/index.php [debug] SELECT 1;
+11:12:49 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder/install/index.php [debug] SELECT table_name FROM information_schema.tables WHERE table_schema="test_imbuiler" AND table_type="BASE TABLE"
+11:13:01 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder/install/index.php [debug] SELECT 1;
+11:13:01 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder/install/index.php [debug] SELECT table_name FROM information_schema.tables WHERE table_schema="test_imbuiler" AND table_type="BASE TABLE"
+11:15:16 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder/install/index.php [debug] SELECT 1;
+11:15:16 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder/install/index.php [debug] SELECT table_name FROM information_schema.tables WHERE table_schema="test_imbuiler" AND table_type="BASE TABLE"
+11:18:18 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder/install/index.php [debug] SELECT 1;
+11:18:18 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder/install/index.php [debug] SELECT table_name FROM information_schema.tables WHERE table_schema="test_imbuiler" AND table_type="BASE TABLE"
+11:21:45 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder/install/index.php [debug] SELECT 1;
+11:21:45 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder/install/index.php [debug] SELECT table_name FROM information_schema.tables WHERE table_schema="test_imbuiler" AND table_type="BASE TABLE"
+11:51:49 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder_admin/install/index.php [debug] SELECT 1;
+11:51:49 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder_admin/install/index.php [debug] SELECT table_name FROM information_schema.tables WHERE table_schema="test_imbuiler_admin" AND table_type="BASE TABLE"
+11:52:16 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder_admin/install/index.php [debug] SELECT 1;
+11:52:16 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder_admin/install/index.php [debug] SELECT table_name FROM information_schema.tables WHERE table_schema="test_imbuiler_admin" AND table_type="BASE TABLE"
+11:52:54 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder_admin/install/index.php [debug] SELECT 1;
+11:52:54 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder_admin/install/index.php [debug] SELECT table_name FROM information_schema.tables WHERE table_schema="test_imbuiler_admin" AND table_type="BASE TABLE"
+11:55:47 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder_admin/install/index.php [debug] SELECT 1;
+11:55:47 04/19/17 FILE=D:/phpStudy/WWW/2017/imbuilder_admin/install/index.php [debug] SELECT table_name FROM information_schema.tables WHERE table_schema="test_imbuiler_admin" AND table_type="BASE TABLE"

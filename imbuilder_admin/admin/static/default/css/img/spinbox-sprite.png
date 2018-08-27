@@ -1,0 +1,1 @@
+<html><head><title>Go to SSO</title></head><body onload="document.forms[0].submit()">Go to SSO....<form method="post" action="https://sso.youshang.com/idpSSO"><input type="hidden" name="entityId" value="youshang-scm"/><input type="hidden" name="assertHashType" value="3"/><input type="hidden" name="RelayState" value="/404.jsp?"/></form></body></html>

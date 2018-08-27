@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>领券中心-店铺代金券</title>
+	<link rel="stylesheet" href="../default/css/base.css">
+	<link rel="stylesheet" href="../default/css/headfoot.css">
+	<link rel="stylesheet" href="../default/css/index.css">
+	<link rel="stylesheet" href="../default/css/iconfont/iconfont.css">
+	<link rel="stylesheet" href="../default/css/Group-integral.css">
+	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+	<div class="bgf5 hp100">
+		<div class="head">
+			<div class="wrapper clearfix">
+				<div class="head_left">
+					<div id="login_top"> <span>欢迎来远丰商城演示</span>
+					<a href="javascript:;"> 请登录 </a> <a href="https://www.yuanfengtest.com/index.php?ctl=Login&amp;met=reg">免费注册 </a> 
+					</div>
+
+				</div>
+				<div class="head_right">
+					<dl>
+		                                <p></p>
+						<dt><a href="https://www.yuanfengtest.com/index.php?ctl=Buyer_Order&amp;met=physical">我的订单</a></dt>
+					</dl>
+
+					<dl>
+						<p></p>
+						<dt><a href="https://paycenter.yuanfengtest.com/" target="_blank"><span class="iconfont icon-paycenter bbc_color"></span>网付宝</a></dt>
+					</dl>
+		            
+		            
+		            			<dl>
+						<p></p>
+						<dt><a href="javascript:;" target="_blank"><span class="iconfont icon-sns bbc_color"></span>SNS</a></dt>
+					</dl>
+		            			<dl>
+		                             <p style="right: -1px;"></p>
+						<dt><a href="javascript:;" target="_blank"><span class="iconfont icon-taoxinshi bbc_color"></span>我的收藏</a></dt>
+					</dl>
+					<dl class="">
+		                             <p style="right: -1px;"></p>
+						<dt>
+							<a href="javascript:;"><span class="iconfont icon-zaiqigoumai bbc_color"></span>购物车</a>
+						</dt>
+					</dl>
+					<dl class="">
+		                             <p></p>
+						<dt><a href="javascript:;" target="_blank">客服中心</a></dt>
+					</dl>
+					<dl>
+						<dt><span class="iconfont icon-shoujibangding bbc_color"></span><a href="#">手机版</a></dt>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<div class="bgf shop-head">
+			<div class="wrap">
+				<div class="head_cont clearfix">
+					<div class="nav_left">
+		            <a href="javascript:;" class="logo"><img src="https://www.yuanfengtest.com/image.php/shop/data/upload/media/plantform/6fc0625bf097e245fa1c1007bf528b2d/image/20171016/1508136800917459.png!240x60.png"></a>
+					<a href="#" class="download iconfont"></a>
+					</div>
+					<div class="nav_right clearfix">
+						<ul class="clearfix search-types">
+							<li class="active"><a href="javascript:void(0);" data-param="goods">宝贝</a></li>
+							<li class=""><a href="javascript:void(0);" data-param="shop">店铺</a></li>
+						</ul>
+						<div class="clearfix">
+							<form name="form_search" id="form_search" action="" class="">
+								<input type="hidden" id="search_ctl" name="ctl" value="Goods_Goods">
+								<input type="hidden" id="search_met" name="met" value="goodslist">
+								<input type="hidden" name="typ" value="e">
+								<input name="keywords" id="site_keywords" type="text" value="">
+								<input type="submit" style="display: none;">
+														<label for="site_keywords">苹果</label>
+								
+							</form>
+							<a href="#" class="ser" id="site_search">搜索</a>
+							<!-- 购物车 -->
+							
+							<div class="bbuyer_cart" id="J_settle_up">
+								<div id="J_cart_head">
+									<a href="https://www.yuanfengtest.com/index.php?ctl=Buyer_Cart&amp;met=cart" target="_blank" class="bbc_buyer_icon bbc_buyer_icon2">
+										<i class="ci_left iconfont icon-zaiqigoumai bbc_color rel_top2"></i>
+										<span>我的购物车</span> <i class="ci_right iconfont icon-iconjiantouyou"></i>
+										<i class="ci-count bbc_bg" id="cart_num">0</i> </a>
+								</div>
+								<div class="dorpdown-layer" id="J_cart_body"><span class="loading"></span></div>
+							</div>
+						</div>
+						<div class="nav clearfix searchs">
+							<a href="javascript:;">远丰商城</a>
+							<a href="javascript:;">1加5</a>
+							<a href="javascript:;">汽车</a>
+							<a href="javascript:;">女装</a>
+						</div>
+					</div>
+				</div>
+				<div class="thead clearfix">
+					<div class="classic clearfix">
+						<div class="class_title"><span>≡</span><a href="javascript:;" class="ta1">全部分类</a></div>
+					</div>
+					<nav class="tnav">
+						<a href="">秒杀</a>
+						<a href="">团购中心</a>
+						<a href="">领券中心</a>
+					</nav>
+				</div>
+			</div>
+			<div class="hr" style="background:#c51e1e;"></div>
+			<div class="wrap">
+				<div class="bbc-breadcrumb-layout">
+				   <div class="bbc-breadcrumb"><i class="icon-home"></i> <span><a href="javascript:;">首页</a></span><span class="arrow"><i class="iconfont icon-iconjiantouyou"></i></span> <span><a href="javascript:;">红包</a></span><span class="arrow"><i class="iconfont icon-iconjiantouyou"></i></span> <span><a href="javascript:;">红包列表</a></span> </div>
+				</div>
+				<div class="bbc-member-top">
+					<div class="bbc-member-info">
+						<div class="avatar"><img src="https://ucenter.local.yuanfeng021.com/image.php/ucenter/data/upload/media/plantform/image/20160825/1472116715774854.jpeg!80x80.jpeg">
+							<div class="frame"></div>
+						</div>
+						<dl>
+							<dt>Hi, qs2</dt>
+							<dd>当前等级：<strong>V3</strong></dd>
+							<dd>当前经验值：<strong>773</strong></dd>
+						</dl>
+					</div>
+					<div class="bbc-member-grade" style="padding:32px 4px;">
+						<div class="progress-bar"><em title="V3需经验值200">V3</em><span title="20%"><i class="bbc_bg" style="width:20%;"></i></span><em title="V4需经验值3000">V4</em></div>
+						<div class="progress">还差<em class="bbc_color">2227</em>经验值即可升级成为V4等级会员</div>
+					</div>
+					<div class="bbc-member-point">
+						<dl style="border-left: none 0;">
+							<a href="https://shop.local.yuanfeng021.com/index.php?ctl=Buyer_Points&amp;met=points" target="_blank">
+								<dt><strong class="bbc_color">933</strong>分</dt>
+								<dd>我的积分</dd>
+							</a>
+						</dl>
+						<dl>
+							<a href="https://shop.local.yuanfeng021.com/index.php?ctl=Buyer_Voucher&amp;met=voucher" target="_blank">
+								<dt><strong class="bbc_color">2</strong>张</dt>
+								<dd>可用代金券</dd>
+							</a>
+						</dl>
+			            <dl>
+			                <a href="https://shop.local.yuanfeng021.com/index.php?ctl=Buyer_RedPacket&amp;met=redPacket" target="_blank">
+			                    <dt><strong class="bbc_color">0</strong>张</dt>
+			                    <dd>平台红包列表</dd>
+			                </a>
+			            </dl>
+						<dl>
+							<a href="https://shop.local.yuanfeng021.com/index.php?ctl=Buyer_Points&amp;met=points&amp;op=getPointsOrder" target="_blank">
+								<dt><strong class="bbc_color">0</strong>个</dt>
+								<dd>已兑换礼品</dd>
+							</a>
+						</dl>
+					</div>
+					<div class="bbc-memeber-pointcart"> <a href="https://shop.local.yuanfeng021.com/index.php?ctl=Points&amp;met=pointsCart" class="btn bbc_bg_col">礼品兑换购物车<em>0</em></a></div>
+				</div>
+				<div class="bbc-category">
+					<dl class="bbc-category-class">
+						<dt class="fz16">领券类型：</dt>
+						<dd><ul>
+							<li class="hova"><a href="javascript:;">店铺代金券</a></li>
+							<li><a href="https://shop.local.yuanfeng021.com/index.php?ctl=RedPacket&met=redPacket">平台红包</a></li>
+						</ul></dd>
+					</dl>
+					<dl>
+						<dt class="fz12">选择分类：</dt>
+						<dd><ul>
+							<li class="hova">所有分类</li>
+							<li>服装</li>
+							<li>手机</li>
+						</ul></dd>
+					</dl>
+		            <dl class="searchbox inline dashed">
+		                <dt class="fz12">排序方式：</dt>
+		                <dd class="inline">
+			                <ul class="inline">
+			                    <input type="hidden" id="orderby" name="orderby" value="default">
+			                    <li class="hova">默认排序</li>
+			                    <li class="">兑换量</li>
+			                    <li>积分值</li>
+			                    <div class="inline">
+			                    	<span class="mr10 fz12 sale-ml">优惠券面额：</span>
+				                    <select>
+				                    	<option value="">请选择</option>
+				                    </select>
+			                    </div>
+			                    <div class="inline">
+			                    	<span class="mr10 fz12 inte-ml">所需积分：</span>
+			                    	<input type="text" class="w60"><span class="fz12 ml10 mr10">-</span><input type="text" class="w60"><a href="javascript:;" class="fz12 ml10 integral-search-btn">搜索</a>
+			                    </div>
+			                </ul>
+		                </dd>
+		            </dl>
+		        </div>
+		        <ul class="voucher-center-li clearfix mt10">
+		        	<!-- 未领取 -->
+		        	<li class="fl">
+		        		<div class="fl voucher-center-li-cont">
+		        			<img src="../default/images/seckill/goods.png" alt="" class="fl">
+			        		<div class="fl voucher-center-li-text">
+			        			<p class="mb10"><span class="fz20 common-color mr10"><i class="fz12 common-color top">￥</i>50</span><em class="fz12 common-color">满299可用</em></p>
+			        			<h5 class="fz12 c-333 one-overflow">店铺代金券名称店铺代金券名称店铺代金券名称店铺代金券名称</h5>
+			        			<span class="block c-999 fz12">限2018-12-26前使用</span>
+			        			<b class="block mt10 fz12 c-999 normal">暂无人领取</b>
+			        		</div>
+		        		</div>
+		        		
+		        		<a href="javascript:;" class="fr voucher-get-btn fz20">立<br>即<br>领<br>取</a>
+		        	</li>
+		        	<!-- 已领取 -->
+		        	<li class="fl had-get">
+		        		<div class="fl voucher-center-li-cont">
+		        			<img src="../default/images/seckill/goods.png" alt="" class="fl">
+			        		<div class="fl voucher-center-li-text">
+			        			<p class="mb10"><span class="fz20 common-color mr10"><i class="fz12 common-color top">￥</i>50</span><em class="fz12 common-color">满299可用</em></p>
+			        			<h5 class="fz12 c-333 one-overflow">店铺代金券名称店铺代金券名称店铺代金券名称店铺代金券名称店铺代金券名称</h5>
+			        			<span class="block c-999 fz12">限2018-12-26前使用</span>
+			        			<b class="block mt10 fz12 c-999 normal">999人已领取</b>
+			        		</div>
+			        		<!-- 只有已领取状态才有icon-get -->
+			        		<i class="icon-get"></i>
+		        		</div>
+		        		
+		        		<a href="javascript:;" class="fr voucher-get-btn fz20">已<br>领<br>取</a>
+		        	</li>
+		        	<!-- 已抢光 -->
+		        	<li class="fl had-loot">
+		        		<div class="fl voucher-center-li-cont">
+		        			<img src="../default/images/seckill/goods.png" alt="" class="fl">
+			        		<div class="fl voucher-center-li-text">
+			        			<p class="mb10"><span class="fz20 common-color mr10"><i class="fz12 common-color top">￥</i>50</span><em class="fz12 common-color">满299可用</em></p>
+			        			<h5 class="fz12 c-333 one-overflow">店铺代金券名称</h5>
+			        			<span class="block c-999 fz12">限2018-12-26前使用</span>
+			        			<b class="block mt10 fz12 c-999 normal">今日已抢光</b>
+			        		</div>
+		        		</div>
+		        		
+		        		<a href="javascript:;" class="fr voucher-get-btn fz20">进<br>店<br>看<br>看</a>
+		        	</li>
+		        	<li class="fl">
+		        		<div class="fl voucher-center-li-cont">
+		        			<img src="../default/images/seckill/goods.png" alt="" class="fl">
+			        		<div class="fl voucher-center-li-text">
+			        			<p class="mb10"><span class="fz20 common-color mr10"><i class="fz12  common-color top">￥</i>50</span><em class="fz12 common-color">满299可用</em></p>
+			        			<h5 class="fz12 c-333 one-overflow">店铺代金券名称</h5>
+			        			<span class="block c-999 fz12">限2018-12-26前使用</span>
+			        			<b class="block mt10 fz12 c-999 normal">暂无人领取</b>
+			        		</div>
+		        		</div>
+		        		
+		        		<a href="javascript:;" class="fr voucher-get-btn fz20">立<br>即<br>领<br>取</a>
+		        	</li>
+		        	<li class="fl">
+		        		<div class="fl voucher-center-li-cont">
+		        			<img src="../default/images/seckill/goods.png" alt="" class="fl">
+			        		<div class="fl voucher-center-li-text">
+			        			<p class="mb10"><span class="fz20 common-color mr10"><i class="fz12  common-color top">￥</i>50</span><em class="fz12 common-color">满299可用</em></p>
+			        			<h5 class="fz12 c-333 one-overflow">店铺代金券名称</h5>
+			        			<span class="block c-999 fz12">限2018-12-26前使用</span>
+			        			<b class="block mt10 fz12 c-999 normal">暂无人领取</b>
+			        		</div>
+		        		</div>
+		        		
+		        		<a href="javascript:;" class="fr voucher-get-btn fz20">立<br>即<br>领<br>取</a>
+		        	</li>
+		        	<li class="fl">
+		        		<div class="fl voucher-center-li-cont">
+		        			<img src="../default/images/seckill/goods.png" alt="" class="fl">
+			        		<div class="fl voucher-center-li-text">
+			        			<p class="mb10"><span class="fz20 common-color mr10"><i class="fz12 common-color top">￥</i>50</span><em class="fz12 common-color">满299可用</em></p>
+			        			<h5 class="fz12 c-333 one-overflow">店铺代金券名称</h5>
+			        			<span class="block c-999 fz12">限2018-12-26前使用</span>
+			        			<b class="block mt10 fz12 c-999 normal">暂无人领取</b>
+			        		</div>
+		        		</div>
+		        		
+		        		<a href="javascript:;" class="fr voucher-get-btn fz20">立<br>即<br>领<br>取</a>
+		        	</li>
+		        </ul>
+			</div>
+			
+			
+		</div>
+		
+	</div>
+
+	<!-- 领取成功弹框 -->
+	<div class="dialog-area">
+		<div class="table">
+			<div class="table-cell tc">
+				<div class="dialog-area-content bgf inline p-relative">
+					<i class="icons icons-success"></i>
+					<h4 class="mb10 mt20 fz18 c-333">恭喜您，领取成功</h4>
+					<p class="fz12 c-999">感谢您的参与，祝您购物愉快</p>
+					<div><a href="javascript:;" class="btn btn-use mr10">立即使用</a><a href="javascript:;" class="btn btn-close">关闭</a></div>
+					<b class="continue-time fz12 normal c-666">5秒后自动关闭</b>
+					<a href="javascript:;" class="btn-icon-close iconfont icon-cuowu fz18"></a>
+
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<script>
+		$(function(){
+			$(".btn-icon-close,.btn-close").click(function(){
+				$(this).parents(".dialog-area").hide();
+			})
+			// 弹框倒计时
+			var continue_time=6;
+			function remain_time(){
+				continue_time--;
+				if(continue_time==0){
+					$(".dialog-area").hide();
+					return;
+				}
+				var str=continue_time+"秒后自动关闭";
+				$(".continue-time").html(str);
+				
+				setTimeout(function(){
+					remain_time();
+				},1000);
+			}
+			remain_time();
+			
+		
+		})
+	</script>
+	<!-- 积分不足弹框 -->
+	<div class="dialog-area" style="display:none;">
+		<div class="table">
+			<div class="table-cell tc">
+				<div class="dialog-area-content bgf inline p-relative">
+					<i class="icons icons-attention"></i>
+					<h4 class="mb10 mt20 fz18 c-333">对不起，您的当前积分不足</h4>
+					<p class="fz12 c-999">感谢您的参与，祝您购物愉快</p>
+					<div><a href="javascript:;" class="btn btn-use">确定</a></div>
+					<b class="continue-time fz12 normal c-666">5秒后自动关闭</b>
+					<a href="javascript:;" class="btn-icon-close iconfont icon-cuowu fz18"></a>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</body>
+</html>

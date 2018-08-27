@@ -1,0 +1,7 @@
+11:49:58 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/index.php [debug] SELECT  user_id FROM ucenter_admin_user_base WHERE 1   AND user_account="admin"
+11:49:58 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM ucenter_admin_user_base WHERE 1   AND user_id IN (10001) LIMIT 500 
+11:49:58 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM ucenter_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+11:49:58 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM ucenter_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+11:49:58 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM ucenter_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+11:49:58 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM ucenter_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+15:33:35 08/27/18 FILE=E:/www/yf/3.2.0/ucenter_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM ucenter_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 

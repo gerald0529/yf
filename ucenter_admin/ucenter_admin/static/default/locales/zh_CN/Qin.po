@@ -1,0 +1,1089 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ZeroPHP Framework\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-04 17:36+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Xinze <i@xinze.me>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: F:\\Qin\\04. Program\\frontend\\Mobile\\Qin\\\n"
+"X-Poedit-KeywordsList: translate;_\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: Classes\n"
+
+#: Classes/GameManager.cpp:550
+#, c-format
+msgid "%snotEnought"
+msgstr "%s 不足!"
+
+#: Classes/GameManager.cpp:851 Classes/GameManager.cpp:862
+#: Classes/GameManager.cpp:873
+msgid "comma"
+msgstr "，"
+
+#: Classes/GameManager.cpp:851 Classes/views/components/PrizeSprite.cpp:66
+msgid "cm"
+msgstr "国家贡献"
+
+#: Classes/models/socket/command/s92/SCmd920.cpp:42
+msgid "sys"
+msgstr "系统"
+
+#: Classes/models/socket/command/s92/SCmd921.cpp:41
+#: Classes/views/chat/ChatLayer.cpp:529
+msgid "world"
+msgstr "世界"
+
+#: Classes/models/socket/command/s92/SCmd922.cpp:47
+msgid "private"
+msgstr "私聊"
+
+#: Classes/models/socket/command/s92/SCmd923.cpp:41
+msgid "alliance"
+msgstr "宗派"
+
+#: Classes/views/activity/canbai/ActivityCanbaiCell.cpp:248
+#: Classes/views/activity/flashsalelayer/FlashSaleTopCell.cpp:57
+#: Classes/views/activity/flashsalelayer/FlashSaleTopCell.cpp:64
+#: Classes/views/activity/loginprize/ActivityLoginCell.cpp:305
+#: Classes/views/activity/loginprize/ActivityLoginCell.cpp:314
+#: Classes/views/activity/loginprize/ActivityLoginTopCell.cpp:56
+#: Classes/views/activity/loginprize/ActivityLoginTopCell.cpp:65
+#: Classes/views/activity/rechargeprize/RechargePrizeTopCell.cpp:101
+#: Classes/views/activity/rechargeprize/RechargePrizeTopCell.cpp:111
+#: Classes/views/main/BufferNode.cpp:103
+#: Classes/views/paoding/PaodingLayer.cpp:203
+#: Classes/views/work/WorkPropNode.cpp:69
+#: Classes/views/work/WorkPropNode.cpp:192
+msgid "day"
+msgstr "天"
+
+#: Classes/views/activity/canbai/ActivityCanbaiFriendCell.cpp:225
+#: Classes/views/alliance/AllianceInfoLayer.cpp:329
+#: Classes/views/alliance/member/AllianceMemberListCell.cpp:314
+#: Classes/views/beauty/fun/BeatyCatchNode.cpp:121
+#: Classes/views/beauty/save/BeautySaveCell.cpp:174
+#: Classes/views/beauty/save/BeautySaveLayer.cpp:170
+#: Classes/views/common/robmaterial/RobMaterialCell.cpp:181
+#: Classes/views/friend/FriendNode.cpp:191
+#: Classes/views/friend/FriendNode.cpp:238
+#: Classes/views/map/MapInfoLayer.cpp:84
+#: Classes/views/role/PlayerRoleInfoLayer.cpp:374
+#, c-format
+msgid "(Lv.%d)"
+msgstr " (Lv.%d)"
+
+#: Classes/views/activity/canbai/ActivityCanbaiLayer.cpp:288
+msgid "kong"
+msgstr "<好友已选择，请参拜>"
+
+#: Classes/views/activity/canbai/ActivityCanbaiLayer.cpp:344
+msgid "requesting"
+msgstr "<正在邀请中...>"
+
+#: Classes/views/activity/flashsalelayer/FlashSaleTopCell.cpp:57
+#: Classes/views/activity/flashsalelayer/FlashSaleTopCell.cpp:64
+#: Classes/views/activity/loginprize/ActivityLoginCell.cpp:305
+#: Classes/views/activity/loginprize/ActivityLoginCell.cpp:314
+#: Classes/views/activity/loginprize/ActivityLoginTopCell.cpp:56
+#: Classes/views/activity/loginprize/ActivityLoginTopCell.cpp:65
+#: Classes/views/activity/rechargeprize/RechargePrizeTopCell.cpp:101
+#: Classes/views/activity/rechargeprize/RechargePrizeTopCell.cpp:111
+#: Classes/views/alliance/AllianceOfMineLayer.cpp:273
+#: Classes/views/work/WorkPropNode.cpp:70
+#: Classes/views/work/WorkPropNode.cpp:193
+msgid "hour"
+msgstr "小时"
+
+#: Classes/views/activity/flashsalelayer/FlashSaleTopCell.cpp:57
+#: Classes/views/activity/flashsalelayer/FlashSaleTopCell.cpp:64
+#: Classes/views/activity/loginprize/ActivityLoginCell.cpp:305
+#: Classes/views/activity/loginprize/ActivityLoginCell.cpp:314
+#: Classes/views/activity/loginprize/ActivityLoginTopCell.cpp:56
+#: Classes/views/activity/loginprize/ActivityLoginTopCell.cpp:65
+#: Classes/views/activity/rechargeprize/RechargePrizeTopCell.cpp:101
+#: Classes/views/activity/rechargeprize/RechargePrizeTopCell.cpp:111
+#: Classes/views/alliance/AllianceOfMineLayer.cpp:273
+#: Classes/views/work/WorkPropNode.cpp:71
+#: Classes/views/work/WorkPropNode.cpp:194
+msgid "min"
+msgstr "分钟"
+
+#: Classes/views/activity/fund/FundLayer.cpp:390
+#: Classes/views/alliance/slogan/AllianceCryOutLayer.cpp:214
+#: Classes/views/common/GoldBuyLayer.cpp:443
+#: Classes/views/common/GoldBuyLayer.cpp:445
+#: Classes/views/components/PrizeSprite.cpp:66
+#: Classes/views/components/PrizeSprite.cpp:210
+#: Classes/views/elite/DrawPrizeLayer.cpp:462
+#: Classes/views/elite/DrawPrizeLayer.cpp:593
+#: Classes/views/main/RoleInformationLayer.cpp:145
+#: Classes/views/mission/MissionTraceLayer.cpp:704
+#: Classes/views/youli/YouLiLayer.cpp:311
+#: Classes/views/youli/YouLiLayer.cpp:790
+#: Classes/views/youli/YouliMissionNode.cpp:247
+msgid "m"
+msgstr "银两"
+
+#: Classes/views/activity/fund/FundLayer.cpp:400
+#: Classes/views/alliance/slogan/AllianceCryOutLayer.cpp:209
+#: Classes/views/common/GoldBuyLayer.cpp:435
+#: Classes/views/common/GoldBuyLayer.cpp:437
+#: Classes/views/common/GoldBuyLayer.cpp:545
+#: Classes/views/components/PrizeSprite.cpp:66
+#: Classes/views/components/PrizeSprite.cpp:210
+#: Classes/views/elite/DrawPrizeLayer.cpp:446
+#: Classes/views/elite/DrawPrizeLayer.cpp:577
+#: Classes/views/youli/YouLiLayer.cpp:316
+#: Classes/views/youli/YouLiLayer.cpp:794
+msgid "g"
+msgstr "黄金"
+
+#: Classes/views/activity/loginprize/ActivityLoginCell.cpp:252
+msgid " 未达成 "
+msgstr ""
+
+#: Classes/views/alliance/AllianceBuilderTopNode.cpp:107
+#, c-format
+msgid "nextLevelAddition%d"
+msgstr "(下级+%d)"
+
+#: Classes/views/alliance/AllianceBuilderTopNode.cpp:110
+#: Classes/views/alliance/AllianceBuilderTopNode.cpp:168
+#, c-format
+msgid "donate%dlevelupto%d"
+msgstr ""
+"再捐献<font color=\"orange\">%d</font>点贡献即可升到<font color=\"green\">"
+"%d</font>级"
+
+#: Classes/views/alliance/AllianceBuilderTopNode.cpp:141
+msgid "memberLimit"
+msgstr "成员上限"
+
+#: Classes/views/alliance/AllianceBuilderTopNode.cpp:163
+#, c-format
+msgid "nextLevel%d"
+msgstr "（下级%d）"
+
+#: Classes/views/alliance/AllianceBuilderTopNode.cpp:250
+#: Classes/views/alliance/centre/AllianceCentreCell.cpp:208
+msgid "lackalliancemoney"
+msgstr "您的宗派贡献不足，无法捐献。您可以通过参加宗派其他功能以赚取宗派贡献。"
+
+#: Classes/views/alliance/AllianceHomeLayer.cpp:147
+#: Classes/views/alliance/AllianceInfoLayer.cpp:178
+#: Classes/views/alliance/AllianceOfMineLayer.cpp:141
+msgid "accuse_alliance_tip"
+msgstr "花费100黄金即可弹劾宗主，从而让自己成为本宗宗主，您确定要这样做吗？"
+
+#: Classes/views/alliance/AllianceHomeLayer.cpp:156
+#: Classes/views/alliance/AllianceInfoLayer.cpp:187
+#: Classes/views/alliance/AllianceOfMineLayer.cpp:133
+msgid "cancel_accuse_alliance_tip"
+msgstr ""
+"您确定要撤销解散宗派的命令吗？撤销后宗派将不会被解散，但已支付的解散黄金将不"
+"会返还。"
+
+#: Classes/views/alliance/AllianceHomeLayer.cpp:165
+#: Classes/views/alliance/AllianceInfoLayer.cpp:205
+#: Classes/views/alliance/AllianceOfMineLayer.cpp:149
+msgid "dissolve_alliance_tip"
+msgstr "解散宗派需花费50黄金，且宗派将会在24小时后解散，您确定要这样做吗？"
+
+#: Classes/views/alliance/AllianceHomeLayer.cpp:491
+#: Classes/views/alliance/AllianceInfoLayer.cpp:470
+#: Classes/views/alliance/AllianceOfMineLayer.cpp:317
+msgid "editallianceintro"
+msgstr "请输入宗派留言内容..."
+
+#: Classes/views/alliance/AllianceHomeLayer.cpp:519
+#: Classes/views/alliance/AllianceInfoLayer.cpp:489
+msgid "alliancenomessage"
+msgstr "宗派宗主尚未在此留言，也许他觉得沉默是金？"
+
+#: Classes/views/alliance/AllianceInfoLayer.cpp:196
+msgid "unopen"
+msgstr "尚未开启"
+
+#: Classes/views/alliance/AllianceInfoLayer.cpp:455
+#, c-format
+msgid "PartyWillBeDismissedAfter%02d:%02d:%02d"
+msgstr "宗派将在%02d:%02d:%02d后解散"
+
+#: Classes/views/alliance/AllianceOfMineLayer.cpp:157
+msgid "leave_alliance_tip"
+msgstr " 离开宗派将会清空您的当前贡献度，您确定要离开宗派吗？"
+
+#: Classes/views/alliance/eat/AllianceEatBuilderLayer.cpp:206
+#, c-format
+msgid "needVipLevel%d(%s)tohold"
+msgstr "VIP%d(%s)可以开启"
+
+#: Classes/views/alliance/member/AllianceMemberListCell.cpp:154
+msgid "kickouttip"
+msgstr ""
+"您确定要将<font color=\"#FFFF00\">%s</font><font color=\"#00FF00\">（Lv. %d）"
+"</font>踢出宗派吗？"
+
+#: Classes/views/alliance/member/AllianceMemberListCell.cpp:165
+msgid "transfer_alliance_tip"
+msgstr "转让宗派将使由宗主变为宗派成员，您确定要这样做吗？"
+
+#: Classes/views/alliance/mission/AllianceMissionTipLayer.cpp:173
+msgid "missionLimTime"
+msgstr "任务限时"
+
+#: Classes/views/alliance/mission/AllianceMissionTipLayer.cpp:193
+msgid "missionRestTime"
+msgstr "剩余时间"
+
+#: Classes/views/alliance/mission/AllianceMissionTipLayer.cpp:197
+#: Classes/views/alliance/mission/AllianceMissionTipLayer.cpp:510
+msgid "missionTimeOut"
+msgstr "任务已超时"
+
+#: Classes/views/alliance/slogan/AllianceCryOutLayer.cpp:136
+msgid "alliance_flag_waver_tip"
+msgstr "摇旗可使您在世界频道内为宗派宣传，您确定要这样做吗？"
+
+#: Classes/views/alliance/slogan/AllianceCryOutLayer.cpp:143
+msgid "alliance_shouting_tip"
+msgstr "呐喊可使您在全服通告处宣传宗派，您确定要这样做吗？"
+
+#: Classes/views/arena/arena/ArenaLayer.cpp:353
+#: Classes/views/arena/arena/ArenaLayer.cpp:399
+msgid "readyForPrize"
+msgstr "可领奖"
+
+#: Classes/views/arena/arena/ArenaPlayerNode.cpp:131
+msgid "arena_tip"
+msgstr ""
+"再次挑战需要使用<font color=\"green\">1个演武令</font>，您确定使用并发起挑战"
+"吗？"
+
+#: Classes/views/arena/arena/GuanZhiLayer.cpp:201
+msgid "GuanZhiUp"
+msgstr "官职提升！"
+
+#: Classes/views/arena/arena/GuanZhiUpNode.cpp:161
+#, c-format
+msgid "(otherNeed%d)"
+msgstr "(还需要%d)"
+
+#: Classes/views/arena/arena/GuanZhiUpNode.cpp:172
+#, c-format
+msgid "(curLevel%d)"
+msgstr "(当前等级%d)"
+
+#: Classes/views/arena/arena/GuanZhiUpNode.cpp:186
+msgid "topHonor"
+msgstr "最高官职"
+
+#: Classes/views/arena/arena/GuanZhiUpNode.cpp:192
+#: Classes/views/arena/arena/GuanZhiUpNode.cpp:193
+#: Classes/views/arena/arena/GuanZhiUpNode.cpp:194
+#: Classes/views/arena/arena/GuanZhiUpNode.cpp:216
+#: Classes/views/arena/arena/GuanZhiUpNode.cpp:217
+#: Classes/views/arena/arena/GuanZhiUpNode.cpp:218
+msgid "right_arrow"
+msgstr "→"
+
+#: Classes/views/bat/FightBatNormalLayer.cpp:419
+#: Classes/views/bat/FightBatNormalLayer.cpp:423
+#: Classes/views/bat/FightBatNormalLayer.cpp:509
+#: Classes/views/bat/FightBatNormalLayer.cpp:513
+#: Classes/views/bat/FightBatNormalLayer.cpp:576
+#: Classes/views/bat/FightBatNormalLayer.cpp:580
+msgid "missionDay"
+msgstr "日常"
+
+#: Classes/views/bat/FightBatNormalLayer.cpp:423
+#: Classes/views/bat/FightBatNormalLayer.cpp:451
+#: Classes/views/bat/FightBatNormalLayer.cpp:513
+#: Classes/views/bat/FightBatNormalLayer.cpp:531
+#: Classes/views/bat/FightBatNormalLayer.cpp:580
+#: Classes/views/mission/MissionDayLayer.cpp:253
+msgid "RenWuWanCheng"
+msgstr "任务完成"
+
+#: Classes/views/bat/FightBatNormalLayer.cpp:447
+#: Classes/views/bat/FightBatNormalLayer.cpp:451
+#: Classes/views/bat/FightBatNormalLayer.cpp:527
+#: Classes/views/bat/FightBatNormalLayer.cpp:531
+msgid "missionAlliance"
+msgstr "宗派任务"
+
+#: Classes/views/bat/FightBatNormalLayer.cpp:606
+msgid "notGetProps"
+msgstr "没有获得道具"
+
+#: Classes/views/beauty/BeautyLayer.cpp:552
+#: Classes/views/beauty/BeautyLayer.cpp:739
+msgid "lowmood"
+msgstr "低落"
+
+#: Classes/views/beauty/BeautyLayer.cpp:557
+#: Classes/views/beauty/BeautyLayer.cpp:744
+msgid "normalmood"
+msgstr "一般"
+
+#: Classes/views/beauty/BeautyLayer.cpp:562
+#: Classes/views/beauty/BeautyLayer.cpp:749
+msgid "happymood"
+msgstr "愉快"
+
+#: Classes/views/beauty/BeautyLayer.cpp:567
+#: Classes/views/beauty/BeautyLayer.cpp:754
+msgid "fullmood"
+msgstr "满足"
+
+#: Classes/views/beauty/BeautyLayer.cpp:679
+msgid "cancelfight"
+msgstr "【取消出战】"
+
+#: Classes/views/beauty/BeautyLayer.cpp:684
+msgid "clickfight"
+msgstr "【点击出战】"
+
+#: Classes/views/beauty/BeautyLayer.cpp:953
+msgid "chanmianleiji"
+msgstr "缠绵累计"
+
+#: Classes/views/beauty/BeautyLayer.cpp:961
+msgid "ci"
+msgstr "次"
+
+#: Classes/views/beauty/BeautyMood.cpp:304
+msgid "receiveyanzhi"
+msgstr "啊……这是要给我的吗？太好了，谢谢你！"
+
+#: Classes/views/beauty/BeautyMood.cpp:472
+#, c-format
+msgid "<font color=\"orange\">招式描述</font>  %s"
+msgstr "<font color=\"orange\">招式描述</font>  %s"
+
+#: Classes/views/beauty/BeautyMood.cpp:480
+#, c-format
+msgid ""
+"<font color=\"orange\">发招间隔</font>  <font color=\"green\">%d</font> 回合 "
+msgstr ""
+"<font color=\"orange\">发招间隔</font>  <font color=\"green\">%d</font> 回合 "
+
+#: Classes/views/beauty/BeautyScene.cpp:89
+msgid "chanmianaddition"
+msgstr "缠绵可永久性提升人物属性。"
+
+#: Classes/views/beauty/fun/BeatyCatchNode.cpp:236
+#: Classes/views/work/CatchBeatyNode.cpp:145
+msgid "catch_tip"
+msgstr ""
+"再次抓捕需要使用<font color=\"green\">1个捆美锁</font>，您确定使用并发起抓捕"
+"吗？"
+
+#: Classes/views/beauty/fun/BeatyDanceFunLayer.cpp:168
+msgid "beatyFunToupaiWords"
+msgstr ""
+"大侠，是您来了啊。今天想做什么呢？|啊，大侠，奴家不知您会过来，未曾远迎……|大"
+"侠，让奴家来给你抚琴一曲可好？|大侠，奴家给您跳支舞吧。|大侠，天色已晚，你"
+"看……"
+
+#: Classes/views/beauty/fun/BeatyDanceFunLayer.cpp:181
+msgid "beatyFunWords"
+msgstr ""
+"其他美人的台词：大侠，求您放过奴家吧，呜呜~|大侠，奴家的主人还在等奴家呢……|大"
+"侠，您大人有大量，饶了奴家吧……|大侠，小女子的主人一定很想念奴家的……"
+
+#: Classes/views/beauty/fun/BeatyDanceInfoNode.cpp:72
+#, c-format
+msgid "lv%dopen"
+msgstr "%d级开启"
+
+#: Classes/views/beauty/fun/BeatyDanceLayer.cpp:86
+#: Classes/views/beauty/fun/BeatyDanceLayer.cpp:93
+msgid "canFun"
+msgstr "(可助兴)"
+
+#: Classes/views/chat/ChatLayer.cpp:537
+msgid "alliance chat"
+msgstr "宗派"
+
+#: Classes/views/chat/ChatLayer.cpp:545
+msgid "private chat"
+msgstr "私聊"
+
+#: Classes/views/common/GoldBuyLayer.cpp:219
+#: Classes/views/common/GoldBuyLayer.cpp:288
+#: Classes/views/common/GoldBuyLayer.cpp:307
+msgid "noMoreGold"
+msgstr "黄金不足！"
+
+#: Classes/views/common/GoldBuyLayer.cpp:236
+msgid "noMoreSilver"
+msgstr "银两不足！"
+
+#: Classes/views/common/GoldBuyLayer.cpp:338
+#: Classes/views/common/GoldBuyLayer.cpp:359
+#, c-format
+msgid "buySuccessd%s*%d!"
+msgstr "成功购买 %s * %d !"
+
+#: Classes/views/common/GoldBuyLayer.cpp:435
+#: Classes/views/common/GoldBuyLayer.cpp:443
+#: Classes/views/common/GoldBuyLayer.cpp:545
+msgid "xiaohao"
+msgstr "消耗"
+
+#: Classes/views/common/GoldBuyLayer.cpp:437
+#: Classes/views/common/GoldBuyLayer.cpp:445
+#, c-format
+msgid "curHadWhat%s:"
+msgstr "当前拥有%s:"
+
+#: Classes/views/common/GoldBuyLayer.cpp:523
+msgid "ydesc"
+msgstr "阅历可在招式学习等功能处使用。"
+
+#: Classes/views/common/GoldBuyLayer.cpp:524
+msgid "mdesc"
+msgstr "银两可用来强化装备、宝石合成镶嵌等操作。"
+
+#: Classes/views/common/GoldBuyLayer.cpp:525
+msgid "gdesc"
+msgstr "主要用于购买银两、体力和其他高档道具。"
+
+#: Classes/views/common/GoldBuyLayer.cpp:526
+msgid "edesc"
+msgstr "经验主要用于提升人物等级。等级越高，游戏可体验的内容越丰富。"
+
+#: Classes/views/common/GoldBuyLayer.cpp:527
+msgid "jdesc"
+msgstr "体力主要用于在江湖进行任务或扫荡。"
+
+#: Classes/views/common/GoldBuyLayer.cpp:528
+msgid "sdesc"
+msgstr "声望可用来兑换官职，官职越高，每日俸禄越多。"
+
+#: Classes/views/common/NotEnoughMessageBoxLayer.cpp:138
+msgid "notEnough"
+msgstr "不足"
+
+#: Classes/views/common/NotEnoughMessageBoxLayer.cpp:149
+msgid "notenoughtip"
+msgstr "不足，请继续推进游戏剧情以开启相关地图。"
+
+#: Classes/views/common/NotEnoughMessageBoxLayer.cpp:329
+msgid "mapNotPass"
+msgstr "产出地图尚未通过，请继续推进游戏剧情或战胜新的试炼副本。"
+
+#: Classes/views/common/robmaterial/PlayerListLayer.cpp:294
+msgid "rateup"
+msgstr "概率已全面提升！"
+
+#: Classes/views/common/robmaterial/PlayerListLayer.cpp:350
+#: Classes/views/common/robmaterial/RobMaterialCell.cpp:197
+msgid "low"
+msgstr "较低"
+
+#: Classes/views/common/robmaterial/PlayerListLayer.cpp:355
+#: Classes/views/common/robmaterial/RobMaterialCell.cpp:202
+msgid "normal"
+msgstr "一般"
+
+#: Classes/views/common/robmaterial/PlayerListLayer.cpp:360
+#: Classes/views/common/robmaterial/RobMaterialCell.cpp:207
+msgid "larger"
+msgstr "较大"
+
+#: Classes/views/common/robmaterial/PlayerListLayer.cpp:365
+#: Classes/views/common/robmaterial/RobMaterialCell.cpp:212
+msgid "great"
+msgstr "极大"
+
+#: Classes/views/components/MenuIconNode.cpp:310
+#: Classes/views/components/MenuIconNode.cpp:336
+#: Classes/views/components/MenuIconNode.cpp:562
+#: Classes/views/components/MenuIconNode.cpp:609
+#: Classes/views/mission/MissionTraceLayer.cpp:678
+msgid "fetch"
+msgstr "领取"
+
+#: Classes/views/components/MenuIconNode.cpp:349
+#: Classes/views/components/MenuIconNode.cpp:583
+msgid "manhanquanxi"
+msgstr "满汉全席"
+
+#: Classes/views/components/MenuIconNode.cpp:442
+msgid "expfull"
+msgstr "经验累加已满"
+
+#: Classes/views/components/MessageBoxLayer.cpp:310
+#: Classes/views/components/PrizeSprite.cpp:66
+msgid "ve"
+msgstr "VIP经验"
+
+#: Classes/views/components/PrizeSprite.cpp:66
+#: Classes/views/components/PrizeSprite.cpp:210
+#: Classes/views/elite/DrawPrizeLayer.cpp:438
+#: Classes/views/elite/DrawPrizeLayer.cpp:569
+#: Classes/views/mission/MissionTraceLayer.cpp:711
+msgid "e"
+msgstr "经验"
+
+#: Classes/views/components/PrizeSprite.cpp:66
+#: Classes/views/components/PrizeSprite.cpp:210
+#: Classes/views/elite/DrawPrizeLayer.cpp:430
+#: Classes/views/elite/DrawPrizeLayer.cpp:561
+msgid "j"
+msgstr "体力"
+
+#: Classes/views/components/PrizeSprite.cpp:66
+#: Classes/views/components/PrizeSprite.cpp:210
+#: Classes/views/elite/DrawPrizeLayer.cpp:470
+#: Classes/views/elite/DrawPrizeLayer.cpp:601
+#: Classes/views/mission/MissionTraceLayer.cpp:718
+msgid "y"
+msgstr "阅历"
+
+#: Classes/views/components/PrizeSprite.cpp:66
+#: Classes/views/components/PrizeSprite.cpp:210
+#: Classes/views/elite/DrawPrizeLayer.cpp:454
+#: Classes/views/elite/DrawPrizeLayer.cpp:585
+msgid "s"
+msgstr "声望"
+
+#: Classes/views/components/PrizeSprite.cpp:66
+msgid "am"
+msgstr "国家贡献"
+
+#: Classes/views/components/PrizeSprite.cpp:66
+msgid "star"
+msgstr "通关评星"
+
+#: Classes/views/components/PrizeSprite.cpp:210
+msgid "v"
+msgstr "VIP经验"
+
+#: Classes/views/components/PrizeSprite.cpp:210
+msgid "b"
+msgstr "帮贡"
+
+#: Classes/views/components/PrizeSprite.cpp:210
+msgid "x"
+msgstr "星"
+
+#: Classes/views/components/PrizeSprite.cpp:218
+#, c-format
+msgid "get%s%d!"
+msgstr "得到%s%d！"
+
+#: Classes/views/components/PrizeSprite.cpp:247
+#, c-format
+msgid "get %s * %d!"
+msgstr "获得%s * %d"
+
+#: Classes/views/components/PrizeSprite.cpp:298
+#, c-format
+msgid "%s up %s ! "
+msgstr "%s提升%s！"
+
+#: Classes/views/country/CountryBuildLayer.cpp:139
+#: Classes/views/country/CountryBuildLayer.cpp:382
+#, c-format
+msgid "rank%dvalue"
+msgstr "第%d名"
+
+#: Classes/views/country/CountryBuildLayer.cpp:145
+#: Classes/views/country/CountryBuildLayer.cpp:387
+#: Classes/views/role/PlayerRoleInfoLayer.cpp:384
+msgid "notInRank"
+msgstr "暂未入榜"
+
+#: Classes/views/elite/DrawPrizeLayer.cpp:134
+msgid "drawprizetip"
+msgstr "继续翻牌则需要花费一定的黄金，您确定要继续翻牌吗？"
+
+#: Classes/views/elite/DrawPrizeLayer.cpp:151
+msgid "viplevellow"
+msgstr "您的VIP等级不足！"
+
+#: Classes/views/elite/DrawPrizeLayer.cpp:364
+#: Classes/views/elite/DrawPrizeLayer.cpp:528
+msgid "vipzero"
+msgstr "典雅vip（vip1）可继续翻牌"
+
+#: Classes/views/elite/DrawPrizeLayer.cpp:367
+#: Classes/views/elite/DrawPrizeLayer.cpp:531
+msgid "vipone"
+msgstr "尊贵vip（vip2）可继续翻牌"
+
+#: Classes/views/elite/DrawPrizeLayer.cpp:370
+#: Classes/views/elite/DrawPrizeLayer.cpp:534
+msgid "viptwo"
+msgstr "豪华vip（vip3）可继续翻牌"
+
+#: Classes/views/elite/DrawPrizeLayer.cpp:373
+#: Classes/views/elite/DrawPrizeLayer.cpp:537
+msgid "vipthree"
+msgstr "至尊vip（vip4）可继续翻牌"
+
+#: Classes/views/elite/EliteNode.cpp:165
+msgid "elite_tip"
+msgstr ""
+"再次试炼需要使用<font color=\"green\">1个试炼石</font>，您确定使用并开始试炼"
+"吗？"
+
+#: Classes/views/equipment/ItemLayer.cpp:220
+#: Classes/views/equipment/ItemLayer.cpp:238
+msgid "largest"
+msgstr "已达最大"
+
+#: Classes/views/equipment/ItemLayer.cpp:226
+#: Classes/views/equipment/ItemLayer.cpp:244
+msgid "notOpen"
+msgstr "没有开启"
+
+#: Classes/views/equipment/ItemLayer.cpp:252
+#: Classes/views/equipment/enchase/EnchaseLayer.cpp:48
+#: Classes/views/equipment/enchase/EnchaseLayer.cpp:52
+#: Classes/views/equipment/enchase/EnchaseLayer.cpp:53
+#: Classes/views/equipment/strengthen/StrengthenLayer.cpp:946
+#: Classes/views/equipment/strengthen/StrengthenLayer.cpp:956
+#: Classes/views/equipment/strengthen/StrengthenLayer.cpp:969
+#: Classes/views/equipment/strengthen/StrengthenLayer.cpp:1080
+#: Classes/views/role/PlayerRoleInfoLayer.cpp:143
+msgid "attack"
+msgstr "攻击"
+
+#: Classes/views/equipment/ItemLayer.cpp:259
+#: Classes/views/equipment/enchase/EnchaseLayer.cpp:50
+#: Classes/views/role/PlayerRoleInfoLayer.cpp:143
+msgid "block"
+msgstr "格挡"
+
+#: Classes/views/equipment/ItemLayer.cpp:265
+#: Classes/views/equipment/enchase/EnchaseLayer.cpp:53
+#: Classes/views/role/PlayerRoleInfoLayer.cpp:143
+msgid "crit"
+msgstr "暴击"
+
+#: Classes/views/equipment/ItemLayer.cpp:271
+#: Classes/views/equipment/enchase/EnchaseLayer.cpp:49
+#: Classes/views/equipment/enchase/EnchaseLayer.cpp:51
+#: Classes/views/equipment/enchase/EnchaseLayer.cpp:52
+#: Classes/views/equipment/enchase/EnchaseLayer.cpp:55
+#: Classes/views/equipment/strengthen/StrengthenLayer.cpp:1009
+#: Classes/views/equipment/strengthen/StrengthenLayer.cpp:1019
+#: Classes/views/equipment/strengthen/StrengthenLayer.cpp:1033
+#: Classes/views/equipment/strengthen/StrengthenLayer.cpp:1084
+#: Classes/views/role/PlayerRoleInfoLayer.cpp:143
+msgid "defence"
+msgstr "防御"
+
+#: Classes/views/equipment/ItemLayer.cpp:277
+#: Classes/views/equipment/enchase/EnchaseLayer.cpp:48
+#: Classes/views/role/PlayerRoleInfoLayer.cpp:143
+msgid "hit"
+msgstr "命中"
+
+#: Classes/views/equipment/ItemLayer.cpp:283
+#: Classes/views/equipment/enchase/EnchaseLayer.cpp:50
+#: Classes/views/equipment/enchase/EnchaseLayer.cpp:54
+#: Classes/views/equipment/enchase/EnchaseLayer.cpp:55
+#: Classes/views/equipment/strengthen/StrengthenLayer.cpp:977
+#: Classes/views/equipment/strengthen/StrengthenLayer.cpp:987
+#: Classes/views/equipment/strengthen/StrengthenLayer.cpp:1001
+#: Classes/views/equipment/strengthen/StrengthenLayer.cpp:1088
+#: Classes/views/role/PlayerRoleInfoLayer.cpp:143
+msgid "hp"
+msgstr "生命"
+
+#: Classes/views/equipment/ItemLayer.cpp:289
+#: Classes/views/equipment/enchase/EnchaseLayer.cpp:54
+#: Classes/views/role/PlayerRoleInfoLayer.cpp:143
+msgid "unblock"
+msgstr "破格"
+
+#: Classes/views/equipment/ItemLayer.cpp:295
+#: Classes/views/equipment/enchase/EnchaseLayer.cpp:49
+#: Classes/views/role/PlayerRoleInfoLayer.cpp:143
+msgid "uncrit"
+msgstr "免暴"
+
+#: Classes/views/equipment/ItemLayer.cpp:301
+#: Classes/views/equipment/enchase/EnchaseLayer.cpp:51
+#: Classes/views/role/PlayerRoleInfoLayer.cpp:143
+msgid "unhit"
+msgstr "闪避"
+
+#: Classes/views/equipment/ItemLayer.cpp:318
+msgid "disable"
+msgstr "不可用"
+
+#: Classes/views/equipment/ItemLayer.cpp:326
+msgid "punchable"
+msgstr "可打孔"
+
+#: Classes/views/equipment/ItemLayer.cpp:332
+msgid "enchaseable"
+msgstr "可镶嵌"
+
+#: Classes/views/equipment/composediamond/ComposeDiamondLayer.cpp:223
+msgid "click_compose_btn"
+msgstr "请点击合成按钮"
+
+#: Classes/views/equipment/composediamond/ComposeDiamondLayer.cpp:315
+msgid "return_main"
+msgstr "返回主城以完成任务"
+
+#: Classes/views/equipment/enchase/EnchaseLayer.cpp:48
+#: Classes/views/equipment/enchase/EnchaseLayer.cpp:49
+#: Classes/views/equipment/enchase/EnchaseLayer.cpp:50
+#: Classes/views/equipment/enchase/EnchaseLayer.cpp:51
+#: Classes/views/equipment/enchase/EnchaseLayer.cpp:52
+#: Classes/views/equipment/enchase/EnchaseLayer.cpp:53
+#: Classes/views/equipment/enchase/EnchaseLayer.cpp:54
+#: Classes/views/equipment/enchase/EnchaseLayer.cpp:55
+msgid "dot"
+msgstr "、"
+
+#: Classes/views/equipment/enchase/EnchaseLayer.cpp:142
+#: Classes/views/equipment/strengthen/StrengthenLayer.cpp:216
+msgid "choosematerial"
+msgstr "请先选择材料"
+
+#: Classes/views/equipment/enchase/EnchaseLayer.cpp:511
+msgid "<punchable>"
+msgstr "<可打孔>"
+
+#: Classes/views/equipment/enchase/EnchaseLayer.cpp:523
+msgid "<enchaseable>"
+msgstr "<可镶嵌>"
+
+#: Classes/views/equipment/strengthen/StrengthenLayer.cpp:421
+#: Classes/views/equipment/strengthen/StrengthenLayer.cpp:432
+#: Classes/views/equipment/strengthen/StrengthenLayer.cpp:443
+#: Classes/views/role/RoleLayer.cpp:99 Classes/views/role/RoleLayer.cpp:106
+msgid "clickhere"
+msgstr "点击这里"
+
+#: Classes/views/equipment/upgradestar/UpgradeStarLayer.cpp:145
+msgid "pleasemakeitem"
+msgstr "此装备铸魂等级已达最高，请先制作升级装备！"
+
+#: Classes/views/equipment/upgradestar/UpgradeStarLayer.cpp:470
+msgid "whitesoul"
+msgstr "白魂"
+
+#: Classes/views/equipment/upgradestar/UpgradeStarLayer.cpp:473
+msgid "greensoul"
+msgstr "绿魂"
+
+#: Classes/views/equipment/upgradestar/UpgradeStarLayer.cpp:476
+msgid "cyansoul"
+msgstr "青魂"
+
+#: Classes/views/equipment/upgradestar/UpgradeStarLayer.cpp:479
+msgid "bluesoul"
+msgstr "蓝魂"
+
+#: Classes/views/equipment/upgradestar/UpgradeStarLayer.cpp:482
+msgid "blacksoul"
+msgstr "墨魂"
+
+#: Classes/views/equipment/upgradestar/UpgradeStarLayer.cpp:485
+msgid "purplesoul"
+msgstr "祡魂"
+
+#: Classes/views/equipment/upgradestar/UpgradeStarLayer.cpp:488
+msgid "orangesoul"
+msgstr "橙魂"
+
+#: Classes/views/equipment/upgradestar/UpgradeStarLayer.cpp:493
+msgid "goldsoul"
+msgstr "金魂"
+
+#: Classes/views/equipment/upgradestar/UpgradeStarLayer.cpp:539
+msgid "level"
+msgstr "级"
+
+#: Classes/views/friend/FriendListLayer.cpp:161
+msgid "enemy"
+msgstr "仇敌"
+
+#: Classes/views/friend/FriendListLayer.cpp:179
+msgid "friend"
+msgstr "好友"
+
+#: Classes/views/launcher/LauncherLayer.cpp:273
+msgid "network error! check up the network please"
+msgstr "网络错误！请检查网络配置。"
+
+#: Classes/views/login/LoginLayer.cpp:176
+msgid "noBindUser"
+msgstr "登录/注册"
+
+#: Classes/views/login/LoginLayer.cpp:192
+msgid "noServerName"
+msgstr "（点击选择服务器）"
+
+#: Classes/views/login/ServerListTableViewDelegate.cpp:150
+msgid "serversList"
+msgstr "服务器列表"
+
+#: Classes/views/login/ServerListTableViewDelegate.cpp:190
+msgid "activedList"
+msgstr "最近登录"
+
+#: Classes/views/main/BufferNode.cpp:66
+#: Classes/views/paoding/PaodingLayer.cpp:181
+msgid "nobuff~"
+msgstr "(点击食用)"
+
+#: Classes/views/main/MainLayer.cpp:279
+msgid "Title"
+msgstr "Zero Framework"
+
+#: Classes/views/main/MainLayer.cpp:1674
+msgid "addfriendsuccess"
+msgstr "添加成功！"
+
+#: Classes/views/main/RoleInformationLayer.cpp:89
+msgid "knife"
+msgstr "刀客"
+
+#: Classes/views/main/RoleInformationLayer.cpp:92
+msgid "sword"
+msgstr "剑侠"
+
+#: Classes/views/main/RoleInformationLayer.cpp:95
+msgid "bow"
+msgstr "弓手"
+
+#: Classes/views/map/wild/WildLayer.cpp:776
+#: Classes/views/map/wild/WildLayer.cpp:813
+#: Classes/views/mission/MissionTraceLayer.cpp:552
+#: Classes/views/mission/MissionTraceLayer.cpp:660
+msgid "　　"
+msgstr ""
+
+#: Classes/views/mission/MissionDayItemNode.cpp:76
+#: Classes/views/mission/MissionDayLayer.cpp:203
+#, c-format
+msgid "[%s]"
+msgstr "[%s]"
+
+#: Classes/views/mission/MissionDayLayer.cpp:241
+msgid "KeJie"
+msgstr "可接"
+
+#: Classes/views/mission/MissionDayLayer.cpp:249
+msgid "KeYiLingJiang"
+msgstr "可领奖"
+
+#: Classes/views/mission/MissionTraceLayer.cpp:550
+msgid "main"
+msgstr "主"
+
+#: Classes/views/mission/MissionTraceLayer.cpp:682
+msgid "prize"
+msgstr "奖励"
+
+#: Classes/views/mission/MissionTraceLayer.cpp:756
+msgid "点击任务追踪"
+msgstr "点击任务追踪"
+
+#: Classes/views/mission/MissionTraceLayer.cpp:760
+#, fuzzy
+msgid "点击交接任务"
+msgstr "点击任务追踪"
+
+#: Classes/views/paoding/PaodingLayer.cpp:322
+msgid "tese_tip"
+msgstr ""
+"少侠，这里的小吃只有我们庖丁客栈的才正宗。您要是在其他店面能吃到，那就是山"
+"寨！"
+
+#: Classes/views/paoding/PaodingLayer.cpp:377
+msgid "teshu_tip"
+msgstr "客官，您先随便看看，我这就去换身衣裳来给您做服务。"
+
+#: Classes/views/paoding/PaodingLayer.cpp:434
+msgid "manhan_kaiqi"
+msgstr ""
+"满汉全席已经开宴啦，即刻享用可就能恢复50点体力。记住，只有在吃饭时间才会开宴"
+"哦。"
+
+#: Classes/views/paoding/PaodingLayer.cpp:438
+msgid "manhan_weikaiqi"
+msgstr "宴席还没有开哦，您要不要奴家给您特殊服务一下呢？"
+
+#: Classes/views/paoding/PaodingLayer.cpp:508
+msgid "paoding unopen"
+msgstr "暂未开席"
+
+#: Classes/views/paoding/PaodingLayer.cpp:558
+msgid "BuXuAnMo"
+msgstr "不需按摩"
+
+#: Classes/views/paoding/PaodingLayer.cpp:590
+#, fuzzy
+msgid " <font color=\"red\">(已达最大)</font> "
+msgstr "<font color=\"orange\">招式描述</font>  %s"
+
+#: Classes/views/paoding/PaodingLayer.cpp:594
+msgid " "
+msgstr ""
+
+#: Classes/views/paoding/PaodingLayer.cpp:610
+#, c-format
+msgid ""
+"       当前体力 <font color=\"green\" size=\"10\">%d</font> / <font color="
+"\"orange\" size=\"10\">%d</font> %s, 还能购买 <font color=\"green\"  size="
+"\"10\">%d</font> 体力! "
+msgstr ""
+
+#: Classes/views/paoding/PaodingLayer.cpp:640
+msgid "paodingfull"
+msgstr ""
+"当前您的体力已达<font color=\"#00FF00\">%d</font>，若再获得<font color="
+"\"#00FF00\">%d</font>点体力则会损失<font color=\"#FF0000\">%d</font>点，您确"
+"定要这样做吗？"
+
+#: Classes/views/paoding/PaodingLayer.cpp:689
+msgid "tiliyiman"
+msgstr "您的的体力已满或者补充体力为0！"
+
+#: Classes/views/paoding/PaodingLayer.cpp:732
+msgid "buy_energy_tip"
+msgstr "按摩完成，恭喜您恢复了<font color=\"green\">%d</font>点体力。"
+
+#: Classes/views/qiyu/yabiao/BiaoLayer.cpp:138
+msgid "encouragenumtip"
+msgstr "您的鼓舞次数已达最大！"
+
+#: Classes/views/qiyu/yabiao/BiaoLayer.cpp:157
+msgid "faster_tip"
+msgstr ""
+"使用<font color=\"green\">1个马鞭</font>将令您当前正在押送的镖车瞬间抵达终"
+"点，您确定要使用吗？"
+
+#: Classes/views/qiyu/yabiao/BiaoLayer.cpp:263
+msgid "biaoisover"
+msgstr "您的镖车已到达终点！"
+
+#: Classes/views/qiyu/yabiao/BiaoLayer.cpp:272
+msgid "encourage_tip"
+msgstr "鼓舞成功， 镖车被劫时战斗攻击力提升1%！"
+
+#: Classes/views/qiyu/yabiao/ProtectTableViewDelegate.cpp:154
+msgid "neverprotect"
+msgstr "从未护送过"
+
+#: Classes/views/store/StoreLayer.cpp:199
+msgid "speed"
+msgstr "先攻"
+
+#: Classes/views/vip/VipInfoTableViewDelegate.cpp:98
+msgid "vip_prize"
+msgstr "%s礼包"
+
+#: Classes/views/vip/VipInfoTableViewDelegate.cpp:176
+msgid "vip_tequan"
+msgstr "%s特权"
+
+#: Classes/views/vip/VipLayer.cpp:210
+msgid "payLevelUpVipInfo"
+msgstr "再充值%d黄金，即可荣升"
+
+#: Classes/views/vip/VipLayer.cpp:214
+msgid "vipLevelFixed"
+msgstr "恭喜您已荣升为该vip玩家！"
+
+#: Classes/views/vip/VipLayer.cpp:223
+msgid "expProgress"
+msgstr "经验%d/%d"
+
+#: Classes/views/work/WorkLayer.cpp:100
+msgid "clicktocancel"
+msgstr "点击取消"
+
+#: Classes/views/work/WorkLayer.cpp:116 Classes/views/work/WorkLayer.cpp:491
+#: Classes/views/work/WorkLayer.cpp:499
+msgid "clicktocreate"
+msgstr "点击生产"
+
+#: Classes/views/work/WorkLayer.cpp:273
+msgid "clicktogetprize"
+msgstr "点击领取"
+
+#: Classes/views/work/WorkPropNode.cpp:72
+#: Classes/views/work/WorkPropNode.cpp:195
+msgid "sec"
+msgstr "秒"
+
+#~ msgid "missionComplated"
+#~ msgstr "任务完成"
+
+#~ msgid "donatesuccess"
+#~ msgstr "捐献成功！"
+
+#~ msgid "youget"
+#~ msgstr "您获得了"
+
+#~ msgid "fullstop"
+#~ msgstr "。"
+
+#~ msgid "skillclickhere"
+#~ msgstr "点击升级技能"
+
+#~ msgid "consumehalf"
+#~ msgstr "消耗减半"
+
+#~ msgid "kecanbai"
+#~ msgstr "后可参拜"
+
+#~ msgid "youli_tip"
+#~ msgstr ""
+#~ "再次游历需要使用<font color=\"green\">1个司南石</font>，您确定使用并继续游"
+#~ "历吗？"
+
+#~ msgid "teshufuwu"
+#~ msgstr "特殊服务"
+
+#~ msgid "shengdao"
+#~ msgstr "升到"
+
+#~ msgid "shangweikaiqi"
+#~ msgstr ""
+#~ "都说庖丁解牛厉害，但谁又知道他的手艺如何呢？特色小吃玩法即将开启，敬请期"
+#~ "待。"
+
+#~ msgid "missionDay:%d/%d"
+#~ msgstr "日常( %d / %d )"
+
+#~ msgid "power"
+#~ msgstr "战力"
+
+#~ msgid "(had%d)"
+#~ msgstr "(拥有 %d )"
+
+#~ msgid "%dlevel"
+#~ msgstr " %d 级"
+
+#~ msgid "rob_level_tip"
+#~ msgstr "您的等级不足18级，无法进行PK抢夺操作，请先提升等级。"
+
+#~ msgid "lackcondition"
+#~ msgstr "开启条件不足！"
+
+#~ msgid "no_prize"
+#~ msgstr "奖励暂时无法领取，请稍后再来。"
+
+#, fuzzy
+#~ msgid "alliacne"
+#~ msgstr "帮贡"

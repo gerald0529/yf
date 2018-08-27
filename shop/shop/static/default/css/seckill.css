@@ -1,0 +1,83 @@
+/*秒杀css*/
+body{-webkit-font-smoothing: antialiased;}
+.seckill-bg{background:#e42225;}
+.seckill-module li a{background:#e42225;color:#fff;width:100px;}
+.seckill-nav>a,.seckill-nav>span{margin-left:30px;cursor:pointer;position:relative;z-index:3;}
+.seckill-nav a,.seckill-nav-more a{color:#666;}
+.seckill-nav a:hover{color:#e42225;}
+.seckill-nav a.active{color:#e42225;}
+.seckill-nav>a,.seckill-module li a,.seckill-nav>span{display: inline-block;height:46px;line-height:46px;}
+.seckill-nav-more{width:425px;padding:10px 20px;position:absolute;right:0;top:56px;z-index:2;display:none;}
+.seckill-nav-more:before{content:"";border-width:10px;border-style:solid; border-color:transparent transparent #fff transparent;position:absolute;top:-18px;right:40px;}
+.seckill-nav-more a{width:80px;display:inline-block;}
+.seckill-timeline{margin-left:60px;width:1252px;}
+.seckill-timeline.fixed{width:1200px;position:fixed;top:48px;margin-top:0;margin-left:0;-moz-box-shadow: 0 5px 20px -8px #4e4e4e;box-shadow: 0 5px 20px -8px #4e4e4e;}
+.seckill-timeline li a:before{content:"";border-width:0 0 60px 60px;border-style:solid; border-color:transparent transparent #fff;position:absolute;left:0;top:0;}
+.seckill-timeline li a:after{content:"";border-width:60px 60px 0 0;border-style:solid; border-color:#fff transparent transparent;position:absolute;right:0;top:0;}
+.seckill-timeline li a{width:285px;height:60px;display:inline-block;position:relative;margin-left:-60px; -webkit-transition: all .3s;-moz-transition: all .3s;transition: all .3s;}
+.seckill-timeline li.timeline_item_selected a:before{border-color:transparent transparent #e01222;}
+.seckill-timeline li.timeline_item_selected a:after{border-color:#e01222 transparent transparent}
+.seckill-timeline li.timeline_item_selected a *{color:#fff;}
+.seckill-timeline li{float:left;}
+.classify-more:hover .seckill-nav-more{display:block;}
+.timeline_text{margin:0 60px;background:#fff;text-align:center;height:100%;}
+.seckill-timeline li.timeline_item_selected a{width:350px;}
+.seckill-timeline li.timeline_item_selected .timeline_text{background:#e01222;}
+.timeline_wrap{line-height:60px;height:60px;overflow:hidden;}
+.timeline_timecount{font-size:16px;display:none;}
+.timeline_timecount span{display:block;}
+.seckill-timeline li.timeline_item_selected .timeline_progress{display:none;}
+.seckill-timeline li.timeline_item_selected .timeline_timecount{display:inline-block;}
+.timeline_progress{line-height:60px;}
+.timeline_progress i{display:inline-block;width:80px;height:30px;line-height:30px;border:1px solid #e3e3e3;text-align:center;border-radius:22px;color:#666;}
+.seckill-timeline.fixed li.timeline_item_selected a{width:272px;margin-left:0;}
+.seckill-timeline.fixed li a:before,.seckill-timeline.fixed li a:after{display:none;}
+.seckill-timeline.fixed li .timeline_text{margin:0;}
+.seckill-timeline.fixed li a{width:232px;margin-left:0;}
+
+.seckill-made-ban{width:898px;height:390px;}
+.seckill-made-ban img,.seckill-made-intro img{width:100%;}
+.seckill-made-intro{width:294px;}
+.seckill-made-intro a:first-child img{margin-bottom:8px;}
+
+.seckill-goods{overflow:hidden;}
+.seckill-goods ul{width:1208px;}
+.seckill-goods ul li img{width:294px;height:294px;}
+.seckill-goods ul li{width:294px;display:inline-block;background:#fff;margin-bottom:16px;margin-right:8px;}
+.seckill-price{color:#db2c2c;}
+.sale-text{width:100%;height:58px;border:1px solid #db2c2c;box-sizing:border-box;}
+.seckill-btn a{display:inline-block;width:120px;height:100%;background:#db2c2c;line-height:56px;color:#fff;}
+.seckill-btn a:hover{background:#ec4446;}
+.sale-progress{width:60px;height:8px;display:inline-block;background:#999;margin-top:5px;}
+.sale-progress i{display:inline-block;background:#db2c2c;height:100%;vertical-align:top; width:50%;}
+
+/*超级秒杀*/
+.flash-seckill{padding:24px 20px 24px 0;width:596px;float:left;margin-right:8px;box-sizing:border-box;height:416px;}
+.flash-seckill h1{color:#db2c2c;}
+.flash-seckill-btn a{display:inline-block;width:120px;line-height:40px;height:40px;background:#db2c2c;color:#fff;font-size:18px;}
+.flash-seckill-left{width:208px;padding:0 20px;box-sizing:border-box;}
+.flash-seckill-right img{width:368px;height:368px;}
+
+/*即将开始的商品*/
+.seckill-goods-toBegin .sale-text{border-color:#342b2b;}
+.seckill-goods-toBegin .seckill-btn a{background:#342b2b;}
+
+/*占位元素*/
+.seckill-holder{height:126px;display:none;}
+
+/*已抢完*/
+.seckill-out{display:inline-block;width:130px;height:130px;background:url(../images/seckill-out-tips.png) no-repeat center;background-position:0 0;position:absolute;left:50%;top:50%;margin-left:-65px;margin-top:-65px;z-index:2;}
+.seckill-goods ul li a:hover i{background-position:-130px 0;transition:all 0.3s;}
+.flash-seckill .a-hov:hover i{background-position:-130px 0;transition:all 0.3s;}
+
+/*秒杀分类*/
+.seckill-classify-bg{
+	width:100%;
+	height:379px;
+	background:url(../images/seckill-class-bg.png) no-repeat center;
+	background-size:contain;
+	position:absolute;
+	left:0;
+}
+.seckill-classify-on{margin-top:210px;}
+.seckill-classify{background:transparent !important;color:#333 !important;}

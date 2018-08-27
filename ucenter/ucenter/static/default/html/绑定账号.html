@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width,maximum-scale=1,minimum-scale=1">
+	<meta name="viewport" content="initial-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/buyer.css">
+	<link rel="stylesheet" href="../css/security.css">
+	<link rel="stylesheet" href="../css/iconfont/iconfont.css">
+	<script type="text/javascript" src="../js/jquery.js"></script>
+</head>
+<body>
+	<div class="Colr">
+		<div class="wrap clearfix">
+			<!-- 右侧内容（左侧已省略） -->
+			<div class="aright">
+					<div class="member_infor_content">
+						<div class="tabmenu">
+							<ul class="tab pngFix">
+								<li class="active">
+									<a href="javascript:;">账户绑定</a>
+								</li>
+							</ul>
+						</div>
+						<div class="bind-account">
+							<ul>
+								<li>
+									<div class="clearfix">
+										<div class="fl"><i class="icon qq"></i><span>QQ</span></div>
+										<div class="fr right">
+											<div class="fl status">未绑定</div>
+											<div class="fr"><a href="javascript:;" class="btn-bind1">立即绑定</a></div>
+										</div>
+									</div>
+									<div class="dropdown-details">
+										<p>您正在使用商城账号关联1个QQ账号</p>
+										<p class="prominent">绑定后，可以使用QQ账号登录购物</p>
+										<a href="javascript:;" class="btn-bind2">立即绑定</a>
+										<i class="btn-pack-up"></i>
+									</div>
+								</li>
+								<li>
+									<div class="clearfix">
+										<div class="fl"><i class="icon wechat"></i><span>微信</span></div>
+										<div class="fr right">
+											<div class="fl status">未绑定</div>
+											<div class="fr"><a href="javascript:;" class="btn-bind1">立即绑定</a></div>
+										</div>
+									</div>
+									<div class="dropdown-details">
+										<p>您正在使用商城账号关联1个QQ账号</p>
+										<p class="prominent">绑定后，可以使用QQ账号登录购物</p>
+										<a href="javascript:;" class="btn-bind2">立即绑定</a>
+										<i class="btn-pack-up"></i>
+									</div>
+								</li>
+								<li>
+									<div class="clearfix">
+										<div class="fl"><i class="icon wb"></i><span>微博</span></div>
+										<div class="fr right">
+											<div class="fl status active">已绑定</div>
+											<div class="fr"><a href="javascript:;" class="btn-bind1 active">立即解绑</a></div>
+										</div>
+									</div>
+									<div class="dropdown-details">
+										<p>您正在使用商城账号关联1个QQ账号</p>
+										<p class="prominent">您的商城账号为：cherry</p>
+										<p>解除绑定后使用此账号登录，解除绑定后的账号正常使用，订单等信息不会丢失，忘记密码请在登录页面找回！</p>
+										<p>该账号下的QQ号码全部解绑</p>
+										<a href="javascript:;" class="btn-bind2 active">立即解绑</a>
+										<i class="btn-pack-up"></i>
+									</div>
+								</li>
+							</ul>
+							<script>
+								$(function(){
+									$(".bind-account li .btn-bind1").click(function(){
+										$(this).parent().parent().parent().next(".dropdown-details").slideDown();
+									})
+									$(".bind-account li .btn-pack-up").click(function(){
+										$(this).parent().slideUp();
+									})
+								})
+							</script>
+						</div>
+					</div>
+			</div>
+
+
+			<!-- 弹框 -->
+			<div class="dialog-alert">
+				<div class="dis-table">
+					<div class="table-cell">
+						<div class="bind-tips">
+							<h3>您确定要解除绑定？<i class="iconfont icon-cuowu fr"></i></h3>
+							<div class="tips-text">
+								<div class="dis-table">
+									<div class="table-cell">
+										<p><i class="icon-unbind"></i><!-- 绑定成功的话，i标签的class改为icon-success--><span class="text">您确定要解除绑定微博账号？</span></p>
+										<div><a href="javascript:;" class="btn btn-sure">确定</a><a href="javascript:;" class="btn btn-cancel">取消</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

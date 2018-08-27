@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>秒杀首页</title>
+	<link rel="stylesheet" href="../default/css/base.css">
+	<link rel="stylesheet" href="../default/css/headfoot.css">
+	<link rel="stylesheet" href="../default/css/iconfont/iconfont.css">
+	<link rel="stylesheet" href="../default/css/seckill.css">
+	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+	<script>
+		$(function(){
+			var shop_head_hight=$(".shop-head").height()+$(".head").height();
+			$(window).scroll(function(){
+				if($(document).scrollTop()>=shop_head_hight){
+					$(".seckill-tit").addClass("fixed");
+					$(".seckill-timeline").addClass("fixed");
+					$(".seckill-holder").show();
+				}else{
+					$(".seckill-tit").removeClass("fixed");
+					$(".seckill-timeline").removeClass("fixed");
+					$(".seckill-holder").hide();
+				}
+			})
+
+			$(".seckill-timeline li").click(function(){
+				$(".seckill-timeline li").removeClass("timeline_item_selected");
+				$(this).addClass("timeline_item_selected");
+				$(".seckill-tit").addClass("fixed");
+				$(".seckill-timeline").addClass("fixed");
+				$(".seckill-holder").show();
+				$(document).scrollTop(shop_head_hight);
+				var index=$(this).index();
+				$(".seckill").hide();
+				$(".seckill").eq(index).show();
+			})
+		})
+	</script>
+</head>
+<body>
+	<div class="bgf5 hp100">
+		<div class="head">
+			<div class="wrapper clearfix">
+				<div class="head_left">
+					<div id="login_top"> <span>欢迎来远丰商城演示</span>
+					<a href="javascript:;"> 请登录 </a> <a href="https://www.yuanfengtest.com/index.php?ctl=Login&amp;met=reg">免费注册 </a> 
+					</div>
+
+				</div>
+				<div class="head_right">
+					<dl>
+		                                <p></p>
+						<dt><a href="https://www.yuanfengtest.com/index.php?ctl=Buyer_Order&amp;met=physical">我的订单</a></dt>
+					</dl>
+
+					<dl>
+						<p></p>
+						<dt><a href="https://paycenter.yuanfengtest.com/" target="_blank"><span class="iconfont icon-paycenter bbc_color"></span>网付宝</a></dt>
+					</dl>
+		            
+		            
+		            			<dl>
+						<p></p>
+						<dt><a href="javascript:;" target="_blank"><span class="iconfont icon-sns bbc_color"></span>SNS</a></dt>
+					</dl>
+		            			<dl>
+		                             <p style="right: -1px;"></p>
+						<dt><a href="javascript:;" target="_blank"><span class="iconfont icon-taoxinshi bbc_color"></span>我的收藏</a></dt>
+					</dl>
+					<dl class="">
+		                             <p style="right: -1px;"></p>
+						<dt>
+							<a href="javascript:;"><span class="iconfont icon-zaiqigoumai bbc_color"></span>购物车</a>
+						</dt>
+					</dl>
+					<dl class="">
+		                             <p></p>
+						<dt><a href="javascript:;" target="_blank">客服中心</a></dt>
+					</dl>
+					<dl>
+						<dt><span class="iconfont icon-shoujibangding bbc_color"></span><a href="#">手机版</a></dt>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<div class="bgf shop-head">
+			<div class="wrap">
+				<div class="head_cont clearfix">
+					<div class="nav_left">
+		            <a href="javascript:;" class="logo"><img src="https://www.yuanfengtest.com/image.php/shop/data/upload/media/plantform/6fc0625bf097e245fa1c1007bf528b2d/image/20171016/1508136800917459.png!240x60.png"></a>
+					<a href="#" class="download iconfont"></a>
+					</div>
+					<div class="nav_right clearfix">
+						<ul class="clearfix search-types">
+							<li class="active"><a href="javascript:void(0);" data-param="goods">宝贝</a></li>
+							<li class=""><a href="javascript:void(0);" data-param="shop">店铺</a></li>
+						</ul>
+						<div class="clearfix">
+							<form name="form_search" id="form_search" action="" class="">
+								<input type="hidden" id="search_ctl" name="ctl" value="Goods_Goods">
+								<input type="hidden" id="search_met" name="met" value="goodslist">
+								<input type="hidden" name="typ" value="e">
+								<input name="keywords" id="site_keywords" type="text" value="">
+								<input type="submit" style="display: none;">
+														<label for="site_keywords">苹果</label>
+								
+							</form>
+							<a href="#" class="ser" id="site_search">搜索</a>
+							<!-- 购物车 -->
+							
+							<div class="bbuyer_cart" id="J_settle_up">
+								<div id="J_cart_head">
+									<a href="https://www.yuanfengtest.com/index.php?ctl=Buyer_Cart&amp;met=cart" target="_blank" class="bbc_buyer_icon bbc_buyer_icon2">
+										<i class="ci_left iconfont icon-zaiqigoumai bbc_color rel_top2"></i>
+										<span>我的购物车</span> <i class="ci_right iconfont icon-iconjiantouyou"></i>
+										<i class="ci-count bbc_bg" id="cart_num">0</i> </a>
+								</div>
+								<div class="dorpdown-layer" id="J_cart_body"><span class="loading"></span></div>
+							</div>
+						</div>
+						<div class="nav clearfix searchs">
+							<a href="javascript:;">远丰商城</a>
+							<a href="javascript:;">1加5</a>
+							<a href="javascript:;">汽车</a>
+							<a href="javascript:;">女装</a>
+						</div>
+					</div>
+				</div>
+
+
+				
+			</div>
+		</div>
+		<div class="seckill-tit">
+			<div class="clearfix p-relative bgf">
+				<div class="wrap">
+					<ul class="seckill-module fl">
+						<li><a href="javascript:;" class="f18 tc">精品秒杀</a></li>
+					</ul>
+					<div class="seckill-nav fz14 c-666 fl">
+						<a href="18.1.18-秒杀分类页.html">电脑办公</a>
+						<a href="18.1.18-秒杀分类页.html">生活电器</a>
+						<a href="18.1.18-秒杀分类页.html">大家电</a>
+						<a href="18.1.18-秒杀分类页.html">手机通讯</a>
+						<a href="18.1.18-秒杀分类页.html">智能数码</a>
+						<a href="18.1.18-秒杀分类页.html">饮料酒水</a>
+						<a href="18.1.18-秒杀分类页.html">家居家装</a>
+						<a href="javascript:;">大家电</a>
+						<a href="javascript:;">手机通讯</a>
+						<a href="javascript:;">家居家装</a>
+						<a href="javascript:;">家居家装</a>
+						<span class="classify-more">更多分类<i class="iconfont icon-iconjiantouxia"></i>
+							<p class="seckill-nav-more bgf">
+								<a href="">个护家清</a>
+								<a href="">美肤</a>
+								<a href="">运动户外</a>
+								<a href="">潮流鞋靴</a>
+								<a href="">个护家清</a>
+								<a href="">美肤</a>
+								<a href="">运动户外</a>
+								<a href="">潮流鞋靴</a>
+								<a href="">潮流鞋靴</a>
+							</p>
+						</span>
+					</div>
+					
+				</div>
+					
+			</div>
+			<div class="hr seckill-bg"></div>
+		</div>
+		
+		<div class="wrap">
+				<ul class="seckill-timeline mt40 clearfix mb20">
+					<li class="timeline_item_selected"><a href="javascript:;">
+						<div class="timeline_text clearfix">
+							<div class="timeline_wrap inline top mr10 ">
+								<i class="fz24 c-333">14:00</i>
+							</div>
+							<div class="timeline_timecount fz16 inline top tlf mr10">
+								<span class="mt9">正在秒杀</span>
+								<span>距结束<b>00:11:11</b></span>
+							</div>
+							<div class="timeline_progress inline top">
+								<i>进行中</i>
+							</div>
+						</div>
+					</a></li>
+					<li><a href="javascript:;">
+						<div class="timeline_text clearfix">
+							<div class="timeline_wrap inline top mr10 ">
+								<i class="fz24 c-333">16:00</i>
+							</div>
+							<div class="timeline_timecount fz16 inline top tlf mr10">
+								<span class="mt9">即将开始</span>
+								<span>距开始<b>00:11:11</b></span>
+							</div>
+							<div class="timeline_progress inline top">
+								<i>即将开始</i>
+							</div>
+						</div>
+					</a></li>
+					<li><a href="javascript:;">
+						<div class="timeline_text clearfix">
+							<div class="timeline_wrap inline top mr10 ">
+								<i class="fz24 c-333">18:00</i>
+							</div>
+							<div class="timeline_timecount fz16 inline top tlf mr10">
+								<span class="mt9">即将开始</span>
+								<span>距开始<b>00:11:11</b></span>
+							</div>
+							<div class="timeline_progress inline top">
+								<i>即将开始</i>
+							</div>
+						</div>
+					</a></li>
+					<li><a href="javascript:;">
+						<div class="timeline_text clearfix">
+							<div class="timeline_wrap inline top mr10 ">
+								<i class="fz24 c-333">20:00</i>
+							</div>
+							<div class="timeline_timecount fz16 inline top tlf mr10">
+								<span class="mt9">即将开始</span>
+								<span>距开始<b>00:11:11</b></span>
+							</div>
+							<div class="timeline_progress inline top">
+								<i>即将开始</i>
+							</div>
+						</div>
+					</a></li>
+					<li><a href="javascript:;">
+						<div class="timeline_text clearfix">
+							<div class="timeline_wrap inline top mr10 ">
+								<i class="fz24 c-333">22:00</i>
+							</div>
+							<div class="timeline_timecount fz16 inline top tlf mr10">
+								<span class="mt9">即将开始</span>
+								<span>距开始<b>00:11:11</b></span>
+							</div>
+							<div class="timeline_progress inline top">
+								<i>即将开始</i>
+							</div>
+						</div>
+					</a></li>
+				</ul>
+				<p class="hide seckill-holder"></p>
+				<!-- 秒杀进行中的商品 -->
+				<div class="seckill seckill-on">
+					<div class="seckill-made fz0 mb16">
+						<div class="inline seckill-made-ban top mr8">
+							<a href="javascript:;"><img src="../default/images/seckill/banner.png" alt=""></a>
+						</div>
+						<div class="inline seckill-made-intro top">
+							<a href="javascript:;"><img src="../default/images/seckill/img1.png" alt=""></a><a href="javascript:;"><img src="../default/images/seckill/img2.png" alt=""></a>
+						</div>
+					</div>
+					<div class="seckill-goods">
+						<ul class="fz0">
+							<div class="bgf flash-seckill">
+								<div class="flash-seckill-left fl tlc">
+									<div class="tlc mb50">
+										<h1 class="fz32 mb10 mt40">超级秒杀</h1>
+										<i class="fz24 c-c5 ">Flash trading</i>
+									</div>
+									<h3 class="flash-seckill-tit fz18 c-333 mb30 tlf">时尚连帽假两件卫衣，2018新款上市</h3>
+									<p><span class="fz30 seckill-price mr4"><i class="fz18 seckill-price">￥</i>299</span><b class="through c-999 fz20 normal"><i class="fz14 c-999">￥</i>599</b></p>
+									<div class="flash-seckill-btn tlc mt30"><a href="javascript:;">立即抢购</a></div>
+								</div>
+								<div class="flash-seckill-right fl"><a href="javascript:;" class="p-relative a-hov"><img src="../default/images/seckill/goods-intro.png" alt=""><!-- 商品抢完情况下才显示i元素 -->
+										<i class="seckill-out"></i></a></div>
+							</div>
+							<li>
+								<div class="p-relative">
+									<a href="javascript:;">
+										<img src="../default/images/seckill/goods.png" alt="">
+										<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+										<!-- 商品抢完情况下显示i元素 -->
+										<i class="seckill-out"></i>
+									</a>
+								</div>
+								<div class="seckill-goods-text">
+									
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<div class="inline f12 c-666 top mr4">已售50%</div>
+												<div class="sale-progress top"><i></i></div>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">立即抢购</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<div class="inline f12 c-666 top mr4">已售50%</div>
+												<div class="sale-progress top"><i></i></div>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">立即抢购</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<div class="inline f12 c-666 top mr4">已售50%</div>
+												<div class="sale-progress top"><i></i></div>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">立即抢购</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<div class="inline f12 c-666 top mr4">已售50%</div>
+												<div class="sale-progress top"><i></i></div>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">立即抢购</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<div class="inline f12 c-666 top mr4">已售50%</div>
+												<div class="sale-progress top"><i></i></div>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">立即抢购</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<div class="inline f12 c-666 top mr4">已售50%</div>
+												<div class="sale-progress top"><i></i></div>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">立即抢购</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- 秒杀即将开始的商品 -->
+				<div class="seckill seckill-toBegin" style="display:none;">
+					<div class="seckill-goods seckill-goods-toBegin">
+						<ul class="fz0">
+
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<p class="fz12 c-666">限时秒杀 优先提醒</p>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">即将开始</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<p class="fz12 c-666">限时秒杀 优先提醒</p>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">即将开始</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<p class="fz12 c-666">限时秒杀 优先提醒</p>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">即将开始</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<p class="fz12 c-666">限时秒杀 优先提醒</p>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">即将开始</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<p class="fz12 c-666">限时秒杀 优先提醒</p>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">即将开始</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<p class="fz12 c-666">限时秒杀 优先提醒</p>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">即将开始</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="seckill seckill-toBegin" style="display:none;">
+					<div class="seckill-goods seckill-goods-toBegin">
+						<ul class="fz0">
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<p class="fz12 c-666">限时秒杀 优先提醒</p>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">即将开始</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<p class="fz12 c-666">限时秒杀 优先提醒</p>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">即将开始</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<p class="fz12 c-666">限时秒杀 优先提醒</p>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">即将开始</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<p class="fz12 c-666">限时秒杀 优先提醒</p>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">即将开始</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<p class="fz12 c-666">限时秒杀 优先提醒</p>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">即将开始</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<p class="fz12 c-666">限时秒杀 优先提醒</p>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">即将开始</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="seckill seckill-toBegin" style="display:none;">
+					<div class="seckill-goods seckill-goods-toBegin">
+						<ul class="fz0">
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<p class="fz12 c-666">限时秒杀 优先提醒</p>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">即将开始</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<p class="fz12 c-666">限时秒杀 优先提醒</p>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">即将开始</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<p class="fz12 c-666">限时秒杀 优先提醒</p>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">即将开始</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<p class="fz12 c-666">限时秒杀 优先提醒</p>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">即将开始</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<p class="fz12 c-666">限时秒杀 优先提醒</p>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">即将开始</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<p class="fz12 c-666">限时秒杀 优先提醒</p>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">即将开始</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="seckill seckill-toBegin" style="display:none;">
+					<div class="seckill-goods seckill-goods-toBegin">
+						<ul class="fz0">
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<p class="fz12 c-666">限时秒杀 优先提醒</p>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">即将开始</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<p class="fz12 c-666">限时秒杀 优先提醒</p>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">即将开始</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<p class="fz12 c-666">限时秒杀 优先提醒</p>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">即将开始</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<p class="fz12 c-666">限时秒杀 优先提醒</p>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">即将开始</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<p class="fz12 c-666">限时秒杀 优先提醒</p>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">即将开始</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+							<li>
+								<div><img src="../default/images/seckill/goods.png" alt=""></div>
+								<div class="seckill-goods-text">
+									<h4 class="f18 c-333 one-overflow mt20 mb20 pl20 pr20 box-size">惊艳四座的绚烂印花，温暖东西打开即可数据库设计</h4>
+									<div class="sale-text pl20 clearfix">
+										<div class="fl">
+											<div><span class="f24 seckill-price mr10"><b class="f14 seckill-price">￥</b>299</span><em class="fz16 c-999 through">￥399</em></div>
+											<div class="mt2">
+												<p class="fz12 c-666">限时秒杀 优先提醒</p>
+											</div>
+										</div>
+										<div class="fr seckill-btn hp100"><a href="javascript:;" class="tc fz18">即将开始</a></div>
+
+										
+										
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+		
+		</div>
+		
+	</div>
+</body>
+</html>

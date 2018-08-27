@@ -1,0 +1,230 @@
+前端发送请求，每个请求中，必须包含key这个参数,此参数由登录成功时候，从后端获取
+	k:权限数据
+
+数据返回格式
+	{
+		"cmd_id": -140,     //为了未来以及不同客户需求的api扩展预留，目前忽略
+		"status": 200,      //状态200, 为正常. 其它都为错误， 根据不同url，前后端可以自行约定。
+		"msg": "success",   //提示消息
+		"data": {}          //返回的数据, 下面所有接口中返回只标注出此数据。
+	}
+
+备注： 前端更多的需要关注自己要的数据是否存在，多余的数据，前端使用不到的，可以忽略！
+
+
+http://ucenter.yuanfeng021.com/index.php?ctl=Login&met=login&typ=json&user_account=test&user_password=111111
+
+
+首页
+	登录	- 黄新泽
+		请求地址
+			index.php?ctl=Login&met=login&typ=json
+		请求参数
+			user_account:用户名/email/手机
+			user_password:密码
+		返回数据
+			{
+				user_id:用户id
+				k:认证信息，每次发送请求必须带的参数
+			}
+
+
+	注册验证码	- 黄新泽
+		请求地址
+			index.php?ctl=Login&met=regCode&typ=json
+		请求参数
+			mobile:手机
+		返回数据
+			{
+				user_code:验证码 //测试使用,正式会通过手机短信接收
+			}
+
+	注册	- 黄新泽
+		请求地址
+			index.php?ctl=Login&met=register&typ=json
+		请求参数
+			user_account:用户名/email/手机
+			user_password:密码
+			user_code:验证码
+		返回数据
+			{
+				user_id:用户id
+				k:认证信息，每次发送请求必须带的参数
+			}
+
+	注销	- 黄新泽
+		请求地址
+			index.php?ctl=Login&met=logout&typ=json
+		请求参数
+			user_id:用户id
+		返回数据
+			{
+			}
+
+	找回密码验证码	- 黄新泽
+		请求地址
+			index.php?ctl=Login&met=findPasswdCode&typ=json
+		请求参数
+			mobile:手机账号
+		返回数据
+			{
+				user_code:验证码 //测试使用,正式会通过手机短信接收
+			}
+	找回密码	- 黄新泽
+		请求地址
+			index.php?ctl=Login&met=resetPasswd&typ=json
+		请求参数
+			user_account:用户名/email/手机
+			user_password:新密码
+			user_code:验证码
+		返回数据
+			{
+			}
+
+
+	获取用户详情 - 黄新泽
+		请求地址：
+			index.php?ctl=UserApi&met=getUserInfo&typ=json
+		请求参数：
+
+		返回参数：
+			[1] => Array
+	                (
+	                    [userid] => 1
+	                    [pay_id] => 2
+	                    [number] => 1
+	                    [pid] =>
+	                    [user] => test
+	                    [password] => 098f6bcd4621d373cade4e832627b4f6
+	                )
+
+	        )
+
+	设置用户信息 - 黄新泽
+		请求地址
+			index.php?ctl=UserApi&met=editUserInfo&typ=json
+		请求参数
+			logo  头像(可选)
+			name  昵称(可选)
+			sex   性别(可选)
+			pwd   密码(可选)
+			birth 生日(可选)
+			sign  签名(可选)
+		返回参数
+		[data] => Array
+	        (
+	            [msg] => 用户信息修改成功
+	        )
+
+
+
+	设置用户Logo - 黄新泽
+		请求地址
+			index.php?ctl=UserApi&met=editUserInfo&typ=json
+		请求参数
+			logo  头像(可选)  //不是url, 参见http uoload
+			name  昵称(可选)
+			sex   性别(可选)
+			pwd   密码(可选)
+			birth 生日(可选)
+			sign  签名(可选)
+		返回参数
+		[data] => Array
+	        (
+	            [msg] => 用户信息修改成功
+	        )
+
+	获取其它成员详情 - 黄新泽
+		请求地址：
+			index.php?ctl=UserApi&met=getGuestInfo&typ=json
+		请求参数：
+			user_name 用户账号(可选,如果没有设置,则默认为去当前登录用户, 读取多个用户使用逗号分割,例如:test,admin)
+		返回参数：
+			[1] => Array
+	                (
+	                )
+
+	        )
+
+	好友列表 - 黄新泽
+		请求地址
+			index.php?ctl=UserApi&met=getFriendList&typ=json
+		请求参数
+		返回参数
+		[data] => Array
+	        (
+	        )
+
+	添加好友 - 黄新泽
+		请求地址
+			index.php?ctl=UserApi&met=addFriend&typ=json
+		请求参数
+			user_id 用户id(可选)
+			user_account 用户账号(可选)
+		返回参数
+		[data] => Array
+	        (
+	        )
+
+
+	删除好友 - 黄新泽
+		请求地址
+			index.php?ctl=UserApi&met=removeFriend&typ=json
+		请求参数
+			user_id 用户id(可选)
+			user_account 用户账号(可选)
+		返回参数
+		[data] => Array
+	        (
+	        )
+
+
+	添加群组 - 黄新泽
+		请求地址
+			index.php?ctl=GroupApi&met=add&typ=json
+		请求参数
+			group_name	        String	必选	群组名字，最长为50个字符
+			group_type	        String	必选	群组类型 0：临时组(上限100人)  1：普通组(上限300人)  2：VIP组 (上限500人)
+			group_permission	String	必选	申请加入模式 0：默认直接加入1：需要身份验证 2:私有群组
+			group_declared	    String	可选	群组公告，最长为200个字符
+		返回参数
+		[data] => Array
+	        (
+	        )
+
+	绑定群组 - 黄新泽
+		请求地址
+			index.php?ctl=GroupApi&met=bind&typ=json
+		请求参数
+			group_id	        String	必选	 从自己服务器创建返回的id
+			group_bind_id	    String	必选	 从sdk返回的id
+		返回参数
+		[data] => Array
+	        (
+	        )
+
+
+
+	修改群组属性 - 黄新泽
+		请求地址
+			index.php?ctl=GroupApi&met=edit&typ=json
+		请求参数
+			group_bind_id               必选 sdk返回的group id
+			group_name	        String	必选	群组名字，最长为50个字符
+			group_permission	String	必选	申请加入模式 0：默认直接加入1：需要身份验证 2:私有群组
+			group_declared	    String	可选	群组公告，最长为200个字符
+		返回参数
+		[data] => Array
+	        (
+	        )
+
+
+	删除群组 - 黄新泽
+		请求地址
+			index.php?ctl=GroupApi&met=remove&typ=json
+		请求参数
+			group_bind_id   必选 sdk group id
+		返回参数
+		[data] => Array
+	        (
+	        )

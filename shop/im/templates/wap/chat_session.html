@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html class="um landscape min-width-240px min-width-320px min-width-480px min-width-768px min-width-1024px">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="../../css/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/ui-box.css">
+    <link rel="stylesheet" href="../../css/ui-base.css">
+    <link rel="stylesheet" href="../../css/ui-color.css">
+    <link rel="stylesheet" href="../../css/appcan.icon.css">
+    <link rel="stylesheet" href="../../css/appcan.control.css">
+    <link rel="stylesheet" href="../../css/chat.css">
+</head>
+<body class="um-vp bc-bg" ontouchstart>
+<div class="tx-c sc-bg-active" id="pullstatus"></div>
+<div class="sc-border sc-bg" id="chat_listview">
+    <div class="ubb ub bc-border message" id="message">
+        <!--<ul ontouchstart="appcan.touch('btn-act')" onclick="appcan.openWinWithUrl('news_push', 'news_push.html');" class=" ub uinn-a1 c-wh2 ub-f1">-->
+        <ul onclick="uexWindow.open('news_push' ,0 ,'news_push.html','10', 0, 0,0);" class=" ub uinn-a1 c-wh2 ub-f1">
+            <li class="ub pos_re" id='ulog'>
+                <div class="uh-app3 uw-app3 uc-a-app2 ub-img mar-ar1" style="background-image:url('image/user.png');"></div>
+                <div class="pos-infor ub-ac ub-pc ub uc-a-infor2 umh1 umw1 c-wh2"><div class="uwh-infor sc-bg-alert uc-a-infor bc-text-head ulev-4 ub-ac ub-pc ub">1</div></div>
+            </li>
+
+            <li class="ub-f1 ub">
+                <div class="ub ub-ver ub-f1 umar-r-infor">
+                <div class="t-bla ulev-app1" style="color:#F16412;font-weight: bold">平台推送 </div>
+                <div class="t-gra-infor2 ulev-4 ub-f1 umar-t">企业网站应该如何引流</div>
+                </div>
+                <div class="ub-pe t-gre-infor ulev-2">14:54</div>
+            </li>
+        </ul>
+        <div class='umar-l-infor uw-infor1 ub ub-ac ub-pc c-blu-infor1 hidden' id='del'>
+            <div class='umw1 umh1 ub-img del-infor'></div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="../../script/jquery-1.11.2.min.js"></script>
+<script src="../../script/jquery.cookie.js" type="text/javascript"></script>
+<script type="text/javascript" src="../../script/chat.js"></script>
+<script>
+    $(document).ready(function()
+    {
+        //本地存储好友列表
+
+    });
+</script>
+</body>
+</html>

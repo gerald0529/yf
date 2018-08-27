@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>拼团中心</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/swiper.min.css">
+	<link rel="stylesheet" href="../css/fight-groups.css">
+	<script src="../js/jquery.js"></script>
+	<script src="../js/swiper.min.js"></script>
+</head>
+<body>
+	<header id="header" class="fixed">
+        <div class="header-wrap">
+            <div class="header-l">
+                <a href="javascript:history.go(-1)"> <i class="back"></i> </a>
+            </div>
+            <div class="header-title">
+                <h1>拼团中心</h1>
+            </div>
+        </div>
+    </header>
+    <div class="nctouch-main-layout">
+    	<div class="pt_nav bgf swiper-container">
+    	 	<div class="swiper-wrapper">
+    	 		<a href="javascript:;" class="swiper-slide">全部全部</a>
+		    	<a href="javascript:;" class="swiper-slide">服饰全部全部全部</a>
+		    	<a href="javascript:;" class="swiper-slide">女装</a>
+		    	<a href="javascript:;" class="swiper-slide">男装</a>
+		    	<a href="javascript:;" class="swiper-slide">童装</a>
+		    	<a href="javascript:;" class="swiper-slide">鞋包</a>
+		    	<a href="javascript:;" class="swiper-slide">家居</a>
+    	 	</div>
+	    </div>
+	    <script type="text/javascript">
+			var mySwiper = new Swiper('.pt_nav', {
+				 slidesPerView: 'auto',
+			      spaceBetween: 30
+			});
+
+			// swiperWidth = mySwiper.container[0].clientWidth
+			// maxTranslate = mySwiper.maxTranslate();
+			// maxWidth = -maxTranslate + swiperWidth / 2
+
+			// $(".swiper-container").on('touchstart', function(e) {
+			// 	e.preventDefault()
+			// })
+
+			// mySwiper.on('tap', function(swiper, e) {
+
+			// 	e.preventDefault()
+
+			// 	slide = swiper.slides[swiper.clickedIndex]
+			// 	slideLeft = slide.offsetLeft
+			// 	slideWidth = slide.clientWidth
+			// 	slideCenter = slideLeft + slideWidth / 2
+			// 	// 被点击slide的中心点
+
+			// 	mySwiper.setWrapperTransition(300)
+
+			// 	if (slideCenter < swiperWidth / 2) {
+					
+			// 		mySwiper.setWrapperTranslate(0)
+
+			// 	} else if (slideCenter > maxWidth) {
+					
+			// 		mySwiper.setWrapperTranslate(maxTranslate)
+
+			// 	} else {
+
+			// 		nowTlanslate = slideCenter - swiperWidth / 2
+
+			// 		mySwiper.setWrapperTranslate(-nowTlanslate)
+
+			// 	}
+
+			// 	$(".pt_nav .active").removeClass('active')
+
+			// 	$(".pt_nav .swiper-slide").eq(swiper.clickedIndex).addClass('active')
+
+			// })
+		</script>
+		<div class="swiper-pt-banner swiper-container">
+			<ul class="swiper-wrapper">
+				<li class="swiper-slide"><a href="javascript:;"><img src="../images/new/cc/ban11.png" alt=""></a></li>
+				<li class="swiper-slide"><a href="javascript:;"><img src="../images/new/cc/ban22.png" alt=""></a></li>
+				<li class="swiper-slide"><a href="javascript:;"><img src="../images/new/cc/ban33.png" alt=""></a></li>
+			</ul>
+			<div class="swiper-pt-pagination"></div>
+		</div>
+		<script>
+			var swiper = new Swiper('.swiper-pt-banner', {
+                pagination: '.swiper-pt-pagination',
+                paginationClickable: true,
+                autoplay: 3000,
+                nextButton: '.swiper-button-next',
+                prevButton: '.swiper-button-prev',
+                spaceBetween: 30
+            });
+		</script>
+		<ul class="pt_goods_previews">
+			<li>
+				<img src="../images/new/cc/1.png">
+				<div class="pt_goods_title">
+					<strong class="common-red">[5人团]</strong>
+					<p>阔色2017夏季新款韩版女装设计宽松学生上衣披肩外套</p>
+				</div>
+				<dl class="clearfix">
+					<dt class="fl">
+						<p class="part1"><strong class="common-red">￥125.00</strong><b>单买价：￥259.00</b></p>
+						<p class="part2"><b class="through">原价：￥259.00</b><b>已拼58件</b></p>
+					</dt>
+					<dd class="fr"><a href="javascript:;" class="pt_btn_go tc">去拼团</a></dd>
+				</dl>
+			</li>
+			<li>
+				<img src="../images/new/cc/2.png">
+				<div class="pt_goods_title">
+					<strong class="common-red">[5人团]</strong>
+					<p>阔色2017夏季新款韩版女装设计宽松学生上衣披肩外套</p>
+				</div>
+				<dl class="clearfix">
+					<dt class="fl">
+						<p class="part1"><strong class="common-red">￥125.00</strong><b>单买价：￥259.00</b></p>
+						<p class="part2"><b class="through">原价：￥259.00</b><b>已拼58件</b></p>
+					</dt>
+					<dd class="fr"><a href="javascript:;" class="pt_btn_go tc">去拼团</a></dd>
+				</dl>
+			</li>
+			<li>
+				<img src="../images/new/cc/ban22.png">
+				<div class="pt_goods_title">
+					<strong class="common-red">[5人团]</strong>
+					<p>阔色2017夏季新款韩版女装设计宽松学生上衣披肩外套</p>
+				</div>
+				<dl class="clearfix">
+					<dt class="fl">
+						<p class="part1"><strong class="common-red">￥125.00</strong><b>单买价：￥259.00</b></p>
+						<p class="part2"><b class="through">原价：￥259.00</b><b>已拼58件</b></p>
+					</dt>
+					<dd class="fr"><a href="javascript:;" class="pt_btn_go tc">去拼团</a></dd>
+				</dl>
+			</li>
+		</ul>
+    </div>
+   
+</body>
+</html>

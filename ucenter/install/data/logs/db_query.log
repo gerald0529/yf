@@ -1,0 +1,4 @@
+11:49:28 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter/install/index.php [debug] SELECT 1;
+11:49:28 05/27/17 FILE=D:/phpStudy/WWW/svn/ucenter/install/index.php [debug] SELECT table_name FROM information_schema.tables WHERE table_schema="test_im" AND table_type="BASE TABLE"
+12:19:03 06/07/17 FILE=D:/phpStudy/WWW/svn/ucenter/install/index.php [debug] SELECT 1;
+12:19:03 06/07/17 FILE=D:/phpStudy/WWW/svn/ucenter/install/index.php [debug] SELECT table_name FROM information_schema.tables WHERE table_schema="yun_01" AND table_type="BASE TABLE"

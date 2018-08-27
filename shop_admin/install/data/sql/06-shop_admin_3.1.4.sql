@@ -1,0 +1,1 @@
+UPDATE `yf_admin_menu` SET `menu_parent_id`='11015',`menu_name` = '快递',`menu_url_ctl`='Config',`menu_url_met`='kuaidi',`menu_url_parem`='config_type%5B%5D=kuaidi',`menu_url_note`='<li>点击提交申请快递查询</li>' WHERE `yf_admin_menu`.`menu_id` =11064;

@@ -1,0 +1,430 @@
+﻿0 
+
+1	如果是app, 直接到用户中心登录, 然后到应用后台验证, 为了让app少些工作量,则app后台请求用户中心;
+	网页则可互相跳转验证登录;
+
+
+
+
+
+前端发送请求，每个请求中，必须包含key这个参数,此参数由登录成功时候，从后端获取
+	k:权限数据
+
+数据返回格式
+	{
+		"cmd_id": -140,     //为了未来以及不同客户需求的api扩展预留，目前忽略
+		"status": 200,      //状态200, 为正常. 其它都为错误， 根据不同url，前后端可以自行约定。
+		"msg": "success",   //提示消息
+		"data": {}          //返回的数据, 下面所有接口中返回只标注出此数据。
+	}
+
+备注： 前端更多的需要关注自己要的数据是否存在，多余的数据，前端使用不到的，可以忽略！
+
+
+================前台接口(需要用户登录之后才能进行的操作)=========================
+用户交易明细 - 朱羽婷
+		请求地址
+			index.php?ctl=User_Index&met=getConsumeRecord&typ=json
+		请求参数
+			page
+			rows
+			type ： 交易分类  1收款方  2付款方
+			status ： 交易状态 1未付款 2等待发货 3未确认发货 4成功 5失败
+		返回参数
+			[data] => array
+			(
+			)
+
+用户提现接口 - 朱羽婷
+		请求地址
+			index.php?ctl=User_Index&met=addWithdraw&typ=json
+		请求参数
+			bank :  银行
+			cardno :  银行卡号
+			cardname:  收款人
+			amount:   提现金额
+			suopporttime:  到账时间 1-2小时内到账  2-次日24点 3-次日48点
+			reason : 提现说明
+			paypasswd: 支付密码
+		返回参数
+		[data] => Array
+	        (
+	          'pay_uid' => int 1
+		      'orderid' => string '201604210328489'
+		      'amount' => int 100
+		      'add_time' => int 1461223728
+		      'con' => string '提现' 
+		      'bank' => string '建设银行' 
+		      'cardno' => string '1001123456789' 
+		      'cardname' => string '张三' 
+		      'supportTime' => int 1
+		      'fee' => string '2' 
+	        )
+
+用户提现列表 转账列表 - 朱羽婷
+		请求地址
+			index.php?ctl=User_Index&met=getConsumeRecordByType&typ=json
+		请求参数
+			page
+			rows
+			type :  2-转账   4-提现
+		返回参数
+			[data] => array
+			(
+				['page'] =>1
+				['total'] =>1
+				['totalsize'] =>1
+				['records'] =>1
+				['items'] =>
+					array(
+						[0] =>
+						array(
+							['consume_record_id'] =>45
+							['order_id'] =>201604211127568
+							['user_id'] =>1
+							['user_nickname'] =>
+							['record_money'] =>'-102.00'
+							['record_date'] =>'2016-04-21'
+							['record_year'] =>2016
+							['record_month'] =>4
+							['record_day'] =>21
+							['record_title'] =>'提现'
+							['record_desc'] =>
+							['record_time'] =>'2016-04-21 11:27:56'
+							['trade_type_id'] =>4
+							['user_type'] =>2
+						)
+					) 
+			)
+
+提现详情 - 朱羽婷
+		请求地址
+			index.php?ctl=User_Index&met=getWithdrawInfo&typ=json
+		请求参数
+			order_id: 交易订单号
+		返回参数
+		    [data] => array
+		    (
+		    	 'record' => 
+			        array
+			        (
+					  'consume_record_id' => string '45' 
+			          'order_id' => string '201604211127568' 
+			          'user_id' => string '1' 
+			          'user_nickname' => string '' 
+			          'record_money' => string '-102.00' 
+			          'record_date' => string '2016-04-21' 
+			          'record_year' => string '2016' 
+			          'record_month' => string '4' 
+			          'record_day' => string '21' 
+			          'record_title' => string '提现' 
+			          'record_desc' => string '' 
+			          'record_time' => string '2016-04-21 11:27:56'
+			          'trade_type_id' => string '4'
+			          'user_type' => string '2'
+			        )
+			          
+			      'widthraw' => 
+			        array
+			        (
+					  'id' => string '51' 
+			          'pay_uid' => string '1' 
+			          'orderid' => string '201604211127568' 
+			          'amount' => string '100.00' 
+			          'add_time' => string '1461209276' 
+			          'censor' => null
+			          'check_time' => null
+			          'is_succeed' => string '0' 
+			          'bankflow' => null
+			          'con' => string '提现' 
+			          'bank' => string '建设银行' 
+			          'cardno' => string '1001123456789' 
+			          'cardname' => string '张三' 
+			          'supportTime' => string '1' 
+			          'fee' => string '2.00' 
+			        )      
+		    )
+
+用户转账 - 朱羽婷
+		请求地址
+			index.php?ctl=User_Index&met=addTransfer&typ=json
+		请求参数
+			requirer : 收款人
+			amount  :  付款金额
+			reason  : 付款说明
+			paypasswd : 支付密码
+		返回参数
+			[data] => array
+			(
+			)
+
+获取用户信息 - 朱羽婷
+		请求地址
+			index.php?ctl=User_Index&met=getUserInfo&typ=json
+		请求参数
+			user_id : 用户id
+		返回参数
+			[data]=>array
+			(
+			1 => 
+		        array
+		        (
+				  'user_id' => string '1' 
+		          'user_realname' => string 'test_realname'
+		          'user_nickname' => string 'test_nickname'
+		          'user_mobile' => string '15189738099' 
+		          'user_email' => string ''
+		          'user_type_id' => string '0' 
+		          'user_level_id' => string '1' 
+		          'user_active_time' => string '2016-04-21 10:25:38' 
+		          'user_remark' => string ''
+		        )
+		          
+			)
+
+获取用户资源信息 - 朱羽婷
+		请求地址
+			index.php?ctl=User_Index&met=getUserResourceInfo&typ=json
+		请求参数
+			user_id : 用户id
+		返回参数
+			[data]=>array
+			(
+			1 => 
+		        array
+		        (
+				  'user_id' => string '1' 
+		          'user_money_pending_settlement' => string '0.000000' 
+		          'user_money' => string '99672.000000' 
+		          'user_money_frozen' => string '0.000000' 
+		          'user_recharge_card' => string '0.000000' 
+		          'user_recharge_card_frozen' => string '0.000000' 
+		          'user_points' => string '1000.000000'
+		          'user_points_frozen' => string '0.000000'
+		          'user_credit' => string '100.000000' 
+		        )
+		          
+			)
+
+修改用户信息 - 朱羽婷
+		请求地址
+			index.php?ctl=User_Index&met=editUserInfo&typ=json
+		请求参数
+			user_realname : 用户真实姓名
+			user_nickname : 用户昵称
+			user_mobile : 手机号码
+			user_email : 邮箱
+		返回参数
+			[data] => array
+			(
+ 				'user_realname' => string 'haha' 
+      			'user_nickname' => string 'hehe' 
+      			'user_email' => string '111@qq.com' 
+			)
+
+修改用户支付密码 - 朱羽婷
+		请求地址
+			index.php?ctl=User_Index&met=editUserPayPassword&typ=json
+		请求参数
+			old_password : 原密码
+			set_password : 新密码
+		返回参数
+			[data] => array
+			(
+			)
+
+获取订单详情 - 朱羽婷
+		请求地址
+			index.php?ctl=User_Index&met=getOrderInfo&typ=json
+		请求参数
+			order_id：订单号
+		返回参数
+			[data] => array
+			(
+				  'consume_trade_id' => string '11321322' 
+			      'order_id' => string '10000040'
+			      'buy_id' => string '10002' 
+			      'seller_id' => string '10001' 
+			      'order_state_id' => string '2' 
+			      'trade_type_id' => string '1' 
+			      'payment_channel_id' => string '12' 
+			      'app_id' => string '121' 
+			      'server_id' => string '1212' 
+			      'trade_type' => string '21' 
+			      'order_payment_amount' => string '0.00' 
+			      'trade_payment_amount' => string '0.01' 
+			      'trade_payment_money' => string '0.00'
+			      'trade_payment_recharge_card' => string '0.00'
+			      'trade_payment_points' => string '0.00' 
+			      'trade_discount' => string '0.00'
+			      'trade_amount' => string '0.01' 
+			      'trade_date' => string '0000-00-00' 
+			      'trade_year' => string '0' 
+			      'trade_month' => string '0' 
+			      'trade_day' => string '0'
+			      'trade_title' => string 'haha' 
+			      'trade_desc' => string '' 
+			      'trade_remark' => string '' 
+			      'trade_create_time' => string '2016-03-23 17:46:39' 
+			      'trade_pay_time' => string '0000-00-00 00:00:00'
+			      'trade_finish_time' => string '0000-00-00 00:00:00'
+			      'trade_delete' => string '0'
+			)
+
+
+================后台接口（不需要登录进行的操作）=========================
+退款 - 朱羽婷
+		请求地址
+			index.php?ctl=Index&met=refundTransfer&typ=json
+		请求参数
+			user_id : 收款人id
+			amount : 退款金额
+			order_id : 订单id
+			goods_id :  订单商品id
+		返回参数
+        	[data] => array
+             (
+             )
+
+提现记录 - 朱羽婷
+		请求地址
+			index.php?ctl=Index&met=getWidthrawList&typ=json
+		请求参数
+			page
+			rows
+			user_account : 用户名
+		返回参数
+			[data]=>array
+			(
+			)
+
+获取充值卡基础信息列表 - 朱羽婷
+		请求地址
+			index.php?ctl=Index&met=getCardBaseList&typ=json
+		请求参数
+			page
+			rows
+			cardname :卡片名称
+            beginDate : 卡的有效开始时间
+            endDate :   卡的有效结束时间
+            appid   :   卡的适用平台
+        返回参数
+            array(
+                ['page'] =>1
+                ['total'] =>1
+	            ['totalsize'] =>1
+	            ['records'] =>1
+	            ['items'] =>array(
+			        [0] =>array(
+			            ['card_id'] =>1000
+			            ['app_id'] =>101
+			            ['card_name'] => '50元礼包'
+			            ['card_prize'] =>'{"m":50}'
+			            ['card_desc'] =>
+			            ['card_start_time'] =>'2014-05-07'
+			            ['card_end_time'] =>'2015-05-06'
+			            ['card_image'] =>'http://democn.mall-builder.com/uploadfile/member/11/1398309359.jpg'
+			            ['card_num'] =>100
+			            ['money'] =>50
+			            ['point'] =>0
+			            ['image'] =>'http://democn.mall-builder.com/uploadfile/member/11/1398309359.jpg'
+			            ['card_cprize'] =>'金额:50'
+			            ['app'] =>'MallBuilder'
+			            ['card_used_num'] =>1
+			            ['card_new_num'] =>3
+			            )
+			         )
+			    )
+
+获取充值卡基础信息 - 朱羽婷
+		请求地址
+			index.php?ctl=Index&met=getCardBase&typ=json
+		请求参数
+			id
+        返回参数
+            array(
+	            ['card_id'] =>1001
+	            ['app_id'] =>101
+	            ['card_name'] =>'youhui'
+	            ['card_prize'] =>'{"m":"10","p":"10"}'
+	            ['card_desc'] =>12121212
+	            ['card_start_time'] =>'2016-05-01'
+	            ['card_end_time'] =>'2016-06-22'
+	            ['card_image'] =>
+	            ['card_num'] =>3
+	            ['prize'] =>array(
+		            ['m'] =>10
+		            ['p'] =>10
+	            )
+            )
+
+修改充值卡基础信息 - 朱羽婷
+		请求地址
+			index.php?ctl=Index&met=editCardBase&typ=json
+		请求参数
+			id  //卡号
+            card_name  //卡名称
+            card_num   //数量
+            source    //适用平台
+            start_time    //开始时间
+            end_time     //结束时间
+            card_desc   //描述
+            card_image  //图片
+            money    //金额
+            point     //积分
+		返回参数
+			[data]=>array
+			(
+			)
+
+增加充值卡基础信息 - 朱羽婷
+		请求地址
+			index.php?ctl=Index&met=addCardBase&typ=json
+		请求参数
+			id  //卡号
+            card_name  //卡名称
+            card_num   //数量
+            source    //适用平台
+            start_time    //开始时间
+            end_time     //结束时间
+            card_desc   //描述
+            card_image  //图片
+            money    //金额
+            point     //积分
+		返回参数
+			[data]=>array
+			(
+			)
+
+
+删除充值卡基础信息 - 朱羽婷
+		请求地址
+			index.php?ctl=Index&met=delCardBase&typ=json
+		请求参数
+			id  //卡号
+		返回参数
+			[data]=>array
+			(
+			)
+
+获取充值卡信息列表 - 朱羽婷
+		请求地址
+			index.php?ctl=Index&met=getCardInfoList&typ=json
+		请求参数
+			card_id : 卡号
+            page
+            rows
+		返回参数
+			[data]=>array
+			(
+			)
+
+获取充值卡信息 - 朱羽婷
+		请求地址
+			index.php?ctl=Index&met=getCardInfo&typ=json
+		请求参数
+			card_code : 卡号
+		返回参数
+			[data]=>array
+			(
+			)

@@ -1,0 +1,413 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.wrapright {
+    width: 950px;
+    float: left;
+    padding:0 10px;
+}
+.aHover .iconfont {
+    font-size: 16px;
+    line-height:20px;
+    vertical-align:middle;
+    position:relative;
+    top:1px;
+}
+
+.pFont {
+    font-size: 12px;
+}
+
+.ml li {
+    list-style: none;
+    float: left;
+}
+.ml li a{
+    display:inline-block;
+    height:190px;
+    overflow:hidden;
+}
+
+.ml {
+    position: absolute;
+    top: 0;
+    margin-top: 5px;
+}
+
+.coupon {
+    position: absolute;
+    top: 0;
+}
+
+.coupon li {
+    float: left;
+}
+
+.paipaisy_div_1 {
+    overflow: hidden;
+    height: 315px;
+    position: relative;
+}
+
+.paipaisy_div_2 {
+    overflow: hidden;
+    height: 170px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.Coupons li {
+    float: left;
+}
+
+.wrapsa {
+    width: 1200px;
+    font-size: 14px;
+    position: relative;
+    margin: 0px auto;
+}
+
+.wrapleftS {
+    margin-left: 10px;
+    float: left;
+    width: 210px;
+}
+
+.wraprightS {
+    margin-left: 4px;
+    float: left;
+    width: 976px;
+}
+
+.divhead {
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+}
+
+.divhead p b {
+    margin-left: 10px;
+}
+
+.divleft .btn {
+    height: 25px;
+    border-radius: 20px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    line-height: 25px;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.goods_det_about {
+     width: 100%;
+    font-size: 12px;
+    overflow: hidden;
+    background:#f5f5f5;
+}
+
+.wrapright .divHead {
+    font-size: 14px;
+    position: relative;
+    margin: 0px auto;
+}
+
+.Topdiv {
+    position: relative;
+    height: 49px;
+    width: 824px;
+    margin-left: 16px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.Topdiv .topUI {
+    position: absolute;
+    top: 0;
+}
+
+.topUI li {
+    float: left;
+    margin-right:10px;
+    margin-bottom:10px;
+}
+
+.paging {
+    float: left;
+    width: 40px;
+}
+
+.paging .top {
+    position: absolute;
+    right: 130px;
+    top: 15px;
+}
+
+.paging .next {
+    position: absolute;
+    right: 130px;
+    top: 35px;
+}
+
+.divleft {
+    text-align: center;
+    border: 1px solid #e1e1e1;
+}
+
+.divleft_2 {
+    margin-top: 20px;
+    border: 1px solid #e1e1e1;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.divleft_2 p {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.wrapright .martop {
+    margin-top:20px;
+}
+
+.wrapright .martop .fontc {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+.paipaisy_div_1 .ml .iLsc-date {
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    width: 190px;
+    font-size:12px;
+    color:#fff;
+}
+
+.ml li {
+    float: left;
+    margin-right:9px;
+    height: 290px;
+    overflow: hidden;
+    width: 200px;
+    padding:10px;
+}
+
+.ml li .Price,.Coupons .flagShipRed {
+    font-weight: bold;
+    line-height:26px;
+}
+
+.itemList-prev {
+    text-align: center;
+    height: 90px;
+    width: 40px;
+    line-height: 90px;
+    position: absolute;
+    font-size: 24px;
+    top: 50px;
+    right: 0;
+    cursor: pointer;
+    border: 1px solid #f5f5f5;
+    z-index: 2;
+}
+
+.itemList-next {
+    text-align: center;
+    height: 90px;
+    width: 40px;
+    line-height: 90px;
+    position: absolute;
+    font-size: 24px;
+    top: 170px;
+    right: 0;
+    cursor: pointer;
+    border: 1px solid #f5f5f5;
+    z-index: 1;
+}
+
+.itemList-next:hover {
+    background: #e1e1e1;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.itemList-prev:hover {
+    background: #e1e1e1;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/*  品牌优惠 */
+
+.coupon .item {
+    box-shadow: 0 1px 5px rgba(1, 1, 1, .1);
+    float: left;
+    text-align: center;
+    font-size: 12px/1.5;
+    width: 190px;
+    margin: 30px 5px 3px 20px;
+}
+
+.coupon .item .promotionTitle {
+    height: 90px;
+    line-height: 16px;
+    margin-top: 5px;
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 5px 0;
+    position: relative;
+    cursor: default;
+    overflow: hidden;
+    background: #81cccd;
+}
+
+.promotionValue {
+    position: relative;
+    top: 2px;
+    margin: 5px 2px 0;
+    font-weight: bolder;
+    font-size: 24px;
+    cursor: default;
+}
+
+.coupon .flagShip {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.coupon .startFee {
+    font-size: 14px;
+    margin-top: 5px;
+ }
+
+.coupon .time {
+    font-size: 12px;
+}
+
+.promotion .promotion-url .free {
+    padding: 10px 0px;
+    border: none;
+}
+
+.coupon .right-blank {
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url(https://img.alicdn.com/tps/i3/T1hPydFB4XXXXY1I_r-1-9.gif) repeat-y;
+    _display: none;
+}
+
+.coupon .left-blank {
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(https://img.alicdn.com/tps/i3/T1hPydFB4XXXXY1I_r-1-9.gif) repeat-y;
+    _display: none;
+}
+
+.itemList-prev_2 {
+    text-align: center;
+    height: 50px;
+    width: 40px;
+    line-height: 55px;
+    position: absolute;
+    font-size: 24px;
+    top: 30px;
+    right: 0;
+    cursor: pointer;
+    border: 1px solid #f5f5f5;
+    z-index: 2;
+}
+
+.itemList-next_2 {
+    text-align: center;
+    height: 50px;
+    width: 40px;
+    line-height: 55px;
+    position: absolute;
+    font-size: 24px;
+     top: 110px;
+    right: 0;
+    cursor: pointer;
+    border: 1px solid #f5f5f5;
+    z-index: 1;
+}
+
+.itemList-next_2:hover {
+    background: #e1e1e1;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.itemList-prev_2:hover {
+    background: #e1e1e1;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* 大家都在买*/
+
+.Coupons {
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.Coupons li {
+    margin-right: 17px;
+    width: 200px;
+    margin-bottom: 20px;
+    padding:10px;
+}
+.Coupons li>a{
+    display:inline-block;
+    height:190px;
+    overflow:hidden;
+}
+.Coupons li:nth-child(4){
+    margin-right:0;
+}
+
+.Coupons .del {
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+/*iconfont*/
+
+.wrapleftS .btn .icon-taoxinshi {
+    position: relative;
+    top: 2px;
+}
+
+.brand_list_d{
+    font-size:12px;
+    color:#fff;
+    line-height:25px;
+    height:100%;
+}
+.cancel_save{
+    font-size:12px;
+    color:#fff;
+}
+.brand_list_d i.iconfont,.cancel_save i.iconfont{
+    font-size:20px;
+    color:#fff;
+    float:left;
+}
+.font{
+    font-size:12px;
+}
+.pFont a{
+    height: 40px;
+    display: inline-block;
+    line-height: 20px;
+    overflow: hidden;
+}

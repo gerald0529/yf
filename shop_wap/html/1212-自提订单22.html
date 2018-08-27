@@ -1,0 +1,339 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="wap-font-scale" content="no">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <title>自提订单22</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/nctouch_member.css">
+    <link rel="stylesheet" type="text/css" href="../css/nctouch_common.css">
+    <link rel="stylesheet" type="text/css" href="../css/nctouch_cart.css">
+    <link rel="stylesheet" type="text/css" href="../css/private-store.css"/>
+</head>
+<body>
+   		<header id="header" class="fixed">
+	        <div class="header-wrap">
+	            <div class="header-l">
+	                <a href="javascript:history.go(-1)"> <i class="back"></i> </a>
+	            </div>
+	            <div class="header-title">
+	                <h1>门店自提订单</h1>
+	            </div>
+	        </div>
+	    </header>
+    	<div class="nctouch-main-layout">
+        	<div class="nctouch-order-search">
+           		<form>
+               		<span class="ser-area ">
+               			<i class="icon-ser"></i>
+               			<input type="text" autocomplete="on" maxlength="50" placeholder="输入商品标题或订单号进行搜索" name="order_key" id="order_key" oninput="writeClear($(this));">
+     					<span class="input-del"></span>
+               		</span>
+               		<input type="button" id="search_btn" value="搜索">
+            	</form>
+       		</div>
+        <div id="fixed_nav" class="nctouch-single-nav fixed">
+            <ul id="filtrate_ul" class="w20h">
+                <li class="selected"><a href="javascript:;">全部</a></li>
+                <li><a href="javascript:;" >已完成</a></li>
+                <li><a href="javascript:;" >待评价</a></li>
+                <li><a href="javascript:;">待自提</a></li>
+                <li><a href="javascript:;">待付款</a></li>
+            </ul>
+        </div>
+        <!--暂无订单-->
+         <!--<div class="norecord tc">
+            <div class="ziti-store">
+                <i></i>
+            </div>
+            <p class="fz-30 col9">暂无任何订单</p >
+        </div>-->
+        <div class="nctouch-order-list">
+            <ul id="order-list">
+            <li class="green-order-skin ">
+
+                            <div class="nctouch-order-item">
+                                <div class="nctouch-order-item-head">
+                                    
+                                            <a href="https://shopwap.local.yuanfeng021.com/tmpl/store.html?shop_id=14" class="store"><i class="icon"></i>qs1小店<i class="arrow-r"></i></a>
+                                            
+                                                <span class="state">
+                                                    
+
+                        							
+                        							<span class="ot-nofinish">已完成</span>
+                                                </span>
+                                </div>
+                                <div class="nctouch-order-item-con">
+                                
+                                        <div class="goods-block z-ztbgc">
+                                            <a href="javascript:;" class="clearfix wp100">
+                                            	<div class=""> 
+                                            		<div class="goods-pic">
+	                                                    <img src="../images/imgG3.jpg">
+	                                                  
+	                                                </div>
+	                                                <dl class="goods-info">
+	                                                    <dt class="goods-name">时尚又精品的女生款毛衣</dt>
+	                                                    <dd class="goods-type">
+	                                                       米黄色 L码 
+	                                                    </dd>
+	                                                </dl>
+                                            	</div>
+                                                
+                                                <div class="goods-subtotal">
+                                                
+                                                    <span class="goods-price">￥<em>99.00</em></span>
+                                                 
+                                                    <span class="goods-num goods-num-top">x1</span>
+                                                    <div class="fz0">
+                                                       
+                                                         
+                                                    </div>
+                                                    
+                                                </div>
+                                            </a>
+                                        </div>
+                                        
+                                </div>
+                                <div class="nctouch-order-item-footer">
+                                    <div class="store-totle">
+                                        <span>共<em>1</em>件商品，合计</span><span class="sum">￥<em>99.00</em></span>
+
+                                    </div>
+                                    <div class="handle">
+                                        
+                                                        
+                                                                
+                                                                        
+                                                                        
+                                                                                
+                                                                                    <a href="javascript:void(0)" order_id="DD-10026-14-102-20170704-0007" class="del delete-order btn">查看评价</a>
+                                                                                    
+                                                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+
+                    </li>
+			
+			 <li class="green-order-skin mt4">
+
+                            <div class="nctouch-order-item">
+                                <div class="nctouch-order-item-head">
+                                    
+                                            <a href="https://shopwap.local.yuanfeng021.com/tmpl/store.html?shop_id=14" class="store"><i class="icon"></i>qs1小店<i class="arrow-r"></i></a>
+                                            
+                                                <span class="state">
+                                                    
+
+                        							
+                        							<span class="ot-nofinish">已完成</span>
+                                                </span>
+                                </div>
+                                <div class="nctouch-order-item-con">
+                                
+                                        <div class="goods-block z-ztbgc">
+                                            <a href="javascript:;" class="clearfix wp100">
+                                            	<div class=""> 
+                                            		<div class="goods-pic">
+	                                                    <img src="../images/imgG3.jpg">
+	                                                  
+	                                                </div>
+	                                                <dl class="goods-info">
+	                                                    <dt class="goods-name">时尚又精品的女生款毛衣</dt>
+	                                                    <dd class="goods-type">
+	                                                       米黄色 L码 
+	                                                    </dd>
+	                                                </dl>
+                                            	</div>
+                                                
+                                                <div class="goods-subtotal">
+                                                
+                                                    <span class="goods-price">￥<em>99.00</em></span>
+                                                 
+                                                    <span class="goods-num">x1</span>
+                                                    <div class="fz0">
+                                                       
+                                                         
+                                                    </div>
+                                                    
+                                                </div>
+                                            </a>
+                                        </div>
+                                        
+                                </div>
+                                <div class="nctouch-order-item-footer">
+                                    <div class="store-totle">
+                                        <span>共<em>1</em>件商品，合计</span><span class="sum">￥<em>99.00</em></span>
+
+                                    </div>
+                                    <div class="handle">
+                                        
+                                                        
+                                                                
+                                                                        
+                                                                        
+                                                                                
+                                                                                    <a href="javascript:void(0)" order_id="DD-10026-14-102-20170704-0007" class="del delete-order btn">查看评价</a>
+                                                                                    
+                                                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+
+                    </li>
+			
+			 <li class="green-order-skin mt4">
+
+                            <div class="nctouch-order-item">
+                                <div class="nctouch-order-item-head">
+                                    
+                                            <a href="https://shopwap.local.yuanfeng021.com/tmpl/store.html?shop_id=14" class="store"><i class="icon"></i>qs1小店<i class="arrow-r"></i></a>
+                                            
+                                                <span class="state">
+                                                    
+
+                        							
+                        							<span class="ot-nofinish">已完成</span>
+                                                </span>
+                                </div>
+                                <div class="nctouch-order-item-con">
+                                
+                                        <div class="goods-block z-ztbgc">
+                                            <a href="javascript:;" class="clearfix wp100">
+                                            	<div class=""> 
+                                            		<div class="goods-pic">
+	                                                    <img src="../images/imgG3.jpg">
+	                                                  
+	                                                </div>
+	                                                <dl class="goods-info">
+	                                                    <dt class="goods-name">时尚又精品的女生款毛衣</dt>
+	                                                    <dd class="goods-type">
+	                                                       米黄色 L码 
+	                                                    </dd>
+	                                                </dl>
+                                            	</div>
+                                                
+                                                <div class="goods-subtotal">
+                                                
+                                                    <span class="goods-price">￥<em>99.00</em></span>
+                                                 
+                                                    <span class="goods-num">x1</span>
+                                                    <div class="fz0">
+                                                       
+                                                         
+                                                    </div>
+                                                    
+                                                </div>
+                                            </a>
+                                        </div>
+                                        
+                                </div>
+                                <div class="nctouch-order-item-footer">
+                                    <div class="store-totle">
+                                        <span>共<em>1</em>件商品，合计</span><span class="sum">￥<em>99.00</em></span>
+
+                                    </div>
+                                    <div class="handle">
+                                        
+                                                        
+                                                                
+                                                                        
+                                                                        
+                                                                                
+                                                                                    <a href="javascript:void(0)" order_id="DD-10026-14-102-20170704-0007" class="del delete-order btn">查看评价</a>
+                                                                                    
+                                                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+
+                    </li>
+			
+			 <li class="green-order-skin mt4">
+
+                            <div class="nctouch-order-item">
+                                <div class="nctouch-order-item-head">
+                                    
+                                            <a href="https://shopwap.local.yuanfeng021.com/tmpl/store.html?shop_id=14" class="store"><i class="icon"></i>qs1小店<i class="arrow-r"></i></a>
+                                            
+                                                <span class="state">
+                                                    
+
+                        							
+                        							<span class="ot-nofinish">已完成</span>
+                                                </span>
+                                </div>
+                                <div class="nctouch-order-item-con">
+                                
+                                        <div class="goods-block z-ztbgc">
+                                            <a href="javascript:;" class="clearfix wp100">
+                                            	<div class=""> 
+                                            		<div class="goods-pic">
+	                                                    <img src="../images/imgG3.jpg">
+
+	                                                </div>
+	                                                <dl class="goods-info">
+	                                                    <dt class="goods-name">时尚又精品的女生款毛衣</dt>
+	                                                    <dd class="goods-type">
+	                                                       米黄色 L码 
+	                                                    </dd>
+	                                                </dl>
+                                            	</div>
+                                                
+                                                <div class="goods-subtotal">
+                                                
+                                                    <span class="goods-price">￥<em>99.00</em></span>
+                                                 
+                                                    <span class="goods-num">x1</span>
+                                                    <div class="fz0">
+                                                       
+                                                         
+                                                    </div>
+                                                    
+                                                </div>
+                                            </a>
+                                        </div>
+                                        
+                                </div>
+                                <div class="nctouch-order-item-footer">
+                                    <div class="store-totle">
+                                        <span>共<em>1</em>件商品，合计</span><span class="sum">￥<em>99.00</em></span>
+
+                                    </div>
+                                    <div class="handle">
+                                        
+                                                        
+                                                                
+                                                                        
+                                                                        
+                                                                                
+                                                                                    <a href="javascript:void(0)" order_id="DD-10026-14-102-20170704-0007" class="del delete-order btn">查看评价</a>
+                                                                                    
+                                                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+
+                    </li>
+			
+            </ul>
+        </div>
+
+</body>
+</html>

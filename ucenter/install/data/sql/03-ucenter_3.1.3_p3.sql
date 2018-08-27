@@ -1,0 +1,2 @@
+-- 添加短信模板
+insert into `ucenter_message_template` (`id`, `code`, `name`, `title`, `content_email`, `type`, `is_phone`, `is_email`, `is_mail`, `content_mail`, `content_phone`, `force_phone`, `force_email`, `force_mail`, `mold`) values('14','edit_passwd','修改密码','您在[weburl_name]账户进行修改密码','您正在[weburl_name]账户上进行修改密码操作,验证码为[yzm]。','0','0','0','0','您正在[weburl_name]账户上进行修改密码操作,验证码为[yzm]。','您正在[weburl_name]账户上进行修改密码操作,验证码为[yzm]。','0','0','0','0');

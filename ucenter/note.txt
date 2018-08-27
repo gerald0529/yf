@@ -1,0 +1,34 @@
+
+//添加用户 erp  server, 默认为备运
+http://192.168.0.205/pcenter/trunk/index.php?ctl=Api&met=addUserAppServer&app_id=101&user_name=t003&typ=json
+
+
+//审核, 开通erp服务器
+
+
+
+        $data['server_prefix']          // 服务器前缀 ：一区
+        $data['server_name']            // 服务器名称
+        $data['server_url']             // 服务器url
+        $data['server_order']           // 服务器列表排序
+        $data['app_id']                 // 所属游戏id
+        $data['company_id']             // 运营商id
+        $data['server_type']            // 服类型,1:new,2:hot,3:满 4:维护
+        $data['server_state']           // 服务器状态,0:备运   1:开服中 2、停服,3:服务器宕机
+        $data['socket_ip']              // socket 的ip地址
+        $data['socket_port']            // socket的端口号
+        $data['server_stop_start_time'] // 停服开始时间
+        $data['server_stop_end_time']   // 停服结束时间
+        $data['server_stop_tip']        // 服务器宕机提示
+        $data['app_version_package']    // CPP中定义的版本, 决定是否显示
+        $data['company_name']           // 公司名称
+        $data['company_phone']          // 电话
+        $data['contacter']              // 联系人
+        $data['sign_time']              // 签约时间
+        $data['account_num']            // 账号个数
+        $data['db_name']                // 数据库名
+        $data['upload_path']            // 附件存放地址
+        $data['business_agent']         // 业务代表
+        $data['price']                  // 费用
+        $data['effective_date_start']   // 有效期开始与结束
+        $data['effective_date_end']     // 有效期开始与结束1

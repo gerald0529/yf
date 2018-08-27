@@ -1,0 +1,230 @@
+.form-style-layout {
+    border: 1px solid #eee;
+   /* padding: 0 10px 80px;*/
+}
+.form-style-layout h2 {
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+    font-weight: 600;
+    height: 30px;
+    color:#666;
+   /* padding: 15px 5px;*/
+}
+.form-style-layout .step {
+    font-size: 0;
+    margin-top: 40px;
+}
+.form-style-layout .step dl {
+    background: rgba(0, 0, 0, 0) url("../images/buyer/bg.png") no-repeat scroll -185px -424px;
+    float: left;
+    font-size: 12px;
+    height: 36px;
+    line-height: 20px;
+    margin: 50px 0 60px -1px;
+    position: relative;
+    width: 315px;
+}
+.form-style-layout .step dt {
+    color: #999;
+    font-weight: 600;
+    position: absolute;
+    right: -42px;
+    text-align: center;
+    top: -30px;
+    width: 120px;
+}
+.form-style-layout .step dd {
+    background: rgba(0, 0, 0, 0) url("../images/buyer/bg.png") no-repeat scroll 0 0;
+    display: none;
+    height: 36px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+.form-style-layout .step dl.step-first {
+    background-position: -168px -309px !important;
+    margin-left:10%;
+    width: 36px !important;
+}
+.form-style-layout .step dl.current dt {
+    color: #fd6760;
+}
+.form-style-layout .step dl.current dd {
+    background-position: -181px -464px;
+    display: block;
+    width: 319px;
+}
+.form-style-layout .step dt {
+    right: -52px;
+    width: 140px;
+}
+.form-style-layout .step dt p {
+    font-size: 12px;
+    font-weight: normal;
+    position: absolute;
+    right: 8px;
+    top: 75px;
+}
+.form-style {
+    margin-top: 15px;
+    position: relative;
+}
+.form-style form dl {
+/*    border-bottom: 1px dashed #eee;*/
+    clear: both;
+    line-height: 30px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+.form-style form dt, .form-style form dd {
+    display: block;
+    float: left;
+    font-size: 12px;
+    padding: 12px 1% 0 0;
+}
+.form-style form dt {
+    text-align: right;
+    width: 14%;
+    line-height: 40px;
+}
+.form-style form dd {
+    width: 84%;
+    line-height: 40px;
+}
+.form-style form dl.foot {
+    border-bottom: medium none;
+}
+.form-style form dl dt em {
+    color: #f30;
+    font: 12px/16px Tahoma;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+.form-style form dl dd em {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #e6e6e6;
+    border-color: #ccc;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 1px 0;
+    display: inline-block;
+    font-weight: bold;
+    height: 36px;
+    line-height: 34px;
+    text-align: center;
+    vertical-align: top;
+    width: 30px;
+}
+
+.form-style a {
+    color: #06c;
+    margin: 0 5px;
+}
+.form-style label {
+    float: left;
+}
+.form-style select {
+    border: 1px solid #ccc;
+    float: left;
+    line-height: 30px;
+    margin-right: 10px;
+    padding: 5px;
+}
+.form-style span {
+    color: #999;
+}
+.form-style .logo {
+    border: 1px solid #eee;
+    margin-top: 5px;
+    padding: 2px;
+}
+.form-style .text {
+    border: 1px solid #ccc;
+    float: left;
+/*    height: 25px;
+    line-height: 25px;*/
+    padding: 0 8px;
+    width: 250px;
+}
+.form-style .textarea {
+    line-height: 16px;
+    padding: 6px 5px;
+}
+.form-style .w82 {
+    width: 82px;
+}
+.form-style .w400 {
+    width: 400px;
+}
+.form-style .radio, .form-style .checkbox {
+    margin-right: 20px;
+    padding-left: 20px;
+    position: relative;
+}
+.form-style .radio input, .form-style .checkbox input {
+    left: 0;
+    margin: 0;
+    position: absolute;
+    top: 9px;
+}
+.form-style .submit {
+    background: #ff5252 none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font: 14px/36px microsoft yahei;
+    height: 36px;
+    margin: 10px 0;
+    min-width: 100px;
+    padding: 0 20px 2px;
+    text-align: center;
+}
+.form-style label.error {
+    color: #e60012;
+    display: inline-block;
+    float: none;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.form-style label.error i {
+    margin-right: 5px;
+    vertical-align: -1px;
+}
+.button {
+    background-color: #ff5252;
+    border-radius: 5px;
+    color: #fff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    outline: medium none;
+    padding: 7px 16px 7px 18px;
+    text-align: center;
+    vertical-align: middle;
+}
+.button:hover {
+    background-color: #d84a38;
+    text-decoration: none;
+}
+
+.send {
+    border: 1px solid #ddd;
+    height: 40px;
+    margin-left: 10px;
+    padding: 0 5px;
+    color:#999;
+}
+input, select, textarea {
+    font-size: 100%;
+}
+.fn-hidden {
+    display: none;
+}

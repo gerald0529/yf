@@ -1,0 +1,1 @@
+DELETE FROM `yf_admin_menu` WHERE menu_id=11043 AND menu_name='水印字体';

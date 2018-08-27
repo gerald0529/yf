@@ -1,0 +1,403 @@
+
+.snapshot-goods-name {
+    padding: 10px 0;
+    overflow: hidden;
+    border-bottom: solid 1px #E6E6E6;
+}
+
+.snapshot-goods-name em {
+    float: left;
+    width: 150px;
+}
+
+.snapshot-goods-name h1 {
+    text-align: center;
+    float: left;
+    width: 700px;
+    padding-right: 150px;
+}
+
+.snapshot-goods-name span {
+    font-size: 12px;
+    color: #999;
+    font-weight: 600;
+    line-height: 18px;
+    background-color: #F5F5F5;
+    border: solid 1px #E6E6E6;
+    padding: 0 9px;
+    display: inline-block;
+    border-radius: 4px;
+    margin-left: 6px;
+}
+
+.snapshot-goods-name h1 {
+    font-size: 14px;
+    font-weight: bold!important;
+    color: #333;
+    line-height: 24px;
+    display: inline-block;
+}
+
+.bbch-detail {
+    overflow: hidden;
+    padding: 20px 0px 30px;
+}
+
+.bbch-goods-picture {
+    width: 368px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+}
+
+.bbch-goods-summary {
+    float: left;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.bbch-goods-summary dl {
+    font-size: 0;
+    *word-spacing: -1px/*IE6ã€7*/
+    ;
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.bbch-goods-summary dt,
+.bbch-goods-summary dd {
+    font-size: 12px;
+    line-height: 30px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline/*IE7*/
+    ;
+    *zoom: 1/*IE7*/
+    ;
+}
+
+.bbch-goods-summary dt {
+    width: 23%;
+    text-align: right;
+    padding-right: 2%;
+}
+
+.bbch-goods-summary dd {
+    width: 75%;
+}
+
+.bbch-goods-summary .bbch-price em {
+    font-size: 24px;
+    color: #F32613;
+}
+
+.bbch-goods-summary .bbch-cti dd {
+    font-size: 0;
+    *word-spacing: -1px/*IE6ã€7*/
+    ;
+}
+
+.bbch-goods-summary .bbch-spec {
+    background-color: #fff8f6;
+    border: dashed 1px #f6ebe9;
+}
+
+.bbch-goods-summary .bbch-cti span {
+    font-size: 12px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline/*IE7*/
+    ;
+    margin-right: 5px;
+    *zoom: 1/*IE7*/
+    ;
+}
+
+.bbch-goods-summary .bbch-cti span img {
+    width: 16px;
+    height: 16px;
+}
+
+.bbch-goods-summary .snap {
+    background: #f9f9f9;
+    /*            background: url(../default/images/order_snapshot.png) no-repeat 100% 100%;*/
+    padding: 10px;
+    border: dashed 1px #E9EEFF;
+    margin-top: 10px;
+    position: relative;
+}
+
+.bbch-goods-summary .snap .pimg {
+    position: absolute;
+    right: 5px;
+    top: 30px;
+}
+
+.bbch-goods-summary .snap p {
+    line-height: 20px;
+    height: 20px;
+    padding: 4px 0;
+}
+
+.bbch-goods-summary .snap p a {
+    font-weight: 600;
+    color: #005EA6;
+}
+
+.bbch-info {
+    width: 210px;
+    float: right;
+    margin-top: 20px;
+}
+
+.bbch-info .title {
+    background-color: #F5F5F5;
+    padding: 8px 10px;
+    border: solid 1px #E6E6E6;
+}
+
+.bbch-info .title h4 {
+    font: 600 14px/20px "Microsoft Yahei";
+    color: #555;
+}
+
+.bbch-info .content {
+    border: solid #E6E6E6;
+    border-width: 0 1px 1px;
+}
+
+.bbch-info .content dl {
+    font-size: 0;
+    *word-spacing: -1px/*IE6ã€7*/
+    ;
+    display: block;
+    padding: 4px 0;
+}
+
+.bbch-info .content dl dt {
+    font-size: 12px;
+    color: #666;
+    vertical-align: top;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-align: right;
+    display: inline-block;
+    *display: inline/*IE7*/
+    ;
+    width: 68px;
+    *zoom: 1;
+}
+
+.bbch-info .content dl dd {
+    font-size: 12px;
+    color: #333;
+    vertical-align: top;
+    letter-spacing: normal;
+    word-spacing: normal;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    *display: inline/*IE7*/
+    ;
+    width: 130px;
+    *width: 125px;
+    overflow: hidden;
+    zoom: 1;
+}
+ .bbch-info .content .detail-rate {
+    clear: both;
+}
+ .bbch-detail-rate {
+    color: #999;
+    width: 182px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.bbch-detail-rate ul {
+    font-size: 0;
+    *word-spacing: -1px/*IE6ã€7*/
+    ;
+    padding: 5px 0;
+}
+
+.bbch-detail-rate li {
+    font-size: 12px;
+    color: #333;
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    *display: inline/*IE7*/
+    ;
+    width: 33.333%;
+    height: 32px;
+    *zoom: 1;
+}
+
+.bbch-detail-rate li h5 {
+    color: #777;
+    line-height: 16px;
+    height: 16px;
+}
+
+.bbch-detail-rate li div {
+    line-height: 16px;
+    height: 16px;
+}
+
+.bbch-detail-rate .credit {
+    color: #555;
+    display: inline-block;
+    width: 35px;
+    margin-left: 4px;
+}
+
+.bbch-detail-rate li div i {
+    background: url(../images/2014grate.png) no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+
+.bbch-detail-rate .high {
+    color: #DA542E;
+}
+
+.bbch-detail-rate .high i {
+    background-position: 0 -40px;
+}
+
+.bbch-detail-rate .equal {
+    color: #DA542E;
+}
+
+.bbch-detail-rate .equal i {
+    background-position: -32px -40px;
+}
+
+.bbch-detail-rate .low {
+    color: #28B779;
+}
+
+.bbch-detail-rate .low i {
+    background-position: -16px -40px;
+}
+
+.bbch-info .btns {
+    font-size: 0;
+    *word-spacing: -1px/*IE6ã€7*/
+    ;
+    text-align: center;
+    padding-bottom: 12px;
+    border-bottom: solid 1px #E6E6E6;
+}
+
+.bbch-info .btns a {
+    font-size: 12px;
+    line-height: 20px;
+    color: #333;
+    background-color: #F5F5F5;
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    *display: inline/*IE7*/
+    ;
+    height: 20px;
+    padding: 3px 10px;
+    border: solid 1px #CCC;
+    *zoom: 1;
+}
+
+.bbch-info .btns a.goto {
+    color: #FFF;
+    background-color: #333;
+    border-color: #333;
+    margin-right: 10px;
+}
+
+.bbch-info .btns a span {
+    line-height: 20px;
+    color: #999;
+    margin-left: 3px;
+}
+
+.bbch-info .btns a:hover {
+    text-decoration: none;
+}
+
+.bbch-info .no-border {
+    border: 0!important;
+    padding-bottom: 0!important;
+}
+
+.bbch-goods-layout {}
+
+.bbch-goods-layout .title {
+    height: 30px;
+    border-bottom: solid 1px #E6E6E6;
+}
+
+.bbch-goods-layout .title span {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    background-color: #FFF;
+    height: 20px;
+    padding: 4px 19px 5px 19px;
+    float: left;
+    border-width: 2px 1px 0 1px;
+    border-color: #F32613 #E6E6E6 transparent #E6E6E6;
+    border-style: solid;
+}
+
+.nc-goods-sort {
+    font-size: 0;
+    *word-spacing: -1px/*IE6ã€7*/
+    ;
+    background-color: #FFF;
+    border: solid #DDD;
+    border-width: 0 1px 1px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.nc-goods-sort li {
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    width: 23%;
+    padding: 0 0 0 2%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.nc-goods-sort li {
+    *display: inline;
+}
+
+.bbch-goods-info-content {
+    padding-bottom: 23px;
+}
+
+.bbch-goods-info-content .top {
+    padding: 9px;
+    margin-bottom: 20px;
+    border: solid #E6E6E6;
+    border-width: 0 1px 1px;
+}
+
+.bbch-promotion {
+    margin-bottom: 20px;
+}
+
+.bbch-promotion .bbch-goods-info-content {
+    padding: 0;
+    border: solid #E6E6E6;
+    border-width: 0 1px 1px;
+}

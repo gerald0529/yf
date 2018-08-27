@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../default/css/base.css">
+	<link rel="stylesheet" href="../default/css/joinin.css">
+	<link rel="stylesheet" href="../default/css/iconfont/iconfont.css">
+	<link rel="stylesheet" href="../default/css/seller.css">
+</head>
+<body>
+	<table class="tl bdl bdr" style="width:100%;">
+		<tr>
+			<td>
+				<!-- 发票内容 begin   (只复制此div这部分，其他不用复制，然后放到对应的td里面)-->
+				<div class="fapiao-cons clearfix">
+					<div class="left">
+						<div class="dis-table">
+							<div class="table-cell">
+								<i class="iconfont"></i>
+								<span>发票信息</span>
+							</div>
+						</div>
+						
+						
+					</div>
+					<div class="right">
+						<dl>
+							<dt>发票类型：</dt>
+							<dd>增值税发票</dd>
+						</dl>
+						<dl>
+							<dt>发票抬头：</dt>
+							<dd class="relative">上海远丰信息有限公司
+								
+							</dd>
+						</dl>
+						<dl>
+							<dt>发票内容：</dt>
+							<dd>办公用品</dd>
+						</dl>
+						<dl>
+							<dt>发票内容：</dt>
+							<dd>办公用品</dd>
+						</dl>
+						<dl>
+							<dt>发票内容：</dt>
+							<dd>办公用品</dd>
+						</dl>
+						<div class="more-infors">
+							<div class="dis-table">
+								<div class="table-cell">
+									<i class="iconfont"></i>展开发票完整信息
+								</div>
+							</div>
+							
+							<div class="fapiao-company-infors">
+								<div class="infors-module">
+									<h5>公司信息</h5>
+									<dl>
+										<dt>单位名称：</dt>
+										<dd>上海远丰信息科技有限公司</dd>
+									</dl>
+									<dl>
+										<dt>纳税人识别码：</dt>
+										<dd>1245546646464</dd>
+									</dl>
+									<dl>
+										<dt>注册地址：</dt>
+										<dd>上海莲花路南方商城</dd>
+									</dl>
+								</div>
+								<div class="infors-module">
+									<h5>收票人信息</h5>
+									<dl>
+										<dt>单位名称：</dt>
+										<dd>上海远丰信息科技有限公司</dd>
+									</dl>
+									<dl>
+										<dt>纳税人识别码：</dt>
+										<dd>1245546646464</dd>
+									</dl>
+									<dl>
+										<dt>注册地址：</dt>
+										<dd>上海莲花路南方商城</dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+					</div>
+					<script>
+						$(function(){
+							$(".more-infors").hover(function(){
+								$(this).find(".fapiao-company-infors").show();
+							},function(){
+								$(this).find(".fapiao-company-infors").hide();
+							})
+						})
+					</script>
+				</div>
+				<!-- 发票内容 end-->
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

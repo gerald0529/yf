@@ -1,0 +1,1 @@
+ALTER TABLE `ucenter_user_info_detail` ADD COLUMN `user_no_mobile` TINYINT(1) UNSIGNED NOT NULL DEFAULT '1' COMMENT '登录时是否验证手机，1验证，2不验证';

@@ -1,0 +1,2825 @@
+/* 团购地点定位 */
+
+.fl {
+    float: left;
+}
+
+em {
+    font-style: normal;
+}
+
+.tg_location {
+    width: 100%;
+    height: 40px;
+    background: #f1f1f1;
+    font-size: 12px;
+    line-height: 40px;
+}
+
+.tg_location .title {
+    font-size: 12px;
+    line-height: 36px;
+    color: #FFCFBF;
+    height: 36px;
+    float: left;
+    padding: 2px 0px;
+}
+
+.tg_location .title h2 {
+    color: #8A8788;
+    padding-left: 5px;
+}
+
+.tg_locatp {
+    position: relative;
+    float: left;
+    width: 192px;
+    cursor: pointer;
+}
+
+.tg_locatp i {
+    position: relative;
+    top: 2px !important;
+}
+
+.tg_locatp p {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 300px;
+    background: #fff;
+    z-index: 2;
+    display: none;
+    border: 1px solid #e1e1e1;
+}
+
+.tg_locatp p a {
+    padding: 0 10px;
+    white-space: nowrap;
+    display: inline-block;
+}
+.tg_location ul {
+    float: left;
+}
+
+.tg_location ul li {
+    float: left;
+    width: 140px;
+    text-align: center;
+}
+/*团购侧边栏*/
+.tg_left {
+    margin-right: 10px;
+}
+.tg_left,
+.tg_center{
+    float: left;
+    height: 396px;
+}
+.tg {
+    width: 200px;
+    float: left;
+    border: solid 1px #e1e1e1;
+    padding:0 5px;
+    position:absolute;
+    background:#fff;
+}
+.tg h5 {
+    color: #333;
+    padding: 9px 0;
+}
+
+.tg h5 a {
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 6px;
+}
+
+.tg p a {
+    line-height: 30px;
+    display: inline-block;
+    white-space: nowrap;
+    text-align: center;
+    width: 48%;
+    border: solid #F5F5F5;
+    border-width: 1px 0 0 1px;
+    font-size:12px;
+}
+.tg_left p a:nth-child(2n+1){
+    border-left:none;
+}
+/*ban图*/
+
+.t_ban {
+    font-size: 12px;
+    margin-top:12px;
+}
+.t_ban a img {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.tg_center {
+    width: 978px !important;
+    overflow: hidden;
+    position: relative;
+   /* border-bottom: 1px solid #e1e1e1;*/
+    margin-left:222px;
+}
+
+.tg_center ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 8000px;
+    height: 100%;
+}
+
+.tg_center ul li {
+    float: left;
+    height: 100%;
+}
+
+/* 线上团 */
+
+.groups h3 a {
+    font-size: 19px;
+    line-height: 40px;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.groups h3 i {
+    font-size: 12px;
+    line-height: 40px;
+     margin-left: 4px;
+}
+.groups .more {
+   float:right;
+}
+.groups .more a{
+    font-size:12px;
+}
+.groups .more a:hover i.iconfont{
+    color:#e45050;
+}
+.gr_goods {
+    border: 1px solid #e1e1e1;
+}
+
+.gr_goods img {
+    float: left;
+    vertical-align: top;
+}
+
+.gr_goods_imfor {
+    float: left;
+     width: 585px;
+    position: relative;
+}
+
+.gr_goods_div {
+    padding: 0 28px;
+}
+.gr_goods_imfor h4 a {
+    font-size: 18px;
+    line-height: 94px;
+ }
+ .gr_goods_imfor ul {
+    width: 476px;
+    height: 63px;
+    border: 1px dashed #e1e1e1;
+    padding: 6px 0 6px 12px;
+}
+
+.gr_goods_div ul li{
+    color:#E45050;
+}
+.gr_goods_imfor ul li {
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.gr_good_price {
+    padding-top: 27px;
+    padding-bottom: 24px;
+}
+
+.gr_good_price span {
+    font-size: 30px;
+    float: left;
+}
+
+.gr_good_price span em {
+    font-size: 14px;
+    text-decoration: line-through;
+    margin-left:10px;
+ }
+
+.gr_good_price a {
+    width: 190px;
+    height: 58px;
+    display: inline-block;
+    text-align: center;
+    line-height: 58px;
+    float: right;
+    font-size: 22px;
+}
+
+.gr_good_price a i {
+    margin-left: 20px;
+}
+
+.gr_good_lastime span i {
+    margin-right: 2px;
+    position: relative;
+    top: 2px;
+    font-size: 18px;
+}
+
+.gr_good_lastime em strong {
+    font-size: 16px;
+    font-weight:normal;
+}
+
+.gr_good_lastime em {
+    float: right;
+    margin-right: 30px;
+}
+
+.hotbg {
+    width: 60px;
+    height: 65px;
+    background: url(../images/hot.png) no-repeat;
+    position: absolute;
+    top:-1px;
+    right:0;
+}
+.gr_goods_list {
+    width: 1220px;
+    overflow: hidden;
+}
+
+.gr_goods_list li {
+    width: 206px;
+    float: left;
+    border: 1px solid #e1e1e1;
+    padding: 10px 10px 0;
+    margin: 13px 15px 0 0;
+}
+.gr_goods_list li a{display:inline-block;width:100%;height:206px;overflow:hidden;}
+.pt_goods_img{
+	display:table;
+	height:206px;
+}
+.pt_goods_img b{
+	display:table-cell;
+	vertical-align:middle;
+}
+.pt_goods_img img{width:100%;}
+.gr_goods_list li p{
+    margin-top:10px;
+}
+.gr_goods_list li p.gr_sold_hav{
+    border-top:1px dashed #e3e3e3;
+}
+
+.gr_goods_list li:hover{
+    border-color:#E45050;
+}
+
+
+.gr_goods_list li .gr_goods_a {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: 10px 0;
+    height: 230px;
+}
+
+/*.gr_goods_list li a{
+   width: 206px;
+    height: 230px;
+}*/
+.gr_goods_a img {
+    border: none;
+}
+
+.gr_goods_ev span {
+    float: left;
+}
+
+.gr_goods_ev span strong {
+    font-size: 20px;
+}
+
+.gr_goods_ev em {
+    float: right;
+    line-height: 18px;
+    text-decoration: line-through;
+    margin-top: 4px;
+}
+.gr_goods_list h5 {
+    height: 35px;
+    overflow: hidden;
+}
+
+.gr_goods_list li h5 a {
+    font-size: 14px;
+    width: 100%;
+    overflow: hidden;
+    line-height: 34px;
+    height: 34px;
+    display: inline-block;
+    
+    text-align: left;
+    font-weight: 100;
+}
+
+.gr_sold_hav {
+    line-height: 30px;
+    font-size:12px;
+}
+
+.gr_sold_hav em {
+    float: right;
+}
+.gr_sold_hav em strong{
+    font-weight:normal;
+}
+
+
+/*-------------------------------*/
+/*积分商城页面*/
+.nc-appbar-tabs a.compare {
+    display: none !important;
+}
+
+
+/*积分中心页面去除侧边栏对比*/
+.bbc-container {
+    width: 1200px;
+    margin: 0 auto 10px auto;
+}
+
+.bbc-base-layout {
+    border: solid 1px #e1e1e1;
+    overflow: hidden;
+    margin-top:12px;
+}
+
+.bbc-member-left {
+    
+    width: 297px;
+    float: right;
+    border-right: solid 1px #EEE;
+}
+
+.bbc-member-right {
+    width: 900px;
+    float: right;
+}
+
+
+/*会员概述*/
+
+.bbc-member-info {
+    padding: 9px 19px;
+    overflow: hidden;
+}
+
+.bbc-member-info .avatar {
+    width: 88px;
+    height: 88px;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+
+.bbc-member-info .avatar .frame {
+    background: url(../images/point_bg.png) no-repeat 0 0;
+    width: 88px;
+    height: 88px;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+
+.bbc-member-info .avatar img {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    z-index: 1;
+    top: 4px;
+    left: 4px;
+}
+
+.bbc-member-info dl {
+    display: block;
+    width: 140px;
+    float: left;
+    margin: 10px 0 0 10px;
+}
+
+.bbc-member-info dt {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.bbc-member-info dd {
+    line-height: 22px;
+    font-size: 12px;
+}
+
+
+/*会员等级*/
+
+.bbc-member-grade {
+    background-color: #FFFBF3;
+    text-align: center;
+    width: 100%;
+    padding: 9px 0;
+    padding: 24px 0;
+    border-top: solid 1px #FED4AE;
+}
+
+.bbc-member-grade .progress-bar {
+    font-size: 0;
+    *word-spacing: -1px/*IE6、7*/
+    ;
+    display: block;
+}
+
+.bbc-member-grade .progress-bar em,
+.bbc-member-grade .progress-bar span {
+    vertical-align: middle;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    *display: inline/*IE7*/
+    ;
+    *zoom: 1;
+}
+
+.bbc-member-grade .progress-bar em {
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    width: 30px;
+}
+
+.bbc-member-grade .progress-bar span {
+    background-color: #e1e1e1;
+    width: 200px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.bbc-member-grade .progress-bar span i {
+    display: block;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.bbc-member-grade .progress {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.bbc-member-grade .progress em {
+    font-weight: 600;
+    margin: 0 2px;
+}
+
+.bbc-member-grade .links {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.bbc-member-grade .links a {
+    margin: 0 20px;
+}
+
+
+/* 会员积分 */
+
+.bbc-member-point {
+    font-size: 0;
+    background-color: #FFF6E6;
+    *word-spacing: -1px/*IE6、7*/
+    ;
+    border-top: solid 1px #FED4AE;
+}
+
+.bbc-member-point dl {
+    vertical-align: top;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-align: center;
+    display: inline-block;
+    *display: inline/*IE7*/
+    ;
+    width: 95px;
+    margin: 10px 0;
+    border-left: dotted 1px #FED4AE;
+    *zoom: 1;
+}
+
+.bbc-member-point dt {
+    font-size: 12px;
+    line-height: 30px;
+    height: 30px;
+    padding: 10px 0 5px 0;
+}
+
+.bbc-member-point dt strong {
+    font-size: 19px;
+    font-weight: 400;
+    margin-right: 4px;
+}
+
+.bbc-member-point dd {
+    font-size: 12px;
+    line-height: 20px;
+    color: #000;
+    height: 20px;
+    padding: 5px 0 10px 0;
+}
+
+.bbc-member-point a {
+    text-decoration: none;
+}
+
+
+/* 会员积分兑换购物车 */
+
+.bbc-memeber-pointcart {
+    text-align: center;
+    border-top: solid 1px #FED4AE;
+}
+
+.bbc-memeber-pointcart .btn {
+    font-size: 14px;
+    line-height: 32px;
+     display: inline-block;
+    *display: inline/*IE7*/
+    ;
+    width: 150px;
+    height: 32px;
+    margin: 19px auto;
+    border-radius: 4px;
+    position: relative;
+    z-index: 1;
+    *zoom: 1;
+}
+
+.bbc-memeber-pointcart .btn:hover {
+    text-decoration: none;
+}
+
+.bbc-memeber-pointcart a em {
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFF;
+    background-color: #C11C1C;
+    display: block;
+    min-width: 10px;
+    height: 18px;
+    padding: 0 4px;
+    border-radius: 9px;
+    position: absolute;
+    z-index: 1;
+    top: -9px;
+    right: 4px;
+}
+
+
+/* 会员未登录 */
+
+.bbc-not-login {
+    height: 367px;
+}
+
+.bbc-not-login .member {
+    text-align: center;
+    padding: 70px 0 20px 0;
+}
+
+.bbc-not-login .member a {
+    font-size: 18px;
+    line-height: 30px;
+}
+.bbc-not-login .member a:hover{
+    color:#e45050 !important;
+}
+
+.bbc-not-login .member p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.bbc-not-login .function {
+    font-size: 0;
+    *word-spacing: -1px/*IE6、7*/
+    ;
+    width: 260px;
+    margin: 0 auto;
+    padding: 22px 0;
+    border-top: dotted 1px #FFB577;
+}
+
+.bbc-not-login .function i {
+    background: url(../images/point_bg.png) no-repeat;
+    vertical-align: top;
+    letter-spacing: normal;
+    display: inline-block;
+    *display: inline/*IE7*/
+    ;
+    width: 48px;
+    height: 48px;
+    margin: 0 20px 0 10px;
+    *zoom: 1;
+}
+
+.bbc-not-login .function i.voucher {
+    background-position: -170px -70px;
+}
+
+.bbc-not-login .function i.exchange {
+    background-position: -218px -70px;
+}
+
+.bbc-not-login .function dl {
+    vertical-align: top;
+    letter-spacing: normal;
+    display: inline-block;
+    *display: inline/*IE7*/
+    ;
+    *zoom: 1;
+}
+
+.bbc-not-login .function dt {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.bbc-not-login .function dd {
+    font-size: 12px;
+}
+
+.bbc-not-login .button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* 会员内容横向排列样式  */
+
+.bbc-member-top {
+    background-color: #fff2da;
+    height: 106px;
+    border: solid 1px #FED4AE;
+    overflow: hidden;
+}
+
+.bbc-member-top .bbc-member-info {
+    background-color: #FFF;
+    float: left;
+}
+
+.bbc-member-top .bbc-member-grade {
+    width: auto;
+    float: left;
+    padding: 18px;
+    border-top: 0;
+    border-left: solid 1px #FED4AE;
+}
+
+.bbc-member-top .bbc-member-point {
+    float: left;
+    border-top: 0;
+    border-left: solid 1px #FED4AE;
+}
+
+.bbc-member-top .bbc-member-point dl {
+    width: 119px;
+    margin: 13px 0;
+}
+
+.bbc-member-top .bbc-memeber-pointcart {
+    float: left;
+    width: 260px;
+    padding: 18px 0;
+    border-top: 0;
+    border-left: solid 1px #FED4AE;
+}
+
+
+/*首页内容部分*/
+
+.bbc-main-layout {
+    margin-top: 20px;
+}
+
+.bbc-main-layout .title {
+    padding: 5px 5px 10px 0;
+    border-bottom: solid 2px #ff0011;
+}
+
+.bbc-main-layout .title h3 {
+    font-size: 18px;
+    line-height: 32px;
+    display:block;
+}
+
+.bbc-main-layout .title h3 span {
+    vertical-align: bottom;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    font-size: 40px;
+}
+
+.bbc-main-layout .title i.voucher {
+    background-position: -100px 0;
+}
+.bbc-main-layout .title .more {
+    float: right;
+    padding: 10px 0 0;
+    font-size:12px;
+}
+.bbc-main-layout ul {
+    font-size: 0;
+    *word-spacing: -1px/*IE6、7*/
+    ;
+}
+
+.bbc-main-layout li {
+    font-size: 12px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline/*IE7*/
+    ;
+    *zoom: 1;
+}
+
+
+/*积分礼品列表*/
+
+.bbc-exchange-list li {
+    width: 179px;
+    border: 1px solid #e1e1e1;
+    padding:0 10px;
+    margin-left: -1px;
+    margin-bottom: -1px;
+}
+
+.bbc-exchange-list li .gift-pic {
+    display:table;
+    text-align:center;
+    width: 178px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.bbc-exchange-list li .gift-pic a {
+    line-height: 0;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+   
+}
+
+.bbc-exchange-list li .gift-pic img {
+   /* margin-top: expression(200-this.height/2);
+    margin-top: 30px;*/
+}
+
+.bbc-exchange-list li .gift-name {
+    line-height: 18px;
+    display: block;
+    height: 36px;
+    margin: 0 0 10px;
+    overflow: hidden;
+}
+
+.bbc-exchange-list li .exchange-rule {
+    overflow: hidden;
+    margin-top: -5px
+}
+
+.bbc-exchange-list li .exchange-rule .pgoods-price {
+    line-height: 18px;
+    display: block;
+    width: 121px;
+    height: 18px;
+    float: left;
+    margin: 5px 0 0 0;
+}
+
+.bbc-exchange-list li .exchange-rule .pgoods-price em {
+    text-decoration: line-through;
+}
+
+.bbc-exchange-list li .exchange-rule .pgoods-points {
+    font-size: 12px;
+    display: block;
+    width: 100px;
+    float: left;
+    margin: 0px 0 5px 0;
+    clear: left;
+}
+
+.bbc-exchange-list li .exchange-rule .pgoods-grade {
+    display: block;
+    width: 40px;
+    height:43px;
+    float: right;
+    clear: left;
+    margin-right: 6px;
+}
+
+.norecord {
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    margin: 100px 0;
+}
+
+
+/* 优惠券分类选择 */
+
+.bbc-category dl {
+    font-size: 0;
+}
+
+.bbc-category dt,
+.bbc-category dd {
+    font-size: 12px;
+    word-spacing: normal;
+    letter-spacing: normal;
+    vertical-align: top;
+    display: inline-block;
+    vertical-align:middle;
+}
+
+.bbc-category dt {
+    color:#333;
+    width:80px;
+}
+
+.bbc-category .searchbox dt {
+    line-height: 28px;
+}
+
+.bbc-category ul {
+    font-size: 0;
+    word-spacing: -1em;
+}
+
+.bbc-category li {
+    font-size: 12px;
+    word-spacing: normal;
+    letter-spacing: normal;
+    white-space: nowrap;
+    vertical-align: middle;
+    display: inline-block;
+    padding:0 10px;
+    line-height:24px;
+    height:24px;
+    margin:10px 0;
+}
+.bbc-category .bbc-category-class li{
+    font-size:14px;
+    line-height:30px;
+    height:30px;
+    margin-bottom:4px;
+}
+.sale-ml{margin-left:24px;}
+.inte-ml{margin-left:70px;}
+.bbc-category .searchbox li {
+    cursor: pointer;
+}
+.bbc-category div.inline{
+    margin:10px 0;
+    line-height:24px;
+    height:24px;
+}
+.bbc-category input{padding:1px 3px !important;}
+.bbc-category div.inline span{
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.bbc-category li.hova {
+    color: #FFF;
+}
+
+.bbc-category li.selected_a {
+    color: #FFF;
+    background-color: #D93600;
+}
+
+.bbc-category li.selected em.asc {
+    background: url(../images/point_bg.png) no-repeat 0 -100px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-left: 4px;
+}
+
+.bbc-category li.selected em.desc {
+    background: url(../images/point_bg.png) no-repeat -8px -100px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-left: 4px;
+}
+
+.bbc-category li a.selected {
+    font-weight: 600;
+}
+
+
+/* 积分礼品信息兑换 */
+
+.bbc-detail {
+    min-height: 400px;
+    margin-bottom: 10px;
+    border: solid 1px #EEE;
+    position: relative;
+}
+
+.bbc-detail .bbc-info {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    border-top:1px solid #e1e1e1;
+}
+
+/* 店铺简介边栏 -> info.php */
+.bbc-info {
+    width: 210px;
+}
+
+.bbc-info .title {
+    background-color: #F5F5F5;
+    padding: 5px 10px;
+    border: solid 1px #E6E6E6;
+    border-top: none;
+}
+
+.bbc-info .title h4 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.bbc-info .content {
+    border: solid #E6E6E6;
+    border-width: 0 1px 1px;
+}
+
+.bbc-info .content dl {
+    font-size: 0;
+    *word-spacing: -1px/*IE6、7*/
+    ;
+    display: block;
+    padding: 6px 0;
+}
+
+.bbc-info .content dl dt {
+    font-size: 12px;
+    vertical-align: top;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-align: right;
+    display: inline-block;
+    *display: inline/*IE7*/
+    ;
+    width: 68px;
+    *zoom: 1;
+}
+
+.bbc-info .content dl dd {
+    font-size: 12px;
+    vertical-align: top;
+    letter-spacing: normal;
+    word-spacing: normal;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    *display: inline/*IE7*/
+    ;
+    width: 130px;
+    *width: 125px;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.bbc-exchangeNote {
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.bbc-exchangeNote li {
+    padding: 10px 0;
+    margin-top: -1px;
+    border-top: dotted 1px #CCC;
+    overflow: hidden;
+}
+
+.bbc-exchangeNote li .user-avatar {
+    width: 36px;
+    height: 36px;
+    padding: 1px;
+    margin-right: 5px;
+    border: solid 1px #EEE;
+    border-radius: 20px;
+    float: left;
+}
+
+.bbc-exchangeNote li .user-avatar img {
+    width: 36px;
+    height: 36px;
+    border-radius: 20px;
+}
+
+.bbc-exchangeNote li .user-name {
+    float: left;
+    width: 140px;
+    height: 20px;
+}
+
+.bbc-exchangeNote li .user-log {
+    float: left;
+    width: 140px;
+    height: 20px;
+}
+
+
+/* 礼品图片*/
+
+.bbc-gift-picture {
+    
+    width: 320px;
+    height: 320px;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bbc-gift-picture a {
+    line-height: 0;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    *display: block;
+    width: 320px;
+    height: 320px;
+    overflow: hidden;
+}
+
+.bbc-gift-picture a img {
+    max-width: 320px;
+    max-height: 320px;
+    margin-top: expression(320-this.height/2);
+}
+
+
+/* 站外分享操作 */
+
+.bbc-share {
+    width: 350px;
+    height: 24px;
+    padding-top: 10px;
+    border-top: dotted 1px #EEE;
+    position: absolute;
+    z-index: 1;
+    left: 10px;
+    bottom: 10px;
+}
+
+.bbc-gift-summary {
+    float: right;
+    width: 622px;
+    min-height: 400px;
+    margin-right: 208px;
+    border-right: solid 1px #EEE;
+    box-shadow: inset 1px 0 1px rgba(153, 153, 153, 0.15);
+}
+
+.bbc-gift-summary .name {
+    padding: 20px 25px;
+}
+
+.bbc-gift-summary .name h1,
+.bbc-gift-summary .name strong {
+    font-size: 18px;
+    line-height: 1.2em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+}
+
+.bbc-gift-summary .name strong {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+
+/* 销售信息 */
+
+.bbc-meta {
+    background: #EEE;
+    padding: 10px 0;
+    position: relative;
+    z-index: 1;
+    box-shadow: inset 0px 0 1px rgba(153, 153, 153, 0.15);
+}
+
+.bbc-key {
+    border-top: dotted 1px #DDD;
+    padding-top: 15px;
+}
+
+.bbc-meta dl,
+.bbc-key dl {
+    font-size: 0;
+    *word-spacing: -1px/*IE6、7*/
+    ;
+}
+
+.bbc-meta dl dt,
+.bbc-meta dl dd,
+.bbc-key dl dt,
+.bbc-key dl dd {
+    font-size: 12px;
+    line-height: 20px;
+    vertical-align: top;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    *display: inline/* IE6,7 */
+    ;
+    min-height: 20px;
+    padding: 4px 0;
+    *zoom: 1;
+}
+
+.bbc-meta dl dt,
+.bbc-key dl dt {
+    text-align: right;
+    width: 15%;
+    margin-right: 1%;
+}
+
+.bbc-meta dl dd,
+.bbc-key dl dd {
+    text-align: left;
+    width: 83%;
+    *width: 83%/*IE7*/
+    ;
+}
+
+.bbc-meta dl dd i.ver-line {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+
+.bbc-meta dl dd a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline/*IE7*/
+    ;
+    *zoom: 1;
+}
+
+.bbc-meta dl dd a:hover {
+    text-decoration: underline;
+}
+
+.bbc-meta .points strong {
+    font-size: 18px;
+    font-weight: 100;
+    margin-right: 10px;
+}
+
+.bbc-meta .points span {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 600;
+    padding: 2px 4px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.bbc-meta .points em {
+    vertical-align: middle;
+}
+
+.bbc-meta .countdown i {
+    font-size: 16px;
+}
+
+.bbc-meta .cost-price strong {
+    text-decoration: line-through;
+}
+.bbc-meta .promotion-info em {
+    vertical-align: middle;
+    margin: 2px 0 12px 0;
+}
+
+.bbc-meta .promotion-info span {
+    vertical-align: middle;
+}
+
+
+/*购买数量和库存*/
+
+.bbc-figure-input {
+    position: relative;
+    z-index: 1;
+}
+.bbc-figure-input input{
+    text-align:center;
+}
+
+.bbc-figure-input span {
+    margin-left: 10px;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.bbc-figure-input span em {
+    margin: 0 2px;
+}
+
+.bbc-figure-input span strong {
+    margin: 0 2px;
+}
+
+
+/* 立即购买和加入购物车按钮 */
+
+.bbc-gift-summary .ncs-btn {
+    display: inline-block;
+    margin: 10px 0 0 98px;
+    position: relative;
+}
+
+.bbc-gift-summary .ncs-btn {
+    *display: inline/*IE6,7*/
+    ;
+    zoom: 1;
+}
+
+.bbc-gift-summary .ncs-btn a.buynow,
+.bbc-gift-summary .ncs-btn a.addcart,
+.bbc-gift-summary .ncs-btn a.no-buynow,
+.bbc-gift-summary .ncs-btn a.no-addcart {
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 20px;
+    
+    text-align: center;
+    display: inline-block;
+    height: 20px;
+    padding: 6px 18px;
+    margin-right: 10px;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.25);
+}
+
+.bbc-gift-summary .ncs-btn a.buynow:hover,
+.bbc-gift-summary .ncs-btn a.addcart:hover,
+.bbc-gift-summary .ncs-btn a.no-buynow:hover,
+.bbc-gift-summary .ncs-btn a.no-addcart:hover {
+    text-decoration: none;
+}
+.bbc-gift-summary .ncs-btn a.no-buynow,
+.bbc-gift-summary .ncs-btn a.no-addcart,
+.bbc-gift-summary .ncs-btn a:hover.no-buynow,
+.bbc-gift-summary .ncs-btn a:hover.no-addcart {
+    cursor: not-allowed;
+}
+
+.bbc-gift-summary .ncs-btn a i {
+    font-size: 17px;
+    margin-right: 6px;
+}
+.bbc-grade .title {
+    padding: 9px;
+    border-bottom: solid 1px #EEE;
+}
+
+.bbc-grade .title h3 {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.bbc-gradeall-bar {
+    font-size: 0;
+    *word-spacing: -1px/*IE6、7*/
+    ;
+    background: url(../images/point_grade.png) no-repeat 0 0;
+    width: 660px;
+    height: 18px;
+    padding: 220px 200px 90px 40px;
+}
+
+.bbc-gradeall-bar .itemlevel {
+    font-size: 12px;
+    line-height: 20px;
+    vertical-align: top;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    *display: inline/* IE6,7 */
+    ;
+    *zoom: 1;
+    position: relative;
+    z-index: 1;
+}
+
+.bbc-gradeall-bar .exp-lv0 {
+    width: 15%;
+}
+
+.bbc-gradeall-bar .exp-lv1 {
+    width: 35%;
+}
+
+.bbc-gradeall-bar .exp-lv2 {
+    width: 35%;
+}
+
+.bbc-gradeall-bar .exp-lv3 {
+    width: 15%;
+}
+
+.bbc-gradeall-bar .gradelabel {
+    position: absolute;
+    z-index: 1;
+    top: -55px;
+}
+
+.bbc-gradeall-bar .gradelabel strong {
+    font-size: 18px;
+    line-height: 20px;
+    display: block;
+}
+
+.bbc-gradeall-bar .gradelabel i {
+    font-size: 12px;
+    line-height: 18px;
+    display: block;
+}
+
+.bbc-gradeall-bar .exp-lv0 .gradelabel {
+    display: none;
+}
+
+.bbc-gradeall-bar .exp-lv1 .gradelabel {
+    left: -90px;
+}
+
+.bbc-gradeall-bar .exp-lv2 .gradelabel {
+    left: -120px;
+}
+
+.bbc-gradeall-bar .exp-lv3 .gradelabel {
+    left: -90px;
+}
+
+.bbc-gradeall-bar .bar i {
+    display: block;
+    width: 14px;
+    height: 14px;
+    border: solid 2px #FFF;
+    border-radius: 9px;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+}
+
+.bbc-gradeall-bar .exp-lv0 .bar i {
+    left: 5px;
+}
+
+.bbc-gradeall-bar .exp-lv1 .bar i {
+    left: -7px;
+}
+
+.bbc-gradeall-bar .exp-lv2 .bar i {
+    left: -7px;
+}
+
+.bbc-gradeall-bar .exp-lv3 .bar i {
+    left: -7px;
+}
+
+.bbc-gradeall-bar .arrow {
+    font-size: 0;
+    border-color: transparent transparent #FFF transparent;
+    border-style: dashed dashed solid dashed;
+    border-width: 8px;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    position: absolute;
+    z-index: 4;
+    top: 20px;
+    left: 5px;
+}
+
+.bbc-gradeall-bar .exp-lv0 .arrow {
+    left: 5px;
+}
+
+.bbc-gradeall-bar .exp-lv1 .arrow {
+    left: -7px;
+}
+
+.bbc-gradeall-bar .exp-lv2 .arrow {
+    left: -7px;
+}
+
+.bbc-gradeall-bar .exp-lv3 .arrow {
+    left: -7px;
+}
+
+.bbc-gradeall-bar .tips {
+    
+    border-radius: 5px;
+    padding: 0 10px;
+    white-space: nowrap;
+    position: absolute;
+    z-index: 2;
+    top: 36px;
+    overflow: hidden;
+}
+
+.bbc-gradeall-bar .tips p {
+    padding: 5px;
+    border-top: dotted 1px #CCC;
+    margin-top: -1px;
+}
+
+.bbc-gradeall-bar .exp-lv1 .tips {
+    left: -20px;
+}
+
+.bbc-gradeall-bar .exp-lv1 .tips {
+    left: -120px;
+}
+
+.bbc-gradeall-bar .exp-lv2 .tips {
+    left: -120px;
+}
+
+.bbc-gradeall-bar .exp-lv3 .tips {
+    left: -120px;
+}
+
+.bbc-sidebar {
+    width: 210px;
+    float: left;
+}
+
+.bbc-sidebar-container {
+    margin-bottom: 10px;
+}
+
+.bbc-sidebar-container .title {
+    height: 20px;
+    padding: 5px 10px;
+    border: solid #DDD;
+    border-width: 1px 1px 0 1px;
+    background:#f3f3f3
+    font-size:14px;
+}
+
+.bbc-sidebar-container .title h4 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.bbc-sidebar-container .content {
+    border: solid 1px #DDD;
+    background: #FFF;
+}
+
+.bbc-sidebar .recommend {
+    width: 190px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.bbc-sidebar .recommend li {
+    padding: 10px 5px;
+    margin: -1px 0 0 0;
+    border-top: dotted 1px #DDD;
+}
+
+.bbc-sidebar .recommend .gift-pic {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+}
+
+.bbc-sidebar .recommend .gift-pic a {
+    line-height: 0;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    *display: block;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+}
+
+.bbc-sidebar .recommend .gift-pic a img {
+    max-width: 160px;
+    max-height: 160px;
+    margin-top: expression(160-this.height/2);
+}
+
+.bbc-sidebar .recommend .gift-name {
+    line-height: 16px;
+    height: 32px;
+    margin: 5px 0;
+    overflow: hidden;
+}
+
+.bbc-sidebar .recommend .pgoods-points {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    margin-right: 6px;
+}
+
+.bbc-sidebar .recommend .pgoods-points span {
+    font-size: 12px !important;
+    line-height: 16px;
+    padding: 2px 4px;
+}
+
+.bbc-goods-main {
+    float: right;
+    width: 980px;
+}
+
+.bbc-goods-layout {
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+
+/* 商品内容处TabBar */
+.bbc-goods-title-nav {
+    margin-top: 7px;
+}
+
+.bbc-goods-title-nav ul {
+    font-size: 0;
+    *word-spacing: -1px/*IE6、7*/
+    ;
+    border: solid #D7D7D7 1px;
+}
+
+.bbc-goods-title-nav ul li {
+    vertical-align: top;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+}
+
+.bbc-goods-title-nav ul li {
+    *display: inline/*IE6,7*/
+    ;
+}
+
+.bbc-goods-title-nav ul li a {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+    text-decoration: none;
+     display: block;
+    padding: 6px 15px 5px 15px;
+    border-style: solid;
+    border-color: #D7D7D7;
+    border-width: 0 1px 0 0;
+}
+
+.bbc-goods-title-nav ul li.current {
+    margin: -7px 0 -1px -1px;
+}
+
+.bbc-goods-title-nav ul li.current a {
+     background-color: #FFF;
+    padding: 11px 15px 6px 15px;
+    border-style: solid;
+    border-color: #D93600 #DDD transparent #DDD;
+    border-width: 2px 1px 0 1px;
+}
+
+.bbc-goods-info-content {
+    padding: 10px 0;
+    border: 0 none;
+    margin: 0;
+    overflow: hidden;
+    border:1px solid #e1e1e1;
+    border-top:none;
+}
+.bbc-goods-info-content ul{
+    padding:6px;
+    font-size:12px;
+    line-height:20px;
+}
+
+.bbc-breadcrumb-layout {
+    text-align: center;
+}
+
+.bbc-breadcrumb {
+    font-size: 0;
+    *word-spacing: -1px/*IE6、7*/
+    ;
+    text-align: left;
+    height: 20px;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+.bbc-breadcrumb span {
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    *display: inline/* IE6,7*/
+    ;
+    height: 20px;
+    zoom: 1;
+}
+
+.bbc-breadcrumb i {
+    font-size: 14px;
+    margin-right: 4px;
+}
+
+.bbc-breadcrumb span.arrow {
+    line-height: 20px;
+    margin: 0 6px;
+}
+
+.bbc-breadcrumb a {
+    display: block;
+}
+
+/*店铺代金券列表*/
+.bbc-voucher-list li {
+    width: 372px;
+    margin: 20px 0 20px 20px;
+}
+
+.bbc-voucher {
+    display: block;
+    height: 212px;
+    border: dotted 1px #FFCFBF;
+    position: relative;
+    z-index: 1;
+}
+
+.bbc-voucher .cut {
+    background: url(../images/point_bg.png) no-repeat -140px 0;
+    width: 20px;
+    height: 18px;
+    position: absolute;
+    z-index: 2;
+    top: -9px;
+    left: 5px;
+}
+
+.bbc-voucher .info {
+    background: url(../images/point_voucher_bg.png) repeat-y right 0;
+    width: 120px;
+    height: 192px;
+    padding: 20px 30px 0 25px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.bbc-voucher .store {
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    height: 20px;
+    overflow: hidden;
+}
+
+.bbc-voucher .store-classify {
+    text-align: center;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.bbc-voucher .pic {
+    line-height: 0;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    *display: block;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+}
+
+.bbc-voucher .pic img {
+    max-width: 120px;
+    max-height: 120px;
+    margin-top: expression(120-this.height/2);
+}
+
+.bbc-voucher .value,
+.bbc-voucher .point,
+.bbc-voucher .button {
+    display: block;
+    padding-left: 185px;
+}
+
+.bbc-voucher .value {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.bbc-voucher .value dt {
+    font-size: 30px;
+    line-height: 48px;
+    height: 48px;
+}
+
+.bbc-voucher .value dt em {
+    font-size: 40px;
+}
+
+.bbc-voucher .value dd {
+    white-space: nowrap;
+    margin-bottom: 4px;
+}
+
+.bbc-voucher .point {
+    height: 44px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.bbc-voucher .point p {
+    line-height: 20px;
+    display: block;
+     height: 20px;
+}
+
+.bbc-voucher .point p.required {
+    font-size: 16px;
+    line-height: 24px;
+    height: 24px;
+}
+
+.bbc-voucher .button {
+    padding-top: 10px;
+}
+
+input[type="submit"]:hover,
+input.submit:hover,
+a.submit:hover {
+    text-decoration: none;
+}
+
+.bbc-voucher-exchange .submit {
+    vertical-align: top;
+    display: inline-block;
+}
+
+input[type="submit"],
+input.submit,
+a.submit {
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: bold;
+    display: block;
+    height: 30px;
+    padding: 0 20px;
+    border-radius: 3px;
+    border: none 0;
+    cursor: pointer;
+}
+
+.bbc-voucher-exchange {
+    padding: 40px 20px 80px 20px;
+    font-size: 14px;
+}
+
+.voucher-exchange {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.bbc-voucher-exchange dl.mar0 {
+    margin-top: 0 !important;
+}
+
+.bbc-voucher-exchange .pic {
+    vertical-align: top;
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+}
+
+.bbc-voucher-exchange .pic span {
+    line-height: 0;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    *display: block;
+    width: 64px;
+    height: 64px;
+    overflow: hidden;
+}
+
+.bbc-voucher-exchange .pic img {
+    max-width: 64px;
+    max-height: 64x;
+    height: 64px;
+    margin-top: expression(64-this.height/2);
+}
+
+.bbc-voucher-exchange dl {
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.bbc-voucher-exchange dt {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.bbc-voucher-exchange dd {
+    line-height: 24px;
+    font-size: 12px;
+}
+
+.bbc-voucher-exchange .button {
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.bbc-voucher-exchange .submit {
+    vertical-align: top;
+    display: inline-block;
+}
+
+a:hover.ncbtn-mini,
+a:hover.ncbtn {
+    text-decoration: none;
+    color: #FFF;
+}
+
+a.ncbtn {
+    text-decoration: none;
+    height: 20px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+/*  热门积分兑换 */
+
+.picture_1 {
+    position: relative;
+    background: url(../images/line.png) no-repeat;
+    margin-right: 10px;
+}
+
+.picture_2 {
+    position: relative;
+    background: url(../images/line_5.png) no-repeat;
+    margin-left: 35px;
+}
+
+.picture_3 {
+    position: relative;
+    background: url(../images/line_50.png) no-repeat;
+    margin-left: 45px;
+}
+
+.picture_1_1 {
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+    top: 30px;
+    width: 222px;
+}
+
+.picture_1_2 {
+    position: absolute;
+    left: 20px;
+    top: 60px;
+    width: 230px;
+}
+
+.picture_1_2 p {
+    margin-top: 5px;
+     font-size: 12px;
+}
+
+.picture_1_3 {
+    position: absolute;
+    left: 240px;
+    text-align: center;
+    width: 140px;
+    top: 40px;
+}
+
+.picture_1_4 {
+    position: absolute;
+    left: 278px;
+    text-align: center;
+    bottom: 30px;
+}
+
+.imgs {
+    height: 183px;
+    float: left;
+    width: 370px;
+    margin-bottom:10px;
+}
+
+.ulbg {
+    background: #f1f1f1;
+    height: 40px;
+    width: 100%;
+}
+
+.ulbg li {
+    list-style: none;
+    float: left;
+    padding-top: 15px;
+    margin-left: 60px;
+}
+
+.ulbg li a {
+    font-size: 14px;
+}
+
+.ul_headfont {
+    font-size: 16px;
+    line-height: 10px;
+    height: 40px;
+}
+
+.divxz {
+    
+    line-height: 30px;
+}
+
+.divxz:hover {
+    background: #C33;
+}
+
+.bigHB {
+    margin-top: 53px;
+    height: 300px;
+}
+
+.hb {
+    background: url(../images/hb.png) no-repeat;
+    width: 284px;
+    height: 252px;
+    float: left;
+    margin-left: 16px;
+    position: relative;
+}
+
+.hb_1 {
+    position: absolute;
+    left: 25px;
+    top: 30px;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 14px;
+}
+
+.hb_2 {
+    position: absolute;
+    left: 85px;
+    top: 80px;
+    text-align: center;
+}
+
+.yxbtn {
+    position: absolute;
+    width: 260px;
+    height: 37px;
+    left: 11px;
+    bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input.text,
+input.password {
+    font-size: 12px;
+    vertical-align: top;
+    display: inline-block;
+    height: 20px;
+    padding: 4px;
+    border: solid 1px #E6E9EE;
+    outline: 0 none;
+}
+
+.w50 {
+    width: 50px !important;
+}
+
+select,
+.select {
+    height: 30px;
+    -webkit-line-height: 23px;
+    vertical-align: middle;
+    *display: inline;
+    padding: 0 4px;
+    border: solid 1px #E6E9EE;
+    *zoom: 1;
+}
+a.bbcbtn {
+    height: 20px;
+    padding: 5px 10px;
+}
+
+a.bbcbtn {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFF;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    *display: inline;
+    height: 20px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    *zoom: 1;
+}
+
+.bbc-breadcrumb {
+    font-size: 0;
+    *word-spacing: -1px;
+    text-align: left;
+    height: 20px;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+.bbc-breadcrumb span {
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    *display: inline;
+    height: 20px;
+    zoom: 1;
+}
+
+.commity_number {
+    width: 170px;
+    display: inline-block;
+}
+
+.share_others {
+    padding-left: 18px;
+    float: right;
+}
+
+/*店铺代金券列表*/
+
+.ncp-voucher-list {
+    background-color: #F9F9F9;
+}
+
+.ncp-voucher-list li {
+    width: 372px;
+    margin: 20px 0 20px 20px;
+}
+
+.ncp-voucher {
+    background-color: #FFFBF3;
+    display: block;
+    height: 212px;
+    border: dotted 1px #FFCFBF;
+    position: relative;
+    z-index: 1;
+}
+
+.ncp-voucher .cut {
+    background: url(../images/point_bg.png) no-repeat -140px 0;
+    width: 20px;
+    height: 18px;
+    position: absolute;
+    z-index: 2;
+    top: -9px;
+    left: 5px;
+}
+
+.ncp-voucher .info {
+    background: url(../images/point_voucher_bg.png) repeat-y right 0;
+    width: 120px;
+    height: 192px;
+    padding: 20px 30px 0 25px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.ncp-voucher .store {
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    height: 20px;
+    overflow: hidden;
+}
+
+.ncp-voucher .store-classify {
+    text-align: center;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.ncp-voucher .pic {
+    line-height: 0;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    *display: block;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+}
+
+.ncp-voucher .pic img {
+    max-width: 120px;
+    max-height: 120px;
+    margin-top: expression(120-this.height/2);
+}
+
+.ncp-voucher .value,
+.ncp-voucher .point,
+.ncp-voucher .button {
+    display: block;
+    padding-left: 185px;
+}
+
+.ncp-voucher .value {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.ncp-voucher .value dt {
+    font-size: 30px;
+    line-height: 48px;
+    color: #D93600;
+    height: 48px;
+}
+
+.ncp-voucher .value dt em {
+    font-size: 22px;
+}
+
+.ncp-voucher .value dd {
+    color: #D83500;
+    white-space: nowrap;
+    margin-bottom: 4px;
+}
+.ncp-voucher .point {
+    height: 44px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.ncp-voucher .point p {
+    line-height: 20px;
+    display: block;
+    height: 20px;
+}
+
+.ncp-voucher .point p.required {
+    font-size: 16px;
+    line-height: 24px;
+    height: 24px;
+}
+
+.ncp-voucher .button {
+    padding-top: 10px;
+}
+
+a.ncbtn-grapefruit {
+    color: #FFF;
+    padding: 0 10px;
+    line-height: 28px;
+    display: inline-block;
+    border-radius: 3px;
+    height: 28px !important;
+}
+
+a.selected_b {
+    font-weight: 600;
+}
+.divxzye p {
+    padding: 0 5px;
+    color: #fff;
+}
+
+.jifen_input {
+/*    position: relative;
+    top: 2px;*/
+}
+
+.share_others a {
+    margin-right: 4px;
+}
+
+.bbc-member-grade .progress-bar span {
+    vertical-align: middle;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+}
+
+.bbc-category li.selected_a a {
+    color: #FFF;
+}
+
+
+
+
+.bbc-sidebar .recommend .gift-name a {
+    font-size: 12px;
+}
+
+.bbc-store-info{
+    font-size: 0;
+    background: url(../images/rating.png) no-repeat top center;
+    text-align: right;
+    height: 30px;
+    padding: 10px 10px 4px 10px;
+    position: absolute;
+    z-index: 10;/*店铺首页店铺信息需要此样式*/
+    top: 0;
+    right: 0;
+}
+.bbc-store-info .basic {
+    margin-left: 10px;
+    text-align: left;
+    font-size: 12px;
+    height: 30px;
+    vertical-align: top;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+.bbc-store-info .basic .displayed{
+    color: #FFEAAB;
+    text-shadow: 1px 1px 0 rgba(102,0,0,0.5);
+}
+.bbc-store-info .basic .displayed a {
+    color: #FFEAAB;
+    width: 80px;
+    float: left;
+    height: 16px;
+    overflow: hidden;
+}
+.bbc-store-info .basic .all-rate {
+    margin-left: 10px;
+}
+.bbc-store-info .basic .all-rate .rating {
+    background: url(../images/shops_bg.png) no-repeat 0 -18px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 79px;
+    height: 17px;
+}
+.bbc-store-info .basic .all-rate .rating span {
+    background: url(../images/shops_bg.png) no-repeat 100% 0;
+    display: block;
+    height: 18px;
+}
+.bbc-store-info .basic .all-rate em {
+    font-weight: 600;
+    vertical-align: middle;
+    margin-right: 2px;
+    color:#fff;
+}
+.bbc-store-info .basic .sub{
+    background: #FFF;
+    display: none;
+    padding: 9px 22px 0 21px;
+    border: solid 1px #F39800;
+    position: absolute;
+    z-index: 1;
+    top: 24px;
+    left: -20px;
+}
+.bbc-store-info .basic .store-logo {
+    width: 200px;
+    height: 60px;
+    overflow: hidden;
+}
+.bbc-info_reset {
+    width: 200px;
+    background-color: #FFF;
+    margin-bottom: 10px;
+}
+.bbc-store-info .ncs-info .title, .bbc-store-info .ncs-info .all-rate {
+    display: none;
+}
+.bbc-info_reset .title {
+    background-color: #F5F5F5;
+    padding: 5px 10px;
+    border: solid 1px #E6E6E6;
+    display:none;
+}
+.bbc-info_reset .title h4 {
+    font-size:14px;
+    line-height:20px;
+    color: #555;
+}
+.bbc-detail-rate {
+    color: #999;
+    width: 182px;
+    padding: 5px;
+    margin: 0 auto;
+}
+.bbc-detail-rate ul {
+    font-size: 0;
+    padding: 5px 0;
+}
+.bbc-detail-rate li {
+    font-size: 12px;
+    color: #333;
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    width: 33.333%;
+    height: 32px;
+}
+.bbc-detail-rate li h5 {
+    color: #777;
+    line-height: 16px;
+    height: 16px;
+}
+.bbc-detail-rate .low {
+    color: #e43d3f;
+}
+.bbc-detail-rate li div {
+    line-height: 16px;
+    height: 16px;
+}
+.bbc-info_reset .btns {
+    font-size: 0;
+    text-align: center;
+    padding-bottom: 12px;
+    border-bottom: solid 1px #E6E6E6;
+}
+.bbc-info_reset .btns a.goto {
+    color: #FFF;
+    background-color: #333;
+    border-color: #333;
+    margin-right: 10px;
+}
+.bbc-info_reset .btns a {
+    font-size: 12px;
+    line-height: 20px;
+    color: #333;
+    background-color: #F5F5F5;
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    height: 20px;
+    padding: 3px 10px;
+    border: solid 1px #CCC;
+}
+.bbc-info_reset .btns a span {
+    line-height: 20px;
+    color: #999;
+    margin-left: 3px;
+}
+.bbc-info_reset .content_reset dl {
+    font-size: 0;
+    display: block;
+    border-bottom: solid 1px #E6E6E6;
+    padding: 6px 0;
+}
+.bbc-info_reset .no-border {
+    border: 0!important;
+    padding-bottom: 0!important;
+}
+.bbc-info_reset .content_reset dl dt {
+    font-size: 12px;
+    color: #666;
+    vertical-align: top;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-align: right;
+    display: inline-block;
+    width: 68px;
+}
+.bbc-info_reset .content_reset dl dd {
+    font-size: 12px;
+    color: #333;
+    vertical-align: top;
+    letter-spacing: normal;
+    word-spacing: normal;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    width: 130px;
+    overflow: hidden;
+}
+
+
+
+
+/*---------团购列表-----------*/
+
+/*团购列表索引*/
+.ncg-screen {
+    margin-bottom: 10px;
+    overflow: hidden;
+    border-bottom:1px solid #e1e1e1;
+}
+
+.ncg-screen dl {
+    font-size: 0;
+    *word-spacing: -1px/*IE6、7*/
+    ;
+    display: block;
+    clear: both;
+    padding: 6px;
+    border-bottom: dotted 1px #E6E6E6;
+}
+
+.ncg-screen dl:last-child {
+    border-bottom: 0;
+}
+
+.ncg-screen dl dt {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 22px;
+    vertical-align: top;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-align: right;
+    display: inline-block;
+    *display: inline/*IE7*/
+    ;
+    width: 60px;
+    *zoom: 1;
+}
+
+.ncg-screen dl dd {
+    vertical-align: top;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    *display: inline/*IE7*/
+    ;
+    margin: 0 8px;
+    *zoom: 1;
+}
+
+.ncg-screen dl dd a {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    display: block;
+    height: 20px;
+    padding: 1px 6px;
+}
+/*团购列表商品陈列*/
+.ncg-content .rightcont {
+    float: left;
+    width: 934px;
+    margin-left:222px;
+}
+.group-list {
+    width: 100%;
+    overflow: hidden;
+}
+
+.group-list ul {
+    font-size: 0;
+    width: 99.9%;
+}
+
+.group-list li {
+    font-size: 12px;
+    vertical-align: top;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    *display: inline/*IE7*/
+    ;
+    width: 309px;
+    border: solid 1px #fff;
+    *zoom: 1;
+}
+.group-list li:hover{
+    border-color:#e45050;
+}
+
+.group-list li .ncg-list-content {
+    width: 292px;
+    padding: 15px 9px;
+    position: relative;
+}
+.ncg-list-content .pic-thumb {
+    line-height: 0;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    *display: block;
+    width: 290px;
+    height: 193px;
+    overflow: hidden;
+}
+
+.ncg-list-content .pic-thumb img {
+    margin-top: expression(193-this.height/2);
+    *margin-top: expression(96-this.height/2)/*IE6,7*/
+    ;
+}
+
+.ncg-list-content .title {
+    display: block;
+    width: 92%;
+    height: 38px;
+    margin: 10px auto 0 auto;
+    overflow: hidden;
+}
+
+.ncg-list-content .title a {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: left;
+}
+
+.ncg-list-content .title a:hover {
+    text-decoration: none;
+}
+
+.ncg-list-content .title a span {
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 14px;
+    vertical-align: middle;
+    display: inline-block;
+    height: 14px;
+    padding: 1px 3px 0 3px;
+    margin-right: 6px;
+    border-radius: 3px;
+    -webkit-text-size-adjust: none;
+}
+
+.ncg-list-content .item-prices {
+    margin-top: 15px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.ncg-list-content .item-prices .price {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #F04C44;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 125px;
+    height: 36px;
+    float: left;
+    overflow: hidden;
+}
+
+.ncg-list-content .item-prices .price i {
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 36px;
+    vertical-align: bottom;
+    *vertical-align: auto;
+    display: inline-block;
+    *display: inline/*IE7*/
+    ;
+    margin-right: 2px;
+    zoom: 1;
+    font-style: normal;
+}
+
+.ncg-list-content .item-prices .price em {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 36px;
+    vertical-align: bottom;
+    *vertical-align: auto;
+    display: inline-block;
+    *display: inline/*IE7*/
+    ;
+    margin-left: 2px;
+    zoom: 1;
+}
+
+.ncg-list-content .item-prices .dock {
+    width: 70px;
+    height: 40px;
+    float: left;
+    margin-left: 8px;
+    position: relative;
+}
+
+.ncg-list-content .item-prices .limit-num {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #C30;
+    background: url(../images/group_bg.png) no-repeat 0 -10px;
+    width: 50px;
+    height: 20px;
+    padding: 2px 0 1px 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ncg-list-content .item-prices .orig-price {
+    line-height: 16px;
+    display: block;
+    position: absolute;
+    bottom: 14px;
+    left: 8px;
+}
+
+.ncg-list-content .item-prices .sold-num {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 36px;
+    float: right;
+}
+
+.ncg-list-content .item-prices .sold-num em {
+    font-size: 16px;
+    font-weight: 700;
+    color: #396;
+    margin: 0 2px;
+}
+
+.ncg-list-content:hover .sold-num {
+    display: none;
+}
+
+.ncg-list-content .item-prices .buy-button {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFF;
+    text-align: center;
+    display: block;
+    width: 80px;
+    height: 20px;
+    padding: 5px 0;
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    opacity: 0;
+    filter: alpha(opacity=0)/*IE*/
+    ;
+    transition: opacity 0.4s ease-in-out 0s;
+    border-radius: 2px;
+}
+.ncg-list-content:hover .buy-button {
+    opacity: 1;
+    filter: alpha(opacity=100)/*IE*/
+    ;
+}
+.crumbs {
+    position: relative;
+    height: 46px;
+}
+
+.crumbs p {
+    line-height: 44px;
+    position: absolute;
+    left: 0;
+}
+.crumbs i.iconfont {
+    vertical-align: middle;
+}
+.ncsl-nav-banner img{
+    width: 100%;
+}
+
+/*领券中心*/
+.integral-search-btn{
+    display:inline-block;
+    width:40px;
+    line-height:24px;
+    background:#e42225;
+    color:#fff;
+    border-radius:2px;
+    text-align:center;
+}
+.voucher-center-li li{
+    margin-right:30px;
+    margin-bottom:20px;
+    width:380px;
+    height:140px;
+    background:url(../images/voucher-can-bg.png) no-repeat center;
+    box-shadow:0 10px 15px rgba(67,67,67,0.05);
+    position:relative;
+}
+.voucher-center-li li.had-get,.voucher-center-li li.had-loot{
+    background:url(../images/voucher-no-bg.png) no-repeat center;
+}
+.voucher-center-li li.had-get .icon-get{
+    width:64px;
+    height:64px;
+    display:inline-block;
+    position:absolute;
+    right:60px;
+    bottom:10px;
+    background:url(../images/icon-get.png) no-repeat center;
+}
+.voucher-center-li-cont{
+     padding:20px;
+     width:330px;
+     box-sizing:border-box;
+}
+.voucher-center-li li:nth-child(3n){
+    margin-right:0;
+}
+.voucher-center-li img{
+    width:100px;
+    height:100px;
+    margin-right:20px;
+}
+.voucher-get-btn{
+    color:#fff;
+    width:50px;
+    text-align:center;
+    padding:20px 0;
+}
+.voucher-center-li li.had-get .voucher-get-btn{
+    line-height:34px;
+}
+.voucher-get-btn:hover{
+    font-weight:700;
+}
+.voucher-center-li-text{
+    max-width:160px;
+}
+.voucher-center-li li.had-get .voucher-center-li-text{
+    max-width:140px;
+}

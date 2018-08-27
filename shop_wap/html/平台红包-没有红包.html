@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>没有红包</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/nctouch_products_list.css">
+	<script src="../js/jquery.js"></script>
+	<script>
+
+		function off(obj,obj2){
+			obj.click(function(){
+				obj2.toggle();
+			})
+		}
+		$(function(){
+			off($(".packet-nav li"),$(".packets-type"));
+		})
+		
+	</script>
+</head>
+<body>
+	<header id="header" class="fixed">
+	    <div class="header-wrap">
+	        <div class="header-l"> <a href="member.html"> <i class="back"></i> </a> </div>
+	        <span class="header-tab"><a href="javascript:void(0);">我的红包</a><a href="javascript:void(0);" class="cur">领取红包</a></span>
+	        <div class="header-r"> <a href="javascript:void(0);"><i class="more"></i><sup style="display: inline;"></sup></a> </div>
+	    </div>
+	    <div class="nctouch-nav-layout">
+	        <div class="nctouch-nav-menu"> <span class="arrow"></span>
+	            <ul>
+	                <li><a href="../../index.html"><i class="home"></i>首页</a></li>
+	                <li><a href="../search.html"><i class="search"></i>搜索</a></li>
+	                <li><a href="../cart_list.html"><i class="cart"></i>购物车</a><sup style="display: inline;"></sup></li>
+	                <li><a href="javascript:void(0);"><i class="message"></i>消息<sup></sup></a></li>
+	            </ul>
+	        </div>
+	    </div>
+	</header>
+	<div class="goods-search-list-nav">
+        <ul class="bor0 packet-nav">
+            <li><a href="javascript:void(0);">全部红包<i></i></a></li>
+        </ul>
+    </div>
+	<div class="goods-sort-inner packets-type">
+        <span><a href="javascript:void(0);" class="cur">只看我能兑换的<i></i></a></span>
+         <span><a href="javascript:void(0);">111111<i></i></a></span>
+    </div>
+	<div class="no-packets"><em></em><p>还没有红包嗷~</p></div>
+</body>
+</html>

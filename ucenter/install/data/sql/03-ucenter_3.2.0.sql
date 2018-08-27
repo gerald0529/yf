@@ -1,0 +1,4 @@
+INSERT INTO `ucenter_web_config` (`config_key`, `config_value`, `config_type`, `config_enable`, `config_comment`, `config_datatype`) VALUES ('alipay_app_id', '', 'connect', '1', '', 'string');
+INSERT INTO `ucenter_web_config` (`config_key`, `config_value`, `config_type`, `config_enable`, `config_comment`, `config_datatype`) VALUES ('alipay_alipayrsaPublicKey', '', 'connect', '1', '', 'string');
+INSERT INTO `ucenter_web_config` (`config_key`, `config_value`, `config_type`, `config_enable`, `config_comment`, `config_datatype`) VALUES ('alipay_alipayrsaPrivateKey', '', 'connect', '1', '', 'string');
+INSERT INTO `ucenter_web_config` (`config_key`, `config_value`, `config_type`, `config_enable`, `config_comment`, `config_datatype`) VALUES ('alipay_status', '0', 'connect', '1', '', 'string');

@@ -1,0 +1,37 @@
+.page { background-color: #FFF; min-width: 1000px; padding: 62px 1% 0 1%; text-align: left; overflow: hidden; }
+.fixed-bar { background-color: #FFF; width: 100%; padding-bottom: 4px; position: fixed; z-index: 99; top: 0; left: 0; }
+.item-title { line-height: 20px; white-space: nowrap; width: 98%; padding-top: 3px; margin: 0 1%; border-bottom: solid 1px #E6E6E6; }
+.item-title .subject { vertical-align: bottom; display: inline-block; *display: inline;
+*zoom: 1;
+min-width: 190px; height: 38px; padding: 6px 0; margin-right: 10px; }
+.item-title h3 { font-size: 16px; font-weight: normal; line-height: 20px; color: #333; }
+.item-title h5 { font-size: 12px; font-weight: normal; line-height: 18px; color: #999; }
+.tab-base { vertical-align: bottom; display: inline-block; *display: inline;
+*zoom: 1;
+}
+.tab-base li { height: 35px; margin-right: 2px; }
+.tab-base a { line-height: 20px !important; color: #777 !important; background-color: #E6E6E6 !important; display: block; !important height: 20px !important;
+padding: 7px 20px !important; border: solid 1px #E6E6E6 !important; border-radius: 5px 5px 0 0 !important; cursor: pointer; !important
+}
+.tab-base a:hover { color: #333 !important; }
+.tab-base a.current,
+.tab-base a:hover.current { font-size: 14px !important; font-weight: 600 !important; background-color: #FFF !important; border-bottom-color: #FFF !important; cursor: default !important; }
+.item-title a.back { color: #999; display: inline-block; vertical-align: bottom; margin: 0 10px 6px 0; }
+.item-title a.back:hover { color: #2cbca3; }
+.item-title a.back i { font-size: 40px; }
+
+
+/*商家入驻表单*/
+.store-joinin { width: 871px; line-height: 20px; border-style: solid; border-width: 0 0 1px 1px; border-color: transparent transparent #CCC #CCC; margin: 10px 0 20px 0; box-shadow: 2px 2px 2px rgba(204,204,204,0.25); }
+.store-joinin thead th { font-weight: 600; color: #FFF; background-color: #CCC; height: 20px; padding: 8px 5px; border-style: solid; border-width: 1px 1px 0 0; border-color: #CCC #CCC transparent transparent; }
+.store-joinin tbody th { color: #777; background-color: #F7F7F7; text-align: right; width: 119px; height: 20px; padding: 8px 5px; border-style: solid; border-width: 1px 1px 0 0; border-color: #CCC #CCC transparent transparent; }
+.store-joinin tbody td { color: #333; min-width: 149px; height: 20px; padding: 8px 5px; border-style: solid; border-width: 1px 1px 0 0; border-color: #CCC #CCC transparent transparent; }
+.store-joinin tbody td img { max-width: 100px; max-height: 100px; padding: 4px; border: solid 1px #EEE; }
+.store-joinin tbody td textarea { width: 400px; height: 100px; }
+
+
+
+table.type {border: solid 1px #EEE; }
+table.type thead th { color: #555; background-color: #F7F7F7; text-align: center; padding: 4px; border-color: #EEE; }
+table.type tbody td { color: #777; text-align: center; padding: 4px; border-color: #EEE;min-width:100px; }
+table.type tbody td input { width: 60px; padding: 0; }

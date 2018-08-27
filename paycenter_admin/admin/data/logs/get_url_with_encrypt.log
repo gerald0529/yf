@@ -1,0 +1,115 @@
+11:54:19 05/27/17 FILE=D:/phpStudy/WWW/svn/paycenter_admin/index.php [info] $tmp_str:app_id=103&ctl=Api&met=login&rtime=1495857259&typ=json&user_account=admin&user_password=111111&key=aaaaaabbb
+11:54:19 05/27/17 FILE=D:/phpStudy/WWW/svn/paycenter_admin/index.php [info] $url:http://localhost/svn/ucenter/index.php
+11:54:19 05/27/17 FILE=D:/phpStudy/WWW/svn/paycenter_admin/index.php [info] array (
+  'app_id' => 103,
+  'ctl' => 'Api',
+  'met' => 'login',
+  'rtime' => 1495857259,
+  'typ' => 'json',
+  'user_account' => 'admin',
+  'user_password' => '111111',
+  'key' => 'aaaaaabbb',
+)
+11:54:19 05/27/17 FILE=D:/phpStudy/WWW/svn/paycenter_admin/index.php [info] array (
+  'user_account' => 'admin',
+  'user_password' => '111111',
+  'app_id' => 103,
+  'ctl' => 'Api',
+  'met' => 'login',
+  'typ' => 'json',
+  'rtime' => 1495857259,
+  'token' => 'd3c0c419228656fdd515e24863fd7e27',
+)
+11:54:19 05/27/17 FILE=D:/phpStudy/WWW/svn/paycenter_admin/index.php [info] $res : {"cmd_id":100,"status":200,"msg":"success","data":{"user_id":10001,"user_name":"admin","password":"96e79218965eb72c92a549dd5a330112","user_state":1,"action_time":0,"action_ip":null,"session_id":null,"id":10001,"nickname":"admin","user_group":0,"user_site_id":0,"user_site_domain":null,"user_question":null,"user_answer":null,"user_avatar":null,"user_avatar_thumb":null,"user_gender":0,"user_truename":null,"user_tel":null,"user_birth":null,"user_qq":null,"user_msn":null,"user_province":null,"user_city":null,"user_intro":null,"user_sign":null,"user_reg_time":0,"user_count_login":0,"user_lastlogin_time":0,"user_lastlogin_ip":null,"user_like_games":null,"user_reg_ip":null,"user_money":0,"user_credit":0,"user_getpsw_code":null,"user_verify_code":null,"user_phone_code":null,"user_phone_code_stats":null,"user_idcard":null,"user_mobile":null,"user_email":"","user_binded":null,"user_history_password":null,"user_history_ip":null,"user_grade":0,"user_mobile_verify":0,"user_email_verify":0,"user_provinceid":0,"user_cityid":0,"user_areaid":0,"user_area":"","result":1,"k":"UiVTJV5kASNUXQk3ATkDaFE3BWUOYFVhVGU="}}
+11:54:19 05/27/17 FILE=D:/phpStudy/WWW/svn/paycenter_admin/index.php [info] array (
+  'cmd_id' => 100,
+  'status' => 200,
+  'msg' => 'success',
+  'data' => 
+  array (
+    'user_id' => 10001,
+    'user_name' => 'admin',
+    'password' => '96e79218965eb72c92a549dd5a330112',
+    'user_state' => 1,
+    'action_time' => 0,
+    'action_ip' => NULL,
+    'session_id' => NULL,
+    'id' => 10001,
+    'nickname' => 'admin',
+    'user_group' => 0,
+    'user_site_id' => 0,
+    'user_site_domain' => NULL,
+    'user_question' => NULL,
+    'user_answer' => NULL,
+    'user_avatar' => NULL,
+    'user_avatar_thumb' => NULL,
+    'user_gender' => 0,
+    'user_truename' => NULL,
+    'user_tel' => NULL,
+    'user_birth' => NULL,
+    'user_qq' => NULL,
+    'user_msn' => NULL,
+    'user_province' => NULL,
+    'user_city' => NULL,
+    'user_intro' => NULL,
+    'user_sign' => NULL,
+    'user_reg_time' => 0,
+    'user_count_login' => 0,
+    'user_lastlogin_time' => 0,
+    'user_lastlogin_ip' => NULL,
+    'user_like_games' => NULL,
+    'user_reg_ip' => NULL,
+    'user_money' => 0,
+    'user_credit' => 0,
+    'user_getpsw_code' => NULL,
+    'user_verify_code' => NULL,
+    'user_phone_code' => NULL,
+    'user_phone_code_stats' => NULL,
+    'user_idcard' => NULL,
+    'user_mobile' => NULL,
+    'user_email' => '',
+    'user_binded' => NULL,
+    'user_history_password' => NULL,
+    'user_history_ip' => NULL,
+    'user_grade' => 0,
+    'user_mobile_verify' => 0,
+    'user_email_verify' => 0,
+    'user_provinceid' => 0,
+    'user_cityid' => 0,
+    'user_areaid' => 0,
+    'user_area' => '',
+    'result' => 1,
+    'k' => 'UiVTJV5kASNUXQk3ATkDaFE3BWUOYFVhVGU=',
+  ),
+)
+11:54:20 05/27/17 FILE=D:/phpStudy/WWW/svn/paycenter_admin/index.php [info] $tmp_str:admin_account=admin&app_id=105&config_type%5B0%5D=site&rtime=1495857259&key=aaaaaabbb
+11:54:20 05/27/17 FILE=D:/phpStudy/WWW/svn/paycenter_admin/index.php [info] $url:http://127.0.0.1/paycenter/index.php?ctl=Api_Config&met=site&typ=json
+11:54:20 05/27/17 FILE=D:/phpStudy/WWW/svn/paycenter_admin/index.php [info] array (
+  'admin_account' => 'admin',
+  'app_id' => 105,
+  'config_type' => 
+  array (
+    0 => 'site',
+  ),
+  'rtime' => 1495857259,
+  'key' => 'aaaaaabbb',
+)
+11:54:20 05/27/17 FILE=D:/phpStudy/WWW/svn/paycenter_admin/index.php [info] array (
+  'app_id' => 105,
+  'admin_account' => 'admin',
+  'config_type' => 
+  array (
+    0 => 'site',
+  ),
+  'rtime' => 1495857259,
+  'token' => 'e630d93332d41445e4a600903d0fab96',
+)
+11:54:20 05/27/17 FILE=D:/phpStudy/WWW/svn/paycenter_admin/index.php [info] $res : <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /paycenter/index.php was not found on this server.</p>
+</body></html>
+
+11:54:20 05/27/17 FILE=D:/phpStudy/WWW/svn/paycenter_admin/index.php [info] NULL

@@ -1,0 +1,1 @@
+DELETE FROM `yf_admin_menu` WHERE menu_id=16005 AND menu_name='平台购物卡';

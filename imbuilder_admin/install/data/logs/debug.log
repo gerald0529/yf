@@ -1,0 +1,221 @@
+[19-Apr-2017 10:38:01 Asia/Shanghai] PHP Notice:  Undefined index: shop in D:\phpStudy\WWW\000\imbuilder\trunk\install\IndexCtl.php on line 293
+[19-Apr-2017 10:38:01 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\000\imbuilder\trunk\install\IndexCtl.php on line 293
+[19-Apr-2017 10:38:23 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\000\imbuilder\trunk\install\IndexCtl.php on line 293
+[19-Apr-2017 10:38:26 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\000\imbuilder\trunk\install\IndexCtl.php on line 293
+[19-Apr-2017 10:38:27 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\000\imbuilder\trunk\install\IndexCtl.php on line 293
+[19-Apr-2017 10:40:11 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\000\imbuilder\trunk\install\IndexCtl.php on line 293
+[19-Apr-2017 10:40:47 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\000\imbuilder\trunk\install\IndexCtl.php on line 293
+[19-Apr-2017 10:40:48 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\000\imbuilder\trunk\install\IndexCtl.php on line 293
+[19-Apr-2017 10:41:26 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\000\imbuilder\trunk\install\IndexCtl.php on line 294
+[19-Apr-2017 10:41:26 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\000\imbuilder\trunk\install\IndexCtl.php on line 294
+[19-Apr-2017 10:52:28 Asia/Shanghai] PHP Warning:  include_once(db_10001.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\im\configs\config.ini.php on line 317
+[19-Apr-2017 10:52:28 Asia/Shanghai] PHP Warning:  include_once(): Failed opening 'db_10001.ini.php' for inclusion (include_path='D:/phpStudy/WWW/2017/imbuilder/libraries;D:/phpStudy/WWW/2017/imbuilder/install/models') in D:\phpStudy\WWW\2017\imbuilder\im\configs\config.ini.php on line 317
+[19-Apr-2017 10:52:45 Asia/Shanghai] PHP Warning:  Cannot use a scalar value as an array in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 108
+[19-Apr-2017 10:55:37 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/im-builder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 10:55:37 Asia/Shanghai] PHP Warning:  Cannot use a scalar value as an array in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 108
+[19-Apr-2017 10:56:02 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/im-builder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 10:56:02 Asia/Shanghai] PHP Warning:  Cannot use a scalar value as an array in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 108
+[19-Apr-2017 10:56:12 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/im-builder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 10:56:12 Asia/Shanghai] PHP Warning:  Cannot use a scalar value as an array in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 108
+[19-Apr-2017 10:56:40 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/im-builder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 10:56:40 Asia/Shanghai] PHP Warning:  Cannot use a scalar value as an array in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 108
+[19-Apr-2017 10:56:49 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/im-builder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 10:56:49 Asia/Shanghai] PHP Warning:  Cannot use a scalar value as an array in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 108
+[19-Apr-2017 10:56:50 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/im-builder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 10:56:50 Asia/Shanghai] PHP Warning:  Cannot use a scalar value as an array in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 108
+[19-Apr-2017 10:57:04 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/im-builder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 10:57:04 Asia/Shanghai] PHP Warning:  Cannot use a scalar value as an array in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 108
+[19-Apr-2017 10:57:18 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/im-builder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 10:57:18 Asia/Shanghai] PHP Warning:  Cannot use a scalar value as an array in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 108
+[19-Apr-2017 10:58:37 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/im-builder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 10:58:37 Asia/Shanghai] PHP Warning:  Cannot use a scalar value as an array in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 108
+[19-Apr-2017 11:00:15 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:00:15 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:00:15 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:00:36 Asia/Shanghai] PHP Warning:  include_once(db_10001.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\im\configs\config.ini.php on line 317
+[19-Apr-2017 11:00:36 Asia/Shanghai] PHP Warning:  include_once(): Failed opening 'db_10001.ini.php' for inclusion (include_path='D:/phpStudy/WWW/2017/imbuilder/libraries;D:/phpStudy/WWW/2017/imbuilder/install/models') in D:\phpStudy\WWW\2017\imbuilder\im\configs\config.ini.php on line 317
+[19-Apr-2017 11:00:36 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:00:36 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:00:36 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:01:35 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:01:35 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:01:35 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:01:35 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:01:48 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:01:48 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:01:48 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:01:48 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:01:57 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:01:57 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:01:57 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:02:25 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:02:25 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:02:27 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:02:27 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:02:27 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:02:27 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:02:48 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:02:48 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:02:48 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:03:02 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:03:02 Asia/Shanghai] PHP Notice:  Undefined index: im in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:03:02 Asia/Shanghai] PHP Warning:  array_rand() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:03:02 Asia/Shanghai] PHP Notice:  Undefined index: im in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 189
+[19-Apr-2017 11:03:02 Asia/Shanghai] PHP Notice:  Undefined index: user in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 109
+[19-Apr-2017 11:03:02 Asia/Shanghai] PHP Notice:  Undefined index: password in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 109
+[19-Apr-2017 11:03:03 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:03:03 Asia/Shanghai] PHP Notice:  Undefined index: im in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:03:03 Asia/Shanghai] PHP Warning:  array_rand() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:03:03 Asia/Shanghai] PHP Notice:  Undefined index: im in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 189
+[19-Apr-2017 11:03:03 Asia/Shanghai] PHP Notice:  Undefined index: user in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 109
+[19-Apr-2017 11:03:03 Asia/Shanghai] PHP Notice:  Undefined index: password in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 109
+[19-Apr-2017 11:04:34 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:04:34 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:04:57 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:04:57 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:04:57 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:05:11 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:05:11 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:05:11 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:05:11 Asia/Shanghai] PHP Notice:  Undefined index:  in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:05:11 Asia/Shanghai] PHP Warning:  array_rand() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:05:11 Asia/Shanghai] PHP Notice:  Undefined index:  in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 189
+[19-Apr-2017 11:05:11 Asia/Shanghai] PHP Notice:  Undefined index: user in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 109
+[19-Apr-2017 11:05:11 Asia/Shanghai] PHP Notice:  Undefined index: password in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 109
+[19-Apr-2017 11:05:11 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:08:34 Asia/Shanghai] PHP Notice:  Constant TABEL_PREFIX already defined in D:\phpStudy\WWW\2017\imbuilder\im\configs\db_10001.ini.php on line 2
+[19-Apr-2017 11:09:30 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:09:31 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:09:32 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:09:32 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:09:32 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:09:33 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:09:33 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:09:34 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:09:34 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:09:34 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:09:34 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:09:35 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:09:36 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:09:36 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:10:11 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:10:11 Asia/Shanghai] PHP Notice:  Undefined index: im in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:10:11 Asia/Shanghai] PHP Warning:  array_rand() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:10:11 Asia/Shanghai] PHP Notice:  Undefined index: im in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 189
+[19-Apr-2017 11:10:11 Asia/Shanghai] PHP Notice:  Undefined index: user in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 109
+[19-Apr-2017 11:10:11 Asia/Shanghai] PHP Notice:  Undefined index: password in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 109
+[19-Apr-2017 11:10:11 Asia/Shanghai] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\2017\imbuilder\install\IndexCtl.php:183) in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Data.php on line 368
+[19-Apr-2017 11:12:16 Asia/Shanghai] PHP Notice:  Undefined index: im in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:12:16 Asia/Shanghai] PHP Warning:  array_rand() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:12:16 Asia/Shanghai] PHP Notice:  Undefined index: im in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 189
+[19-Apr-2017 11:12:16 Asia/Shanghai] PHP Notice:  Undefined index: user in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 109
+[19-Apr-2017 11:12:16 Asia/Shanghai] PHP Notice:  Undefined index: password in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 109
+[19-Apr-2017 11:12:16 Asia/Shanghai] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\2017\imbuilder\install\IndexCtl.php:183) in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Data.php on line 368
+[19-Apr-2017 11:12:17 Asia/Shanghai] PHP Notice:  Undefined index: im in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:12:17 Asia/Shanghai] PHP Warning:  array_rand() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:12:17 Asia/Shanghai] PHP Notice:  Undefined index: im in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 189
+[19-Apr-2017 11:12:17 Asia/Shanghai] PHP Notice:  Undefined index: user in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 109
+[19-Apr-2017 11:12:17 Asia/Shanghai] PHP Notice:  Undefined index: password in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 109
+[19-Apr-2017 11:12:17 Asia/Shanghai] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\2017\imbuilder\install\IndexCtl.php:183) in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Data.php on line 368
+[19-Apr-2017 11:12:18 Asia/Shanghai] PHP Notice:  Undefined index: im in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:12:18 Asia/Shanghai] PHP Warning:  array_rand() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:12:18 Asia/Shanghai] PHP Notice:  Undefined index: im in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 189
+[19-Apr-2017 11:12:18 Asia/Shanghai] PHP Notice:  Undefined index: user in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 109
+[19-Apr-2017 11:12:18 Asia/Shanghai] PHP Notice:  Undefined index: password in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 109
+[19-Apr-2017 11:12:18 Asia/Shanghai] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\2017\imbuilder\install\IndexCtl.php:183) in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Data.php on line 368
+[19-Apr-2017 11:12:18 Asia/Shanghai] PHP Notice:  Undefined index: im in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:12:18 Asia/Shanghai] PHP Warning:  array_rand() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:12:18 Asia/Shanghai] PHP Notice:  Undefined index: im in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 189
+[19-Apr-2017 11:12:18 Asia/Shanghai] PHP Notice:  Undefined index: user in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 109
+[19-Apr-2017 11:12:18 Asia/Shanghai] PHP Notice:  Undefined index: password in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 109
+[19-Apr-2017 11:12:18 Asia/Shanghai] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\2017\imbuilder\install\IndexCtl.php:183) in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Data.php on line 368
+[19-Apr-2017 11:15:16 Asia/Shanghai] PHP Notice:  Undefined index: im in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:15:16 Asia/Shanghai] PHP Warning:  array_rand() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:15:16 Asia/Shanghai] PHP Notice:  Undefined index: im in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 189
+[19-Apr-2017 11:15:16 Asia/Shanghai] PHP Notice:  Undefined index: user in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 109
+[19-Apr-2017 11:15:16 Asia/Shanghai] PHP Notice:  Undefined index: password in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 109
+[19-Apr-2017 11:15:16 Asia/Shanghai] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\2017\imbuilder\install\IndexCtl.php:183) in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Data.php on line 368
+[19-Apr-2017 11:16:24 Asia/Shanghai] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in D:\phpStudy\WWW\2017\imbuilder\install\IndexCtl.php on line 293
+[19-Apr-2017 11:16:24 Asia/Shanghai] PHP Fatal error:  Call to a member function select_db() on a non-object in D:\phpStudy\WWW\2017\imbuilder\install\IndexCtl.php on line 294
+[19-Apr-2017 11:16:38 Asia/Shanghai] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'test'@'localhost' (using password: YES) in D:\phpStudy\WWW\2017\imbuilder\install\IndexCtl.php on line 293
+[19-Apr-2017 11:17:00 Asia/Shanghai] PHP Parse error:  syntax error, unexpected ';' in D:\phpStudy\WWW\2017\imbuilder\install\IndexCtl.php on line 296
+[19-Apr-2017 11:18:18 Asia/Shanghai] PHP Notice:  Undefined index: im in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:18:18 Asia/Shanghai] PHP Warning:  array_rand() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:18:18 Asia/Shanghai] PHP Notice:  Undefined index: im in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 189
+[19-Apr-2017 11:18:18 Asia/Shanghai] PHP Notice:  Undefined index: user in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 109
+[19-Apr-2017 11:18:18 Asia/Shanghai] PHP Notice:  Undefined index: password in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Db\Pdo.php on line 109
+[19-Apr-2017 11:18:18 Asia/Shanghai] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\2017\imbuilder\install\IndexCtl.php:183) in D:\phpStudy\WWW\2017\imbuilder\libraries\Yf\Data.php on line 368
+[19-Apr-2017 11:39:56 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 297
+[19-Apr-2017 11:41:04 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 296
+[19-Apr-2017 11:41:33 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 115
+[19-Apr-2017 11:41:52 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder_admin/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:41:52 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 296
+[19-Apr-2017 11:41:52 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 115
+[19-Apr-2017 11:42:26 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 115
+[19-Apr-2017 11:42:35 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder_admin/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:42:35 Asia/Shanghai] PHP Warning:  array_rand() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:42:38 Asia/Shanghai] PHP Warning:  array_rand() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:42:39 Asia/Shanghai] PHP Warning:  array_rand() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:42:40 Asia/Shanghai] PHP Warning:  array_rand() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:42:40 Asia/Shanghai] PHP Warning:  array_rand() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:42:40 Asia/Shanghai] PHP Warning:  array_rand() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:42:56 Asia/Shanghai] PHP Warning:  array_rand() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:42:57 Asia/Shanghai] PHP Warning:  array_rand() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:43:24 Asia/Shanghai] PHP Warning:  array_rand() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Db\Pdo.php on line 188
+[19-Apr-2017 11:43:32 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 296
+[19-Apr-2017 11:43:32 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 115
+[19-Apr-2017 11:43:40 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder_admin/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:43:40 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 296
+[19-Apr-2017 11:43:40 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 115
+[19-Apr-2017 11:44:12 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder_admin/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:44:12 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 296
+[19-Apr-2017 11:44:12 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 115
+[19-Apr-2017 11:44:18 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder_admin/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:44:18 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 296
+[19-Apr-2017 11:44:18 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 115
+[19-Apr-2017 11:44:20 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 115
+[19-Apr-2017 11:44:21 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 115
+[19-Apr-2017 11:44:43 Asia/Shanghai] PHP Warning:  include_once(D:/phpStudy/WWW/2017/imbuilder_admin/admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder_admin\admin\configs\config.ini.php on line 352
+[19-Apr-2017 11:44:43 Asia/Shanghai] PHP Warning:  include_once(): Failed opening 'D:/phpStudy/WWW/2017/imbuilder_admin/admin/configs/db.ini.php' for inclusion (include_path='D:/phpStudy/WWW/2017/imbuilder_admin/libraries;D:/phpStudy/WWW/2017/imbuilder_admin/install/models') in D:\phpStudy\WWW\2017\imbuilder_admin\admin\configs\config.ini.php on line 352
+[19-Apr-2017 11:44:43 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder_admin/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:44:43 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 296
+[19-Apr-2017 11:44:43 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 115
+[19-Apr-2017 11:44:51 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder_admin/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:44:51 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 296
+[19-Apr-2017 11:44:51 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 115
+[19-Apr-2017 11:46:01 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder_admin/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:46:01 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 296
+[19-Apr-2017 11:46:01 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 115
+[19-Apr-2017 11:47:13 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder_admin/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:47:13 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 296
+[19-Apr-2017 11:48:18 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder_admin/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:48:18 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 296
+[19-Apr-2017 11:48:36 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder_admin/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:48:36 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 296
+[19-Apr-2017 11:49:14 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder_admin/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:49:20 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 296
+[19-Apr-2017 11:49:28 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder_admin/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:49:28 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 296
+[19-Apr-2017 11:50:05 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder_admin/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Utils\File.php on line 75
+[19-Apr-2017 11:50:05 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 293
+[19-Apr-2017 11:50:05 Asia/Shanghai] PHP Fatal error:  Call to undefined function dump() in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 294
+[19-Apr-2017 11:50:33 Asia/Shanghai] PHP Warning:  current() expects parameter 1 to be array, null given in D:\phpStudy\WWW\2017\imbuilder_admin\install\IndexCtl.php on line 293
+[19-Apr-2017 11:51:49 Asia/Shanghai] PHP Warning:  PDO::exec(): MySQL server has gone away in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Db\Pdo.php on line 360
+[19-Apr-2017 11:51:49 Asia/Shanghai] PHP Warning:  PDO::exec(): Error reading result set's header in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Db\Pdo.php on line 360
+[19-Apr-2017 11:51:49 Asia/Shanghai] PHP Fatal error:  Call to a member function errorInfo() on a non-object in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Db\Pdo.php on line 841
+[19-Apr-2017 11:52:16 Asia/Shanghai] PHP Warning:  PDO::exec(): MySQL server has gone away in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Db\Pdo.php on line 360
+[19-Apr-2017 11:52:16 Asia/Shanghai] PHP Warning:  PDO::exec(): Error reading result set's header in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Db\Pdo.php on line 360
+[19-Apr-2017 11:52:16 Asia/Shanghai] PHP Fatal error:  Call to a member function errorInfo() on a non-object in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Db\Pdo.php on line 841
+[19-Apr-2017 11:55:30 Asia/Shanghai] PHP Warning:  include_once(D:/phpStudy/WWW/2017/imbuilder_admin/admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder_admin\admin\configs\config.ini.php on line 352
+[19-Apr-2017 11:55:30 Asia/Shanghai] PHP Warning:  include_once(): Failed opening 'D:/phpStudy/WWW/2017/imbuilder_admin/admin/configs/db.ini.php' for inclusion (include_path='D:/phpStudy/WWW/2017/imbuilder_admin/libraries;D:/phpStudy/WWW/2017/imbuilder_admin/install/models') in D:\phpStudy\WWW\2017\imbuilder_admin\admin\configs\config.ini.php on line 352
+[19-Apr-2017 11:55:35 Asia/Shanghai] PHP Warning:  include_once(D:/phpStudy/WWW/2017/imbuilder_admin/admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder_admin\admin\configs\config.ini.php on line 352
+[19-Apr-2017 11:55:35 Asia/Shanghai] PHP Warning:  include_once(): Failed opening 'D:/phpStudy/WWW/2017/imbuilder_admin/admin/configs/db.ini.php' for inclusion (include_path='D:/phpStudy/WWW/2017/imbuilder_admin/libraries;D:/phpStudy/WWW/2017/imbuilder_admin/install/models') in D:\phpStudy\WWW\2017\imbuilder_admin\admin\configs\config.ini.php on line 352
+[19-Apr-2017 11:55:35 Asia/Shanghai] PHP Warning:  include_once(D:/phpStudy/WWW/2017/imbuilder_admin/admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder_admin\admin\configs\config.ini.php on line 352
+[19-Apr-2017 11:55:35 Asia/Shanghai] PHP Warning:  include_once(): Failed opening 'D:/phpStudy/WWW/2017/imbuilder_admin/admin/configs/db.ini.php' for inclusion (include_path='D:/phpStudy/WWW/2017/imbuilder_admin/libraries;D:/phpStudy/WWW/2017/imbuilder_admin/install/models') in D:\phpStudy\WWW\2017\imbuilder_admin\admin\configs\config.ini.php on line 352
+[19-Apr-2017 11:55:38 Asia/Shanghai] PHP Warning:  include_once(D:/phpStudy/WWW/2017/imbuilder_admin/admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder_admin\admin\configs\config.ini.php on line 352
+[19-Apr-2017 11:55:38 Asia/Shanghai] PHP Warning:  include_once(): Failed opening 'D:/phpStudy/WWW/2017/imbuilder_admin/admin/configs/db.ini.php' for inclusion (include_path='D:/phpStudy/WWW/2017/imbuilder_admin/libraries;D:/phpStudy/WWW/2017/imbuilder_admin/install/models') in D:\phpStudy\WWW\2017\imbuilder_admin\admin\configs\config.ini.php on line 352
+[19-Apr-2017 11:55:39 Asia/Shanghai] PHP Warning:  include_once(D:/phpStudy/WWW/2017/imbuilder_admin/admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder_admin\admin\configs\config.ini.php on line 352
+[19-Apr-2017 11:55:39 Asia/Shanghai] PHP Warning:  include_once(): Failed opening 'D:/phpStudy/WWW/2017/imbuilder_admin/admin/configs/db.ini.php' for inclusion (include_path='D:/phpStudy/WWW/2017/imbuilder_admin/libraries;D:/phpStudy/WWW/2017/imbuilder_admin/install/models') in D:\phpStudy\WWW\2017\imbuilder_admin\admin\configs\config.ini.php on line 352
+[19-Apr-2017 11:55:47 Asia/Shanghai] PHP Warning:  include_once(D:/phpStudy/WWW/2017/imbuilder_admin/admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder_admin\admin\configs\config.ini.php on line 352
+[19-Apr-2017 11:55:47 Asia/Shanghai] PHP Warning:  include_once(): Failed opening 'D:/phpStudy/WWW/2017/imbuilder_admin/admin/configs/db.ini.php' for inclusion (include_path='D:/phpStudy/WWW/2017/imbuilder_admin/libraries;D:/phpStudy/WWW/2017/imbuilder_admin/install/models') in D:\phpStudy\WWW\2017\imbuilder_admin\admin\configs\config.ini.php on line 352
+[19-Apr-2017 11:55:47 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/2017/imbuilder_admin/imbuilder_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\2017\imbuilder_admin\libraries\Yf\Utils\File.php on line 75

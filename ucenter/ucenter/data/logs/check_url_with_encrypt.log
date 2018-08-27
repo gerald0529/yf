@@ -1,0 +1,12 @@
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/ucenter/index.php [info] array (
+  'user_account' => 'admin',
+  'user_password' => '111111',
+  'app_id' => '104',
+  'ctl' => 'Api',
+  'met' => 'login',
+  'typ' => 'json',
+  'rtime' => '1535355194',
+  'token' => '87d19c7293a98445def59dd1fb30fa36',
+)
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/ucenter/index.php [info] $tmp_str:app_id=104&ctl=Api&met=login&rtime=1535355194&typ=json&user_account=admin&user_password=111111&key=nj6ij0Kg
+15:33:15 08/27/18 FILE=E:/www/yf/3.2.0/ucenter/index.php [info] md5-key:87d19c7293a98445def59dd1fb30fa36

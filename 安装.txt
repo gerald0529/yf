@@ -1,0 +1,21 @@
+安装指导，install目录为商城安装目录。
+
+可安装shop shop_admin shop_wap paycenter paycenter_admin 
+ucenter ucenter_admin
+
+
+不包含IM的用户，请删除  api.imbuilder imbuilder_admin两个文件夹
+ 
+
+
+
+3.1.1-3.2.0文件夹是  3.1.1 之后的版本都可以升级到3.2.0版本。
+
+升级前请注意备份好web代码，数据库，以防升级过程中带来异常错误。
+
+升级步骤：
+
+1. 升级对应的数据库文件，在shop/install/data/sql中有对应版本号的SQL文件，
+其他paycenter  ucenter 相同方式 升级数据库。
+2. 覆盖文件，注意检查configs/目录的 db.ini.php paycenter.ini.php等不要覆盖，
+默认已移除这类文件。

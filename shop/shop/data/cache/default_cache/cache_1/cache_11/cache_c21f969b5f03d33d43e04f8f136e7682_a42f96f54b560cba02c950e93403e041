@@ -1,0 +1,584 @@
+                      -977614384s:31569:"
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+	<meta name="description" content="网上超市，最经济实惠的网上购物商城，用鼠标逛超市，不用排队，方便实惠送上门，网上购物新生活。" />
+    <meta name="Keywords" content="网上超市，网上商城，网络购物，进口食品，美容护理，母婴玩具，厨房清洁用品，家用电器，手机数码，电脑软件办公用品，家居生活，服饰内衣，营养保健，钟表珠宝，饰品箱包，汽车生活，图书音像，礼品卡，药品，医疗器械，隐形眼镜等，1号店。" />
+	<title>BBCbuilder1331BBCbuilder</title>
+	<link rel="stylesheet" type="text/css" href="http://localhost:9088/shop/shop/static/default/css/headfoot.css"/>
+	<link rel="stylesheet" type="text/css" href="http://localhost:9088/shop/shop/static/default/css/sidebar.css"/>
+	<link rel="stylesheet" type="text/css" href="http://localhost:9088/shop/shop/static/default/css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="http://localhost:9088/shop/shop/static/default/css/nav.css"/>
+    <link rel="stylesheet" type="text/css" href="http://localhost:9088/shop/shop/static/default/css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="http://localhost:9088/shop/shop/static/default/css/swiper.css"/>
+	<link rel="stylesheet" href="http://localhost:9088/shop/shop/static/default/css/iconfont/iconfont.css">
+	<script type="text/javascript" src="http://localhost:9088/shop/shop/static/common/js/jquery.js"></script>
+	<script type="text/javascript" src="http://localhost:9088/shop/shop/static/default/js/swiper.min.js"></script>
+	<script type="text/javascript" src="http://localhost:9088/shop/shop/static/default/js/jquery.SuperSlide.2.1.1.js"></script>
+	<link href="http://localhost:9088/shop/shop/static/default/css/select2.min.css" rel="stylesheet">
+	<script type="text/javascript" src="http://localhost:9088/shop/shop/static/default/js/select2.min.js"></script>
+    <script type="text/javascript" src="http://localhost:9088/shop/shop/static/common/js/plugins/jquery.cookie.js"></script>
+    <script type="text/javascript" src="http://localhost:9088/shop/shop/static/common/js/jquery.nicescroll.js"></script>
+    <script type="text/javascript">
+        var IM_URL = "http://api.im-builder.com/index.php";
+        var IM_STATU = "1";
+        var BASE_URL = "http://localhost:9088/shop";
+        var protocolStr = document.location.protocol;  
+        var SITE_URL = "http://localhost:9088/shop/index.php";
+        if(protocolStr === "http:") {  
+            SITE_URL = SITE_URL.replace(/https:/,'http:');
+        } else if(protocolStr === "https:") {  
+            SITE_URL = SITE_URL.replace(/http:/,'https:');
+        } else {  
+            SITE_URL = SITE_URL.replace(/https:/,'http:');
+        } 
+
+		var INDEX_PAGE = "index.php";
+		var STATIC_URL = "http://localhost:9088/shop/shop/static/default";
+		var PAYCENTER_URL = "http://localhost:9088/paycenter/";
+		var UCENTER_URL = "http://localhost:9088/ucenter/";
+        var is_open_city = "";
+		var DOMAIN = document.domain;
+		var WDURL = "";
+		var SCHEME = "default";
+        var MASTER_SITE_URL = "http://localhost:9088/shop/"; 
+    </script>
+
+	<script type="text/javascript" src="http://localhost:9088/shop/shop/static/default/js/common.js"></script>
+	<script type="text/javascript" src="http://localhost:9088/shop/shop/static/default/js/index.js"></script>
+	<script type="text/javascript" src="http://localhost:9088/shop/shop/static/default/js/nav.js"></script>
+	<script type="text/javascript" src="http://localhost:9088/shop/shop/static/default/js/decoration/common.js"></script>
+	<script type="text/javascript" src="http://localhost:9088/shop/shop/static/default/js/base.js"></script>
+	
+	<script type="text/javascript">
+
+        //分站定位
+        if(!getCookie('isset_local_subsite') && !getCookie('sub_site_id')){
+            //没有设置过分站，就调用该方法
+            getLocalSubsite();
+        }
+
+        function getLocalSubsite(){
+            $.ajax({
+                type: "GET",
+                url: SITE_URL + "?ctl=Base_District&met=getLocalSubsite&typ=json",
+                data: {},
+                dataType: "json",
+                success: function(data){
+                    if(data.status == 200){
+                        $.cookie('isset_local_subsite',1);
+                        $.cookie("sub_site_id",data.data.subsite_id);
+                        $.cookie('sub_site_name',data.data.sub_site_name);
+                        $.cookie('sub_site_logo',data.data.sub_site_logo);
+                        $.cookie('sub_site_copyright',data.data.sub_site_copyright);
+                        window.location.reload();
+                    }
+                }
+            });
+        }
+	</script>
+</head>
+<body>
+<div class="head">
+	<div class="wrapper clearfix">
+		<div class="head_left">
+			<!-- 3.2.0新增消息显示 -->
+			<!-- <div class="fl news-tips mr20 p-relative"><a href="javascript:;"><i class="iconfont icon-news fz20 middle"></i><b>5</b></a></div> -->
+			<div class="fl" id="login_top">
+				<dl class="header_select_province">
+                    <dt><b class="iconfont icon-dingwei2"></b><span id="area">
+                        XX</span></dt>
+					<dd>
+					</dd>
+				</dl>
+			</div>
+
+		</div>
+		<div class="head_right">
+			<dl>
+                                <p></p>
+				<dt><a href="http://localhost:9088/shop/index.php?ctl=Buyer_Order&met=physical">我的订单</a></dt>
+				<dd class="rel_nav">
+					<a href="http://localhost:9088/shop/index.php?ctl=Buyer_Order&met=physical">实物订单</a>
+					<a href="http://localhost:9088/shop/index.php?ctl=Buyer_Order&met=virtual">虚拟订单</a>
+				</dd>
+			</dl>
+
+			<dl>
+				<p></p>
+				<dt><a href="http://localhost:9088/paycenter/" target="_blank"><span class="iconfont icon-paycenter bbc_color"></span>fff</a></dt>
+			</dl>
+            
+            
+            			<dl>
+				<p></p>
+				<dt><a href="" target="_blank"><span class="iconfont icon-sns bbc_color"></span>SNS</a></dt>
+			</dl>
+            			<dl>
+                             <p></p>
+				<dt><a href="http://localhost:9088/shop/index.php?ctl=Buyer_Favorites&met=favoritesGoods" target="_blank"><span class="iconfont icon-taoxinshi bbc_color"></span>我的收藏</a></dt>
+				<dd class="rel_nav">
+					<a href="http://localhost:9088/shop/index.php?ctl=Buyer_Favorites&met=favoritesShop">店铺收藏</a>
+					<a href="http://localhost:9088/shop/index.php?ctl=Buyer_Favorites&met=favoritesGoods">商品收藏</a>
+					<a href="http://localhost:9088/shop/index.php?ctl=Buyer_Favorites&met=footprint">我的足迹</a>
+				</dd>
+			</dl>
+			<dl>
+                             <p></p>
+				<dt>
+					<a href="http://localhost:9088/shop/index.php?ctl=Buyer_Cart&met=cart"><span class="iconfont icon-zaiqigoumai bbc_color"></span>购物车</a>
+				</dt>
+			</dl>
+			<dl>
+                             <p></p>
+				<dt><a href="http://localhost:9088/shop/index.php?ctl=Buyer_Service_Custom&met=index" target="_blank">客服中心</a></dt>
+				<dd class="rel_nav">
+					<a href="http://localhost:9088/shop/index.php?ctl=Article_Base&met=index&article_id=2">帮助中心</a>
+					<a href="http://localhost:9088/shop/index.php?ctl=Buyer_Service_Return&met=index">售后服务</a>
+			</dl>
+			<dl>
+				<dt><span class="iconfont icon-shoujibangding bbc_color"></span><a href="#">手机版</a></dt>
+				<!--<dd class="rel_nav  phone-code rel_nav-z" style=" width: 180px !important;">-->
+					<!--<div class="rel_nav-top clearfix">
+						<img src="http://localhost:9088/shop/shop/api/qrcode.php?data=http%3A%2F%2Flocalhost%3A9088%2Fshop_wap%2F" class="fl rel_nav-img"  width="60" height="60"/>
+						<div class="fl rel_nav-p">远丰商城APP</div>
+						<div class="rel_nav-top-logo fl rel_nav-logo1"></div>
+						<div class="rel_nav-top-logo fl ml6 rel_nav-logo2"></div>
+					</div>
+					<div class="rel_nav-top clearfix">
+						<img src="http://localhost:9088/shop/shop/api/qrcode.php?data=http%3A%2F%2Flocalhost%3A9088%2Fshop_wap%2F" class="fl rel_nav-img"  width="60" height="60"/>
+						<div class="fl rel_nav-p ml6 rel_nav-p2">关注远丰公众号</div>
+					</div>-->
+				<!--</dd>-->
+				<dd class="rel_nav  phone-code">
+					<img src="http://localhost:9088/shop/shop/api/qrcode.php?data=http%3A%2F%2Flocalhost%3A9088%2Fshop_wap%2F" width="150" height="150"/></dd>
+			</dl>
+<!--			<img src="http://localhost:9088/shop/shop/api/qrcode.php?data=http%3A%2F%2Flocalhost%3A9088%2Fshop_wap%2F" class="rel_nav-logo3"  width="60" height="60"/>-->
+		</div>
+	</div>
+</div>
+<script src="http://localhost:9088/shop/shop/static/common/js/iealert.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="http://localhost:9088/shop/shop/static/common/css/iealert/style.css" />
+<script type="text/javascript" src="http://localhost:9088/shop/shop/static/common/js/jquery.blueberry.js"></script>
+<script src="http://localhost:9088/shop/shop/static/common/js/plugins/jquery.timeCountDown.js"></script>
+<script type="text/javascript" src="http://localhost:9088/shop/shop/static/default/js/jquery.lazy.js"></script>
+<link href="http://localhost:9088/shop/shop/static/default/css/select2.min.css" rel="stylesheet">
+<script src="http://localhost:9088/shop/shop/static/default/js/select2.min.js"></script>
+<div class="tip" style="display: none;">
+	<div class="relative">
+		<div class="tip-area">
+			<h5><span class="icon"></span>提示</h5>
+			<div class="tip-cont"></div>
+			<div class="clearfix"><a href="javascript:;" class="btn-sure">确定</a> </div>
+
+		</div>
+		<a href="javascript:;" class="btn-close"></a>
+	</div>
+</div>
+
+<script type="text/javascript">
+	function alert_box(msg){
+						$('.btn-sure').attr('href','javascript:;');  
+						$(".tip-cont").html(msg);
+						$('.tip').show(); 
+	}
+
+	function alert_box_link(msg,link){ 
+					
+					alert_box(msg);
+					$('.btn-sure').attr('href',link);
+	}
+
+ 
+	$('.btn-close').click(function(){ $(".tip").hide(); });
+	$('.btn-sure').click(function(){ $(".tip").hide(); });
+
+</script>
+<div class="wrap">
+    <div class="head_cont">
+        <div style="clear:both;"></div>
+        <div class="nav_left">
+            <a href="http://localhost:9088/shop/index.php" class="logo">
+                <img src="http://127.0.0.1/yf_shop/image.php/shop/data/upload/media/1/1/image/20160803/1470217293114679.jpg!240x60.jpg" />
+            </a>
+            <a href="#" class="download iconfont"></a>
+        </div>
+        <div class="nav_right clearfix">
+            <ul class="clearfix search-types">
+                <li class="active" onclick="searchWords()">
+                    <a href="javascript:void(0);" data-param='goods'>宝贝</a>
+                </li>
+                <li class="" onclick="searchShopWords()" id = "shop">
+                    <a href="javascript:void(0);" data-param='shop'>店铺</a>
+                </li>
+            </ul>
+            <div class="clearfix">
+                <form name="form_search" id="form_search" action="" class="">
+                    <input type="hidden" id="search_ctl" name="ctl" value="Goods_Goods">
+                    <input type="hidden" id="search_met" name="met" value="goodslist">
+                    <input type="hidden" name="typ" value="e">
+                    <input name="keywords" id="site_keywords" type="text" value="" placeholder="茶杯,衣服,美食,电脑,电视,12,67,76,99">
+                    <input type="submit" style="display: none;">
+                </form>
+                <a href="#" class="ser" id="site_search">搜索</a>
+                <!-- 购物车 -->
+                <div class="bbuyer_cart" id="J_settle_up">
+                    <div id="J_cart_head">
+                        <a href="/index.php?ctl=Buyer_Cart&met=cart" target="_blank" class="bbc_buyer_icon bbc_buyer_icon2">
+                            <i class="ci_left iconfont icon-zaiqigoumai bbc_color rel_top2"></i>
+                            <span>我的购物车</span> <i class="ci_right iconfont icon-iconjiantouyou"></i>
+                            <i class="ci-count bbc_bg" id="cart_num">0</i> </a>
+                    </div>
+                    <div class="dorpdown-layer zIndex12" id="J_cart_body"><span class="loading"></span></div>
+                </div>
+            </div>
+            <div class="nav clearfix searchs">
+                            </div>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+    <script>
+        // 谁有active就给谁默认词
+        $(function () {
+            if ($('#shop').is('.active')){
+                $("#site_keywords").attr('placeholder', "");
+            }
+        });
+        // 当点击宝贝时，填充商品关键词
+        function searchWords() {
+            $("#site_keywords").attr('placeholder', "茶杯,衣服,美食,电脑,电视,12,67,76,99");
+        }
+        
+        // 当点击店铺时，填充店铺关键词
+        function searchShopWords() {
+            $("#site_keywords").attr('placeholder', "");
+        }
+
+    </script>
+    <div>
+        <div class="thead clearfix">
+            <div class="classic clearfix">
+                <div class="class_title"><span>&equiv;</span><a href="/index.php?ctl=Goods_Cat&met=goodsCatList" class="ta1">全部分类</a></div>
+                <div class="tleft" id="show" style="display:block;">
+                    <ul>
+                                            </ul>
+                </div>
+            </div>
+            <nav class="tnav" shop_id="0">
+                                            <a  
+                            
+                              href="index.php"                             >首页</a>
+                                                    <a  
+                            
+                              href="index.php?ctl=Goods_Brand"                             target="_blank">品牌列表</a>
+                                                    <a  
+                            
+                              href="index.php?ctl=GroupBuy&met=index"                             >团购中心</a>
+                                                    <a  
+                            
+                              href="index.php?ctl=Points&met=index"                             >积分商城</a>
+                                                    <a  
+                            
+                              href="index.php?ctl=Seller_Shop_Settled&amp;met=index&amp;type=e"                             >商家中心</a>
+                                                    <a  
+                            
+                              href="index.php?ctl=Shop_Index&met=index&typ=e&keywords="                             >商家店铺</a>
+                                                    <a  
+                            
+                              href="index.php?ctl=RedPacket&met=redPacket"                             >平台红包</a>
+                                                    <a  
+                            
+                              href="index.php?ctl=PinTuan&met=index&typ=e"                             target="_blank">拼团活动</a>
+                                    </nav>
+            <p class="high_gou"></p>
+        </div>
+    </div>
+</div>
+<div class="hr" style="background:#c51e1e;">
+</div>
+<div class="J-global-toolbar">
+</div>
+<link href="http://localhost:9088/shop/shop/static/default/css/login.css" rel="stylesheet">
+<script type="text/javascript" src="http://localhost:9088/shop/shop/static/common/js/plugins/jquery.toastr.min.js" charset="utf-8"></script>
+        <style>
+            body {
+                min-width: 1200px;
+               /* background: #f0f3ef;*/
+            }
+        </style>
+                <div style="height:500px;" class="slideBox">
+            <div class="hd">
+                <ul>
+                      
+                        <li> </li>
+                      
+                        <li> </li>
+                      
+                        <li> </li>
+                      
+                        <li> </li>
+                      
+                        <li> </li>
+                                    </ul>
+            </div>
+            <div class="banner  bd">
+                <ul class="banimg">
+                      
+                        <li>
+                            <a href="http://localhost/shop/yf_shop/index.php" style="background-image: url(http://127.0.0.1/newshop/yf_shop/image.php/shop/data/upload/media/173662/66/image/20160718/1468826459105453.png)"></a>
+                        </li>
+                      
+                        <li>
+                            <a href="http://localhost/shop/yf_shop/index.php" style="background-image: url(http://127.0.0.1/newshop/yf_shop/image.php/shop/data/upload/media/173662/66/image/20160718/1468826471680590.jpg)"></a>
+                        </li>
+                      
+                        <li>
+                            <a href="http://localhost/shop/yf_shop/index.php" style="background-image: url(http://127.0.0.1/newshop/yf_shop/image.php/shop/data/upload/media/173662/66/image/20160718/1468826478677750.jpg)"></a>
+                        </li>
+                      
+                        <li>
+                            <a href="http://localhost/shop/yf_shop/index.php" style="background-image: url(http://127.0.0.1/newshop/yf_shop/image.php/shop/data/upload/media/173662/66/image/20160718/1468826482121676.png)"></a>
+                        </li>
+                      
+                        <li>
+                            <a href="http://localhost/shop/yf_shop/index.php11" style="background-image: url(http://127.0.0.1/newshop/yf_shop/image.php/shop/data/upload/media/173662/66/image/20160718/1468826488485484.jpg)"></a>
+                        </li>
+                    
+                </ul>
+                 <script type="text/javascript">
+                    jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true,delayTime:3000});
+                </script>
+                <div class="wrap t_cont clearfix">
+                    <ul class="tcenter">
+                        <li> 
+                                                                                </li>
+                        <li> 
+                                                                                </li>
+                    </ul>
+                    <div class="tright" id="login_tright">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrap">
+			<!--私人定制-->
+			<!--<div class="section">
+                    <h3>
+				<div>私人定制</div>z
+				<div class="Eng-div">Private tailored</div>
+			</h3>
+                    <div class="wrap2 h_goods_cont">
+                        <ul class="goodsUl clearfix">
+
+                                                            <li>
+                                    <a href="https://shop.local.yuanfeng021.com/index.php?ctl=Goods_Goods&amp;met=goods&amp;type=goods&amp;gid=627" target="_blank" style="line-height:160px;"><img style="max-width: 160px;max-height: 160px;" src="https://shop.local.yuanfeng021.com/image.php/shop/data/upload/media/d3aabd05be45670d48e2685d1e1f5992/10104/51/image/20171024/1508809277928860.jpg!400x400.jpg"></a>
+                                    <p class="goods_pri">
+                                        ￥450.00                                    </p>
+                                    <h5><a href="https://shop.local.yuanfeng021.com/index.php?ctl=Goods_Goods&amp;met=goods&amp;type=goods&amp;gid=627" target="_blank">tz虚拟团</a></h5>
+                                    <div class="buygo">
+                                        <a href="https://shop.local.yuanfeng021.com/index.php?ctl=Goods_Goods&amp;met=goods&amp;type=goods&amp;gid=627" target="_blank">
+                    去看看                                     </a>
+                                    </div>
+                                </li>
+                                                                <li>
+                                    <a href="https://shop.local.yuanfeng021.com/index.php?ctl=Goods_Goods&amp;met=goods&amp;type=goods&amp;gid=1158" target="_blank" style="line-height:160px;"><img style="max-width: 160px;max-height: 160px;" src="https://shop.local.yuanfeng021.com/image.php/shop/data/upload/media/d3aabd05be45670d48e2685d1e1f5992/10104/51/image/20171207/1512616470131037.jpg!400x400.jpg"></a>
+                                    <p class="goods_pri">
+                                        ￥150.00                                    </p>
+                                    <h5><a href="https://shop.local.yuanfeng021.com/index.php?ctl=Goods_Goods&amp;met=goods&amp;type=goods&amp;gid=1158" target="_blank">虚拟团购</a></h5>
+                                    <div class="buygo">
+                                        <a href="https://shop.local.yuanfeng021.com/index.php?ctl=Goods_Goods&amp;met=goods&amp;type=goods&amp;gid=1158" target="_blank">
+                                            去看看                                        </a>
+                                    </div>
+                                </li>
+                                                                <li>
+                                    <a href="https://shop.local.yuanfeng021.com/index.php?ctl=Goods_Goods&amp;met=goods&amp;type=goods&amp;gid=822" target="_blank" style="line-height:160px;"><img style="max-width: 160px;max-height: 160px;" src="https://shop.local.yuanfeng021.com/image.php/shop/data/upload/media/d3aabd05be45670d48e2685d1e1f5992/10104/51/image/20171208/1512725511398842.png!400x400.png"></a>
+                                    <p class="goods_pri">
+                                        ￥50.00                                    </p>
+                                    <h5><a href="https://shop.local.yuanfeng021.com/index.php?ctl=Goods_Goods&amp;met=goods&amp;type=goods&amp;gid=822" target="_blank">tttttttt</a></h5>
+                                    <div class="buygo">
+                                        <a href="https://shop.local.yuanfeng021.com/index.php?ctl=Goods_Goods&amp;met=goods&amp;type=goods&amp;gid=822" target="_blank">
+                                            去看看                                        </a>
+                                    </div>
+                                </li>
+                                                                <li>
+                                    <a href="https://shop.local.yuanfeng021.com/index.php?ctl=Goods_Goods&amp;met=goods&amp;type=goods&amp;gid=1968" target="_blank" style="line-height:160px;"><img style="max-width: 160px;max-height: 160px;" src="https://shop.local.yuanfeng021.com/image.php/shop/data/upload/media/d3aabd05be45670d48e2685d1e1f5992/10026/14/image/20180122/1516606427199455.jpg!400x400.jpg"></a>
+                                    <p class="goods_pri">
+                                        ￥100.00                                    </p>
+                                    <h5><a href="https://shop.local.yuanfeng021.com/index.php?ctl=Goods_Goods&amp;met=goods&amp;type=goods&amp;gid=1968" target="_blank">测试3</a></h5>
+                                    <div class="buygo">
+                                        <a href="https://shop.local.yuanfeng021.com/index.php?ctl=Goods_Goods&amp;met=goods&amp;type=goods&amp;gid=1968" target="_blank">
+                                            去看看                                        </a>
+                                    </div>
+                                </li>
+                                                                <li>
+                                    <a href="https://shop.local.yuanfeng021.com/index.php?ctl=Goods_Goods&amp;met=goods&amp;type=goods&amp;gid=1798" target="_blank" style="line-height:160px;"><img style="max-width: 160px;max-height: 160px;" src="https://shop.local.yuanfeng021.com/image.php/shop/data/upload/media/d3aabd05be45670d48e2685d1e1f5992/10026/14/image/20180122/1516606465216912.jpg!400x400.jpg"></a>
+                                    <p class="goods_pri">
+                                        ￥100.00                                    </p>
+                                    <h5><a href="https://shop.local.yuanfeng021.com/index.php?ctl=Goods_Goods&amp;met=goods&amp;type=goods&amp;gid=1798" target="_blank">测试4</a></h5>
+                                    <div class="buygo">
+                                        <a href="https://shop.local.yuanfeng021.com/index.php?ctl=Goods_Goods&amp;met=goods&amp;type=goods&amp;gid=1798" target="_blank">
+                                            去看看                                        </a>
+                                    </div>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+			-->
+            <!-- 团购风暴1111 -->
+                            <div class="section">
+                    <h3>
+				<img src="http://localhost:9088/shop/shop/static/default/images/gpad.png"/>
+				<a href="index.php?ctl=GroupBuy&met=index">更多<span class="iconfont icon-btnrightarrow"></span></a>
+			</h3>
+                    <div class="wrap2 h_goods_cont">
+                        <a class="lrwh btn1 iconfont icon-btnreturnarrow" data-numb="0"></a>
+
+                        <ul class="goodsUl clearfix">
+
+                            
+                        </ul>
+                        <a class="lrwh btn2 iconfont icon-btnrightarrow " data-num="0"></a>
+                    </div>
+                </div>
+                
+                <div class="wrap floor fn-clear">
+                                    </div>
+
+
+        </div>
+        </div>
+        <div class="J_f J_lift lift" id="lift" style="left: 42.5px; top: 134px;">
+            <ul class="lift_list  aad">
+                <li class="J_lift_item_top lift_item lift_item_top">
+                    <a href="javascript:;" class="lift_btn">
+                        <span class="lift_btn_txt">顶部<i class="lift_btn_arrow">
+			</i></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <script>
+            $(function () {
+                
+                //遍历导航楼层111
+                var atrf = [];
+                var len = $(".floor .m").length;
+                for (var mm = 0; mm < len; mm++) {
+                    var str = $(".floor .m .title").eq(mm).text();
+                    atrf.push(str);
+                }
+                var lis = "";
+                $(atrf).each(function (i, n) {
+                    lis += '<li class="J_lift_item lift_item lift_item_first"><a class="lift_btn"><span class="lift_btn_txt">' + n + '</span></a></li>';
+                });
+                $(".lift_list").prepend(lis);
+
+                $(window).scroll(function () {
+                        //滚动轴
+                        var CTop = document.documentElement.scrollTop || document.body.scrollTop;
+                        var floorone=$(".floor .m").eq(0).offset().top;
+                        //当滚动轴到达楼层一时，左菜单栏显示
+                        if (CTop >= floorone) {
+                            $("#lift").show(500);
+                        } else {
+                            $("#lift").hide(500);
+                        }
+                    })
+                    //.publicss  块
+                    //.J_lift_item 左导航
+
+                var b;
+                $(".lift_list .J_lift_item").click(function () {
+                        b = $(this).index();
+                        $(".J_lift_item").removeClass("reds");
+                        $(this).addClass("reds");
+                        //离顶部距离
+                        var offsettop = $(".floor .m").eq(b).offset().top;
+                        console.log(offsettop);
+                        //滚动轴距离
+                        var scrolltop = document.body.scrollTop || document.documentElement.scrollTop;
+                        //scrollTop() 方法返回或设置匹配元素的滚动条的垂直位置。
+                        // scrolltop(
+                            $("html,body").stop().animate({
+                                scrollTop: offsettop
+                            }, 1000);
+                    })
+                    //返回顶部
+                $(".lift_item_top").click(function () {
+                    $('html,body').animate({
+                        scrollTop: '0px'
+                    }, 800);
+                });
+                //滚动楼层对应切换左侧楼层导航
+                var le = $(".floor .m").length;
+                var arr = [];
+                for (var s = 0; s < le; s++) {
+                    var nums = $(".floor .m").eq(s).offset().top;
+                    arr.push(nums);
+                }
+                console.log(arr);
+                $(window).scroll(function () {
+                    var scrTop = $(window).scrollTop();
+                    for (var w = 0; w < arr.length; w++) {
+                        var cc = arr[w + 1] || 1111111111;
+                        if (scrTop >arr[w] && scrTop < cc) {
+                            if (arr[w + 1] < 0) {
+                                w = w + 1;
+
+                            }
+                            $(".J_lift_item").removeClass("reds");
+                            $(".J_lift_item").eq(w+1).addClass("reds");
+                        }
+                    }
+
+
+                });
+
+            })
+        </script>
+        <div class="footer">
+	<div class="wrapper">
+            		<ul class="services clearfix">
+					</ul>
+		<p class="about">
+            		</p>
+        
+        <p class="copyright">远丰集团版权所有,正版购买地址:  <a href="http://www.yuanfeng.cn">http://www.yuanfeng.cn</a>  
+<br />Powered by BBCbuilder V2.6.1
+</p>
+		<p class="statistics_code">5.4435234534253</p>
+	</div>
+	</div>
+</div>
+
+
+
+
+     
+<iframe id='imbuiler' scrolling="no" frameborder="0" class="im-show" src=''></iframe>
+
+ 
+
+
+<script type="text/javascript" src="http://localhost:9088/shop/shop/static/common/js/plugins/jquery.ui.js"></script>
+<link href="http://localhost:9088/shop/shop/static/common/css/jquery/plugins/dialog/green.css" rel="stylesheet">
+<script type="text/javascript" src="http://localhost:9088/shop/shop/static/common/js/plugins/jquery.dialog.js"></script>
+<script type="text/javascript" src="http://localhost:9088/shop/shop/static/common/js/respond.js"></script>
+
+
+
+
+
+<p class="statistics_code">第三方流量统计代码78</p>
+
+
+
+
+<iframe style='width:1px;height:1px;' src="http://localhost:9088/paycenter/?ctl=Index&met=iframe"></iframe>
+    
+</body>
+</html>";

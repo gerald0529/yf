@@ -1,0 +1,244 @@
+html{height:100%;}
+body {
+   
+    padding-bottom:140px;
+    position:relative;
+    height:auto;
+    min-height:100%;
+}
+
+.hd_content {
+    width: 100%;
+    background-size: cover;
+    background:#e45050;
+}
+
+.user_welcome,.go_back_shop a {
+    font-size: 14px;
+    line-height: 30px;
+    text-align:left;
+}
+.go_back_shop{
+    margin-left:10px;
+}
+.user_welcome a,.go_back_shop a {
+    color: #fff;
+    font-size:12px;
+    float:left;
+}
+.user_welcome a:nth-child(2){
+    margin-right:4px;
+}
+.nav li {
+    float: left;
+    font-size: 14px;
+}
+
+.nav li a {
+    padding: 0 20px;
+    color: #fff;
+    line-height: 30px;
+    display: inline-block;
+    font-size:12px;
+}
+.nav li a:last-child{
+    padding-right:0;
+}
+
+.header {
+    position: relative;
+    text-align:center;
+}
+
+.logo {
+   /* position: absolute;
+   left: 46%;
+    top: -9%;*/
+    display:inline-block;
+}
+.logo img{
+    border-radius: 50%;
+    max-width: 98px;
+    max-height: 98px;
+}
+.header ul li {
+   display:inline-block;
+    line-height: 100px;
+    margin: 0 24px;
+}
+.head_nav{border:1px solid #DA6E6E;}
+
+.header a {
+    color: #fff;
+}
+
+.header_nav {
+    /*    padding: 0 10%;*/
+    padding: 0 6%;
+    position: relative;
+    margin-top:20px;
+}
+.header_nav li a{
+    color:#fff;
+}
+.nav_menu_icon {
+    width: 14px;
+    height: 7px;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 4px;
+    text-align: center;
+    overflow: hidden;
+}
+.nav_more_menu {
+    width: 8px;
+    height: 9px;
+    display: inline-block;
+    background: #fff;
+    transform: rotate(225deg);
+    vertical-align: top;
+    position: relative;
+    top: -5px;
+    transition: 0.1s;
+}
+
+.header_nav .pc_rg {}
+.nav_more {
+    float: right;
+    display: none;
+    color: #fff;
+    font-size: 12px;
+    line-height: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+@media screen and (max-width:1000px){
+    .header_nav .pc_lf,.header_nav .pc_rg{
+        float:none;
+    }
+    .header ul li{
+        line-height:50px;
+    }
+}
+@media screen and (max-width:1120px) {
+    .logo {
+        position:absolute;
+       left:42%;
+       top:0;
+    }
+    .header_nav{
+        padding-top:102px;
+    }
+}
+@media screen and (max-width:949px) {
+    .pc_lf,.pc_rg{float:none;text-align:center;}
+    .header ul li{line-height: 40px;font-size:14px;}
+    
+}
+@media screen and (max-width:460px) {
+
+    .header ul li {
+        font-size: 14px;
+        line-height: 40px;
+    }
+    .logo {
+        margin: 20px 0;
+        left: 34%;
+        top:-12%;
+    }
+    .header ul li{margin:0 0.5rem;}
+}
+
+@media screen and (max-width:767px) {
+    .nav {
+        position: absolute;
+        top: 30px;
+        right: 0px;
+        border:1px solid #DA6E6E;
+        background-color:#D04E4E;
+        z-index: 2;
+        display: none;
+        border-bottom:none;
+    }
+    .nav li a{
+        padding:0 20px !important;
+    }
+    .nav li {
+        float: none !important;
+        border-bottom:1px solid #DA6E6E;
+    }
+    .nav_more {
+        display: inline-block;
+    }
+    .user_welcome {
+        text-align: left;
+    }
+    .footer {
+        font-size: 12px !important;
+    }
+    .pc_user_mes_lf_img{display:none;}
+    .pc_user_mes_lf_text{width:101% !important;}
+}
+@media screen and (min-width: 768px){
+    .nav{display:inline-block;}
+}
+
+
+/*尾部*/
+
+@media screen and (max-width: 640px) {
+    .footer {
+        margin-top: 40px !important;
+    }
+}
+
+.footer {
+    font-size: 12px;
+    margin-top: 80px;
+    border-top: 1px solid #e1e1e1;
+    background: #f5f5f5;
+    color: #666;
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+.footer a:hover {
+    color: red;
+}
+
+.footer dt,
+.footer dd {
+    display: inline-block;
+}
+
+.footer dt {
+    color: #333;
+    margin-right: 20px;
+}
+
+.footer dl a,
+.footer dl {
+    color: #999;
+    line-height: 24px;
+}
+
+.footer dd {
+    padding: 0 10px;
+}
+
+.footer p a {
+    color: #999;
+    line-height: 24px;
+}
+
+.footer p,
+.footer dl {
+    margin: 10px 0 0;
+    text-align: center;
+}
+
+.footer_apad a {
+    padding: 0 6px;
+}

@@ -1,0 +1,57 @@
+body{background: #F8F8F8;}
+.z-main{margin-top:2.3rem}
+.z-main-li1{
+	height: 1.913rem;
+	line-height: 1.913rem;
+	padding-left: 0.652rem;
+	background: #fff;
+	padding-right: 0.652rem;
+}
+.z-main-li1 span{font-size: 0.652rem;
+	color: #555;}
+.z-main-ipt1{
+	margin-top: 0.6rem;
+}
+.z-main-li2{
+	margin-top: 0.695rem;
+	color: #999;
+	background:#fff;
+	margin-left: 1.608rem;
+	margin-right: 1.608rem;
+	padding-bottom: 0.739rem;
+	border-radius:5% ;}
+.z-main-li2-div1{
+	margin-top: 0.739rem;
+	width: 6.2rem;
+    text-align: center;
+}
+.z-main-li2-div1 span:nth-child(1){
+	font-size: 0.652rem;
+}
+.z-main-li2-div1 span:nth-child(2){
+	font-size: 1.304rem;
+	margin-left: -0.3rem;
+}
+.z-main-li2-div1 p{
+	margin-top: 0.434rem;
+	font-size: 0.521rem;
+}
+.z-main-li2-div2{margin-top: 0.9rem;width: 5rem;text-align: center;}
+.z-main-li2-div2 div:nth-child(1){
+	font-size: 0.652rem;
+    text-align: center;
+}
+.z-main-li2-div2 div:nth-child(2){
+	font-size: 0.521rem;
+	margin-top:0.9rem;
+}
+.z-main-ipt2{width: 0.739rem;
+	height: 0.739rem;
+	margin-top: 1.478rem;
+	margin-right: 0.652rem;}
+.mt{margin-top: 0.695rem;}
+.norecord .ziti-store2 i{display:inline-block;width:3rem;height:3rem;background:url(../images/new/icon-ziti-store-z.png) no-repeat center;background-size:contain;}
+.z-main-li2 .active span{color: #e4393c;}
+.active p ,.active .z-main-li2-div2 div:nth-child(1){color:#555 !important;}
+
+.height-set{max-height:96%;}

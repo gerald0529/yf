@@ -1,0 +1,23 @@
+.reset-address,.revise-address{background:#fff;margin:0 auto;background:#fff;margin-top:20px;}
+.reset-address input{text-indent: 10px;border:none;}
+.res-cont{width:508px;margin:0 auto;position:relative;color: #333;font-size: 12px;}
+.resAdd-head{font-size:20px;font-weight: 800;padding-top:33px;margin-bottom:17px;}
+.resAdd-inp input,.resAdd-inp select{width:168px;height:26px;border:1px solid #999;border-radius:2px;font-size:12px;}
+.resAdd-inp{margin-bottom:13px;}
+.resAdd-inp div{width:90px;display:inline-block;vertical-align:top;}
+.moren{margin-left:80px;font-size:14px;}
+.save{width:125px;padding-right: 10px;background:#E45050;border-radius:4px;color:#fff;text-align: center;margin-top:16px;line-height:30px;margin-left:80px;cursor: pointer;}
+textarea{text-indent:6px;padding:6px 0;}
+strong{width:6px;height:6px;display:inline-block;background:url(../images/red.png) no-repeat;vertical-align:top;position:relative;top:6px;}
+.save a{color:#fff;}
+.save1,.canc{display: inline-block;width:125px;height:30px;border-radius:4px;color:#fff;text-align: center;margin-top:16px;line-height:30px;}
+.save1{background:#3c76d9;margin-left:80px;}
+.canc{border:2px solid #ededed; color:#666;margin-left:10px;}
+.save1 a{color:#fff;}
+.canc a{color:#666;}
+.moren input{margin-right:4px;vertical-align:middle;position:relative;top:-1px;}
+.moren{font-size:12px;}
+#d_2,#d_1{width:362px;}
+#d_2 select{
+	width:30%;
+}

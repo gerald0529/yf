@@ -1,0 +1,1023 @@
+@charset "UTF-8";
+/* line 66, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: "Microsoft YaHei", "iconfont"; }
+
+/* line 74, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+.chatinterface-main {
+  margin-top: 50px;
+  margin-bottom: 40px; }
+  /* line 77, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .chatinterface-main .chatinterfacelist-left {
+    margin-top: 10px;
+    }
+    /* line 80, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .chatinterface-main .chatinterfacelist-left .hd-portrait {
+      width: 38px;
+      height: 38px;
+      float: left;
+      padding: 0; }
+      /* line 85, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+      .chatinterface-main .chatinterfacelist-left .hd-portrait img {
+        width: 100%;border-radius:50%; }
+    /* line 89, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .chatinterface-main .chatinterfacelist-left .chatcontent {
+      float: left;
+      padding: 0px 10px;
+      width: 80%;
+      margin-left: 6x;
+      position: relative; }
+      /* line 95, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+      .chatinterface-main .chatinterfacelist-left .chatcontent p {
+        -webkit-border-radius:0.2rem;
+        -moz-border-radius:0.2rem;
+        -o-border-radius: 0.2rem;
+        -ms-border-radius:0.2rem;
+        border-radius: 0.2rem;
+        border: 1px solid #e3e3e3;
+        padding: 10px 10px;
+        background-color: #fff;
+        display: inline-block;
+       }
+    /* line 103, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+   /* .chatinterface-main .chatinterfacelist-left .triangle {
+      width: 0;
+      height: 0;
+      border-left: 10px solid #fff;
+      border-right: 0px solid #fff;
+      border-top: 0px solid #fff;
+      border-bottom: 10px solid #fff;
+      position: absolute;
+      top: 14px;
+      left: 5px;
+      z-index: 18888;
+      -webkit-transform: rotate(135deg);
+      -moz-transform: rotate(135deg);
+      -o-transform: rotate(135deg);
+      -ms-transform: rotate(135deg);
+      transform: rotate(135deg); }*/
+      .chatinterface-main .chatinterfacelist-left .triangle {
+        width:10px;
+        height:10px;
+        background:url(img/arrow-l.png) no-repeat center;
+        position:absolute;
+        left:2px;
+        top:12px;
+
+      }
+  /* line 117, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .chatinterface-main .chatinterfacelist-right {
+    margin-top: 10px;
+    }
+    /* line 120, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .chatinterface-main .chatinterfacelist-right .hd-portrait {
+      width: 38px;
+      height: 38px;
+      float: right;
+      padding: 0; }
+      /* line 125, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+      .chatinterface-main .chatinterfacelist-right .hd-portrait img {
+        width: 100%;border-radius:50%; }
+    /* line 129, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .chatinterface-main .chatinterfacelist-right .chatcontent {
+      float: right;
+      padding: 0px 10px;
+      width: 80%;
+      margin-right: 6px;
+      position: relative; }
+      /* line 135, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+      .chatinterface-main .chatinterfacelist-right .chatcontent p {
+        -webkit-border-radius:0.2rem;
+        -moz-border-radius:0.2rem;
+        -o-border-radius:0.2rem;
+        -ms-border-radius: 0.2rem;
+        border-radius:0.2rem;
+        padding: 10px 10px;
+        background-color:#00b6ff;
+        display: inline-block;
+        float: right;
+        color:#fff;
+         }
+    /* line 144, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .chatinterface-main .chatinterfacelist-right .triangle {
+      width: 0;
+      height: 0;
+      border-left: 10px solid #00b6ff;
+      border-right: 0px solid #00b6ff;
+      border-top: 0px solid #00b6ff;
+      border-bottom: 10px solid #00b6ff;
+      position: absolute;
+      top: 14px;
+      right: 6px;
+      z-index: 18888;
+      -webkit-transform: rotate(135deg);
+      -moz-transform: rotate(135deg);
+      -o-transform: rotate(135deg);
+      -ms-transform: rotate(135deg);
+      transform: rotate(135deg); }
+  /* line 158, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .chatinterface-main .chat_time {
+    padding: 10px 0px 20px; }
+    /* line 160, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .chatinterface-main .chat_time span {
+      font-size: 12px;
+      background: #eee;
+      padding: 5px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -o-border-radius: 10px;
+      -ms-border-radius: 10px;
+      border-radius: 10px;
+      color: #fff; }
+
+/* line 171, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+.detailedinfo-main {
+  margin-top: 40px;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0px;
+  background: #f7f7f7; }
+  /* line 179, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .detailedinfo-main .modular3 p {
+    margin: 0;
+    padding: 10px 0; }
+  /* line 183, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .detailedinfo-main .modular3 div {
+    border-bottom: .5px solid #e1e1e1; }
+  /* line 186, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .detailedinfo-main .modular3 .pleft {
+    width: 30%;
+    float: left; }
+  /* line 190, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .detailedinfo-main .modular3 .pright {
+    height: 70%;
+    float: left; }
+  /* line 195, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .detailedinfo-main .modular3 .no1 .pright {
+    font-size: 12px;
+    color: #999; }
+    /* line 198, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .detailedinfo-main .modular3 .no1 .pright span {
+      margin-right: 10px; }
+  /* line 203, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .detailedinfo-main .modular3 .no2 {
+    width: 100%;
+    height: 60px; }
+    /* line 206, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .detailedinfo-main .modular3 .no2 .pleft {
+      line-height: 40px; }
+    /* line 210, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .detailedinfo-main .modular3 .no2 .pright img {
+      width: 38px;
+      height: 38px;
+      margin-right: 10px; }
+  /* line 217, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .detailedinfo-main .modular3 .no3 {
+    border: none; }
+
+/* line 224, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+.index-body {
+  background: #34466c !important; }
+
+/* line 228, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+.index-main {
+  margin-top: 40px;
+  width: 100%;
+  height: 100%;
+  position: relative; }
+  /* line 233, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .index-main .lately {
+    margin-top: 50px;
+    padding-left: 10px !important;
+    padding-right: 10px !important; }
+    /* line 238, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .index-main .lately .recentContacts {
+      margin: 0;
+      overflow: hidden; }
+      /* line 241, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+      .index-main .lately .recentContacts li {
+        padding: 4px 0px;
+        position: relative;
+        z-index: 1;
+        margin-bottom: 10px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -o-border-radius: 5px;
+        -ms-border-radius: 5px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px #fff;
+        margin-bottom: 10px;
+        background: #fff; }
+        /* line 251, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+        .index-main .lately .recentContacts li .delete {
+          height: 57px;
+          line-height: 57px;
+          width: 60px;
+          background: #f95858;
+          color: #fff;
+          position: absolute;
+          right: 0;
+          top: 0;
+          text-align: center;
+          -webkit-transition: 0.5s;
+          -moz-transition: 0.5s;
+          -o-transition: 0.5s;
+          -ms-transition: 0.5s;
+          transition: 0.5s;
+          -webkit-transform: translateX(100px);
+          -moz-transform: translateX(100px);
+          -o-transform: translateX(100px);
+          -ms-transform: translateX(100px);
+          transform: translateX(100px);
+          -webkit-border-radius: 0px 5px 5px 0px;
+          -moz-border-radius: 0px 5px 5px 0px;
+          -o-border-radius: 0px 5px 5px 0px;
+          -ms-border-radius: 0px 5px 5px 0px;
+          border-radius: 0px 5px 5px 0px; }
+        /* line 265, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+        .index-main .lately .recentContacts li .dt {
+          transform: translateX(0px); }
+        /* line 270, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+        .index-main .lately .recentContacts li .left,
+        .index-main .lately .recentContacts li .center,
+        .index-main .lately .recentContacts li .right {
+          float: left; }
+        /* line 273, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+        .index-main .lately .recentContacts li .left {
+          width: 50px; }
+          /* line 275, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+          .index-main .lately .recentContacts li .left .img {
+            width: 40px;
+            height: 40px;
+            position: relative;
+            margin-top: 3px;
+            margin-left: 8px; }
+            /* line 281, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+            .index-main .lately .recentContacts li .left .img img {
+              width: 100%; }
+            /* line 284, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+            .index-main .lately .recentContacts li .left .img .badge {
+              background-color: red;
+              position: absolute;
+              top: -1px;
+              right: -6px;
+              padding: 3px 3px; }
+        /* line 293, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+        .index-main .lately .recentContacts li .center {
+          width: 50%;
+          overflow: hidden;
+          padding: 4px 0px;
+          margin-left: 2%; }
+          /* line 298, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+          .index-main .lately .recentContacts li .center p {
+            margin: 0; }
+          /* line 301, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+          .index-main .lately .recentContacts li .center p:nth-child(2) {
+            font-size: 12px;
+            color: #999;
+            width: 100%;
+            height: 20px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden; }
+        /* line 311, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+        .index-main .lately .recentContacts li .right {
+          padding: 4px 0px;
+          width: 30%;
+          font-size: 12px;
+          text-align: right;
+          color: #999; }
+  /* line 321, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .index-main .contacts {
+    width: 100%;
+    display: none;
+    padding: 13px 0 60px;
+    margin-top: 10px;
+    background: #34466c; }
+    /* line 327, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .index-main .contacts .friends {
+      margin-top: 10px; }
+      /* line 329, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+      .index-main .contacts .friends .title {
+        text-align: center;
+        margin: 0; }
+        /* line 332, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+        .index-main .contacts .friends .title .A {
+          padding: 2px 0px; }
+          /* line 333, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+          .index-main .contacts .friends .title .A .first {
+            background: #f5f5f5;
+            padding: 2px 0px; }
+          /* line 338, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+          .index-main .contacts .friends .title .A .info {
+            text-align: left; }
+            /* line 342, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+            .index-main .contacts .friends .title .A .info .B {
+              background: #fff;
+              margin: 6px 0px;
+              border-bottom: 1px solid #f7f7f7;
+              padding: 10px; }
+              /* line 347, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+              .index-main .contacts .friends .title .A .info .B p {
+                margin: 0; }
+              /* line 350, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+              .index-main .contacts .friends .title .A .info .B .leftimg {
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -o-border-radius: 50%;
+                -ms-border-radius: 50%;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                overflow: hidden;
+                float: left; }
+                /* line 356, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+                .index-main .contacts .friends .title .A .info .B .leftimg img {
+                  width: 100%; }
+              /* line 360, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+              .index-main .contacts .friends .title .A .info .B .centerinfo {
+                padding: 5px 0;
+                margin-left: 5%;
+                float: left; }
+                /* line 364, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+                .index-main .contacts .friends .title .A .info .B .centerinfo p:nth-child(2) {
+                  font-size: 12px;
+                  color: #555; }
+              /* line 369, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+              .index-main .contacts .friends .title .A .info .B .rigthVdio {
+                float: right;
+                padding: 7px 0; }
+    /* line 379, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .index-main .contacts .numberfriends {
+      padding: 10px;
+      background: #f7f7f7; }
+  /* line 384, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .index-main .setUps {
+    width: 100%;
+    height: 100%;
+    display: none;
+    padding: 0 0 160px;
+    background: #34466c;
+    padding-top: 10px; }
+    /* line 391, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .index-main .setUps a {
+      color: #000 !important; }
+    /* line 394, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .index-main .setUps .modular-public {
+      margin-top: 10px;
+      background: #fff;
+      position: relative; }
+      /* line 398, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+      .index-main .setUps .modular-public .QRcode {
+        float: left;
+        width: 10%;
+        display: block; }
+        /* line 402, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+        .index-main .setUps .modular-public .QRcode img {
+          width: 35px;
+          height: 35px; }
+    /* line 408, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .index-main .setUps .modular-public2 {
+      padding: 10px 10px; }
+      /* line 410, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+      .index-main .setUps .modular-public2 .rightbg {
+        position: absolute;
+        background: url(../img/right-a.png) no-repeat;
+        background-size: 85%;
+        width: 30px;
+        height: 30px;
+        right: 0px;
+        top: 8px; }
+    /* line 420, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .index-main .setUps .mask {
+      position: fixed;
+      top: 0;
+      left: 0;
+      opacity: .2;
+      background: #333;
+      width: 100%;
+      height: 100%;
+      display: none; }
+    /* line 430, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .index-main .setUps .qrcodes {
+      display: none;
+      width: 80%;
+      margin: auto;
+      position: absolute;
+      left: 50%;
+      top: 10%;
+      transform: translateX(-50%);
+      background: #fff;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      -o-border-radius: 15px;
+      -ms-border-radius: 15px;
+      border-radius: 15px; }
+      /* line 441, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+      .index-main .setUps .qrcodes .Headportrait p {
+        margin: 0; }
+      /* line 444, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+      .index-main .setUps .qrcodes .Headportrait .left {
+        float: left;
+        width: 50%;
+        padding: 30px 0px 10px 10px;
+        text-align: center; }
+        /* line 449, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+        .index-main .setUps .qrcodes .Headportrait .left img {
+          width: 45px;
+          height: 45px;
+          text-align: center; }
+      /* line 455, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+      .index-main .setUps .qrcodes .Headportrait .right {
+        float: left;
+        width: 50%;
+        padding: 30px 10px 10px 0; }
+      /* line 461, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+      .index-main .setUps .qrcodes .picture {
+        text-align: center; }
+        /* line 463, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+        .index-main .setUps .qrcodes .picture img {
+          width: 80%;
+          height: 80%; }
+      /* line 468, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+      .index-main .setUps .qrcodes .txt {
+        padding: 10px;
+        text-align: center; }
+
+/* line 476, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+.dynamic02 {
+  -webkit-transform: translateY(-110px) !important;
+  -moz-transform: translateY(-110px) !important;
+  -o-transform: translateY(-110px) !important;
+  -ms-transform: translateY(-110px) !important;
+  transform: translateY(-110px) !important;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s; }
+
+/* line 482, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+.add-main {
+  margin-top: 50px;
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+/* line 489, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+.loading {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  background: url(../default/images/Lox.png) no-repeat;
+  background-size: 100% 100%;
+  z-index: 9999999999; }
+
+/* line 501, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+.personalInformation-main {
+  margin-top: 40px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #f7f7f7;
+  padding: 10px 0 222222px; }
+  /* line 508, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .personalInformation-main .modular-public {
+    padding: 10px 10px 0; }
+  /* line 511, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .personalInformation-main .modular-public:nth-child(1) {
+    margin-top: 0; }
+  /* line 514, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .personalInformation-main .mo-public {
+    padding: 10px 0px;
+    border-bottom: 1px solid #eee; }
+    /* line 517, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .personalInformation-main .mo-public:last-child {
+      border-bottom: none; }
+  /* line 521, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .personalInformation-main .headPortrait {
+    padding: 0px 0px 10px; }
+    /* line 523, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .personalInformation-main .headPortrait .left {
+      float: left;
+      width: 70%;
+      line-height: 45px; }
+    /* line 528, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .personalInformation-main .headPortrait .right {
+      float: left;
+      width: 30%;
+      text-align: right; }
+      /* line 532, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+      .personalInformation-main .headPortrait .right img {
+        width: 50px;
+        height: 50px; }
+  /* line 539, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .personalInformation-main .names .left {
+    float: left;
+    width: 70%; }
+  /* line 543, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .personalInformation-main .names .right {
+    float: left;
+    width: 30%;
+    text-align: right;
+    color: #888; }
+
+/* line 553, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+.modifyPassword-main {
+  margin-top: 60px;
+  width: 100%;
+  height: 100%; }
+
+/* line 560, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+.about-mian {
+  margin-top: 40px;
+  width: 100%;
+  height: 100%; }
+  /* line 564, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .about-mian p {
+    margin: 0; }
+  /* line 567, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .about-mian .Edition {
+    text-align: center;
+    padding: 20px; }
+    /* line 570, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .about-mian .Edition figcaption p {
+      margin-top: 10px;
+      color: #ddd; }
+  /* line 575, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .about-mian .help ul {
+    padding: 0 5px; }
+    /* line 578, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .about-mian .help ul li {
+      padding: 10px;
+      background: #fff;
+      margin-bottom: 6px; }
+      /* line 583, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+      .about-mian .help ul li:last-child {
+        border-bottom: none; }
+
+/* line 592, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+.modular1 .hd-portrait {
+  float: left;
+  width: 20%; }
+  /* line 595, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .modular1 .hd-portrait img {
+    width: 50px;
+    height: 50px; }
+
+/* line 600, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+.modular1 .data {
+  width: 65%;
+  float: left;
+  margin-left: 2%;
+  margin-top: 5px; }
+  /* line 605, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .modular1 .data .girlorboy {
+    margin-left: 4px; }
+  /* line 608, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .modular1 .data p {
+    margin-bottom: 4px; }
+  /* line 611, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .modular1 .data .number {
+    font-size: 12px;
+    color: #999; }
+
+/* line 618, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+.modular-public {
+  margin-top: 20px;
+  background: #fff;
+  padding: 10px 10px; }
+
+/* line 624, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+.modular4 {
+  background: #f7f7f7;
+  padding: 10px; }
+  /* line 627, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .modular4 div {
+    padding: 6px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px; }
+  /* line 633, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .modular4 .first {
+    background: #F98239;
+    color: #fff; }
+  /* line 637, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .modular4 .second {
+    background: #fff; }
+
+/* line 642, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+.public-hd {
+  background: #ee4b4b;
+  height: 40px;
+  width: 100%;
+  position: relative !important;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  color: #fff; }
+  /* line 651, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .public-hd .logo {
+    width: 50px;
+    height: 40px;
+    background: url(../images/logo.png) no-repeat;
+    background-position: 50%;
+    margin: 0 auto; }
+  /* line 660, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .public-hd .hd-left,
+  .public-hd .hd-center,
+  .public-hd .hd-right {
+    line-height: 40px;
+    padding: 0; }
+  /* line 664, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .public-hd .setUp {
+    position: absolute;
+    width: 30%;
+    top: 40px;
+    right: 10px;
+    color: #fff;
+    text-align: center;
+    display: none; }
+    /* line 672, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .public-hd .setUp a {
+      color: #fff; }
+    /* line 676, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .public-hd .setUp ul li {
+      background: #777777;
+      padding: 4px 4px;
+      border-bottom: 1px solid #999; }
+      /* line 680, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+      .public-hd .setUp ul li:last-child {
+        border-bottom: none; }
+  /* line 686, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .public-hd img {
+    width: 2rem; }
+
+/* line 692, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+.im-contents {
+  overflow: hidden; }
+  @media (min-width: 768px) {
+    /* line 692, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .im-contents {
+      width: 400px; } }
+
+/* line 700, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+.chatinterface-ft {
+  width: 100%;
+  position: fixed !important;
+  left: 0;
+  bottom: 0px;
+  z-index: 99999;
+  border-top: 1px solid #f7f7f7;
+  background: #fff;
+  padding: 4px 0px !important;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -o-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s; }
+  /* line 711, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .chatinterface-ft .visual-keyboard {
+    border-bottom: 1px solid #f7f7f7;
+    padding-bottom: 2px;
+    position: relative; }
+    /* line 715, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .chatinterface-ft .visual-keyboard .voice {
+      padding: 0;
+      text-align: center;
+      width: 15%;
+      margin-top: 3px; }
+      /* line 720, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+      .chatinterface-ft .visual-keyboard .voice img {
+        width: 26px;
+        height: 26px;
+        margin: 0 auto; }
+    /* line 726, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .chatinterface-ft .visual-keyboard .text {
+      text-align: center;
+      padding: 0;
+      width: 70%;
+      height: 32px;
+      overflow-y: hidden; }
+      /* line 732, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+      .chatinterface-ft .visual-keyboard .text .written {
+        margin-bottom: 50px;
+        height: 32px;
+        /*定义滚动条轨道 内阴影+圆角*/
+        /*定义滑块 内阴影+圆角*/ }
+        /* line 735, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+        .chatinterface-ft .visual-keyboard .text .written #im_send_content {
+          width: 80%;
+          max-width: 80%;
+          border-top: none;
+          border-right: none;
+          border-left: none;
+          border-bottom: 1px solid #e1e1e1;
+          height: 30px;
+          display: block;
+          overflow-y: auto;
+          overflow-x: hidden;
+          background: #fff;
+          line-height: 12px;
+          text-align: left;
+          -webkit-border-radius: 0px;
+          -moz-border-radius: 0px;
+          border-radius: 0px; }
+          /* line 752, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+          .chatinterface-ft .visual-keyboard .text .written #im_send_content:focus {
+            outline: inherit; }
+        /* line 756, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+        .chatinterface-ft .visual-keyboard .text .written #im_send_content::-webkit-scrollbar {
+          width: 5px;
+          height: 0px;
+          background-color: #fff; }
+        /* line 762, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+        .chatinterface-ft .visual-keyboard .text .written #im_send_content::-webkit-scrollbar-track {
+          /*			-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);*/
+          border-radius: 0px;
+          background-color: #fff; }
+        /* line 768, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+        .chatinterface-ft .visual-keyboard .text .written #im_send_content::-webkit-scrollbar-thumb {
+          border-radius: 0px;
+          background-color: #fff;
+          /*			-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);*/ }
+        /* line 773, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+        .chatinterface-ft .visual-keyboard .text .written .expression {
+          width: 20%;
+          text-align: right;
+          vertical-align: top;
+          margin-top: 3px; }
+          /* line 778, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+          .chatinterface-ft .visual-keyboard .text .written .expression img {
+            float: right;
+            width: 26px;
+            height: 26px; }
+      /* line 786, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+      .chatinterface-ft .visual-keyboard .text .voices span {
+        padding: 6px 28%;
+        border: 1px solid #eaeaea;
+        background: #f5f5f5;
+         }
+    /* line 792, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .chatinterface-ft .visual-keyboard .mores {
+      padding: 0;
+      text-align: center;
+      width: 15%;
+      margin-top: 3px;
+      position: relative; }
+      /* line 798, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+      .chatinterface-ft .visual-keyboard .mores img {
+        width: 26px;
+        height: 26px; }
+    /* line 803, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .chatinterface-ft .visual-keyboard .Sendout {
+      position: absolute;
+      top: 3px;
+      right: 3px;
+      background: #529ecc;
+      width: 12.5%;
+      height: 25px;
+      line-height: 25px;
+      margin: 0 auto;
+      text-align: center;
+      display: none;
+      color: #fff;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      -o-border-radius: 2px;
+      -ms-border-radius: 2px;
+      border-radius: 2px;
+      z-index: 9999;
+      cursor: pointer; }
+  /* line 820, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .chatinterface-ft .More {
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    padding: 6px 0px;
+    margin-bottom: 10px;
+    height: 200px; }
+    /* line 827, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .chatinterface-ft .More ul {
+      margin: 0;
+      width: 100%; }
+      /* line 830, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+      .chatinterface-ft .More ul li {
+        float: left;
+        width: 25%;
+        text-align: center;
+        padding: 6px 0; }
+        /* line 835, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+        .chatinterface-ft .More ul li .bor-radius {
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          -o-border-radius: 5px;
+          -ms-border-radius: 5px;
+          border-radius: 5px;
+          border: 1px solid #e1e1e1;
+          display: inline-block;
+          padding: 2px 2px;
+          margin-bottom: 6px; }
+          /* line 843, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+          .chatinterface-ft .More ul li .bor-radius img {
+            width: 100%; }
+        /* line 847, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+        .chatinterface-ft .More ul li p {
+          margin: 0;
+          font-size: 12px;
+          color: #999; }
+  /* line 855, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .chatinterface-ft .manyemoticon {
+    width: 100%;
+    background: #fff;
+    height: 200px;
+    position: absolute;
+    /*定义滚动条轨道 内阴影+圆角*/
+    /*定义滑块 内阴影+圆角*/ }
+    /* line 860, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .chatinterface-ft .manyemoticon .emoticon_ul {
+      width: 100%;
+      background: #fff;
+      height: 196px;
+      overflow-x: hidden;
+      margin: 10px 0 0 0; }
+      /* line 866, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+      .chatinterface-ft .manyemoticon .emoticon_ul li {
+        width: 20%;
+        float: left;
+        text-align: center;
+        padding: 14px 0px; }
+    /* line 873, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .chatinterface-ft .manyemoticon .emoticon_ul::-webkit-scrollbar {
+      width: 5px;
+      height: 10px;
+      background-color: #e1e1e1; }
+    /* line 879, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .chatinterface-ft .manyemoticon .emoticon_ul::-webkit-scrollbar-track {
+      /*			-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);*/
+      border-radius: 10px;
+      background-color: #e1e1e1; }
+    /* line 885, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .chatinterface-ft .manyemoticon .emoticon_ul::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background-color: #999;
+      /*			-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);*/ }
+
+/* line 893, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+.dynamic {
+  -webkit-transform: translateY(200px);
+  -moz-transform: translateY(200px);
+  -o-transform: translateY(200px);
+  -ms-transform: translateY(200px);
+  transform: translateY(200px);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s; }
+
+/* line 899, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+.index-ft {
+  background: #34466c;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 6px 0;
+  height: 60px;
+  color: #fff;
+  font-size: 12px; }
+  /* line 910, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .index-ft p {
+    margin: 0; }
+  /* line 914, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .index-ft #news .news {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto; }
+    /* line 919, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .index-ft #news .news .badge {
+      background-color: red;
+      position: absolute;
+      top: -1px;
+      right: -10px;
+      padding: 3px 3px; }
+  /* line 929, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .index-ft #Contacts .p {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto; }
+  /* line 937, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .index-ft #setUp .w {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto; }
+  /* line 944, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .index-ft #dynamic a {
+    color: #fff; }
+  /* line 947, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .index-ft img {
+    width: 2.5rem; }
+
+/* line 953, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+.about-ft {
+  padding: 20px 10px;
+  word-break: break-all;
+  text-align: center; }
+  /* line 957, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .about-ft a {
+    color: #00abff; }
+
+/* line 962, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+input:focus {
+  outline: none; }
+
+/* line 966, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+.search {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  background: #f7f7f7;
+  padding: 6px 10px; }
+  /* line 970, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .search input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    text-align: center; }
+
+/* line 978, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+.searchContact {
+  position: fixed !important;
+  top: 202px;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  padding: 10px 10px;
+  -webkit-transform: translateY(700px);
+  -moz-transform: translateY(700px);
+  -o-transform: translateY(700px);
+  -ms-transform: translateY(700px);
+  transform: translateY(700px); }
+  /* line 987, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .searchContact .searchpeople {
+    border-bottom: 1px solid #f7f7f7;
+    padding: 10px 0px; }
+    /* line 990, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .searchContact .searchpeople .peoples {
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -o-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      overflow: hidden;
+      float: left; }
+      /* line 996, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+      .searchContact .searchpeople .peoples img {
+        width: 100%;
+        height: 100%; }
+    /* line 1001, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .searchContact .searchpeople .userNames {
+      float: left;
+      line-height: 50px;
+      margin-left: 5%; }
+
+/* line 1060, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+.numberfriends {
+  padding: 10px; }
+
+/* line 1067, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+.friends-area .frient-search-type li {
+  float: left; }
+  /* line 1069, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+  .friends-area .frient-search-type li a {
+    padding: 0 10px;
+    display: inline-blok; }
+    /* line 1072, C:/Users/Administrator/Desktop/svn-upload/sns/sns/css/main.scss */
+    .friends-area .frient-search-type li a.active {
+      background: #529ecc; }
+
+/*# sourceMappingURL=main.css.map */

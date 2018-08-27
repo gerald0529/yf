@@ -1,0 +1,5 @@
+11:51:03 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/install/index.php [debug] SELECT 1;
+11:51:03 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/install/index.php [debug] SELECT table_name FROM information_schema.tables WHERE table_schema="test_im" AND table_type="BASE TABLE"
+11:51:09 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/install/index.php [debug] SELECT 1;
+11:51:09 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/install/index.php [debug] SELECT table_name FROM information_schema.tables WHERE table_schema="test_im" AND table_type="BASE TABLE"
+11:51:19 05/27/17 FILE=D:/phpStudy/WWW/svn/shop_admin/install/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM yf_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 

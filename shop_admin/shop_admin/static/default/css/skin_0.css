@@ -1,0 +1,437 @@
+@charset "utf-8";
+* {
+    word-wrap: break-word;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* 宽度\高度\尺寸
+------------------------------------------------------------------- */
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.w15pre {
+    width: 15%;
+}
+
+.w17pre {
+    width: 17%;
+}
+
+.w50pre {
+    width: 50%;
+}
+
+.w20pre {
+    width: 20%;
+}
+
+.w18pre {
+    width: 18%;
+}
+
+.w25pre {
+    width: 25%;
+}
+
+.w33pre {
+    width: 33%;
+}
+
+.w34pre {
+    width: 34%;
+}
+
+
+/*内容页面样式
+------------------------------------------------------------------- */
+
+.bbccontent {
+    min-width: 1200px;
+}
+
+.page {
+    padding-top: 0;
+    text-align: left;
+}
+
+.fixed-bar {
+    background: #FFF url(../images/sky/fixed_bg.png) repeat-x scroll center bottom;
+    width: 99%;
+    /* padding: 8px 20px 8px 0;*/
+    /*  margin-left: 20px;*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    /*background: #f8f8f8*/
+}
+
+* html .fixedbar {
+    width: 100%;
+    margin-top: -10px;
+    position: relative;
+    left: -20px;
+}
+
+.fixed-empty {
+    height: 50px !important;
+}
+
+.tab-base {
+    float: left;
+    overflow: hidden;
+    padding-top: 16px;
+}
+
+.tab-base li {
+    float: left;
+}
+
+.tab-base a {
+    font-weight: 700;
+    line-height: 20px;
+    background: #FFF url(../images/sky/bg_position.gif) no-repeat 0px -200px;
+    height: 20px;
+    float: left;
+    padding-left: 9px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.tab-base a:hover {
+    color: #09C;
+    background-position: 0 -220px;
+}
+
+.tab-base a span {
+    color: #555;
+    background: url(../images/sky/bg_position.gif) no-repeat 9999px 9999px;
+    float: left;
+    padding-right: 9px;
+}
+
+.tab-base a:hover span {
+    background-position: 100% -220px;
+}
+
+.tab-base a.current,
+.tab-base a:hover.current {
+    background-position: 0 -240px;
+    cursor: default;
+}
+
+.tab-base a.current span,
+.tab-base a:hover.current span {
+    color: #FFF;
+    background-position: 100% -240px;
+}
+
+
+/* Scrollbar jQuery Plugin
+-------------------------------------- */
+
+.ps-container .ps-scrollbar-x,
+.ps-container .ps-scrollbar-y {
+    background-color: #AAA;
+    height: 8px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    position: absolute;
+    z-index: auto;
+    bottom: 3px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity.25s linear;
+    -moz-transition: opacity .25s linear;
+    transition: opacity .25s linear;
+}
+
+.ps-container .ps-scrollbar-y {
+    right: 3px;
+    width: 8px;
+    bottom: auto;
+}
+
+.ps-container:hover .ps-scrollbar-x,
+.ps-container:hover .ps-scrollbar-y {
+    opacity: .6;
+    filter: alpha(opacity=60);
+}
+
+.ps-container .ps-scrollbar-x:hover,
+.ps-container .ps-scrollbar-y:hover {
+    opacity: .9;
+    filter: alpha(opacity=90);
+    cursor: default;
+}
+
+.ps-container .ps-scrollbar-x.in-scrolling,
+.ps-container .ps-scrollbar-y.in-scrolling {
+    opacity: .9;
+    filter: alpha(opacity=90);
+}
+
+.info-panel {
+    background: #fff;
+    padding-bottom: 30px;
+}
+
+.info-panel dl {
+    width: 31%;
+    float: left;
+    margin: 20px 1.6% 0 0;
+    border: solid 1px #eee;
+}
+
+.info-panel dl:hover {
+    border-color: #f9f9f9;
+    box-shadow: 0px 0px 10px #e1e1e1;
+}
+
+.info-panel dl dt {
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.info-panel dl dt .ico {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    border: solid 2px #999;
+    border-radius: 32px;
+    position: relative;
+    z-index: 1;
+}
+
+.info-panel dl dt .ico i {
+    background: url(img/imgs.png) no-repeat;
+    width: 46px;
+    height: 46px;
+    margin: -20px auto auto -22px;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+}
+
+.info-panel dl.member dt .ico i {
+    background-position: -10px -12px;
+}
+
+.info-panel dl.shop dt .ico i {
+    background-position: -74px -12px;
+}
+
+.info-panel dl.goods dt .ico i {
+    background-position: -138px -12px;
+}
+
+.info-panel dl.trade dt .ico i {
+    background-position: -10px -76px;
+}
+
+.info-panel dl.operation dt .ico i {
+    background-position: -74px -76px;
+}
+
+.info-panel dl.cms dt .ico i {
+    background-position: -138px -76px;
+}
+
+.info-panel dl.circle dt .ico i {
+    background-position: -10px -138px;
+}
+
+.info-panel dl.microshop dt .ico i {
+    background-position: -74px -138px;
+}
+
+.info-panel dl.live dt .ico i {
+    background-position: -138px -138px;
+}
+
+.info-panel dl.system dt .ico i {
+    background-position: -138px -138px;
+}
+
+.info-panel dl dt .ico sub {
+    background-color: #FFF;
+    height: 20px;
+    padding: 2px;
+    border-radius: 12px;
+    position: absolute;
+    z-index: 1;
+    top: -4px;
+    left: 40px;
+}
+
+.info-panel dl dt .ico sub span {
+    font-size: 11px;
+    line-height: 16px;
+    color: #999;
+    background-color: #FFF;
+    text-align: center;
+    display: block;
+    min-width: 8px;
+    height: 16px;
+    padding: 0 4px;
+    border: solid 2px #999;
+    border-radius: 10px;
+}
+
+.info-panel dl dt .ico sub span em {
+    font-weight: 600;
+}
+
+.info-panel dl dt h3 {
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 30px;
+    color: #555;
+    margin: 5px 0 0 0;
+}
+
+.info-panel dl dt h5 {
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 20px;
+    color: #888;
+    margin: 5px 0 0 0;
+}
+
+.info-panel dl dt #system-info {
+    width: 96%;
+    height: 55px;
+    margin: 6px auto 0 auto;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.info-panel dl dt ul li {
+    line-height: 20px;
+    font-weight: 600;
+    color: #888;
+}
+
+.info-panel dl dt ul li span {
+    font-weight: 100;
+    font-size: 11px;
+    margin-left: 8px;
+}
+
+.info-panel dl dd {
+    border-top: solid 1px #eee;
+}
+
+.info-panel dl dd ul {
+    font-size: 0;
+    *word-spacing: -1px/*IE6、7*/
+    ;
+}
+
+.info-panel dl dd li {
+    text-align: center;
+    display: inline-block;
+    *display: inline/*IE7*/
+    ;
+    border-right: solid 1px #eee;
+    zoom: 1;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+.info-panel dl dd li:last-child {
+    border: none
+}
+
+.info-panel dl dd li a {
+    font-size: 12px;
+    color: #75CCEF;
+    line-height: 20px;
+    display: block;
+    height: 20px;
+    padding: 10px 0;
+    margin: 0 auto;
+    position: relative;
+}
+
+.info-panel dl dd li sub {
+    font-size: 11px;
+    line-height: 16px;
+    color: #FFF;
+    text-align: center;
+    display: block;
+    min-width: 8px;
+    height: 16px;
+    padding: 0 4px;
+    border: solid 2px #FFFFFF;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 3;
+    top: -10px;
+    left: 85%;
+}
+
+.info-panel dl dd li sub em {
+    font-weight: 600;
+}
+
+.info-panel dl dd li.high sub {
+    background-color: #FF5C26;
+}
+
+.info-panel dl dd li.normal sub {
+    background-color: #ff4564;
+}
+
+.info-panel dl dd li.none sub {
+    visibility: hidden;
+    display: none;
+}
+
+.info-panel dl dd li.high a {
+    font-weight: 600;
+    color: #FF5C26;
+}
+
+.info-panel dl dd li.high:hover,
+.info-panel dl dd li.high:hover a {
+    background-color: #FF5C26;
+    color: #FFF;
+}
+
+.info-panel dl dd li.normal a {
+    color: #666;
+}
+
+.info-panel dl dd li.none a {
+    color: #666;
+}
+
+.info-panel dl dd li.normal:hover,
+.info-panel dl dd li.normal:hover a,
+.info-panel dl dd li.none:hover,
+.info-panel dl dd li.none:hover a {
+    background-color: #d9d9d9;
+    color: #FFF;
+}

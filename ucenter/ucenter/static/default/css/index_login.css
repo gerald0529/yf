@@ -1,0 +1,1022 @@
+* {
+	box-sizing: border-box;
+}
+
+.hide {
+	display: none
+}
+
+.btn-img{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-align: center;
+	cursor: pointer
+}
+
+/*.btn-text {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	cursor: pointer
+}*/
+
+body {
+	font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+	color: #666;
+	background: #fff;
+	//_background-image: url(about:blank);
+	_background-attachment: fixed
+}
+.bort1{border-top:1px solid #d5d5d5;}
+.mrt60{margin-top:60px;}
+/*
+.w {
+	width: 990px;
+	margin: 0 auto
+}
+*/
+.back-to-regist{
+	float: right;
+    line-height: 40px;
+    margin-top: 13px;
+    color: #888;
+    font-size: 14px;
+}
+.back-to-regist:hover{
+	color:#e45050 !important;
+}
+.back-pre{
+	display:none;
+}
+#logo {
+    position: relative;
+    margin: 10px 0;
+    height: 60px;
+    float:left;
+}
+#logo b {
+    float:left;
+    height:34px;
+    padding-left: 25px;
+    border-left: 1px solid #bbb;
+    margin-top: 12px;
+    margin-left: 25px;
+    font-size: 18px;
+    line-height: 34px;
+    font-weight:normal;
+    letter-spacing:5px;
+    color:#000;
+}
+.head-regist{
+	float: right;
+    position: relative;
+    top: 52px;
+    font-size: 16px;
+}
+.head-regist a{
+	color:#333;
+}
+.form input[type=password] {
+
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-transition-delay: 9999s;
+    -webkit-transition: color 9999s ease-out, background-color 9999s ease-out;
+}
+
+
+
+.form .item {
+	position: relative;
+	margin-bottom: 20px;
+	z-index: 1
+}
+.form .item:hover{
+	border-color:#75ebcd;
+}
+
+.form .item .placeholder {
+	position: absolute;
+	left: 50px;
+	top: 10px;
+	line-height: 18px;
+	color: #999;
+	font-size: 14px;
+	-webkit-transition: all .2s ease-out;
+	-moz-transition: all .2s ease-out;
+	transition: all .2s ease-out;
+	opacity: 1
+}
+
+.form .item .login-label {
+	position: absolute;
+	z-index: 3;
+	top: 0;
+	left: 0;
+	width: 38px;
+	height: 38px;
+	border-right: 1px solid #bdbdbd;
+}
+.form .item .name-label{
+	background:#e3e3e3 url(../images/user.png) no-repeat center;
+}
+.form .item .pwd-label{
+	background:#e3e3e3 url(../images/password.png) no-repeat center;
+}
+.form .item-fore5 {
+	margin-bottom: 10px
+}
+
+.form .item-fore1,
+.form .item-fore2 {
+	border: 1px solid #bdbdbd;
+	width: 100%;
+	padding: 0 9px;
+	position: relative;
+	border-radius:2px;
+}
+
+.form .item-fore1 .clear-btn,
+.form .item-fore2 .clear-btn {
+	position: absolute;
+	z-index: 20;
+	right: 6px;
+	top: 12px;
+	width:20px;
+	height: 20px;
+	cursor: pointer;
+	cursor:pointer;
+	/*display: none*/
+}
+.form .item-fore1 .clear-btn{
+	background:url(../images/icon-close.png) no-repeat center;
+	background-size:contain;
+}
+.form .item-fore2 .clear-btn{
+	background:url(../images/eye-close.png) no-repeat center;
+	background-size:contain;
+}
+.form .item-fore2 .clear-btn.active{
+	background:url(../images/eye-open.png) no-repeat center;
+	background-size:contain;
+}
+
+/*.form .item-fore1 .clear-btn:hover,
+.form .item-fore2 .clear-btn:hover {
+	background-position: -50px -143px
+}*/
+
+.form .item-fore1 .capslock,
+.form .item-fore2 .capslock {
+	position: absolute;
+	z-index: 4;
+	display: none;
+	width: 106px;
+	top: 28px;
+	left: 50px;
+	padding-left: 26px;
+	height: 26px;
+	line-height: 28px;
+	overflow: hidden;
+	background: url(../images/capslock.png) no-repeat
+}
+
+.form .item-fore1 .capslock b,
+.form .item-fore2 .capslock b {
+	display: block;
+	position: absolute;
+	top: 7px;
+	left: 10px;
+	width: 10px;
+	height: 14px;
+	overflow: hidden;
+	background: url(../images/pwd-icons-new.png) -104px -133px no-repeat
+}
+.item-fore1 img.img-code{
+	position: absolute;
+	right: 0;
+	height: 37px;
+	top: 0;
+	cursor:pointer;
+}
+
+.form .itxt {
+	line-height: 38px;
+	height: 38px;
+	border: 0;
+	padding: 0 0 0 50px;
+	width: 254px;
+	float: none;
+	overflow: hidden;
+	font-size: 14px;
+	*margin: -1px 0 0;
+	border-radius: 5px;
+	color:#333;
+}
+
+.form .itxt02 {
+	padding: 10px 5px;
+	width: 78px;
+	text-align: center
+}
+
+.form .verify-code {
+	cursor: pointer;
+	width: 100px;
+	height: 33px;
+	vertical-align: middle
+}
+
+.form .item-vcode .placeholder {
+	left: 25px
+}
+
+.form input::-webkit-input-placeholder {
+	color: #999;
+	font-size: 14px
+}
+
+.form input:-moz-placeholder {
+	color: #999;
+	font-size: 14px
+}
+
+.form label {
+	float: none
+}
+
+.form .yfcheckbox,
+.form .yfradio {
+	float: none;
+	vertical-align: middle;
+	_vertical-align: -1px;
+	margin: 0 3px 0 0;
+	padding: 0
+}
+
+.form .item-fore1 {
+	z-index: 6
+}
+
+.form .item-fore2 {
+	visibility: hidden
+}
+
+.form .item-fore3 {
+	z-index: 5;
+	margin-bottom: 15px
+}
+.login-cont{
+	background-color: #ff0648;
+	height:600px;
+}
+.login-form {
+	position: relative;
+	z-index: 4;
+	background: #fff;
+	overflow: visible;
+}
+
+.login-form .login-tab {
+	height: 54px;
+	font-size: 18px;
+	border-bottom: 1px solid #f4f4f4;
+	background: #fff;
+	display: block;
+	padding:0 20px;
+}
+
+.login-form .login-tab a.checked{
+	text-decoration: none;
+	line-height: 40px;
+    margin-top: 13px;
+    display: inline-block;
+    border-bottom: 2px solid #e4393c;
+}
+
+.login-form .login-tab a:focus {
+	outline: 0!important;
+	-moz-outline: 0!important
+}
+
+.login-form .login-tab a.checked,
+.login-form .login-tab a:hover {
+	
+	color: #444;
+}
+
+.login-form .login-tab-r {
+	width: 100%;
+}
+
+.login-form .login-tab-link {
+	display: inline-block
+}
+
+.login-form .msg-wrap {
+	min-height: 31px;
+	height: auto!important;
+	height: 31px;
+	margin: 2px 0 5px;
+	width:100%;
+}
+
+.login-form .msg-error {
+	position: relative;
+	background: #ffebeb;
+	color: #e4393c;
+	border: 1px solid #faccc6;
+	padding: 3px 10px 3px 40px;
+	line-height: 18px;
+	min-height: 18px;
+	_height: 18px
+}
+
+.login-form .msg-error b {
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	display: block;
+	margin-top: -8px;
+	width: 16px;
+	height: 16px;
+	overflow: hidden;
+	background: url(../images/pwd-icons-new.png) -104px -49px no-repeat
+}
+
+.login-form .msg-warn {
+	position: relative;
+	background: #fff6d2;
+	color: #666;
+	border: 1px solid #ffe57d;
+	padding: 3px 10px 3px 40px;
+}
+
+.login-form .msg-warn b {
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	display: block;
+	margin-top: -8px;
+	width: 16px;
+	height: 17px;
+	overflow: hidden;
+	background: url(../images/pwd-icons-new.png) -104px -22px no-repeat
+}
+
+.login-form .login-box {
+	width: 100%;
+	padding: 40px 20px 20px;
+	visibility: hidden;
+}
+
+.login-form .login-box .mt {
+	display: inline-block;
+	display: block;
+	width: 100%;
+	overflow: visible;
+	height: 27px;
+}
+
+.login-form .login-box .mt:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+* html .login-form .login-box .mt {
+	height: 1%
+}
+
+*+html .login-form .login-box .mt {
+	min-height: 1%
+}
+
+.login-form .login-box .mt h1 {
+	position: relative;
+	height: 27px;
+	line-height: 27px;
+	top: -5px;
+	float: left;
+	color: #666;
+	font-size: 20px
+}
+
+.login-form .login-box .tab-h {
+	height: 42px
+}
+
+.login-form .login-box .mc {
+	overflow: visible
+}
+
+.login-form .login-box .safe {
+	position: relative;
+	color: #666
+}
+
+.login-form .login-box .safe span {
+	margin-right: 15px
+}
+
+.login-form .login-box .safe .forget-pw-safe {
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 0
+}
+
+.login-form .login-box .reg-free {
+	height: 18px;
+	*margin-bottom: 5px
+}
+
+.login-form .login-box .login-btn {
+	/*border: 1px solid #cb2a2d;*/
+	margin: 30px auto 0;
+	height: 40px;
+	position: relative
+}
+
+.login-form .login-box .login-btn .btn-img {
+	display: block;
+	width: 100%;
+	background: #e4393c;
+	line-height: 40px;
+	color: #fff;
+	font-size: 20px;
+	outline:none;
+}
+
+.login-form .login-box .login-btn .btn-img:hover {
+	text-decoration: none
+}
+
+.login-form .coagent {
+	display: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: auto;
+	width: 100%;
+	visibility: hidden;
+	padding-bottom:16px;
+}
+
+.login-form .coagent h5 {
+	font-weight: 400;
+	color: #999
+}
+
+.login-form .coagent ul {
+	display: inline-block;
+	display: block
+}
+
+.login-form .coagent ul:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+* html .login-form .coagent ul {
+	height: 1%
+}
+
+*+html .login-form .coagent ul {
+	min-height: 1%
+}
+
+.login-form .coagent li {
+	float: left;
+	margin-right: 20px ;
+	width:26px;
+	height:26px;
+}
+
+.login-form .coagent li .line {
+	color: #ccc;
+	padding: 0 10px
+}
+
+.login-form .coagent .more-slide {
+	position: relative;
+	z-index: 5;
+	overflow: visible
+}
+
+.login-form .coagent .more-slide dt {
+	color: #666;
+	position: relative;
+	z-index: 2;
+	_top: 5px
+}
+
+.login-form .coagent .more-slide dt b {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 9px;
+	height: 6px;
+	margin-left: 10px;
+	overflow: hidden;
+	vertical-align: middle;
+	background: url(../images/pwd-icons-new.png) -104px -100px no-repeat
+}
+
+.login-form .coagent .more-slide dd {
+	position: absolute;
+	z-index: 1;
+	top: -3px;
+	left: -15px;
+	display: none;
+	height: 40px;
+	width: 203px;
+	padding: 25px 0 10px 15px;
+	border: 1px solid #dcdcdc;
+	background: #fff;
+	overflow: hidden
+}
+
+.login-form .coagent .more-slide dd a {
+	float: left;
+	white-space: nowrap;
+	margin-right: 15px;
+	color: #999
+}
+
+.login-form .coagent .more-slide dd a:hover {
+	margin-right: 15px;
+	color: #E4393C;
+	text-decoration: underline
+}
+
+.login-form .coagent .more-hover dt b {
+	background-position: -104px -116px
+}
+
+.login-form .coagent .more-hover dd {
+	display: block
+}
+
+.login-form .coagent .more-slide-new dd {
+	width: 153px;
+	height: 62px;
+	overflow: hidden
+}
+
+.login-form .coagent .more-slide-new dd a,
+.login-form .coagent .more-slide-new dd a:hover {
+	margin-right: 28px
+}
+
+.login-form .coagent .more-slide-new .dd-cont {
+	width: 175px
+}
+
+.login-form .qr-coagent {
+	background-color: #fdfdfd;
+	color: #999
+}
+
+.login-form .qr-coagent li {
+	width: 102px;
+	text-align: left;
+	position: relative
+}
+.login-form .qr-coagent li .faster {
+	background-position: -27px
+}
+
+.login-form .qr-coagent li .more-safe {
+	background-position: -54px
+}
+
+.login-form .qr-coagent li em {
+	padding-left: 55px
+}
+
+.login-form li.extra-r {
+	float: right;
+	margin-right:0;
+}
+
+.login-form .regist-link {
+	color: #b61d1d;
+	font-size: 14px
+}
+
+.login-form .regist-link a {
+	color: #b61d1d
+}
+
+.login-form .regist-link b {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 16px;
+	height: 16px;
+	overflow: hidden;
+	background: url(../images/pwd-icons-new.png) -104px -75px no-repeat;
+	vertical-align: middle;
+	margin-right: 5px
+}
+
+. .login-form .btn-2login {
+	background-position: 0 -60px
+}
+
+.login-form .qlogin-main .qlogin-tit {
+	text-align: center;
+	font-size: 14px;
+	margin-top: 20px
+}
+
+.login-form .qlogin-main .qlogin-tit span {
+
+}
+
+.login-form .qlogin-main .qlogin-tit .qq-icon {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 16px;
+	height: 16px;
+	overflow: hidden;
+	vertical-align: middle;
+	background: url(../images/pwd-icons-new.png) -104px -157px;
+	margin-right: 10px
+}
+
+.login-form .qlogin-main .coagent {
+	margin-top: 20px
+}
+.login-wrap-content{
+	height: 475px;
+	/*background: url(../images/bg.png) no-repeat -110px;*/
+}
+.login-wrap {
+	position: relative;
+	margin:auto;
+	z-index: 5;
+	max-width: 990px;
+}
+
+.login-wrap .login-banner {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 475px;
+	background: #e93854
+}
+
+.login-wrap .i-inner {
+	position: relative;
+	z-index: 3;
+}
+
+.login-wrap .login-form {
+	float: right;
+	top: 84px;
+}
+
+.form #o-authcode.item {
+	border: 0
+}
+
+.form #o-authcode.item .itxt {
+	border: 1px solid #bdbdbd;
+	font-size: 14px;
+	padding: 7px 5px;
+	vertical-align: middle
+}
+
+.form #o-authcode.item-error {
+	border: 0
+}
+
+.form #o-authcode.item-error .itxt {
+	border-color: #e4393c
+}
+
+.form #o-authcode.item-focus {
+	border: 0
+}
+
+.form #o-authcode.item-focus .itxt {
+	border-color: #3aa2e4
+}
+
+.disp {
+	display: none !important;
+}
+
+.titlea {
+	line-height:30px;
+}
+.wap-show{display:none;}
+@media screen and (min-width: 768px){
+	.login-form{width:368px;}
+}
+@media screen and (max-width: 768px) {
+	.login-form .login-tab{
+		padding:0;
+	}
+	.login-form .login-tab a.checked{
+		color:#000;
+		font-weight:normal;
+	}
+	.login-wrap .login-banner {
+		background: #fff !important;
+	}
+	.login-wrap .login-form {
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+		right: 0;
+		top:0;
+	}
+	.item-fore3{
+		display:none;
+	}
+	
+	.login-wrap-content{
+		background:none !important;
+	}
+	.login-form .msg-wrap {
+		display: none;
+	}
+	.disp {
+		display: block!important;
+	}
+	.contM {
+		float: left;
+		display: block;
+		float: left;
+		display: block;
+		position: absolute;
+		right: 2px;
+		top: 2px;
+	}
+	.contM img {
+		height: 34px;
+	}
+	.yzm {
+		width: 70% !important;
+		float: left !important;
+	}
+	.copyright{
+		/*display:none;*/
+	}
+	.form .item-fore1,
+	.form .item-fore2 {
+		border-radius:3px;
+		border:none;
+		border-bottom:1px solid #e1e1e1;
+	}
+	.form .item .login-label{
+		border-right:none;
+		background-color:#fff;
+	}
+	
+	.titlea{display:block;text-align:center;font-size:20px;}
+
+	.login-form .login-tab{
+		height:40px;
+		line-height: 40px;
+		border-bottom:1px solid #ddd;
+		background: #f3f3f3;
+		position:relative;
+		text-align:center;
+	}
+	.login-form .login-tab a{
+		border:none !important;
+		margin-top:0 !important;
+	}
+	.login-form .login-tab a:nth-child(2){
+		margin-left: -40px;
+	}
+	.back-pre{
+		display: inline-block;
+	    width: 40px !important;;
+	    height: 40px;
+	    background: url(../images/bbc-bg45.png) no-repeat 10px;
+	    background-size:25%;
+	    float:left;
+
+	}
+	.back-to-regist{
+		display:none;
+	}
+	.login-form .login-box{
+		width:90%;
+		margin:auto;
+		padding:20px 0 !important;
+	}
+	.login-cont{
+		background:none !important;
+	}
+	.login-form .coagent{
+		padding:0;
+		background: none;
+    	border-top: none;
+	}
+	.login-form .coagent ul{
+		width:90%;
+		margin:auto;
+	}
+
+
+	/*改版*/
+	.form .item-fore1, .form .item-fore2{
+		border:none;
+		border-bottom:1px solid #e1e1e1;
+	}
+	/*.form .item .login-label{
+		border-right:none;
+	}*/
+	.coagent ul{text-align:center;}
+	.coagent li{float:none !important;display:inline-block;width:82px;height:82px;margin:20px;width:82px !important;height:82px !important;}
+	.login-form .login-box .login-btn .btn-img{background: #f11c3a;box-shadow: 0 4px 14px #f11c3a;border-radius: 6px;line-height: 46px;margin-top: 46px;}
+	.login-form .login-box .login-btn{border:none;}
+	.coagent ul li span{display:none;}
+	.wap-show{display:block;text-align:center;font-size:20px;margin:5% 0;}
+	.wap-show a{margin:0 3%;color:#999;}
+	.forget-pw-safe,.extra-r{display:none !important;}
+}
+@media screen and (max-width: 500px) {
+	body {
+	}
+	.login-form .login-box .login-btn .btn-img{
+		line-height: 40px;
+	}
+	.statistics_code{
+		margin-top:6px;
+	}
+	.login-wrap-content{
+		height:auto;
+	}
+	.login-wrap {
+		margin: 0;
+	}
+	.login-wrap .login-form {
+		float: none;
+		border: 0 !important;
+		width: 100%;
+		margin: 0 auto;
+		right: 0;
+		top: 0;
+		border: 1px solid #e1e1e1;
+	}
+	.form .itxt {
+		height: 50px;
+		width: 100%;
+		padding: 10px 0 10px 50px;
+	}
+	.form .item .login-label{
+		top:6px;
+	}
+	.login-form .login-box{
+		padding:20px 24px;
+	}
+	.form .item-fore1,
+	.form .item-fore2 {
+		padding: 0;
+		margin:0 auto 20px;
+	}
+	.login-form .login-tab a {
+		color: #000 !important;
+		font-weight: normal !important;
+	}
+	.form .item-fore3 {
+		font-size: 14px;
+	}
+	.login-form .login-box .safe .forget-pw-safe {
+		position: inherit;
+		display: block;
+		padding: 10px 0;
+	}
+	.disp {
+		display: block!important;
+	}
+	.titlea {
+		display: block;
+		text-align: center;
+		margin-top:30px;
+		font-size:14px;
+	}
+	.extra-r{
+		position: absolute;
+    	top: -172px;
+    	right:0;
+    	z-index:10;
+	}
+	.login-form .coagent li {
+		width: 46%;
+		text-align: center;
+
+	}
+	.login-form .coagent li span{
+		display:none;
+	}
+	.line {
+		display: none;
+	}
+	
+	.contM {
+		float: left;
+		display: block;
+		width: 30%;
+	}
+	.contM img {
+		width: 100%;
+	}
+	.login-form .regist-link a{
+		color:#333;
+	}
+	.login-form .regist-link b{
+		display:none;
+	}
+	.login-form .coagent li{
+		width:40px !important;
+		height:40px !important;
+		background-size:contain !important;
+		float:none;
+		display:inline-block;
+		margin:20px 16px;
+	}
+	.login-form .coagent li.extra-r{
+		margin:0 !important;
+	}
+	.coagent ul{
+		text-align:center;
+		position:relative;
+	}
+	.coagent ul li a{
+		padding-right:0 !important;
+	}
+	.wap-show{font-size:16px;}
+
+}
+.footer {
+    font-size: 12px;
+    text-align: center;
+    border-top: solid 1px #e6e6e6;
+    color: #999;
+    padding-bottom: 30px;
+}
+.footer .links {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.footer a {
+    color: #999;
+    margin: 0 10px;
+}
+@media (max-width:1024px){
+	.header{display:none;}
+	.footer{display:none;}
+}
+
+.coagent ul li a{
+	width:30px;
+	height:30px;
+	display:inline-block;
+}
+@media (max-width:768px){
+	.coagent ul li a{
+		width:50px;
+		height:50px;
+	}
+}
+.coagent li.qq a{
+	background-image: url(../images/wap-qq.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:50% -50%;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://ucenter.local.yuanfeng021.com/ucenter/static/default/images/wap-qq.png',  sizingMethod='scale');
+}
+.coagent li.wx a{
+	background-image: url(../images/wap-WeChat.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:50% -50%;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://ucenter.local.yuanfeng021.com/ucenter/static/default/images/wap-WeChat.png',  sizingMethod='scale');
+}
+.coagent li.wb a{
+	background-image: url(../images/wap-weibo.png);
+	background-repeat:no-repeat;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://ucenter.local.yuanfeng021.com/ucenter/static/default/images/wap-weibo.png',  sizingMethod='scale');
+	background-size:contain;
+	background-position:50% -50%;
+}
+.img-code2{cursor:pointer;width: 82px;float: right;margin-top: 5px;}

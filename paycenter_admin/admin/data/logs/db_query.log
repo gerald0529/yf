@@ -1,0 +1,11 @@
+11:54:16 05/27/17 FILE=D:/phpStudy/WWW/svn/paycenter_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM pay_admin_rights_base WHERE 1   AND rights_id=34058 LIMIT 500 
+11:54:16 05/27/17 FILE=D:/phpStudy/WWW/svn/paycenter_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM pay_admin_rights_base WHERE 1   AND rights_id=3180 LIMIT 500 
+11:54:19 05/27/17 FILE=D:/phpStudy/WWW/svn/paycenter_admin/index.php [debug] SELECT  SQL_CALC_FOUND_ROWS user_id FROM pay_admin_user_base WHERE 1   AND user_account="admin" LIMIT 500 
+11:54:19 05/27/17 FILE=D:/phpStudy/WWW/svn/paycenter_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM pay_admin_user_base WHERE 1   AND user_id IN (10001) LIMIT 500 
+11:54:19 05/27/17 FILE=D:/phpStudy/WWW/svn/paycenter_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM pay_admin_rights_base WHERE 1   AND rights_id=3180 LIMIT 500 
+11:54:19 05/27/17 FILE=D:/phpStudy/WWW/svn/paycenter_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM pay_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+11:54:19 05/27/17 FILE=D:/phpStudy/WWW/svn/paycenter_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM pay_admin_rights_group WHERE 1   AND rights_group_id=1 LIMIT 500 
+11:54:19 05/27/17 FILE=D:/phpStudy/WWW/svn/paycenter_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM pay_admin_rights_base WHERE 1   AND rights_id=34058 LIMIT 500 
+11:54:19 05/27/17 FILE=D:/phpStudy/WWW/svn/paycenter_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM pay_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+11:54:20 05/27/17 FILE=D:/phpStudy/WWW/svn/paycenter_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM pay_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 
+11:54:20 05/27/17 FILE=D:/phpStudy/WWW/svn/paycenter_admin/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM pay_admin_user_base WHERE 1   AND user_id=10001 LIMIT 500 

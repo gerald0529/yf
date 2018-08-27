@@ -1,0 +1,7 @@
+15:32:14 08/27/18 FILE=E:/www/yf/3.2.0/paycenter/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM pay_user_info WHERE 1   LIMIT 500 
+15:32:15 08/27/18 FILE=E:/www/yf/3.2.0/paycenter/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM pay_user_info WHERE 1   LIMIT 500 
+15:32:18 08/27/18 FILE=E:/www/yf/3.2.0/paycenter/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM pay_user_info WHERE 1   LIMIT 500 
+15:36:39 08/27/18 FILE=E:/www/yf/3.2.0/paycenter/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM pay_user_info WHERE 1   LIMIT 500 
+15:39:42 08/27/18 FILE=E:/www/yf/3.2.0/paycenter/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM pay_user_info WHERE 1   LIMIT 500 
+15:39:49 08/27/18 FILE=E:/www/yf/3.2.0/paycenter/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM pay_user_info WHERE 1   LIMIT 500 
+15:40:31 08/27/18 FILE=E:/www/yf/3.2.0/paycenter/index.php [debug] SELECT SQL_CALC_FOUND_ROWS * FROM pay_user_info WHERE 1   LIMIT 500 

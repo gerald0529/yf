@@ -1,0 +1,2 @@
+11:50:51 05/27/17 FILE=D:/phpStudy/WWW/svn/shop/install/index.php [debug] SELECT 1;
+11:50:51 05/27/17 FILE=D:/phpStudy/WWW/svn/shop/install/index.php [debug] SELECT table_name FROM information_schema.tables WHERE table_schema="test_im" AND table_type="BASE TABLE"

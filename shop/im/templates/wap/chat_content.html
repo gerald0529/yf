@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html class="um landscape min-width-240px min-width-320px min-width-480px min-width-768px min-width-1024px">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="../../css/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/ui-box.css">
+    <link rel="stylesheet" href="../../css/ui-base.css">
+    <link rel="stylesheet" href="../../css/ui-color.css">
+    <link rel="stylesheet" href="../../css/appcan.icon.css">
+    <link rel="stylesheet" href="../../css/appcan.control.css">
+    <link rel="stylesheet" href="../../css/chat.css">
+</head>
+<body class="um-vp bc-bg" ontouchstart>
+<div id="page" class="ub ub-ver uinn-a3 ub-fv">
+    <div class="content_box" id="content_box">
+        <div class="content" id="content"><!--
+            <dl class="lchat">
+                <dt><img src="image/user1.png" onclick="goMember(2)"/></dt>
+                <dd>你几点上班啊你几点上班啊你几点上班啊你几点上班啊你几点上班啊你几点上班啊</dd>
+            </dl>
+            <dl class="rchat">
+                <dt><img src="image/user2.png" onclick="goMember(2)"/></dt>
+                <dd>1点半</dd>
+            </dl>
+            <dl class="lchat">
+                <dt><img src="image/user1.png" onclick="goMember(2)"/></dt>
+                <dd>哦。。。</dd>
+            </dl>
+            <dl class="rchat">
+                <dt><img src="image/user2.png" onclick="goMember(1)"/></dt>
+                <dd>这次在mall上买了很多宝贝。</dd>
+            </dl>-->
+        </div>
+    </div>
+    <div id="footer" class="uf sc-bg ubt sc-border-tab" style="height:49px;position: absolute;bottom: 0;left: 0;right: 0;"  >
+        <div class="ub ub-ac ubb umh5">
+            <div class="uinput ub ub-ac  umh5" style="width:100%;display: -moz-box;  display: -webkit-box;display: box !important;">
+                <div class="ub-f6" id="write">
+                    <input type="text" id="ent" onblur="haveWrite()" onchange="haveWrite()" />
+                </div>
+                <div id="add_face_btn" class="ub-f1"><div class="btn_img"></div></div>
+                <!--<div class="iconfont_min lit iconfont" id="add_image">&#xe61c</div>-->
+                <div class="send ub-f1 tx-c" id="send" onclick="send()">发送</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="../../script/jquery-1.11.2.min.js"></script>
+<script src="../../script/jquery.cookie.js" type="text/javascript"></script>
+<script type="text/javascript" src="../../script/chat.js"></script>
+<script>
+    $(document).ready(function()
+    {
+        //showMsgUnread();
+    });
+</script>
+</body>
+</html>

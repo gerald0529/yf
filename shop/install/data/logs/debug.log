@@ -1,0 +1,11 @@
+[27-May-2017 11:50:51 Asia/Shanghai] PHP Warning:  file_put_contents(D:/phpStudy/WWW/svn/shop/shop_admin/configs/db.ini.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\svn\shop\libraries\Yf\Utils\File.php on line 77
+[27-May-2017 11:50:51 Asia/Shanghai] PHP Stack trace:
+[27-May-2017 11:50:51 Asia/Shanghai] PHP   1. {main}() D:\phpStudy\WWW\svn\shop\install\index.php:0
+[27-May-2017 11:50:51 Asia/Shanghai] PHP   2. Yf_App::start() D:\phpStudy\WWW\svn\shop\install\index.php:79
+[27-May-2017 11:50:51 Asia/Shanghai] PHP   3. Yf_Router->service() D:\phpStudy\WWW\svn\shop\libraries\Yf\App.php:106
+[27-May-2017 11:50:51 Asia/Shanghai] PHP   4. Yf_Router->getData() D:\phpStudy\WWW\svn\shop\libraries\Yf\Router.php:101
+[27-May-2017 11:50:51 Asia/Shanghai] PHP   5. Yf_AppController->run() D:\phpStudy\WWW\svn\shop\libraries\Yf\Router.php:174
+[27-May-2017 11:50:51 Asia/Shanghai] PHP   6. call_user_func:{D:\phpStudy\WWW\svn\shop\libraries\Yf\AppController.php:117}() D:\phpStudy\WWW\svn\shop\libraries\Yf\AppController.php:117
+[27-May-2017 11:50:51 Asia/Shanghai] PHP   7. IndexCtl->initDbConfig() D:\phpStudy\WWW\svn\shop\libraries\Yf\AppController.php:117
+[27-May-2017 11:50:51 Asia/Shanghai] PHP   8. Yf_Utils_File::generatePhpFile() D:\phpStudy\WWW\svn\shop\install\IndexCtl.php:241
+[27-May-2017 11:50:51 Asia/Shanghai] PHP   9. file_put_contents() D:\phpStudy\WWW\svn\shop\libraries\Yf\Utils\File.php:77

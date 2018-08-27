@@ -1,0 +1,350 @@
+body {
+    overflow-x: hidden;
+   font-family: Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding:0;
+    font-family: Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+}
+
+em,
+i {
+    font-style: normal;
+}
+table{border-collapse: collapse;}
+/*input, textarea {-webkit-appearance:none; }*/
+input[type="button"]{-webkit-appearance: none;}
+input:focus{
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-user-modify:read-write-plaintext-only;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #fff inset;
+}
+input[disabled]{background:#fff;}
+.wrap {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1200px;
+    /*min-width: 310px;*/
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/*浮动*/
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+/*字体对齐方式*/
+
+.tl {
+    text-align: left;
+}
+
+.tc {
+    text-align: center;
+}
+
+.tr {
+    text-align: right;
+}
+
+
+/*字体颜色*/
+
+.cf {
+    color: #fff;
+}
+
+.c0 {
+    color: #000;
+}
+
+.c3 {
+    color: #333;
+}
+
+.c6 {
+    color: #666;
+}
+
+.c9 {
+    color: #999;
+}
+
+
+/*行高*/
+.lp100{line-height:100%;}
+
+
+/*字体大小*/
+
+.f12 {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+.f16 {
+    font-size: 16px;
+}
+
+
+/*边框线*/
+
+.bl {
+    border-left: 1px solid #e1e1e1;
+}
+
+.br {
+    border-right: 1px solid #e1e1e1;
+}
+
+.bt {
+    border-top: 1px solid #e1e1e1;
+}
+
+.bb {
+    border-bottom: 1px solid #e1e1e1;
+}
+
+
+/*背景颜色*/
+
+.bgf {
+    background-color: #fff;
+}
+
+.bgo {
+    background-color: #ff7c6d;
+}
+
+.bgb {
+    background-color: #4dceff;
+}
+
+.bgy {
+    background-color: #ffc24d;
+}
+.bgr{
+    background-color:#e45050;
+}
+
+
+/*按钮*/
+
+.btn_active {
+    color: #fff !important;
+    background-color: #e45050;
+    border-color: #e45050 !important;
+}
+.submit_able {
+    color: #fff !important;
+    background-color: #e45050;
+    border-color: #e45050 !important;
+}
+.submit_disable {
+
+}
+
+
+.btn_active a {
+    color: #fff !important;
+}
+
+.btn {
+    padding: 4px 8px;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.btn_mar {
+    margin-top: 40px;
+}
+.btn_big{
+    padding: 10px 0;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 18px;
+    width: 180px;
+}
+
+
+/* 文本框*/
+
+input {
+    border: 1px solid #e1e1e1;
+}
+
+.text {
+    text-indent: 10px;
+}
+
+.text-1 {
+    width: 264px !important;
+}
+
+.text-2 {
+    width: 120px !important;
+}
+
+.text-3 {
+    width: 154px !important;
+}
+
+.text-4 {
+    width: 280px !important;
+    margin-top: 10px;
+}
+
+.text-5 {
+    width: 250px !important;
+}
+
+.text-6 {
+    width: 190px;
+    /*    height: 26px;*/
+}
+
+.text-7 {
+    height: 24px;
+    width: 140px;
+}
+
+.text-8 {
+    height: 30px;
+    width: 245px;
+}
+
+
+/*宽度*/
+.wp10{width:10%;}
+.wp70{width:70%;}
+.wp100{width:100%;}
+
+.w40 {
+    width: 40px;
+}
+
+.w60 {
+    width: 60px;
+}
+
+.w100 {
+    width: 100px;
+}
+
+.w200 {
+    width: 200px;
+}
+
+.wp20 {
+    width: 13%;
+    text-align:center;
+}
+.w168{width:168px;}
+
+.block{display:block;}
+.iblock{display:inline-block;}
+input{
+  /*   appearance:none;
+    -webkit-appearance: none;*/
+    border-radius:0;
+}
+input[type='text'] {
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #e1e1e1;
+    text-indent:4px;
+
+}
+
+input[type='password'] {
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #e1e1e1;
+}
+
+input[type='submit'] {
+    color: #999;
+    padding: 10px 30px;
+    border: none;
+    border-radius:2px;
+    font-size:14px;
+    letter-spacing:3px;
+    cursor: pointer;
+}
+
+
+/*分页*/
+
+.page {
+    margin-top:20px;
+    display:inline-block;
+}
+
+.page a,
+.page b {
+    color: #333;
+    border: 1px solid;
+    border-color: #dcdcdc #dcdcdc #b8b8b8;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 2px;
+    overflow: hidden;
+    padding:5px 10px;
+    font-size: 12px;
+}
+
+.mar-l10 {
+    margin-left: 10px;
+
+}
+
+.mar-r10 {
+    margin-right: 10px;
+
+}
+
+.page b {
+    color: #FFF;
+    background: #fa4d51;
+    border-color: #fa4d51 #fa4d51 #F00;
+}
+
+select{height:40px;line-height:40px;border:1px solid #e1e1e1;}
+
+.ellipsis{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}

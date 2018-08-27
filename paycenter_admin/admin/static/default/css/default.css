@@ -1,0 +1,54 @@
+body{
+    background:#ed1135;
+}
+/*#col-side .side-fold,#nav .main-nav{background-image:url('img/nav_spr.png')}
+#nav{height:546px;margin-bottom:10px}
+#nav li.on,#nav li.current{background:url('img/side_rp.png') repeat-y 0 0}
+#nav .arrow{color:#f2f2f2}
+#navScroll span{background:#5584b3}
+#scollUp{margin-right:1px}
+#navScroll span i{border-style:solid;border-width:5px;font-size:0;height:0;display:block;width:0;height:0;overflow:hidden}
+#scollUp i{border-color:#5584b3 #5584b3 #bbcfeb #5584b3;margin:4px auto 0}
+#scollDown i{border-color:#bbcfeb #5584b3 #5584b3 #5584b3;margin:8px auto 0}
+*/
+.col-hd{color:#f2f2f2;background:#333;}
+.col-hd .company{color:#fff;cursor:default;font:bold 30px/1.5 'Microsoft Yahei';text-shadow:0 0 1px rgba(0,0,0,0.2);max-width:360px;overflow:hidden;display:block;white-space:nowrap;text-indent:8px;text-overflow:ellipsis;text-align:center;}
+.col-hd .nav li{color:#FFF}
+.col-hd .nav li.cur{background-color:#456DA3;}
+.col-hd ol li a:hover{background:rgba(255,255,255,0.2);}
+.col-hd ol li a:hover i{color:#fff;}
+.col-hd .user-menu a{color:#f2f2f2}
+.col-hd .user-menu a#mobile{background-color:#e65300;color:#fff;padding:0 6px;border-radius:3px;font-family:'微软雅黑'}
+
+#nav .cur .main-nav{background:rgba(255,255,255,0.3);position:relative;}
+#nav .cur .main-nav i.iconfont{color:#fff;}
+#sub-nav{background:#EEE;}
+#sub-nav li i:before{color:#999;}
+#sub-nav li a{color:#777;}
+#sub-nav li.cur{background-image:-moz-linear-gradient(left,#EEE,#DDD);background-image:-webkit-gradient(linear,left top,right top,color-stop(0,#EEE),color-stop(1,#DDD));filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#EEEEEE',endColorstr='#DDDDDD',GradientType='1')}
+#sub-nav li.cur a{color:#333;}
+#sub-nav li.cur i:before{color:#000;}
+
+/*#col-main{background-color:#456DA3}*/
+.l-tab-links-item{margin:0 18px}
+.l-tab-links li:first-child a{margin:0 20px;}
+.l-tab-links li.l-selected{background:#FFF}
+.l-tab-links li{margin-right:1px;height:32px;line-height:32px;/*background:#456DA3*/}
+.l-tab-links li a{color:#FFF}
+#tabManage i{border-color:#fff #FF7C92 #FF7C92;}
+.l-tab-links-left,.l-tab-links-right{height:32px;background:#ED1135}
+.l-tab-links-left{border-right:1px solid #ED1135}
+.l-tab-links-left i{border-color:#ED1135 #bbcfeb #ED1135 #ED1135;}
+.l-tab-links-right i{border-color:#ED1135 #ED1135 #ED1135 #bbcfeb;margin:10px 0 0 5px}
+.l-tab-links-item-close{background:url(img/tab_close.png) no-repeat}
+.l-tab-links .l-tab-links-item-close-over{background-color:#e3e9f0}
+
+.shadow{-moz-box-shadow:1px 1px 3px rgba(0,0,0,.4);-webkit-box-shadow:1px 1px 3px rgba(0,0,0,.4);box-shadow:1px 1px 3px rgba(0,0,0,.4)}
+#selectSkin{width:180px;padding:10px;border:1px solid #ccc;background-color:#fff}
+#selectSkin li{float:left;width:60px;text-align:center}
+#selectSkin li a{position:relative;width:42px;margin:0 auto;display:block}
+#selectSkin .select i{position:absolute;top:16px;right:5px;width:16px;height:16px;background:url(img/select_skin.png) 0 0;z-index:1}
+#selectSkin li span{display:block;width:32px;height:32px;margin:0 auto 6px;border:1px dotted #497dc0}
+#skin-default span{background:url('img/index_icons.png') repeat-x 0 -200px}
+#skin-blue span{background:url('img/index_icons.png') repeat-x -65px -218px}
+#skin-green span{background:#1b96a9}
